@@ -1,4 +1,4 @@
-namespace LeetCodeProblems;
+namespace LeetCodeProblems.Problems;
 
 public class LeetCode3LongestSubstringWithoutRepeatingCharacters : BaseProblemClass
 {
