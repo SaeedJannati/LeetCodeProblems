@@ -1,26 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/saeed/Projects/DotNet/LeetCodeProblems/LeetCodeProblems/LeetCodeProblems.csproj": {}
+    "D:\\Projects\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblems.csproj": {}
   },
   "projects": {
-    "/Users/saeed/Projects/DotNet/LeetCodeProblems/LeetCodeProblems/LeetCodeProblems.csproj": {
+    "D:\\Projects\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblems.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/saeed/Projects/DotNet/LeetCodeProblems/LeetCodeProblems/LeetCodeProblems.csproj",
+        "projectUniqueName": "D:\\Projects\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblems.csproj",
         "projectName": "LeetCodeProblems",
-        "projectPath": "/Users/saeed/Projects/DotNet/LeetCodeProblems/LeetCodeProblems/LeetCodeProblems.csproj",
-        "packagesPath": "/Users/saeed/.nuget/packages/",
-        "outputPath": "/Users/saeed/Projects/DotNet/LeetCodeProblems/LeetCodeProblems/obj/",
+        "projectPath": "D:\\Projects\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblems.csproj",
+        "packagesPath": "D:\\Users\\m.jannati\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\LeetCodeProblems\\LeetCodeProblems\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/saeed/.nuget/NuGet/NuGet.Config"
+          "D:\\Users\\m.jannati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://repo.mofid.dev/artifactory/api/nuget/v3/nuget": {}
         },
         "frameworks": {
           "net8.0": {
@@ -53,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/saeed/.vscode-dotnet-sdk/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

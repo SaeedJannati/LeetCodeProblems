@@ -3,7 +3,7 @@
 using LeetCodeProblems;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode4MedianOfTwoSortedArrays();
+var problem = new LeetCode5LongestPalindromicSubstring();
 
 problem.Run();
 Console.WriteLine("Hello, World!");
