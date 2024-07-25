@@ -1,9 +1,9 @@
-﻿#include "LeetCode5ZigzagConversion.h"
+﻿#include "LeetCode6ZigzagConversion.h"
 
 #include <iostream>
 #include <vector>
 
-void LeetCode5ZigzagConversion::Run()
+void LeetCode6ZigzagConversion::Run()
 {
     std::string input = "PAYPALISHIRING";
     int numRows = 3;
@@ -11,7 +11,7 @@ void LeetCode5ZigzagConversion::Run()
     std::cout << outPut;
 }
 
-std::string LeetCode5ZigzagConversion::convert(std::string s, int numRows)
+std::string LeetCode6ZigzagConversion::convert(std::string s, int numRows)
 {
     const int length = s.length();
     std::string outPut("");

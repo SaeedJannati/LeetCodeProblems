@@ -3,7 +3,7 @@
 
 #include "BaseProblem.h"
 
-class LeetCode5ZigzagConversion: BaseProblem
+class LeetCode6ZigzagConversion: BaseProblem
 {
 public:
     void Run() override;
