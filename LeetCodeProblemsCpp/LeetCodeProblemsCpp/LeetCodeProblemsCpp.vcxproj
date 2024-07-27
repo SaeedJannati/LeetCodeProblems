@@ -158,11 +158,13 @@
     <ClCompile Include="Problems\BaseProblem.cpp" />
     <ClCompile Include="Problems\LeetCode6ZigzagConversion.cpp" />
     <ClCompile Include="Problems\LeetCode7ReverseInteger.cpp" />
+    <ClCompile Include="Problems\LeetCode8StringToInteger.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Problems\BaseProblem.h" />
     <ClInclude Include="Problems\LeetCode6ZigzagConversion.h" />
     <ClInclude Include="Problems\LeetCode7ReverseInteger.h" />
+    <ClInclude Include="Problems\LeetCode8StringToInteger.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
