@@ -156,6 +156,7 @@
   <ItemGroup>
     <ClCompile Include="LeetCodeProblemsCpp.cpp" />
     <ClCompile Include="Problems\BaseProblem.cpp" />
+    <ClCompile Include="Problems\LeetCode10RegularExpressionMatching.cpp" />
     <ClCompile Include="Problems\LeetCode6ZigzagConversion.cpp" />
     <ClCompile Include="Problems\LeetCode7ReverseInteger.cpp" />
     <ClCompile Include="Problems\LeetCode8StringToInteger.cpp" />
@@ -163,6 +164,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Problems\BaseProblem.h" />
+    <ClInclude Include="Problems\LeetCode10RegularExpressionMatching.h" />
     <ClInclude Include="Problems\LeetCode6ZigzagConversion.h" />
     <ClInclude Include="Problems\LeetCode7ReverseInteger.h" />
     <ClInclude Include="Problems\LeetCode8StringToInteger.h" />

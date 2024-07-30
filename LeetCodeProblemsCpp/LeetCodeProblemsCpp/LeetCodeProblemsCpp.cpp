@@ -1,13 +1,11 @@
 
 #include <iostream>
 
-#include "Problems/LeetCode7ReverseInteger.h"
-#include "Problems/LeetCode8StringToInteger.h"
-#include "Problems/LeetCode9PalindromeNumber.h"
+#include "Problems/LeetCode10RegularExpressionMatching.h"
 
 int main(int argc, char* argv[])
 {
-    const auto problem=new LeetCode9PalindromeNumber();
+    const auto problem=new LeetCode10RegularExpressionMatching();
     problem->Run();
     delete problem;
 }
