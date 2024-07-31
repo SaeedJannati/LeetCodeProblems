@@ -6,12 +6,12 @@
 //
 
 #include <iostream>
-#include "LeetCode8StringToInteger.hpp"
+#include "ZeroOneKnapSack.hpp"
 
 int main(int argc, const char * argv[]) {
       
     
-    const auto problem= new LeetCode8StringToInteger();
+    const auto problem= new ZeroOneKnapSack();
     problem->Run();
     delete problem;
     return 0;
