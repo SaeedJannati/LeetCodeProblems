@@ -1,11 +1,11 @@
 
 #include <iostream>
 
-#include "Problems/LeetCode10RegularExpressionMatching.h"
+#include "Problems/LeetCode11ContainerWithMostWater.h"
 
 int main(int argc, char* argv[])
 {
-    const auto problem=new LeetCode10RegularExpressionMatching();
+    const auto problem=new LeetCode11ContainerWithMostWater();
     problem->Run();
     delete problem;
 }
