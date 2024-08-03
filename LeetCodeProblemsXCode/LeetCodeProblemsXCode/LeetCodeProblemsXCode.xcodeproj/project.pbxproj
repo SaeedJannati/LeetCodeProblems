@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		307228842C5EABDE0021EC4C /* LeetCode13RomanToInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 307228822C5EABDE0021EC4C /* LeetCode13RomanToInteger.cpp */; };
 		30A730C12C556D69004EE0AD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30A730C02C556D69004EE0AD /* main.cpp */; };
 		30A730CC2C5570E6004EE0AD /* BaseProblem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30A730CA2C5570E6004EE0AD /* BaseProblem.cpp */; };
 		30B3D0BE2C5AB64C00108389 /* ZeroOneKnapSack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30B3D0BC2C5AB64C00108389 /* ZeroOneKnapSack.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		307228822C5EABDE0021EC4C /* LeetCode13RomanToInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LeetCode13RomanToInteger.cpp; sourceTree = "<group>"; };
+		307228832C5EABDE0021EC4C /* LeetCode13RomanToInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LeetCode13RomanToInteger.hpp; sourceTree = "<group>"; };
 		30A730BD2C556D69004EE0AD /* LeetCodeProblemsXCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeProblemsXCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A730C02C556D69004EE0AD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		30A730CA2C5570E6004EE0AD /* BaseProblem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaseProblem.cpp; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				30A730CB2C5570E6004EE0AD /* BaseProblem.hpp */,
 				30B3D0BC2C5AB64C00108389 /* ZeroOneKnapSack.cpp */,
 				30B3D0BD2C5AB64C00108389 /* ZeroOneKnapSack.hpp */,
+				307228822C5EABDE0021EC4C /* LeetCode13RomanToInteger.cpp */,
+				307228832C5EABDE0021EC4C /* LeetCode13RomanToInteger.hpp */,
 			);
 			path = LeetCodeProblemsXCode;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				307228842C5EABDE0021EC4C /* LeetCode13RomanToInteger.cpp in Sources */,
 				30A730CC2C5570E6004EE0AD /* BaseProblem.cpp in Sources */,
 				30B3D0BE2C5AB64C00108389 /* ZeroOneKnapSack.cpp in Sources */,
 				30A730C12C556D69004EE0AD /* main.cpp in Sources */,

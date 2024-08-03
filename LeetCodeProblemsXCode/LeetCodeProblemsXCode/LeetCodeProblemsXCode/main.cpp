@@ -6,12 +6,11 @@
 //
 
 #include <iostream>
-#include "ZeroOneKnapSack.hpp"
-
+#include "LeetCode13RomanToInteger.hpp"
 int main(int argc, const char * argv[]) {
       
     
-    const auto problem= new ZeroOneKnapSack();
+    const auto problem= new LeetCode13RomanToInteger();
     problem->Run();
     delete problem;
     return 0;
