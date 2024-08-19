@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VV1MMFulwGdMVqiQanBn9+O3PfGgPSMybr7yL23vnwJ3S0VqsHwPfAGy8sEXnTqGhyuObxTTh8s4hyGrC+ETDw==",
+  "dgSpecHash": "Z5cI79SaUa4=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblems.csproj",
+  "projectFilePath": "/Users/saeed/Projects/DotNet/LeetCodeProblems/LeetCodeProblems/LeetCodeProblems.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

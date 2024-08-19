@@ -3,7 +3,6 @@
 using LeetCodeProblems;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode5LongestPalindromicSubstring();
+var problem = new LeetCode15ThreeSum();
 
 problem.Run();
-Console.WriteLine("Hello, World!");
