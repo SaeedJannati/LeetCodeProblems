@@ -1,9 +1,9 @@
 #include <iostream>
-#include "Problems/Leetcode12IntegerToRoman.h"
+#include "Problems/LeetCode14ThreeSum.h"
 
 int main(int argc, char* argv[])
 {
-    const auto problem = new Leetcode12IntegerToRoman();
+    const auto problem = new LeetCode14ThreeSum();
     problem->Run();
     delete problem;
 }

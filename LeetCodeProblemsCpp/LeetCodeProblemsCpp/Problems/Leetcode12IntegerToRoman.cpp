@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <map>
+#include <unordered_map>
 #include <vector>
 
 void Leetcode12IntegerToRoman::Run()
@@ -17,7 +18,7 @@ std::string Leetcode12IntegerToRoman::intToRoman(int num)
     int counter(0);
     int currentDigit = 0;
     int currentAmount = 0;
-    std::map<int, std::string> romanToIntMap{
+    std::unordered_map<int, std::string> romanToIntMap{
         {1, "I"},
         {5, "V"},
         {10, "X"},
