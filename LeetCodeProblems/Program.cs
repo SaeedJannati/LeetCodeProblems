@@ -3,6 +3,6 @@
 using LeetCodeProblems;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode15ThreeSum();
+var problem = new LeetCode228SummaryRanges();
 
 problem.Run();
