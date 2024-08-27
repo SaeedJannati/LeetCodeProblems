@@ -1,10 +1,10 @@
 #include <iostream>
 
-#include "Problems/LeetCode92ReverseLinkedListII.h"
+#include "Problems/LeetCode48RotateImage.h"
 
 int main(int argc, char* argv[])
 {
-    const auto problem = new LeetCode92ReverseLinkedListII();
+    const auto problem = new LeetCode48RotateImage();
     problem->Run();
     delete problem;
 }
