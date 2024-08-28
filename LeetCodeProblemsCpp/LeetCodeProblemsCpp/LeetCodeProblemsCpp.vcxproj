@@ -165,6 +165,7 @@
     <ClCompile Include="Problems\LeetCode206ReverseLinkedList.cpp" />
     <ClCompile Include="Problems\LeetCode48RotateImage.cpp" />
     <ClCompile Include="Problems\LeetCode6ZigzagConversion.cpp" />
+    <ClCompile Include="Problems\LeetCode73SetMatrixZeroes.cpp" />
     <ClCompile Include="Problems\LeetCode7ReverseInteger.cpp" />
     <ClCompile Include="Problems\LeetCode8StringToInteger.cpp" />
     <ClCompile Include="Problems\LeetCode92ReverseLinkedListII.cpp" />
@@ -181,6 +182,7 @@
     <ClInclude Include="Problems\LeetCode206ReverseLinkedList.h" />
     <ClInclude Include="Problems\LeetCode48RotateImage.h" />
     <ClInclude Include="Problems\LeetCode6ZigzagConversion.h" />
+    <ClInclude Include="Problems\LeetCode73SetMatrixZeroes.h" />
     <ClInclude Include="Problems\LeetCode7ReverseInteger.h" />
     <ClInclude Include="Problems\LeetCode8StringToInteger.h" />
     <ClInclude Include="Problems\LeetCode92ReverseLinkedListII.h" />
