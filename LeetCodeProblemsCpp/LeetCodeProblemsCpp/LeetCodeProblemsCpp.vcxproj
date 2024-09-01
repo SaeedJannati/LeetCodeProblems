@@ -163,6 +163,7 @@
     <ClCompile Include="Problems\LeetCode14ThreeSum.cpp" />
     <ClCompile Include="Problems\LeetCode150SameTree.cpp" />
     <ClCompile Include="Problems\LeetCode206ReverseLinkedList.cpp" />
+    <ClCompile Include="Problems\LeetCode226InvertBinaryTree.cpp" />
     <ClCompile Include="Problems\LeetCode48RotateImage.cpp" />
     <ClCompile Include="Problems\LeetCode54SpiralMatrix.cpp" />
     <ClCompile Include="Problems\LeetCode6ZigzagConversion.cpp" />
@@ -181,6 +182,7 @@
     <ClInclude Include="Problems\LeetCode14ThreeSum.h" />
     <ClInclude Include="Problems\LeetCode150SameTree.h" />
     <ClInclude Include="Problems\LeetCode206ReverseLinkedList.h" />
+    <ClInclude Include="Problems\LeetCode226InvertBinaryTree.h" />
     <ClInclude Include="Problems\LeetCode48RotateImage.h" />
     <ClInclude Include="Problems\LeetCode54SpiralMatrix.h" />
     <ClInclude Include="Problems\LeetCode6ZigzagConversion.h" />
