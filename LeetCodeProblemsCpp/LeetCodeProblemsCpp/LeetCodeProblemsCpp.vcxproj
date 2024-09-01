@@ -156,6 +156,7 @@
   <ItemGroup>
     <ClCompile Include="LeetCodeProblemsCpp.cpp" />
     <ClCompile Include="Problems\BaseProblem.cpp" />
+    <ClCompile Include="Problems\LeetCode101SymmetricTree.cpp" />
     <ClCompile Include="Problems\LeetCode104MaximumDepthOfBinaryTree.cpp" />
     <ClCompile Include="Problems\LeetCode10RegularExpressionMatching.cpp" />
     <ClCompile Include="Problems\LeetCode11ContainerWithMostWater.cpp" />
@@ -175,6 +176,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Problems\BaseProblem.h" />
+    <ClInclude Include="Problems\LeetCode101SymmetricTree.h" />
     <ClInclude Include="Problems\LeetCode104MaximumDepthOfBinaryTree.h" />
     <ClInclude Include="Problems\LeetCode10RegularExpressionMatching.h" />
     <ClInclude Include="Problems\LeetCode11ContainerWithMostWater.h" />

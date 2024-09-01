@@ -1,7 +1,5 @@
 ﻿#include "LeetCode226InvertBinaryTree.h"
 
-#include <utility>
-
 
 void LeetCode226InvertBinaryTree::Run()
 {
