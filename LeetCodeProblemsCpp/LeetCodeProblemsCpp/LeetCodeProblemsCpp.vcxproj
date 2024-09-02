@@ -161,6 +161,7 @@
     <ClCompile Include="Problems\LeetCode10RegularExpressionMatching.cpp" />
     <ClCompile Include="Problems\LeetCode11ContainerWithMostWater.cpp" />
     <ClCompile Include="Problems\Leetcode12IntegerToRoman.cpp" />
+    <ClCompile Include="Problems\LeetCode134GasStation.cpp" />
     <ClCompile Include="Problems\LeetCode14ThreeSum.cpp" />
     <ClCompile Include="Problems\LeetCode150SameTree.cpp" />
     <ClCompile Include="Problems\LeetCode206ReverseLinkedList.cpp" />
@@ -181,6 +182,7 @@
     <ClInclude Include="Problems\LeetCode10RegularExpressionMatching.h" />
     <ClInclude Include="Problems\LeetCode11ContainerWithMostWater.h" />
     <ClInclude Include="Problems\Leetcode12IntegerToRoman.h" />
+    <ClInclude Include="Problems\LeetCode134GasStation.h" />
     <ClInclude Include="Problems\LeetCode14ThreeSum.h" />
     <ClInclude Include="Problems\LeetCode150SameTree.h" />
     <ClInclude Include="Problems\LeetCode206ReverseLinkedList.h" />

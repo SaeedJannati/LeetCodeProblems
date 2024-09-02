@@ -1,6 +1,8 @@
 ﻿#include "LeetCode226InvertBinaryTree.h"
 
 
+
+
 void LeetCode226InvertBinaryTree::Run()
 {
 }
@@ -10,7 +12,7 @@ TreeNode* LeetCode226InvertBinaryTree::invertTree(TreeNode* root)
     if (root == nullptr)
         return nullptr;
     SwapLeftAndRight(root);
-
+    return root;
 }
 
 void LeetCode226InvertBinaryTree::SwapLeftAndRight(TreeNode* node)
@@ -20,6 +22,6 @@ void LeetCode226InvertBinaryTree::SwapLeftAndRight(TreeNode* node)
     node->right = temp;
     if (node->left != nullptr)
         SwapLeftAndRight(node->left);
-    if(node->right!=nullptr)
+    if (node->right != nullptr)
         SwapLeftAndRight(node->right);
 }
