@@ -3,6 +3,6 @@
 using LeetCodeProblems;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode228SummaryRanges();
+var problem = new LeetCode105ConstructBinaryTreeFromPreorderAndInorderTraversal();
 
 problem.Run();

@@ -158,6 +158,7 @@
     <ClCompile Include="Problems\BaseProblem.cpp" />
     <ClCompile Include="Problems\LeetCode101SymmetricTree.cpp" />
     <ClCompile Include="Problems\LeetCode104MaximumDepthOfBinaryTree.cpp" />
+    <ClCompile Include="Problems\LeetCode105ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp" />
     <ClCompile Include="Problems\LeetCode10RegularExpressionMatching.cpp" />
     <ClCompile Include="Problems\LeetCode11ContainerWithMostWater.cpp" />
     <ClCompile Include="Problems\Leetcode12IntegerToRoman.cpp" />
@@ -176,11 +177,13 @@
     <ClCompile Include="Problems\LeetCode8StringToInteger.cpp" />
     <ClCompile Include="Problems\LeetCode92ReverseLinkedListII.cpp" />
     <ClCompile Include="Problems\LeetCode9PalindromeNumber.cpp" />
+    <ClCompile Include="Problems\TreeNode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Problems\BaseProblem.h" />
     <ClInclude Include="Problems\LeetCode101SymmetricTree.h" />
     <ClInclude Include="Problems\LeetCode104MaximumDepthOfBinaryTree.h" />
+    <ClInclude Include="Problems\LeetCode105ConstructBinaryTreeFromPreorderAndInorderTraversal.h" />
     <ClInclude Include="Problems\LeetCode10RegularExpressionMatching.h" />
     <ClInclude Include="Problems\LeetCode11ContainerWithMostWater.h" />
     <ClInclude Include="Problems\Leetcode12IntegerToRoman.h" />
@@ -199,6 +202,7 @@
     <ClInclude Include="Problems\LeetCode8StringToInteger.h" />
     <ClInclude Include="Problems\LeetCode92ReverseLinkedListII.h" />
     <ClInclude Include="Problems\LeetCode9PalindromeNumber.h" />
+    <ClInclude Include="Problems\TreeNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
