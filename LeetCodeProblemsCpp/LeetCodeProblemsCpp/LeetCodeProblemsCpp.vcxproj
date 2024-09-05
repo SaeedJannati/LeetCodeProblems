@@ -159,6 +159,7 @@
     <ClCompile Include="Problems\LeetCode101SymmetricTree.cpp" />
     <ClCompile Include="Problems\LeetCode104MaximumDepthOfBinaryTree.cpp" />
     <ClCompile Include="Problems\LeetCode105ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp" />
+    <ClCompile Include="Problems\LeetCode106ConstructBinaryTreeFromInorderAndPostorderTraversal.cpp" />
     <ClCompile Include="Problems\LeetCode10RegularExpressionMatching.cpp" />
     <ClCompile Include="Problems\LeetCode11ContainerWithMostWater.cpp" />
     <ClCompile Include="Problems\Leetcode12IntegerToRoman.cpp" />
@@ -185,6 +186,7 @@
     <ClInclude Include="Problems\LeetCode101SymmetricTree.h" />
     <ClInclude Include="Problems\LeetCode104MaximumDepthOfBinaryTree.h" />
     <ClInclude Include="Problems\LeetCode105ConstructBinaryTreeFromPreorderAndInorderTraversal.h" />
+    <ClInclude Include="Problems\LeetCode106ConstructBinaryTreeFromInorderAndPostorderTraversal.h" />
     <ClInclude Include="Problems\LeetCode10RegularExpressionMatching.h" />
     <ClInclude Include="Problems\LeetCode11ContainerWithMostWater.h" />
     <ClInclude Include="Problems\Leetcode12IntegerToRoman.h" />

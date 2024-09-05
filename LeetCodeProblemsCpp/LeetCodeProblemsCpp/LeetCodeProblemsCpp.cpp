@@ -1,12 +1,11 @@
 #include <iostream>
 
-#include "Problems/LeetCode105ConstructBinaryTreeFromPreorderAndInorderTraversal.h"
-#include "Problems/LeetCode20ValidParentheses.h"
-#include "Problems/Leetcode50PowXN.h"
+#include "Problems/LeetCode106ConstructBinaryTreeFromInorderAndPostorderTraversal.h"
+
 
 int main(int argc, char* argv[])
 {
-    const auto problem = new Leetcode50PowXN();
+    const auto problem = new LeetCode106ConstructBinaryTreeFromInorderAndPostorderTraversal();
     problem->Run();
     delete problem;
 }
