@@ -3,6 +3,6 @@
 using LeetCodeProblems;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode105ConstructBinaryTreeFromPreorderAndInorderTraversal();
+var problem = new LeetCode200NumberOfIslands();
 
 problem.Run();
