@@ -3,6 +3,6 @@
 using LeetCodeProblems;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode200NumberOfIslands();
+var problem = new LeetCode130SurroundedRegions();
 
 problem.Run();
