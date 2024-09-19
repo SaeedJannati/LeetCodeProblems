@@ -3,6 +3,6 @@
 using LeetCodeProblems;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode130SurroundedRegions();
+var problem = new LeetCode17LetterCombinationOfAPhoneNumber();
 
 problem.Run();
