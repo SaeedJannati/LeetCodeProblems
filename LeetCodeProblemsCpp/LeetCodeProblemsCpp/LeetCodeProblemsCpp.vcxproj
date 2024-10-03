@@ -168,6 +168,7 @@
     <ClCompile Include="Problems\LeetCode135Candy.cpp" />
     <ClCompile Include="Problems\LeetCode14ThreeSum.cpp" />
     <ClCompile Include="Problems\LeetCode150SameTree.cpp" />
+    <ClCompile Include="Problems\LeetCode198HouseRobber.cpp" />
     <ClCompile Include="Problems\LeetCode206ReverseLinkedList.cpp" />
     <ClCompile Include="Problems\LeetCode20ValidParentheses.cpp" />
     <ClCompile Include="Problems\LeetCode215FindKthElement.cpp" />
@@ -198,6 +199,7 @@
     <ClInclude Include="Problems\LeetCode135Candy.h" />
     <ClInclude Include="Problems\LeetCode14ThreeSum.h" />
     <ClInclude Include="Problems\LeetCode150SameTree.h" />
+    <ClInclude Include="Problems\LeetCode198HouseRobber.h" />
     <ClInclude Include="Problems\LeetCode206ReverseLinkedList.h" />
     <ClInclude Include="Problems\LeetCode20ValidParentheses.h" />
     <ClInclude Include="Problems\LeetCode215FindKthElement.h" />
