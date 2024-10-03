@@ -176,6 +176,7 @@
     <ClCompile Include="Problems\Leetcode50PowXN.cpp" />
     <ClCompile Include="Problems\LeetCode54SpiralMatrix.cpp" />
     <ClCompile Include="Problems\LeetCode6ZigzagConversion.cpp" />
+    <ClCompile Include="Problems\LeetCode70ClimbingStairs.cpp" />
     <ClCompile Include="Problems\LeetCode73SetMatrixZeroes.cpp" />
     <ClCompile Include="Problems\LeetCode7ReverseInteger.cpp" />
     <ClCompile Include="Problems\LeetCode8StringToInteger.cpp" />
@@ -205,6 +206,7 @@
     <ClInclude Include="Problems\Leetcode50PowXN.h" />
     <ClInclude Include="Problems\LeetCode54SpiralMatrix.h" />
     <ClInclude Include="Problems\LeetCode6ZigzagConversion.h" />
+    <ClInclude Include="Problems\LeetCode70ClimbingStairs.h" />
     <ClInclude Include="Problems\LeetCode73SetMatrixZeroes.h" />
     <ClInclude Include="Problems\LeetCode7ReverseInteger.h" />
     <ClInclude Include="Problems\LeetCode8StringToInteger.h" />
