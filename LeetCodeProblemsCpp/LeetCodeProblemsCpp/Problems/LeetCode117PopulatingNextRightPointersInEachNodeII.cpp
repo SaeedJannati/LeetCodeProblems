@@ -15,6 +15,8 @@ Node* LeetCode117PopulatingNextRightPointersInEachNodeII::connect(Node* root)
     std::vector<Node*> tempStack;
     layeredStack.push_back(root);
     tempStack.push_back(root);
+    layeredStack.reserve(1000);
+    tempStack.reserve(1000);
     while (!layeredStack.empty())
     {
         for (int i=0,e= static_cast<int>(layeredStack.size()-1) ; i<e; i++)
