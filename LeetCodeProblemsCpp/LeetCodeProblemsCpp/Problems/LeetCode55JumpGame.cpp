@@ -1,12 +1,14 @@
 ﻿#include "LeetCode55JumpGame.h"
 
 #include <iostream>
+#include <string>
 
 void LeetCode55JumpGame::Run()
 {
     std::vector<int> input = {3,2,1,0,4};
     auto outPut = canJump(input);
-    std::cout << outPut?"true":"false";
+    auto outPutStr=outPut?"true":"false";
+    std::cout <<outPutStr;
 }
 //greedy
 bool LeetCode55JumpGame::canJump(std::vector<int>& nums)
