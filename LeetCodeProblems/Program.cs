@@ -2,6 +2,6 @@
 
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode373FindKPairsWithSmallestSums();
+var problem = new LeetCode224BasicCalculator();
 
 problem.Run();
