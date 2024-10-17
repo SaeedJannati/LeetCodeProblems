@@ -2,6 +2,6 @@
 
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode224BasicCalculator();
+var problem = new LeetCode909SnakesAndLadders();
 
 problem.Run();
