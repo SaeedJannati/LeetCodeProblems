@@ -2,6 +2,6 @@
 
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode46Permutations();
+var problem = new LeetCode39CombinationSum();
 
 problem.Run();
