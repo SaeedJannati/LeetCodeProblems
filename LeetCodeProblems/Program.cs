@@ -2,6 +2,6 @@
 
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode39CombinationSum();
+var problem = new LeetCode52N_QueensII();
 
 problem.Run();
