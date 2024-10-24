@@ -2,6 +2,6 @@
 
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode52N_QueensII();
+var problem = new LeetCode322CoinChange();
 
 problem.Run();
