@@ -2,6 +2,6 @@
 
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode82RemoveDuplicatesFromSortedListII();
+var problem = new LeetCode27RemoveElement();
 
 problem.Run();
