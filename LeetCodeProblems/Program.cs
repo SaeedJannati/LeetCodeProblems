@@ -2,6 +2,6 @@
 
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode322CoinChange();
+var problem = new LeetCode82RemoveDuplicatesFromSortedListII();
 
 problem.Run();
