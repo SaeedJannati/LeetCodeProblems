@@ -2,6 +2,6 @@
 
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode27RemoveElement();
+var problem = new LeetCode86PartitionList();
 
 problem.Run();
