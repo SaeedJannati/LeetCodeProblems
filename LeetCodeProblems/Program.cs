@@ -2,6 +2,6 @@
 
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode74SearchA2DMatrix();
+var problem = new LeetCode120Triangle();
 
 problem.Run();
