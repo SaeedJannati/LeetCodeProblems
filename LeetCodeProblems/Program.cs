@@ -2,6 +2,6 @@
 
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode86PartitionList();
+var problem = new LeetCode74SearchA2DMatrix();
 
 problem.Run();
