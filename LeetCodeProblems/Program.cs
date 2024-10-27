@@ -2,6 +2,6 @@
 
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode120Triangle();
+var problem = new LeetCode162FindPeakElement();
 
 problem.Run();
