@@ -2,6 +2,6 @@
 
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode162FindPeakElement();
+var problem = new LeetCode169MajorityElement();
 
 problem.Run();
