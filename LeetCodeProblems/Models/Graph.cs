@@ -1,6 +1,6 @@
 using System.Text.Json;
 
-namespace LeetCodeProblems.Problems;
+namespace LeetCodeProblems.Models;
 
 public class Graph
 {
@@ -87,7 +87,8 @@ public class Graph
             }
         }
 
-        
+        if (outPut.Count != adjacencyList.Count)
+            return [];
         return outPut;
     }
 

@@ -2,7 +2,7 @@
 
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode169MajorityElement();
+var problem = new LeetCode207CourseSchedule();
 
 problem.Run();
 
