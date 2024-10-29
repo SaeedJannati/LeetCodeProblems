@@ -47,9 +47,48 @@ public class Graph
         return order;
     }
 
-    private void BfsRecursive()
+    public List<int> GetTopologicalOrder()
     {
+        List<int> outPut = new(adjacencyList.Count);
+        Dictionary<int,int> inDegrees = new(adjacencyList.Count);
+        HashSet<int> vertices = adjacencyList.Select(i=>i.Key).ToHashSet();
+        foreach (var pair in adjacencyList)
+        {
+            foreach (var vertex in pair.Value)
+            {
+                if (inDegrees.ContainsKey(vertex))
+                {
+                    inDegrees[vertex]++;
+                    continue;
+                }
+                inDegrees[vertex] = 1;
+                vertices.Remove(vertex);
+            }
+        }
+
+        if (vertices.Count == 0)
+            return [];
+        Queue<int> queue = new Queue<int>(adjacencyList.Count);
+        foreach (var vertex in vertices)
+        {
+            queue.Enqueue(vertex);
+        }
+
+        int current = 0;
+        while (queue.Count>0)
+        {
+            current = queue.Dequeue();
+            outPut.Add(current);
+            foreach (var vert in adjacencyList[current])
+            {
+                inDegrees[vert]--;
+                if(inDegrees[vert] == 0)
+                    queue.Enqueue(vert);
+            }
+        }
+
         
+        return outPut;
     }
 
     public List<int> DfsOrder()
@@ -75,7 +114,28 @@ public class Graph
         }
     }
 
-    public static void Sample()
+    public static void RunTopologicalOrderSample()
+    {
+        
+        var graph=new Graph();
+        graph.AddEdge(1,2);
+        graph.AddEdge(2,3);
+        graph.AddEdge(6,3);
+        graph.AddEdge(4,3);
+        graph.AddEdge(3,5);
+        graph.AddEdge(5,6);
+        graph.AddEdge(5,1);
+        graph.AddEdge(5,4);
+        Console.WriteLine($"Direct cyclic graph:{JsonSerializer.Serialize(graph.GetTopologicalOrder())}");
+        graph=new Graph();
+        graph.AddEdge(1,2);
+        graph.AddEdge(2,3);
+        graph.AddEdge(6,3);
+        graph.AddEdge(4,3);
+        Console.WriteLine($"DAG:{JsonSerializer.Serialize(graph.GetTopologicalOrder())}");
+    }
+
+    public static void RunBfsDfsSample()
     {
         var graph=new Graph();
         graph.AddEdge(1,2);
