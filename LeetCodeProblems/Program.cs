@@ -7,3 +7,9 @@ var problem = new LeetCode22GenerateParentheses();
 problem.Run();
 
 
+#region ScriptNameConvertor
+
+// var scriptName = "33. Search in Rotated Sorted Array";
+// ScriptNameConvertor.PrintScriptName(scriptName);
+
+#endregion
