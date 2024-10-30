@@ -1,15 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode33SearchInRotatedSortedArray();
+var problem = new LeetCode189RotateArray();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-// var scriptName = "33. Search in Rotated Sorted Array";
-// ScriptNameConvertor.PrintScriptName(scriptName);
+var scriptName = "189. Rotate Array";
+ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
