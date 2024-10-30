@@ -2,7 +2,7 @@
 
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode22GenerateParentheses();
+var problem = new LeetCode33SearchInRotatedSortedArray();
 
 problem.Run();
 
