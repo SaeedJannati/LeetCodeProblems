@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode121BestTimeToBuyAndSellStock();
+var problem = new LeetCode76MinimumWindowSubstring();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "209. Minimum Size Subarray Sum";
+var scriptName = "76. Minimum Window Substring";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
