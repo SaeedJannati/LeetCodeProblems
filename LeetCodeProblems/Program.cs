@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "189. Rotate Array";
+var scriptName = "80. Remove Duplicates from Sorted Array II";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
