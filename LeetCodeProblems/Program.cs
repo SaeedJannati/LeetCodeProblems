@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "121. Best Time to Buy and Sell Stock\n";
+var scriptName = "209. Minimum Size Subarray Sum";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
