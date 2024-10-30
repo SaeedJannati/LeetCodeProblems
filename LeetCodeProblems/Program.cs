@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode76MinimumWindowSubstring();
+var problem = new LeetCode36ValidSudoku();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "76. Minimum Window Substring";
+var scriptName = "36. Valid Sudoku";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
