@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode167TwoSumIIInputArrayIsSorted();
+var problem = new LeetCode151ReverseWordsInAString();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "167. Two Sum II - Input Array Is Sorted";
+var scriptName = "151. Reverse Words in a String";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
