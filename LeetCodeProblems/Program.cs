@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode36ValidSudoku();
+var problem = new LeetCode167TwoSumIIInputArrayIsSorted();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "36. Valid Sudoku";
+var scriptName = "167. Two Sum II - Input Array Is Sorted";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
