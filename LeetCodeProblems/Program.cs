@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode151ReverseWordsInAString();
+var problem = new LeetCode67AddBinary();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "151. Reverse Words in a String";
+var scriptName = "67. Add Binary";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
