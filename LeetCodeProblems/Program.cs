@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode25ReverseNodesInKGroup();
+var problem = new LeetCode61RotateList();
 
 problem.Run();
 
