@@ -4,7 +4,10 @@ public class ScriptNameConvertor
 {
     public static void PrintScriptName(string scriptName)
     {
-        Console.WriteLine(ConvertScriptName(scriptName));
+        var name = ConvertScriptName(scriptName);
+        var commitName = $"feat: add {name}";
+        Console.WriteLine(name);
+        Console.WriteLine(commitName);
     }
     private static string ConvertScriptName(string input)
     {
