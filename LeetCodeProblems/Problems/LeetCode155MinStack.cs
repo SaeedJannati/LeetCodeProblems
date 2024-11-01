@@ -5,9 +5,9 @@ public class LeetCode155MinStack
     private List<int> list=[];
     SortedList<int,int> sortedList=[];
     private Dictionary<int, int> dict = [];
-    public MinStack() {
-        
-    }
+    // public MinStack() {
+    //     
+    // }
     
     public void Push(int val) {
         list.Add(val);
