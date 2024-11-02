@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "25. Reverse Nodes in k-Group";
+var scriptName = "56. Merge Intervals";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
