@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "79. Word Search";
+var scriptName = "28. Find the Index of the First Occurrence in a String";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
