@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode61RotateList();
+var problem = new LeetCode79WordSearch();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "56. Merge Intervals";
+var scriptName = "79. Word Search";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
