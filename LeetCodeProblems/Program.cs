@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "28. Find the Index of the First Occurrence in a String";
+var scriptName = "380. Insert Delete GetRandom O1";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
