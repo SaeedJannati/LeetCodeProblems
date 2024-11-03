@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode79WordSearch();
+var problem = new LeetCode238ProductOfArrayExceptSelf();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "380. Insert Delete GetRandom O1";
+var scriptName = "238. Product of Array Except Self";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion

@@ -5,9 +5,9 @@ public class LeetCode380InsertDeleteGetRandomO1
     private HashSet<int> collection = [];
     private List<int> list = [];
     private Random _random=new(DateTime.Now.Millisecond);
-    public RandomizedSet() {
-        
-    }
+    // public RandomizedSet() {
+    //     
+    // }
     
     public bool Insert(int val)
     {
