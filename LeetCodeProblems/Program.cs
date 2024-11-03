@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode238ProductOfArrayExceptSelf();
+var problem = new LeetCode289GameOfLife();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "238. Product of Array Except Self";
+var scriptName = "289. Game of Life";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
