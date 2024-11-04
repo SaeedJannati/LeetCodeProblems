@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "274. H-Index";
+var scriptName = "57. Insert Interval";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
