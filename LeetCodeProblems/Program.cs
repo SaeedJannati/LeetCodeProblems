@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "57. Insert Interval";
+var scriptName = "236. Lowest Common Ancestor of a Binary Tree";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
