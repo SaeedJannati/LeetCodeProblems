@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode122BestTimeToBuyAndSellStockII();
+var problem = new LeetCode300LongestIncreasingSubsequence();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "122. Best Time to Buy and Sell Stock II";
+var scriptName = "300. Longest Increasing Subsequence";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
