@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode274HIndex();
+var problem = new LeetCode122BestTimeToBuyAndSellStockII();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "53. Maximum Subarray";
+var scriptName = "122. Best Time to Buy and Sell Stock II";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
