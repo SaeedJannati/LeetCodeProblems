@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "149. Max Points on a Line";
+var scriptName = "383. Ransom Note";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
