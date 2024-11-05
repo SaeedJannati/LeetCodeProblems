@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "236. Lowest Common Ancestor of a Binary Tree";
+var scriptName = "53. Maximum Subarray";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
