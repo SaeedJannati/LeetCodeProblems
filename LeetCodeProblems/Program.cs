@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode300LongestIncreasingSubsequence();
+var problem = new LeetCode64MinimumPathSum();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "300. Longest Increasing Subsequence";
+var scriptName = "64. Minimum Path Sum";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
