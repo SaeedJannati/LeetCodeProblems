@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode149MaxPointsOnALine();
+var problem = new LeetCode452MinimumNumberOfArrowsToBurstBalloons();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "383. Ransom Note";
+var scriptName = "452. Minimum Number of Arrows to Burst Balloons";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
