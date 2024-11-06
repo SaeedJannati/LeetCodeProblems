@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "452. Minimum Number of Arrows to Burst Balloons";
+var scriptName = "138. Copy List with Random Pointer";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
