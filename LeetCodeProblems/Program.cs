@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode63UniquePathsII();
+var problem = new LeetCode208ImplementTriePrefixTree();
 
 problem.Run();
 
