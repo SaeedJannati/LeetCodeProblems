@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode127WordLadder();
+var problem = new LeetCode918MaximumSumCircularSubarray();
 
 problem.Run();
 
