@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode139WordBreak();
+var problem = new LeetCode127WordLadder();
 
 problem.Run();
 
