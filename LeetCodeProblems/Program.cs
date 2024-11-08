@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode918MaximumSumCircularSubarray();
+var problem = new LeetCode295FindMedianfromDataStream();
 
 problem.Run();
 
