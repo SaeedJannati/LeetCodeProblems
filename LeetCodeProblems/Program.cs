@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode208ImplementTriePrefixTree();
+var problem = new LeetCode139WordBreak();
 
 problem.Run();
 
