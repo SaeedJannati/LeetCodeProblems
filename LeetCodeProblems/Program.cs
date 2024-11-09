@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode201BitwiseANDOfNumbersRange();
+var problem = new LeetCode97InterleavingString();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "201. Bitwise AND of Numbers Range";
+var scriptName = "97. Interleaving String";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
