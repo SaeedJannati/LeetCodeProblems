@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode34FindFirstAndLastPositionOfElementInSortedArray();
+var problem = new LeetCode201BitwiseANDOfNumbersRange();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "34. Find First and Last Position of Element in Sorted Array";
+var scriptName = "201. Bitwise AND of Numbers Range";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
