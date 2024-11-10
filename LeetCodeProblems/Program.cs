@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode68TextJustification();
+var problem = new LeetCode146LRUCache();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "68. Text Justification";
+var scriptName = "146. LRU Cache";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
