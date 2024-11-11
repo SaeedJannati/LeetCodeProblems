@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode71SimplifyPath();
+var problem = new LeetCode69Sqrtx();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "71. Simplify Path";
+var scriptName = "69. Sqrt(x)";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion

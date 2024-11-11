@@ -18,9 +18,16 @@ public class ScriptNameConvertor
                 charArray[i + 1] = $"{charArray[i + 1]}".ToUpper().First();
         }
         input = string.Join("", charArray);
-        input=input.Replace(" ","");
-        input=input.Replace("-","");
-        input=input.Replace(".", "");
+        input=input
+            .Replace(" ","")
+            .Replace("-","")
+            .Replace(".", "")
+            .Replace("(", "")
+            .Replace(")", "")
+            .Replace("[", "")
+            .Replace("]", "")
+            .Replace("{", "")
+            .Replace("}", "");
         input = $"LeetCode{input}";
         return input;
     }
