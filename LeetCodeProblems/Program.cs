@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "69. Sqrt(x)";
+var scriptName = "637. Average of Levels in Binary Tree";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
