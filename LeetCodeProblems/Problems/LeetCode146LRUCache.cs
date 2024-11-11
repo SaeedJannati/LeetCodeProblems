@@ -1,3 +1,5 @@
+using System.Runtime.InteropServices.ComTypes;
+
 namespace LeetCodeProblems.Problems;
 
 public class LeetCode146LRUCache : BaseProblemClass
@@ -18,134 +20,100 @@ public class LeetCode146LRUCache : BaseProblemClass
         {
             if (!_nodes.TryGetValue(key, out var node))
                 return -1;
-            if (node == _head)
+            var prev = node.previous;
+            if (prev == null)
                 return node.value;
-            var previous=node.previous;
-            var next=node.next;
-            if (previous != null && next != null)
+            var next = node.next;
+            if (next == null)
             {
-                previous.next = next;
-                next.previous = previous;
+                prev.next = null;
+                _tail = prev;
                 node.previous = null;
                 node.next = _head;
                 _head.previous = node;
                 _head = node;
+                return node.value;
             }
-            else if (next == null)
-            {
-                _tail = node.previous;
-                _tail.next = null;
-                node.previous = null;
-                node.next = _head;
-                _head.previous = node;
-                _head = node;
-            }
+
+            prev.next = next;
+            next.previous = prev;
+            node.previous = null;
+            node.next = _head;
+            _head.previous = node;
+            _head = node;
             return node.value;
         }
 
         public void Put(int key, int value)
         {
-            if (_capacity == 0)
-                return;
             if (_capacity == 1)
             {
+                _head = new Node(value, key,null, null);
                 _nodes = [];
-                _head = new(value);
-                _nodes[key] = _head;
+                _nodes.Add(key, _head);
+                return;
+            }
+
+            if (_nodes.ContainsKey(key))
+            {
+                _nodes[key].value = value;
+                Get(key);
+                return;
+            }
+
+            if (_nodes.Count == 1)
+            {
+                _tail = _head;
+                _head = new Node(value, key,null, _tail);
+                _nodes.Add(key, _head);
                 return;
             }
 
             if (_nodes.Count < _capacity)
-
             {
-                if (_head == null)
-                {
-                    _head = new(value);
-                    _nodes.Add(key, _head);
-                    return;
-                }
-
-                if (_tail == null)
-                {
-                    if (_nodes.ContainsKey(key))
-                    {
-                        _head.value = value;
-                        return;
-                    }
-
-                    _tail = new(value);
-                    _head.previous = _tail;
-                    _tail.next = _head;
-                    (_head, _tail) = (_tail, _head);
-                    _nodes.Add(key, _head);
-                    return;
-                }
-
-                if (!_nodes.ContainsKey(key))
-                {
-                    var node = new Node(value);
-                    node.next = _head;
-                    _head.previous = node;
-                    _head.next = node;
-                    _head = node;
-                    _nodes.Add(key, _head);
-                    return;
-                }
-            }
-
-            if (!_nodes.ContainsKey(key))
-            {
-                var oldKey = _nodes.First(n => n.Value == _tail).Key;
-                _nodes.Remove(oldKey);
-                _tail.value = value;
-                var prev = _tail.previous;
-                prev.next = null;
-                _tail.previous = null;
-                _tail.next = _head;
-                _head.previous = _tail;
-                _head = _tail;
-                _tail = prev;
+                var node = new Node(value, key,null, _head);
+                _head = node;
                 _nodes.Add(key, _head);
+                return;
             }
-            else
-            {
-                var node = _nodes[key];
-                node.value = value;
-                var previous = node.previous;
-                var next = node.next;
-                if (previous != null && next != null)
-                {
-                    previous.next = next;
-                    next.previous = previous;
-                    node.previous = null;
-                    node.next = _head;
-                    _head.previous = node;
-                    _head = node;
-                }
-                else if (next == null)
-                {
-                    _tail = node.previous;
-                    _tail.next = null;
-                    node.previous = null;
-                    node.next = _head;
-                    _head.previous = node;
-                    _head = node;
-                }
-            }
+
+            
+            _nodes.Remove(_tail.key);
+            var newTail = _tail.previous;
+            newTail.next = null;
+            _tail.previous = null;
+            _tail = newTail;
+            var aNode = new Node(value, key,null, _head);
+            _head = aNode;
+            _nodes.Add(key, _head);
         }
 
         public class Node
         {
+            public Node(int value,int key, Node previous, Node next)
+            {
+                this.key = key;
+                this.value = value;
+                this.previous = previous;
+                if (previous != null)
+                    previous.next = this;
+                this.next = next;
+                if (next != null)
+                    next.previous = this;
+            }
+
             public Node(int value)
             {
                 this.value = value;
             }
 
+            public int key;
             public int value;
             public Node next;
             public Node previous;
         }
     }
+
 
     public override void Run()
     {
@@ -167,3 +135,149 @@ public class LeetCode146LRUCache : BaseProblemClass
         a = cache.Get(5);
     }
 }
+
+
+// public class LRUCache
+// {
+//     private int _capacity;
+//     private Node _head;
+//     private Node _tail;
+//     private Dictionary<int, Node> _nodes = [];
+//
+//     public LRUCache(int capacity)
+//     {
+//         _capacity = capacity;
+//     }
+//
+//     public int Get(int key)
+//     {
+//         if (!_nodes.TryGetValue(key, out var node))
+//             return -1;
+//         if (node == _head)
+//             return node.value;
+//         var previous=node.previous;
+//         var next=node.next;
+//         if (previous != null && next != null)
+//         {
+//             previous.next = next;
+//             next.previous = previous;
+//             node.previous = null;
+//             node.next = _head;
+//             _head.previous = node;
+//             _head = node;
+//         }
+//         else if (next == null)
+//         {
+//             _tail = node.previous;
+//             _tail.next = null;
+//             node.previous = null;
+//             node.next = _head;
+//             _head.previous = node;
+//             _head = node;
+//         }
+//         return node.value;
+//     }
+//
+//     public void Put(int key, int value)
+//     {
+//         if (_capacity == 0)
+//             return;
+//         if (_capacity == 1)
+//         {
+//             _nodes = [];
+//             _head = new(value);
+//             _nodes[key] = _head;
+//             return;
+//         }
+//
+//         if (_nodes.Count < _capacity)
+//
+//         {
+//             if (_head == null)
+//             {
+//                 _head = new(value);
+//                 _nodes.Add(key, _head);
+//                 return;
+//             }
+//
+//             if (_tail == null)
+//             {
+//                 if (_nodes.ContainsKey(key))
+//                 {
+//                     _head.value = value;
+//                     return;
+//                 }
+//
+//                 _tail = new(value);
+//                 _head.previous = _tail;
+//                 _tail.next = _head;
+//                 (_head, _tail) = (_tail, _head);
+//                 _nodes.Add(key, _head);
+//                 return;
+//             }
+//
+//             if (!_nodes.ContainsKey(key))
+//             {
+//                 var node = new Node(value);
+//                 node.next = _head;
+//                 _head.previous = node;
+//                 _head.next = node;
+//                 _head = node;
+//                 _nodes.Add(key, _head);
+//                 return;
+//             }
+//         }
+//
+//         if (!_nodes.ContainsKey(key))
+//         {
+//             var oldKey = _nodes.First(n => n.Value == _tail).Key;
+//             _nodes.Remove(oldKey);
+//             _tail.value = value;
+//             var prev = _tail.previous;
+//             prev.next = null;
+//             _tail.previous = null;
+//             _tail.next = _head;
+//             _head.previous = _tail;
+//             _head = _tail;
+//             _tail = prev;
+//             _nodes.Add(key, _head);
+//         }
+//         else
+//         {
+//             var node = _nodes[key];
+//             node.value = value;
+//             var previous = node.previous;
+//             var next = node.next;
+//             if (previous != null && next != null)
+//             {
+//                 previous.next = next;
+//                 next.previous = previous;
+//                 node.previous = null;
+//                 node.next = _head;
+//                 _head.previous = node;
+//                 _head = node;
+//             }
+//             else if (next == null)
+//             {
+//                 _tail = node.previous;
+//                 _tail.next = null;
+//                 node.previous = null;
+//                 node.next = _head;
+//                 _head.previous = node;
+//                 _head = node;
+//             }
+//         }
+//     }
+//
+//     public class Node
+//     {
+//         public Node(int value)
+//         {
+//             this.value = value;
+//         }
+//
+//         public int value;
+//         public Node next;
+//         public Node previous;
+//     }
+// }
