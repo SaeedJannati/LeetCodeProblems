@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode146LRUCache();
+var problem = new LeetCode71SimplifyPath();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "146. LRU Cache";
+var scriptName = "71. Simplify Path";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
