@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode69Sqrtx();
+var problem = new LeetCode125ValidPalindrome();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "637. Average of Levels in Binary Tree";
+var scriptName = "125. Valid Palindrome";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
