@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode125ValidPalindrome();
+var problem = new LeetCode502IPO();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "125. Valid Palindrome";
+var scriptName = "502. IPO";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
