@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "30. Substring with Concatenation of All Words";
+var scriptName = "141. Linked List Cycle";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
