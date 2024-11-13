@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode502IPO();
+var problem = new LeetCode42TrappingRainWater();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "502. IPO";
+var scriptName = "42. Trapping Rain Water";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
