@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode42TrappingRainWater();
+var problem = new LeetCode30SubstringWithConcatenationOfAllWords();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "42. Trapping Rain Water";
+var scriptName = "30. Substring with Concatenation of All Words";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
