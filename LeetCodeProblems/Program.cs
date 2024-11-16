@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "141. Linked List Cycle";
+var scriptName = "188. Best Time to Buy and Sell Stock IV";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
