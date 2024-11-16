@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode123BestTimetoBuyandSellStockIII();
+var problem = new LeetCode188BestTimeToBuyAndSellStockIV();
 
 problem.Run();
 

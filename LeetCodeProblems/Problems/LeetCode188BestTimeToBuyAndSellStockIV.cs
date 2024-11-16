@@ -1,28 +1,51 @@
 namespace LeetCodeProblems.Problems;
 
-public class LeetCode188BestTimeToBuyAndSellStockIV
+public class LeetCode188BestTimeToBuyAndSellStockIV: BaseProblemClass
 {
     public int MaxProfit(int k, int[] prices)
     {
         var length = prices.Length;
-        var dp = new int[length, k + 1, 2];
-        //0-> no-state 1->bought
-        for (int i = 1; i < length; i++)
-        {
-            for (int j = 0; j <= k; j++)
+        var dp =Enumerable.Range(0, length+1)
+            .SelectMany(i => Enumerable.Range(0, k+1)
+                .SelectMany(j => Enumerable.Range(0, 2)
+                    .Select(k => new { i, j, k })))
+            .Aggregate(new int[length+1, k+1, 2], (arr, idx) =>
             {
-                for (int l = 0; l < 2; l++)
-                {
-                    if (l == 0)
-                    {
-                        dp[i, j, l] = Math.Max(dp[i - 1, j, 0], dp[i - 1, j, 1]);
-                        continue;
-                    }
-                }
-            }
+                arr[idx.i, idx.j, idx.k] = -1;
+                return arr;
+            });
+        return MaxProfitRecursive(0,0,prices,1,dp,k,length);
+    }
+
+    private int MaxProfitRecursive(int transactionNumber,int day, int[] prices, int canBuy, int[,,] dp,int k,int length)
+    {
+        if (transactionNumber > k-1 || day > length-1)
+            return 0;
+        if(dp[day, transactionNumber, canBuy]!=-1)
+            return dp[day, transactionNumber, canBuy];
+        if (canBuy == 1)
+        {
+            dp[day,transactionNumber,canBuy]= Math.Max(
+                -prices[day]+MaxProfitRecursive(transactionNumber,day+1,prices,0,dp,k,length),
+                MaxProfitRecursive(transactionNumber,day+1,prices,1,dp,k,length)
+                );
+        }
+        else
+        {
+            dp[day,transactionNumber,canBuy]= Math.Max(
+                prices[day] + MaxProfitRecursive(transactionNumber + 1, day + 1, prices, 1, dp, k, length),
+                MaxProfitRecursive(transactionNumber, day + 1, prices, 0, dp, k, length)
+            );
         }
 
-        return 0;
+        return dp[day, transactionNumber, canBuy];
+    }
+
+    public override void Run()
+    {
+        int[] prices = [3,2,6,5,0,3];
+        int k = 2;
+        Console.WriteLine(MaxProfit(k, prices));
     }
 }
 
