@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode211DesignAddAndSearchWordsDataStructure();
+var problem = new LeetCode136SingleNumber();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "211. Design Add and Search Words Data Structure";
+var scriptName = "136. Single Number";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
