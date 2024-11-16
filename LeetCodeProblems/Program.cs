@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode188BestTimeToBuyAndSellStockIV();
+var problem = new LeetCode211DesignAddAndSearchWordsDataStructure();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "188. Best Time to Buy and Sell Stock IV";
+var scriptName = "211. Design Add and Search Words Data Structure";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
