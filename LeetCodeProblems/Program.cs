@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode136SingleNumber();
+var problem = new LeetCode399EvaluateDivision();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "124. Binary Tree Maximum Path Sum";
+var scriptName = "399. Evaluate Division";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
