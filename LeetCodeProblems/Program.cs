@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "399. Evaluate Division";
+var scriptName = "205. Isomorphic Strings";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
