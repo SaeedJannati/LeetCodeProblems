@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "136. Single Number";
+var scriptName = "124. Binary Tree Maximum Path Sum";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
