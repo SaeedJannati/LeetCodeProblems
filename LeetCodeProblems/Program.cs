@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode290WordPattern();
+var problem = new LeetCode21MergeTwoSortedLists();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "242. Valid Anagram";
+var scriptName = "21. Merge Two Sorted Lists";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
