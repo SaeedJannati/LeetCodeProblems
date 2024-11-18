@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "290. Word Pattern";
+var scriptName = "242. Valid Anagram";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
