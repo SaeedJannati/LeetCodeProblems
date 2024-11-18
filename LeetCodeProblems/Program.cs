@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode399EvaluateDivision();
+var problem = new LeetCode290WordPattern();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "205. Isomorphic Strings";
+var scriptName = "290. Word Pattern";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
