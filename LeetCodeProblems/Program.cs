@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode202HappyNumber();
+var problem = new LeetCode219ContainsDuplicateII();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "202. Happy Number";
+var scriptName = "219. Contains Duplicate II";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
