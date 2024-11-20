@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "66. Plus One";
+var scriptName = "191. Number of 1 Bits";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
