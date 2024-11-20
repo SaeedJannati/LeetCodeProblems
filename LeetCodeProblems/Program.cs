@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode72EditDistance();
+var problem = new LeetCode202HappyNumber();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "392. Is Subsequence";
+var scriptName = "202. Happy Number";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
