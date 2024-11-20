@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "191. Number of 1 Bits";
+var scriptName = "392. Is Subsequence";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
