@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "219. Contains Duplicate II";
+var scriptName = "222. Count Complete Tree Nodes";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
