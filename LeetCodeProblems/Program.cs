@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "72. Edit Distance";
+var scriptName = "66. Plus One";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
