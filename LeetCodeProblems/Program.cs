@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode35SearchInsertPosition();
+var problem = new LeetCode427ConstructQuadTree();
 
 problem.Run();
 
