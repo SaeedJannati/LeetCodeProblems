@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode222CountCompleteTreeNodes();
+var problem = new LeetCode35SearchInsertPosition();
 
 problem.Run();
 
