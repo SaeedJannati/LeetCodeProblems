@@ -1,70 +1,63 @@
+using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Models;
 
 namespace LeetCodeProblems.Problems;
 
-public class LeetCode222CountCompleteTreeNodes
+public class LeetCode222CountCompleteTreeNodes : BaseProblemClass
 {
     public int CountNodes(TreeNode root)
     {
         if (root == null)
             return 0;
-        var height = GetHeight(root);
-        var output=(int)Math.Pow(2,height+1)-1;
-        
+        if (root.left == null)
+            return 1;
+        if (root.right == null)
+            return 2;
+        var output = 0;
+        Dfs(root, ref output);
+        return output;
     }
 
-    (int index,int modTwo) FindLeaf(TreeNode root, int height)
+    (int,int) FindLeaf(TreeNode root, int height)
     {
         int begin = 0;
-        int end=height;
+        int end = height - 2;
         int mid = 0;
         int newMid = 0;
-        while (true)
+        TreeNode current = null;
+        while (begin <= end)
         {
             mid = (begin + end) / 2;
-            var current = root;
-            for (int i = 0; i < height-1; i++)
+            current = root;
+            for (int i = 0; i < height - 2; i++)
             {
                 current = i < mid ? current.left : current.right;
             }
 
             if (current.left != null && current.right == null)
-                return (mid,1);
+                return ((int)Math.Pow(2,height - 2 - mid) , 1); 
             if (current.left == null)
             {
-                end = mid ;
+                begin = mid + 1;
             }
             else
             {
-                begin = mid ;
+                end = mid - 1;
             }
-            newMid = (begin + end) / 2;
-             if (newMid == mid)
-             {
-                 if (current.left == null)
-                 {
-                     current = root;
-                     for (int i = 0; i < height-1; i++)
-                     {
-                         current = i < mid-1 ? current.left : current.right;
-                     }
-
-                     return (mid + 1, current.right != null ? 1 : 0);
-                 }
-                 else
-                 {
-                     current = root;
-                     for (int i = 0; i < height-1; i++)
-                     {
-                         current = i < mid+1 ? current.left : current.right;
-                     }
-
-                     return (mid + 1, current.right != null ? 1 : 0);
-                 }
-             }
-
-
         }
+
+        int mod = 0;
+        if (current.left == null)
+            mod = 0;
+        else if(current.right == null)
+        {
+            mod = 1;
+        }
+        else
+        {
+            mod = 0;
+        }
+        return  ((int)Math.Pow(2,height - 2 - mid) ,mod);
     }
 
     int GetHeight(TreeNode root)
@@ -87,5 +80,11 @@ public class LeetCode222CountCompleteTreeNodes
             Dfs(node.left, ref count);
         if (node.right != null)
             Dfs(node.right, ref count);
+    }
+
+    public override void Run()
+    {
+        var tree = TreeBuilder.BuildTree([1,2,3,4,5,6]);
+        Console.WriteLine(CountNodes(tree));
     }
 }

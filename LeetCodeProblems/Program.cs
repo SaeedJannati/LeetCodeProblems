@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode219ContainsDuplicateII();
+var problem = new LeetCode222CountCompleteTreeNodes();
 
 problem.Run();
 
