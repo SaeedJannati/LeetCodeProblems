@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode450DeleteNodeinaBST();
+var problem = new LeetCode1448CountGoodNodesinBinaryTree();
 
 problem.Run();
 
