@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1161MaximumLevelSumofaBinaryTree();
+var problem = new LeetCode841KeysandRooms();
 
 problem.Run();
 
