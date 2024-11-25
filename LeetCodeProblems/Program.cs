@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode875KokoEatingBananas();
+var problem = new LeetCode1268SearchSuggestionsSystem();
 
 problem.Run();
 
