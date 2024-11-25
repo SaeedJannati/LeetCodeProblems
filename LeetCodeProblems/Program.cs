@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode216CombinationSumIII();
+var problem = new LeetCode875KokoEatingBananas();
 
 problem.Run();
 
