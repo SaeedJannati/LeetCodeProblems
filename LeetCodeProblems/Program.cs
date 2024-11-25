@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode841KeysandRooms();
+var problem = new LeetCode216CombinationSumIII();
 
 problem.Run();
 
