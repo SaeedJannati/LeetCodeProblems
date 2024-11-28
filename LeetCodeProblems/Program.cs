@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1268SearchSuggestionsSystem();
+var problem = new LeetCode2352EqualRowandColumnPairs();
 
 problem.Run();
 
