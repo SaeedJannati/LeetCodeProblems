@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode735AsteroidCollision();
+var problem = new LeetCode1926NearestExitfromEntranceinMaze();
 
 problem.Run();
 
