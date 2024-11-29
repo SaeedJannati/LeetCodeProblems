@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1926NearestExitfromEntranceinMaze();
+var problem = new LeetCode2336SmallestNumberinInfiniteSet();
 
 problem.Run();
 
