@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode2336SmallestNumberinInfiniteSet();
+var problem = new LeetCode443StringCompression();
 
 problem.Run();
 
