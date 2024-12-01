@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode328OddEvenLinkedList();
+var problem = new LeetCode1004MaxConsecutiveOnesIII();
 
 problem.Run();
 
