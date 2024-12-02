@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "222. Count Complete Tree Nodes";
+var scriptName = "2130. Maximum Twin Sum of a Linked List";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
