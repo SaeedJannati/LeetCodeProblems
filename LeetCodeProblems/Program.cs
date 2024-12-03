@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "994. Rotting Oranges";
+var scriptName = "334. Increasing Triplet Subsequence";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
