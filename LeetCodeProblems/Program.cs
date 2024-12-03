@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1004MaxConsecutiveOnesIII();
+var problem = new LeetCode437PathSumIII();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "2130. Maximum Twin Sum of a Linked List";
+var scriptName = "437. Path Sum III";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
