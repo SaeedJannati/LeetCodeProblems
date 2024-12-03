@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode437PathSumIII();
+var problem = new LeetCode994RottingOranges();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "437. Path Sum III";
+var scriptName = "994. Rotting Oranges";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
