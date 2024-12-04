@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode994RottingOranges();
+var problem = new LeetCode394DecodeString();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "1493. Longest Subarray of 1's After Deleting One Element";
+var scriptName = "394. Decode String";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
