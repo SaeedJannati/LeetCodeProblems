@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "334. Increasing Triplet Subsequence";
+var scriptName = "1493. Longest Subarray of 1's After Deleting One Element";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion

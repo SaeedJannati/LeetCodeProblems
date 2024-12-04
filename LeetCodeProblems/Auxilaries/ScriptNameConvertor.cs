@@ -27,6 +27,7 @@ public class ScriptNameConvertor
             .Replace("[", "")
             .Replace("]", "")
             .Replace("{", "")
+            .Replace("'","")
             .Replace("}", "");
         input = $"LeetCode{input}";
         return input;
