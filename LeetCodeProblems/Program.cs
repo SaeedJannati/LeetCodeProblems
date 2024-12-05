@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1372LongestZigZagPathinaBinaryTree();
+var problem = new LeetCode1768MergeStringsAlternately();
 
 problem.Run();
 
