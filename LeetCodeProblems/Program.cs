@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1466ReorderRoutesToMakeAllPathsLeadToTheCityZero();
+var problem = new LeetCode1372LongestZigZagPathinaBinaryTree();
 
 problem.Run();
 
