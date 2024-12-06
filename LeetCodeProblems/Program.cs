@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode2462TotalCosttoHireKWorkers();
+var problem = new LeetCode2300SuccessfulPairsofSpellsandPotions();
 
 problem.Run();
 
