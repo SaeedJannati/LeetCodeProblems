@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1768MergeStringsAlternately();
+var problem = new LeetCode2462TotalCosttoHireKWorkers();
 
 problem.Run();
 
