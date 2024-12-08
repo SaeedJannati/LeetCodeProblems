@@ -14,12 +14,7 @@ public class LeetCode435NonoverlappingIntervals
         int removedCount = 0;
         for (int i = 1, e = intervals.Length; i < e; i++)
         {
-            if (intervals[i][0] > currentStart && intervals[i][0] < currentEnd)
-            {
-                removedCount++;
-                continue;
-            }
-            if (intervals[i][0] == currentStart && intervals[i][1] == currentEnd)
+            if (intervals[i][0] < currentEnd )
             {
                 removedCount++;
                 continue;
