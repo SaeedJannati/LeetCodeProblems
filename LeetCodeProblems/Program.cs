@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode2300SuccessfulPairsofSpellsandPotions();
+var problem = new LeetCode714BestTimetoBuyandSellStockwithTransactionFee();
 
 problem.Run();
 
