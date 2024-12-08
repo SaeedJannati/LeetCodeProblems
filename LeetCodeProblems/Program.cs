@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode714BestTimetoBuyandSellStockwithTransactionFee();
+var problem = new LeetCode1071GreatestCommonDivisorofStrings();
 
 problem.Run();
 
