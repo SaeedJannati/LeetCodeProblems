@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "605. Can Place Flowers";
+var scriptName = "283. Move Zeroes";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
