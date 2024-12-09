@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "1732. Find the Highest Altitude";
+var scriptName = "724. Find Pivot Index";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
