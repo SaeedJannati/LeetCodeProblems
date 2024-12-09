@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "643. Maximum Average Subarray I";
+var scriptName = "1732. Find the Highest Altitude";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
