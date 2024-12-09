@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "724. Find Pivot Index";
+var scriptName = "feat: add LeetCode724FindPivotIndex";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
