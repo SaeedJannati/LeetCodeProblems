@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1071GreatestCommonDivisorofStrings();
+var problem = new LeetCode643MaximumAverageSubarrayI();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "283. Move Zeroes";
+var scriptName = "643. Maximum Average Subarray I";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
