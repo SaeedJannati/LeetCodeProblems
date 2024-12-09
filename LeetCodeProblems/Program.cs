@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "feat: add LeetCode724FindPivotIndex";
+var scriptName = "1207. Unique Number of Occurrences";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
