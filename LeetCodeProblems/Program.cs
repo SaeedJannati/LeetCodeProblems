@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "1466. Reorder Routes to Make All Paths Lead to the City Zero";
+var scriptName = "605. Can Place Flowers";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
