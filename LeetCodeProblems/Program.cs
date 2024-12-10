@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "872. Leaf-Similar Trees";
+var scriptName = "1137. N-th Tribonacci Number";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
