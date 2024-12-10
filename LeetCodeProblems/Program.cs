@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "1207. Unique Number of Occurrences";
+var scriptName = "933. Number of Recent Calls";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
