@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "933. Number of Recent Calls";
+var scriptName = "872. Leaf-Similar Trees";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
