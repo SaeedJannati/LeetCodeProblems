@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "51. N-Queens";
+var scriptName = "94. Binary Tree Inorder Traversal";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
