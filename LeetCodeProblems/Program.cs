@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode338CountingBits();
+var problem = new LeetCode51NQueens();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "338. Counting Bits";
+var scriptName = "51. N-Queens";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
