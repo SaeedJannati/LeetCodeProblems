@@ -1,6 +1,4 @@
-﻿using System.Text;
-
-namespace LeetCodeProblems.Problems;
+﻿namespace LeetCodeProblems.Problems;
 
 public class LeetCode1071GreatestCommonDivisorofStrings: BaseProblemClass
 {
