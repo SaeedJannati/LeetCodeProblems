@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode51NQueens();
+var problem = new LeetCode763PartitionLabels();
 
 problem.Run();
 
