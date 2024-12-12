@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode763PartitionLabels();
+var problem = new LeetCode31NextPermutation();
 
 problem.Run();
 
