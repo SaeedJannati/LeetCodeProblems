@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode31NextPermutation();
+var problem = new LeetCode78Subsets();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "94. Binary Tree Inorder Traversal";
+var scriptName = "78. Subsets";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
