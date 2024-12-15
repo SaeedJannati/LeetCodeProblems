@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "41. First Missing Positive";
+var scriptName = "438. Find All Anagrams in a String";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
