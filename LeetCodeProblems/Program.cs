@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode24SwapNodesInPairs();
+var problem = new LeetCode41FirstMissingPositive();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "24. Swap Nodes in Pairs";
+var scriptName = "41. First Missing Positive";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
