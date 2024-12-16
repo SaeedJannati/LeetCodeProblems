@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode75SortColors();
+var problem = new LeetCode416PartitionEqualSubsetSum();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "75. Sort Colors";
+var scriptName = "416. Partition Equal Subset Sum";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
