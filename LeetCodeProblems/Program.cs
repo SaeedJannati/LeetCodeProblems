@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "416. Partition Equal Subset Sum";
+var scriptName = "543. Diameter of Binary Tree";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
