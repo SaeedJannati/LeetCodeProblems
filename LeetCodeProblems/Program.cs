@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode41FirstMissingPositive();
+var problem = new LeetCode75SortColors();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "438. Find All Anagrams in a String";
+var scriptName = "75. Sort Colors";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
