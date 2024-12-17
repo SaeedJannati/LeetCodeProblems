@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "543. Diameter of Binary Tree";
+var scriptName = "287. Find the Duplicate Number";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion

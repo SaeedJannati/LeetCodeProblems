@@ -12,7 +12,7 @@ public class LeetCode142LinkedListCycleII
             return null;
         ListNode slow = head;
         ListNode fast = head;
-        while (fast is { next: not null })
+        while (fast!=null && fast.next != null)
         {
             slow = slow.next;
             fast = fast.next.next;
@@ -20,7 +20,7 @@ public class LeetCode142LinkedListCycleII
                 break;
         }
 
-        if (fast?.next == null)
+        if (fast==null || fast.next == null)
             return null;
         slow = head;
         while (slow != fast)
