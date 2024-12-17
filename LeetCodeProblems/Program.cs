@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "152. Maximum Product Subarray";
+var scriptName = "239. Sliding Window Maximum";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
