@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode416PartitionEqualSubsetSum();
+var problem = new LeetCode152MaximumProductSubarray();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "287. Find the Duplicate Number";
+var scriptName = "152. Maximum Product Subarray";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
