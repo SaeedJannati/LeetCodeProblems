@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "239. Sliding Window Maximum";
+var scriptName = "131. Palindrome Partitioning";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
