@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode239SlidingWindowMaximum();
+var problem = new LeetCode279PerfectSquares();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "131. Palindrome Partitioning";
+var scriptName = "279. Perfect Squares";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
