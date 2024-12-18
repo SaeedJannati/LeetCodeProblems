@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode152MaximumProductSubarray();
+var problem = new LeetCode239SlidingWindowMaximum();
 
 problem.Run();
 
