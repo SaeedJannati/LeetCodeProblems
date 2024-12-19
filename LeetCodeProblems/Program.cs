@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode84LargestRectangleinHistogram();
+var problem = new LeetCode160IntersectionofTwoLinkedLists();
 
 problem.Run();
 
