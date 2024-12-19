@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode279PerfectSquares();
+var problem = new LeetCode84LargestRectangleinHistogram();
 
 problem.Run();
 
