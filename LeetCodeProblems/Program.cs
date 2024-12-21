@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode239SlidingWindowMaximum();
+var problem = new LeetCode160IntersectionofTwoLinkedLists();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "239. Sliding Window Maximum";
+var scriptName = "279. Perfect Squares";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
