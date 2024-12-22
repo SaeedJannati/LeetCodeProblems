@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode212WordSearchII();
+var problem = new LeetCode647PalindromicSubstrings();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "279. Perfect Squares";
+var scriptName = "647. Palindromic Substrings";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
