@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode2423RemoveLetterToEqualizeFrequency();
+var problem = new LeetCode143ReorderList();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "2423. Remove Letter To Equalize Frequency";
+var scriptName = "143. Reorder List";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
