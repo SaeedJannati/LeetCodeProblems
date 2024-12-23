@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode297SerializeAndDeserializeBinaryTree();
+var problem = new LeetCode417PacificAtlanticWaterFlow();
 
 problem.Run();
 
