@@ -4,140 +4,107 @@ namespace LeetCodeProblems.Problems;
 
 public class LeetCode417PacificAtlanticWaterFlow : BaseProblemClass
 {
-    // public IList<IList<int>> PacificAtlantic(int[][] heights)
-    // {
-    //     IList<IList<int>> result = [];
-    //     int mapHeight = heights.Length;
-    //     int mapWidth = heights[0].Length;
-    //     var visited = new (bool visited, bool canReachLeft, bool canReachRight)[mapHeight, mapWidth];
-    //     for (int i = 0; i < mapHeight; i++)
-    //     {
-    //         visited[i,0].canReachLeft = true;
-    //         visited[i,mapWidth-1].canReachRight = true;
-    //     }
-    //
-    //     for (int j = 0; j < mapWidth; j++)
-    //     {
-    //         visited[0,j].canReachLeft = true;
-    //         visited[mapHeight-1,j].canReachRight = true;
-    //     }
-    //
-    //     for (int i = 0; i < mapHeight; i++)
-    //     {
-    //         Dfs(heights, visited, i, 0, mapHeight, mapWidth, int.MaxValue, result);
-    //         Dfs(heights, visited, i, mapWidth-1, mapHeight, mapWidth, int.MaxValue, result);
-    //     }
-    //
-    //     for (int j = 0; j < mapWidth; j++)
-    //     {
-    //         Dfs(heights, visited, 0, j, mapHeight, mapWidth, int.MaxValue, result);
-    //         Dfs(heights, visited, mapHeight-1, j, mapHeight, mapWidth, int.MaxValue, result);
-    //     }
-    //
-    //     return result;
-    // }
-    //
-    // (bool visited, bool canReachLeft, bool canReachRight) Dfs(int[][] heights,
-    //     (bool visited, bool canReachLeft, bool canReachRight)[,] visited, int height, int width, int mapHeight,
-    //     int mapWidth, int elevation, IList<IList<int>> result)
-    // {
-    //     if (height < 0 || height >= mapHeight)
-    //         return (false, false, false);
-    //     if (width < 0 || width >= mapWidth)
-    //         return (false, false, false);
-    //     if (heights[height][width] > elevation)
-    //         return (false, false, false);
-    //     if (visited[height, width].visited)
-    //         return visited[height, width];
-    //     visited[height, width].visited = true;
-    //     if (width == 0 || height == 0)
-    //         visited[height, width].canReachLeft = true;
-    //     if (width == mapWidth - 1 || height == mapHeight - 1)
-    //         visited[height, width].canReachRight = true;
-    //
-    //
-    //     var info = Dfs(heights, visited, height + 1, width, mapHeight, mapWidth, heights[height][width], result);
-    //     if (info.visited)
-    //     {
-    //         if (info.canReachRight)
-    //             visited[height, width].canReachRight = true;
-    //         if (info.canReachLeft)
-    //             visited[height, width].canReachLeft = true;
-    //     }
-    //
-    //     info = Dfs(heights, visited, height - 1, width, mapHeight, mapWidth, heights[height][width], result);
-    //     if (info.visited)
-    //     {
-    //         if (info.canReachRight)
-    //             visited[height, width].canReachRight = true;
-    //         if (info.canReachLeft)
-    //             visited[height, width].canReachLeft = true;
-    //     }
-    //
-    //     info = Dfs(heights, visited, height, width + 1, mapHeight, mapWidth, heights[height][width], result);
-    //     if (info.visited)
-    //     {
-    //         if (info.canReachRight)
-    //             visited[height, width].canReachRight = true;
-    //         if (info.canReachLeft)
-    //             visited[height, width].canReachLeft = true;
-    //     }
-    //
-    //     info = Dfs(heights, visited, height, width - 1, mapHeight, mapWidth, heights[height][width], result);
-    //     if (info.visited)
-    //     {
-    //         if (info.canReachRight)
-    //             visited[height, width].canReachRight = true;
-    //         if (info.canReachLeft)
-    //             visited[height, width].canReachLeft = true;
-    //     }
-    //
-    //     if (visited[height, width].canReachRight && visited[height, width].canReachLeft)
-    //         result.Add([height, width]);
-    //     return visited[height, width];
-    // }
-    
+    #region My solution
+
     public IList<IList<int>> PacificAtlantic(int[][] heights)
     {
-        var result = new List<IList<int>>();
-        int rows = heights.Length, cols = heights[0].Length;
+        int height = heights.Length;
+        int width = heights[0].Length;
+        var pacific = new bool[heights.Length, width];
+        var atlantic = new bool[heights.Length, width];
+        for (int i = 0; i < heights.Length; i++)
+        {
+            Dfs(heights, pacific, i, 0, height, width, int.MinValue);
+            Dfs(heights, atlantic, i, width - 1, height, width, int.MinValue);
+        }
 
-        var pacific = new bool[rows, cols];
-        var atlantic = new bool[rows, cols];
-        for (int i = 0; i < rows; i++)
+        for (int i = 0; i < width; i++)
         {
-            Dfs(heights, pacific, int.MinValue, i, 0); 
-            Dfs(heights, atlantic, int.MinValue, i, cols - 1); 
+            Dfs(heights, pacific, 0, i, height, width, int.MinValue);
+            Dfs(heights, atlantic, height - 1, i, height, width, int.MinValue);
         }
-        for (int j = 0; j < cols; j++)
+
+        IList<IList<int>> result = [];
+        for (int i = 0; i < height; i++)
         {
-            Dfs(heights, pacific, int.MinValue, 0, j);
-            Dfs(heights, atlantic, int.MinValue, rows - 1, j);
-        }
-        for (int i = 0; i < rows; i++)
-        {
-            for (int j = 0; j < cols; j++)
+            for (int j = 0; j < width; j++)
             {
-                if (pacific[i, j] && atlantic[i, j])
-                    result.Add(new List<int> { i, j });
+                if (!atlantic[i, j])
+                    continue;
+                if (!pacific[i, j])
+                    continue;
+                result.Add([i, j]);
             }
         }
 
         return result;
     }
 
-    private void Dfs(int[][] heights, bool[,] ocean, int prevHeight, int x, int y)
+    private void Dfs(int[][] heights, bool[,] ocean, int height, int width, int boardHeight, int boardWidth,
+        int elevation)
     {
-        int rows = heights.Length, cols = heights[0].Length;
-        if (x < 0 || x >= rows || y < 0 || y >= cols) return;  
-        if (ocean[x, y] || heights[x][y] < prevHeight) return; 
-
-        ocean[x, y] = true;
-        Dfs(heights, ocean, heights[x][y], x + 1, y);
-        Dfs(heights, ocean, heights[x][y], x - 1, y);
-        Dfs(heights, ocean, heights[x][y], x, y + 1);
-        Dfs(heights, ocean, heights[x][y], x, y - 1);
+        if (height < 0 || height >= boardHeight)
+            return;
+        if (width < 0 || width >= boardWidth)
+            return;
+        if (ocean[height, width])
+            return;
+        if (heights[height][width] < elevation)
+            return;
+        ocean[height, width] = true;
+        Dfs(heights, ocean, height, width + 1, boardHeight, boardWidth, heights[height][width]);
+        Dfs(heights, ocean, height, width - 1, boardHeight, boardWidth, heights[height][width]);
+        Dfs(heights, ocean, height + 1, width, boardHeight, boardWidth, heights[height][width]);
+        Dfs(heights, ocean, height - 1, width, boardHeight, boardWidth, heights[height][width]);
     }
+
+    #endregion
+
+    #region Gpt solution
+
+    // public IList<IList<int>> PacificAtlantic(int[][] heights)
+    // {
+    //     var result = new List<IList<int>>();
+    //     int rows = heights.Length, cols = heights[0].Length;
+    //
+    //     var pacific = new bool[rows, cols];
+    //     var atlantic = new bool[rows, cols];
+    //     for (int i = 0; i < rows; i++)
+    //     {
+    //         Dfs(heights, pacific, int.MinValue, i, 0); 
+    //         Dfs(heights, atlantic, int.MinValue, i, cols - 1); 
+    //     }
+    //     for (int j = 0; j < cols; j++)
+    //     {
+    //         Dfs(heights, pacific, int.MinValue, 0, j);
+    //         Dfs(heights, atlantic, int.MinValue, rows - 1, j);
+    //     }
+    //     for (int i = 0; i < rows; i++)
+    //     {
+    //         for (int j = 0; j < cols; j++)
+    //         {
+    //             if (pacific[i, j] && atlantic[i, j])
+    //                 result.Add(new List<int> { i, j });
+    //         }
+    //     }
+    //
+    //     return result;
+    // }
+    // private void Dfs(int[][] heights, bool[,] ocean, int prevHeight, int x, int y)
+    // {
+    //     int rows = heights.Length, cols = heights[0].Length;
+    //     if (x < 0 || x >= rows || y < 0 || y >= cols) return;
+    //     if (ocean[x, y] || heights[x][y] < prevHeight) return;
+    //
+    //     ocean[x, y] = true;
+    //     Dfs(heights, ocean, heights[x][y], x + 1, y);
+    //     Dfs(heights, ocean, heights[x][y], x - 1, y);
+    //     Dfs(heights, ocean, heights[x][y], x, y + 1);
+    //     Dfs(heights, ocean, heights[x][y], x, y - 1);
+    // }
+
+    #endregion
+
 
     public override void Run()
     {
