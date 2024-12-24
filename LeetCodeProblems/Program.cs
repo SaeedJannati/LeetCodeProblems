@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode417PacificAtlanticWaterFlow();
+var problem = new LeetCode424LongestRepeatingCharacterReplacement();
 
 problem.Run();
 
