@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode424LongestRepeatingCharacterReplacement();
+var problem = new LeetCode91DecodeWays();
 
 problem.Run();
 
