@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "515. Find Largest Value in Each Tree Row";
+var scriptName = "2363. Merge Similar Items";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 #endregion
