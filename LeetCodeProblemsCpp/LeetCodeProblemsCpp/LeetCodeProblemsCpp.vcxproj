@@ -155,7 +155,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LeetCodeProblemsCpp.cpp" />
+    <ClCompile Include="Problems\Auxilaries.cpp" />
     <ClCompile Include="Problems\BaseProblem.cpp" />
+    <ClCompile Include="Problems\GeeksForGeeksShortestPathInDirectedAcyclicGraph.cpp" />
     <ClCompile Include="Problems\LeetCode101SymmetricTree.cpp" />
     <ClCompile Include="Problems\LeetCode104MaximumDepthOfBinaryTree.cpp" />
     <ClCompile Include="Problems\LeetCode105ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp" />
@@ -190,7 +192,9 @@
     <ClCompile Include="Problems\TreeNode.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Problems\Auxilaries.h" />
     <ClInclude Include="Problems\BaseProblem.h" />
+    <ClInclude Include="Problems\GeeksForGeeksShortestPathInDirectedAcyclicGraph.h" />
     <ClInclude Include="Problems\LeetCode101SymmetricTree.h" />
     <ClInclude Include="Problems\LeetCode104MaximumDepthOfBinaryTree.h" />
     <ClInclude Include="Problems\LeetCode105ConstructBinaryTreeFromPreorderAndInorderTraversal.h" />
