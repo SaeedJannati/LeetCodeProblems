@@ -1,13 +1,11 @@
 #include <iostream>
 
-
-#include "Problems/GeeksForGeeksShortestPathInDirectedAcyclicGraph.h"
-#include "Problems/LeetCode88MergeSortedArray.h"
+#include "Problems/LeetCode494TargetSum.h"
 
 
 int main(int argc, char* argv[])
 {
-    const auto problem = new GeeksForGeeksShortestPathInDirectedAcyclicGraph();
+    const auto problem = new LeetCode494TargetSum();
     problem->Run();
     delete problem;
 }

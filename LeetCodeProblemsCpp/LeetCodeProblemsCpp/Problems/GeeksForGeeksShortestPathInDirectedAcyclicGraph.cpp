@@ -17,7 +17,7 @@ std::vector<int> GeeksForGeeksShortestPathInDirectedAcyclicGraph::shortestPath(
             adjPlus[edge[0]] = std::map<int, int>();
         adjPlus[edge[0]][edge[1]] = edge[2];
     }
-    bool visited[V] = {false};
+    std::vector<bool> visited(V, false);
     std::stack<int> topoStack;
     for (int i = 0; i < V; i++)
     {
@@ -54,7 +54,7 @@ std::vector<int> GeeksForGeeksShortestPathInDirectedAcyclicGraph::shortestPath(
 }
 
 void GeeksForGeeksShortestPathInDirectedAcyclicGraph::TopologicalSort
-(std::map<int, std::map<int, int>>& adjPlus, bool* visited, std::stack<int>& topoStack, int vertex)
+(std::map<int, std::map<int, int>>& adjPlus, std::vector<bool>& visited, std::stack<int>& topoStack, int vertex)
 {
     if (visited[vertex])
         return;
