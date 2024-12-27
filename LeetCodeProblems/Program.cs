@@ -10,7 +10,8 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "2363. Merge Similar Items";
+var scriptName = "1014. Best Sightseeing Pair";
 ScriptNameConvertor.PrintScriptName(scriptName);
+
 
 #endregion
