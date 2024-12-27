@@ -1,6 +1,6 @@
 namespace LeetCodeProblems;
 
-public class LeetCode433Minimum_Genetic_Mutation : BaseProblemClass
+public class LeetCode433MinimumGeneticMutation : BaseProblemClass
 {
     public override void Run()
     {
