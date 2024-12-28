@@ -94,6 +94,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/FS %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -145,6 +146,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/FS %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -184,6 +186,7 @@
     <ClCompile Include="Problems\Leetcode50PowXN.cpp" />
     <ClCompile Include="Problems\LeetCode54SpiralMatrix.cpp" />
     <ClCompile Include="Problems\LeetCode55JumpGame.cpp" />
+    <ClCompile Include="Problems\LeetCode689MaximumSumof3NonOverlappingSubarrays.cpp" />
     <ClCompile Include="Problems\LeetCode6ZigzagConversion.cpp" />
     <ClCompile Include="Problems\LeetCode70ClimbingStairs.cpp" />
     <ClCompile Include="Problems\LeetCode73SetMatrixZeroes.cpp" />
@@ -224,6 +227,7 @@
     <ClInclude Include="Problems\Leetcode50PowXN.h" />
     <ClInclude Include="Problems\LeetCode54SpiralMatrix.h" />
     <ClInclude Include="Problems\LeetCode55JumpGame.h" />
+    <ClInclude Include="Problems\LeetCode689MaximumSumof3NonOverlappingSubarrays.h" />
     <ClInclude Include="Problems\LeetCode6ZigzagConversion.h" />
     <ClInclude Include="Problems\LeetCode70ClimbingStairs.h" />
     <ClInclude Include="Problems\LeetCode73SetMatrixZeroes.h" />
