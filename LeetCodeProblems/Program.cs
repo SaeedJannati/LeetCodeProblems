@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1639NumberOfWaysToFormATargetStringGivenADictionary();
+var problem = new LeetCode2466CountWaysToBuildGoodStrings();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "1639. Number of Ways to Form a Target String Given a Dictionary";
+var scriptName = "2466. Count Ways To Build Good Strings";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
