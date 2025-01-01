@@ -1,0 +1,3 @@
+/home/saeed/projects/LeetCodeProblems/vscodecppapp/build/CMakeFiles/CPPConsoleApp.dir
+/home/saeed/projects/LeetCodeProblems/vscodecppapp/build/CMakeFiles/edit_cache.dir
+/home/saeed/projects/LeetCodeProblems/vscodecppapp/build/CMakeFiles/rebuild_cache.dir
