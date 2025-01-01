@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode2466CountWaysToBuildGoodStrings();
+var problem = new LeetCode59SpiralMatrixII();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "2466. Count Ways To Build Good Strings";
+var scriptName = "59. Spiral Matrix II";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
