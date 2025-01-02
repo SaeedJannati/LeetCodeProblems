@@ -11,4 +11,8 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/BaseProblem.cpp
         Problems/BaseProblem.h
         Problems/SampleProblem.cpp
-        Problems/SampleProblem.h)
+        Problems/SampleProblem.h
+        Auxilary/ScriptNamePrinter.cpp
+        Auxilary/ScriptNamePrinter.h
+        Problems/LeetCode2559CountVowelStringsInRanges.cpp
+        Problems/LeetCode2559CountVowelStringsInRanges.h)
