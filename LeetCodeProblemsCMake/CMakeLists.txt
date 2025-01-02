@@ -16,4 +16,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2559CountVowelStringsInRanges.h
         Problems/LeetCode2138DivideAStringIntoGroupsOfSizeK.cpp
         Problems/LeetCode2138DivideAStringIntoGroupsOfSizeK.h
+        Problems/LeetCode40CombinationSumII.cpp
+        Problems/LeetCode40CombinationSumII.h
 )

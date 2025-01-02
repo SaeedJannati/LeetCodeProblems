@@ -1,16 +1,17 @@
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/LeetCode2138DivideAStringIntoGroupsOfSizeK.h"
 #include "Problems/LeetCode2559CountVowelStringsInRanges.h"
+#include "Problems/LeetCode40CombinationSumII.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2138DivideAStringIntoGroupsOfSizeK();
+    const auto problem = new LeetCode40CombinationSumII();
     problem->Run();
     delete problem;
 
 #pragma  region  print script name
-    std::string scriptName = "2138. Divide a String Into Groups of Size k";
+    std::string scriptName = "40. Combination Sum II";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
