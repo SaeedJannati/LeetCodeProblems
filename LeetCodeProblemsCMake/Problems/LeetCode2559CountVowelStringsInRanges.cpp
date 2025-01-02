@@ -58,5 +58,5 @@ void LeetCode2559CountVowelStringsInRanges::Run() {
     std::vector<std::string> words = {"aba", "bcb", "ece", "aa", "e"};
     std::vector<std::vector<int> > queries = {{0, 2}, {1, 4}, {1, 1}};
     auto result = vowelStrings(words, queries);
-    Auxilaries::PrintVector(result);
+    Auxilaries::PrintVector<int>(result);
 }

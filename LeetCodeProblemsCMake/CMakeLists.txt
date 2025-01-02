@@ -10,9 +10,10 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Auxilary/Auxilaries.h
         Problems/BaseProblem.cpp
         Problems/BaseProblem.h
-        Problems/SampleProblem.cpp
-        Problems/SampleProblem.h
         Auxilary/ScriptNamePrinter.cpp
         Auxilary/ScriptNamePrinter.h
         Problems/LeetCode2559CountVowelStringsInRanges.cpp
-        Problems/LeetCode2559CountVowelStringsInRanges.h)
+        Problems/LeetCode2559CountVowelStringsInRanges.h
+        Problems/LeetCode2138DivideAStringIntoGroupsOfSizeK.cpp
+        Problems/LeetCode2138DivideAStringIntoGroupsOfSizeK.h
+)

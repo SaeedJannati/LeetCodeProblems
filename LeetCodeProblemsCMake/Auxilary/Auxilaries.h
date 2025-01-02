@@ -6,13 +6,18 @@
 #define AUXILARIES_H
 
 
-
+#include <iostream>
 #include <vector>
 
 class Auxilaries
 {
 public:
-    static  void PrintVector(std::vector<int>& vector);
+    template <typename T>
+    static  void PrintVector(std::vector<T>& vector) {
+        for (const auto i : vector)
+            std::cout << i << " ";
+        std::cout << '\n';
+    }
 };
 
 
