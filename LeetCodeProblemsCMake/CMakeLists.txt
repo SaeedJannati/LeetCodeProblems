@@ -18,4 +18,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2138DivideAStringIntoGroupsOfSizeK.h
         Problems/LeetCode40CombinationSumII.cpp
         Problems/LeetCode40CombinationSumII.h
+        Problems/LeetCode2270NumberOfWaysToSplitArray.cpp
+        Problems/LeetCode2270NumberOfWaysToSplitArray.h
 )

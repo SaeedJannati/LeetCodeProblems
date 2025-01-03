@@ -11,7 +11,7 @@ int main() {
     delete problem;
 
 #pragma  region  print script name
-    std::string scriptName = "40. Combination Sum II";
+    std::string scriptName = "2270. Number of Ways to Split Array";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }

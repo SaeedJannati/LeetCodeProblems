@@ -97,6 +97,12 @@ build CMakeFiles/LeetCodeProblemsCMake.dir/Problems/LeetCode40CombinationSumII.c
   OBJECT_DIR = CMakeFiles/LeetCodeProblemsCMake.dir
   OBJECT_FILE_DIR = CMakeFiles/LeetCodeProblemsCMake.dir/Problems
 
+build CMakeFiles/LeetCodeProblemsCMake.dir/Problems/LeetCode2270NumberOfWaysToSplitArray.cpp.o: CXX_COMPILER__LeetCodeProblemsCMake_unscanned_Debug /home/saeed/projects/LeetCodeProblems/LeetCodeProblemsCMake/Problems/LeetCode2270NumberOfWaysToSplitArray.cpp || cmake_object_order_depends_target_LeetCodeProblemsCMake
+  DEP_FILE = CMakeFiles/LeetCodeProblemsCMake.dir/Problems/LeetCode2270NumberOfWaysToSplitArray.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/LeetCodeProblemsCMake.dir
+  OBJECT_FILE_DIR = CMakeFiles/LeetCodeProblemsCMake.dir/Problems
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LeetCodeProblemsCMake
@@ -105,7 +111,7 @@ build CMakeFiles/LeetCodeProblemsCMake.dir/Problems/LeetCode40CombinationSumII.c
 #############################################
 # Link the executable LeetCodeProblemsCMake
 
-build LeetCodeProblemsCMake: CXX_EXECUTABLE_LINKER__LeetCodeProblemsCMake_Debug CMakeFiles/LeetCodeProblemsCMake.dir/main.cpp.o CMakeFiles/LeetCodeProblemsCMake.dir/Auxilary/TreeNode.cpp.o CMakeFiles/LeetCodeProblemsCMake.dir/Auxilary/Auxilaries.cpp.o CMakeFiles/LeetCodeProblemsCMake.dir/Problems/BaseProblem.cpp.o CMakeFiles/LeetCodeProblemsCMake.dir/Auxilary/ScriptNamePrinter.cpp.o CMakeFiles/LeetCodeProblemsCMake.dir/Problems/LeetCode2559CountVowelStringsInRanges.cpp.o CMakeFiles/LeetCodeProblemsCMake.dir/Problems/LeetCode2138DivideAStringIntoGroupsOfSizeK.cpp.o CMakeFiles/LeetCodeProblemsCMake.dir/Problems/LeetCode40CombinationSumII.cpp.o
+build LeetCodeProblemsCMake: CXX_EXECUTABLE_LINKER__LeetCodeProblemsCMake_Debug CMakeFiles/LeetCodeProblemsCMake.dir/main.cpp.o CMakeFiles/LeetCodeProblemsCMake.dir/Auxilary/TreeNode.cpp.o CMakeFiles/LeetCodeProblemsCMake.dir/Auxilary/Auxilaries.cpp.o CMakeFiles/LeetCodeProblemsCMake.dir/Problems/BaseProblem.cpp.o CMakeFiles/LeetCodeProblemsCMake.dir/Auxilary/ScriptNamePrinter.cpp.o CMakeFiles/LeetCodeProblemsCMake.dir/Problems/LeetCode2559CountVowelStringsInRanges.cpp.o CMakeFiles/LeetCodeProblemsCMake.dir/Problems/LeetCode2138DivideAStringIntoGroupsOfSizeK.cpp.o CMakeFiles/LeetCodeProblemsCMake.dir/Problems/LeetCode40CombinationSumII.cpp.o CMakeFiles/LeetCodeProblemsCMake.dir/Problems/LeetCode2270NumberOfWaysToSplitArray.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/LeetCodeProblemsCMake.dir
   POST_BUILD = :
