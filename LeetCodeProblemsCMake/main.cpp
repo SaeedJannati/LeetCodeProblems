@@ -2,17 +2,18 @@
 
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/LeetCode184Sum.h"
+#include "Problems/LeetCode47PermutationsII.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode184Sum();
+    const auto problem = new LeetCode47PermutationsII();
     problem->Run();
     delete problem;
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "18. 4Sum";
+    const std::string scriptName = "47. Permutations II";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
