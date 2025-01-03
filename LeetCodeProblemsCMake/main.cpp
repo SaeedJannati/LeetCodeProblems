@@ -1,17 +1,16 @@
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/LeetCode2138DivideAStringIntoGroupsOfSizeK.h"
-#include "Problems/LeetCode2559CountVowelStringsInRanges.h"
-#include "Problems/LeetCode40CombinationSumII.h"
+#include "Problems/LeetCode2270NumberOfWaysToSplitArray.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode40CombinationSumII();
+    const auto problem = new LeetCode2270NumberOfWaysToSplitArray();
     problem->Run();
     delete problem;
 
 #pragma  region  print script name
-    std::string scriptName = "2270. Number of Ways to Split Array";
+    const std::string scriptName = "2270. Number of Ways to Split Array";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }

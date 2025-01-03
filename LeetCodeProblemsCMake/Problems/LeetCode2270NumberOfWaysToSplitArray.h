@@ -6,10 +6,13 @@
 #define LEETCODE2270NUMBEROFWAYSTOSPLITARRAY_H
 #include <vector>
 
+#include "BaseProblem.h"
 
-class LeetCode2270NumberOfWaysToSplitArray {
+
+class LeetCode2270NumberOfWaysToSplitArray: BaseProblem {
 public:
     int waysToSplitArray(std::vector<int>& nums);
+    void Run() override;
 };
 
 
