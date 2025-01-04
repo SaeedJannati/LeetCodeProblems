@@ -3,18 +3,19 @@
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/LeetCode184Sum.h"
 #include "Problems/LeetCode1930UniqueLength3PalindromicSubsequences.h"
+#include "Problems/LeetCode44WildcardMatching.h"
 #include "Problems/LeetCode47PermutationsII.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode1930UniqueLength3PalindromicSubsequences();
+    const auto problem = new LeetCode44WildcardMatching();
     problem->Run();
     delete problem;
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1930. Unique Length-3 Palindromic Subsequences";
+    const std::string scriptName = "44. Wildcard Matching";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }

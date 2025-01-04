@@ -26,4 +26,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode47PermutationsII.h
         Problems/LeetCode1930UniqueLength3PalindromicSubsequences.cpp
         Problems/LeetCode1930UniqueLength3PalindromicSubsequences.h
+        Problems/LeetCode44WildcardMatching.cpp
+        Problems/LeetCode44WildcardMatching.h
 )
