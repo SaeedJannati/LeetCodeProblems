@@ -24,4 +24,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode184Sum.h
         Problems/LeetCode47PermutationsII.cpp
         Problems/LeetCode47PermutationsII.h
+        Problems/LeetCode1930UniqueLength3PalindromicSubsequences.cpp
+        Problems/LeetCode1930UniqueLength3PalindromicSubsequences.h
 )
