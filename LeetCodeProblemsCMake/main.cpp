@@ -6,17 +6,18 @@
 #include "Problems/LeetCode44WildcardMatching.h"
 #include "Problems/LeetCode47PermutationsII.h"
 #include "Problems/LeetCode60PermutationSequence.h"
+#include "Problems/LeetCode83RemoveDuplicatesFromSortedList.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode60PermutationSequence();
+    const auto problem = new LeetCode83RemoveDuplicatesFromSortedList();
     problem->Run();
     delete problem;
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "60. Permutation Sequence";
+    const std::string scriptName = "83. Remove Duplicates from Sorted List";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
