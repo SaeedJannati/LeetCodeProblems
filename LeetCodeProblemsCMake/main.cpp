@@ -8,17 +8,18 @@
 #include "Problems/LeetCode60PermutationSequence.h"
 #include "Problems/LeetCode65ValidNumber.h"
 #include "Problems/LeetCode83RemoveDuplicatesFromSortedList.h"
+#include "Problems/LeetCode881BoatsToSavePeople.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode65ValidNumber();
+    const auto problem = new LeetCode881BoatsToSavePeople();
     problem->Run();
     delete problem;
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "65. Valid Number";
+    const std::string scriptName = "881. Boats to Save People";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }

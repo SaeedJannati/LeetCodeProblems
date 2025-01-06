@@ -35,4 +35,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode83RemoveDuplicatesFromSortedList.h
         Problems/LeetCode65ValidNumber.cpp
         Problems/LeetCode65ValidNumber.h
+        Problems/LeetCode881BoatsToSavePeople.cpp
+        Problems/LeetCode881BoatsToSavePeople.h
 )
