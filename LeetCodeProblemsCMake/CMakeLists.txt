@@ -37,4 +37,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode65ValidNumber.h
         Problems/LeetCode881BoatsToSavePeople.cpp
         Problems/LeetCode881BoatsToSavePeople.h
+        Problems/LeetCode85MaximalRectangle.cpp
+        Problems/LeetCode85MaximalRectangle.h
 )
