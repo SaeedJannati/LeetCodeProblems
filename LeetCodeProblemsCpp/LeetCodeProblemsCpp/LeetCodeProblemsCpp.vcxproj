@@ -183,6 +183,7 @@
     <ClCompile Include="Problems\LeetCode215FindKthElement.cpp" />
     <ClCompile Include="Problems\LeetCode226InvertBinaryTree.cpp" />
     <ClCompile Include="Problems\LeetCode2381ShiftingLettersII.cpp" />
+    <ClCompile Include="Problems\LeetCode3042CountPrefixAndSuffixPairsI.cpp" />
     <ClCompile Include="Problems\LeetCode37SudokuSolver.cpp" />
     <ClCompile Include="Problems\LeetCode38CountandSay.cpp" />
     <ClCompile Include="Problems\LeetCode45JumpGameII.cpp" />
@@ -229,6 +230,7 @@
     <ClInclude Include="Problems\LeetCode215FindKthElement.h" />
     <ClInclude Include="Problems\LeetCode226InvertBinaryTree.h" />
     <ClInclude Include="Problems\LeetCode2381ShiftingLettersII.h" />
+    <ClInclude Include="Problems\LeetCode3042CountPrefixAndSuffixPairsI.h" />
     <ClInclude Include="Problems\LeetCode37SudokuSolver.h" />
     <ClInclude Include="Problems\LeetCode38CountandSay.h" />
     <ClInclude Include="Problems\LeetCode45JumpGameII.h" />
