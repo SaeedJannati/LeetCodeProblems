@@ -10,7 +10,7 @@ int LeetCode3042CountPrefixAndSuffixPairsI::countPrefixSuffixPairs(std::vector<s
     int count=0;
     int largerWordSize=0;
     bool isMatch=false;
-    for (int i = 0,e=wordSize; i <wordSize ; i++)
+    for (int i = 0; i <wordSize ; i++)
     {
         for (int j = i + 1; j <wordSize; j++)
         {
