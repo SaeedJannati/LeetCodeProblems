@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "Auxilary/ScriptNamePrinter.h"
+#include "Problems/LeetCode1443MinimumTimeToCollectAllApplesInATree.h"
 #include "Problems/LeetCode184Sum.h"
 #include "Problems/LeetCode1930UniqueLength3PalindromicSubsequences.h"
 #include "Problems/LeetCode2185CountingWordsWithAGivenPrefix.h"
@@ -16,13 +17,13 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode310MinimumHeightTrees();
+    const auto problem = new LeetCode1443MinimumTimeToCollectAllApplesInATree();
     problem->Run();
     delete problem;
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "310. Minimum Height Trees";
+    const std::string scriptName = "1443. Minimum Time to Collect All Apples in a Tree";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }

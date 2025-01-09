@@ -43,4 +43,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2185CountingWordsWithAGivenPrefix.h
         Problems/LeetCode310MinimumHeightTrees.cpp
         Problems/LeetCode310MinimumHeightTrees.h
+        Problems/LeetCode1443MinimumTimeToCollectAllApplesInATree.cpp
+        Problems/LeetCode1443MinimumTimeToCollectAllApplesInATree.h
 )
