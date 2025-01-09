@@ -39,4 +39,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode881BoatsToSavePeople.h
         Problems/LeetCode85MaximalRectangle.cpp
         Problems/LeetCode85MaximalRectangle.h
+        Problems/LeetCode2185CountingWordsWithAGivenPrefix.cpp
+        Problems/LeetCode2185CountingWordsWithAGivenPrefix.h
 )

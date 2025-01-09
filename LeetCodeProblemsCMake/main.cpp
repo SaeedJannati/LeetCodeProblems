@@ -3,6 +3,7 @@
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/LeetCode184Sum.h"
 #include "Problems/LeetCode1930UniqueLength3PalindromicSubsequences.h"
+#include "Problems/LeetCode2185CountingWordsWithAGivenPrefix.h"
 #include "Problems/LeetCode44WildcardMatching.h"
 #include "Problems/LeetCode47PermutationsII.h"
 #include "Problems/LeetCode60PermutationSequence.h"
@@ -14,13 +15,13 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode85MaximalRectangle();
+    const auto problem = new LeetCode2185CountingWordsWithAGivenPrefix();
     problem->Run();
     delete problem;
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "85. Maximal Rectangle";
+    const std::string scriptName = "2185. Counting Words With a Given Prefix";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
