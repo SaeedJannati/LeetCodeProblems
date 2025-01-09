@@ -2,17 +2,6 @@
 
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/LeetCode1443MinimumTimeToCollectAllApplesInATree.h"
-#include "Problems/LeetCode184Sum.h"
-#include "Problems/LeetCode1930UniqueLength3PalindromicSubsequences.h"
-#include "Problems/LeetCode2185CountingWordsWithAGivenPrefix.h"
-#include "Problems/LeetCode310MinimumHeightTrees.h"
-#include "Problems/LeetCode44WildcardMatching.h"
-#include "Problems/LeetCode47PermutationsII.h"
-#include "Problems/LeetCode60PermutationSequence.h"
-#include "Problems/LeetCode65ValidNumber.h"
-#include "Problems/LeetCode83RemoveDuplicatesFromSortedList.h"
-#include "Problems/LeetCode85MaximalRectangle.h"
-#include "Problems/LeetCode881BoatsToSavePeople.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
