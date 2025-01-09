@@ -41,4 +41,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode85MaximalRectangle.h
         Problems/LeetCode2185CountingWordsWithAGivenPrefix.cpp
         Problems/LeetCode2185CountingWordsWithAGivenPrefix.h
+        Problems/LeetCode310MinimumHeightTrees.cpp
+        Problems/LeetCode310MinimumHeightTrees.h
 )
