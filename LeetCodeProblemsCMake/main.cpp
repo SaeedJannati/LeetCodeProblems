@@ -2,17 +2,18 @@
 
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/LeetCode1443MinimumTimeToCollectAllApplesInATree.h"
+#include "Problems/LeetCode916WordSubsets.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode1443MinimumTimeToCollectAllApplesInATree();
+    const auto problem = new LeetCode916WordSubsets();
     problem->Run();
     delete problem;
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1443. Minimum Time to Collect All Apples in a Tree";
+    const std::string scriptName = "916. Word Subsets";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
