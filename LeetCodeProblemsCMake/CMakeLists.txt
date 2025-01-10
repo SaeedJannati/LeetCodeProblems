@@ -49,4 +49,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode916WordSubsets.h
         Problems/LeetCode382LinkedListRandomNode.cpp
         Problems/LeetCode382LinkedListRandomNode.h
+        Problems/LeetCode1404NumberOfStepsToReduceANumberInBinaryRepresentationToOne.cpp
+        Problems/LeetCode1404NumberOfStepsToReduceANumberInBinaryRepresentationToOne.h
 )

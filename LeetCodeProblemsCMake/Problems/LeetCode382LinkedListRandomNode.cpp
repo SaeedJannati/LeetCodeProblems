@@ -4,10 +4,10 @@
 
 #include "LeetCode382LinkedListRandomNode.h"
 
-#include <bits/random.h>
+#include <random>
 
 #include "../Auxilary/ListNode.h"
-struct ListNode;
+
 
 class Solution {
 private:
@@ -26,6 +26,7 @@ public:
 
     int getRandom() {
         std::mt19937 gen(random_device());
+
         std::uniform_int_distribution<> distrib(0, length-1);
         int index = distrib(gen);
         auto node = head;

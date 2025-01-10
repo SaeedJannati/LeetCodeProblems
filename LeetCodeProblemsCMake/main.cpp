@@ -1,19 +1,20 @@
 #include <iostream>
 
 #include "Auxilary/ScriptNamePrinter.h"
+#include "Problems/LeetCode1404NumberOfStepsToReduceANumberInBinaryRepresentationToOne.h"
 #include "Problems/LeetCode1443MinimumTimeToCollectAllApplesInATree.h"
 #include "Problems/LeetCode916WordSubsets.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode916WordSubsets();
+    const auto problem = new LeetCode1404NumberOfStepsToReduceANumberInBinaryRepresentationToOne();
     problem->Run();
     delete problem;
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "382. Linked List Random Node";
+    const std::string scriptName = "1404. Number of Steps to Reduce a Number in Binary Representation to One";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
