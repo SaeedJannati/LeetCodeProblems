@@ -13,7 +13,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "916. Word Subsets";
+    const std::string scriptName = "382. Linked List Random Node";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }

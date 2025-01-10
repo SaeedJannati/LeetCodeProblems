@@ -1,0 +1,16 @@
+//
+// Created by saeed on 1/10/25.
+//
+
+#ifndef LEETCODE382LINKEDLISTRANDOMNODE_H
+#define LEETCODE382LINKEDLISTRANDOMNODE_H
+
+
+
+class LeetCode382LinkedListRandomNode {
+
+};
+
+
+
+#endif //LEETCODE382LINKEDLISTRANDOMNODE_H
