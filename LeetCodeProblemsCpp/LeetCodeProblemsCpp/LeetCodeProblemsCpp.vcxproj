@@ -172,6 +172,7 @@
     <ClCompile Include="Problems\Leetcode12IntegerToRoman.cpp" />
     <ClCompile Include="Problems\LeetCode134GasStation.cpp" />
     <ClCompile Include="Problems\LeetCode135Candy.cpp" />
+    <ClCompile Include="Problems\LeetCode1400ConstructKPalindromeStrings.cpp" />
     <ClCompile Include="Problems\LeetCode1408StringMatchingInAnArray.cpp" />
     <ClCompile Include="Problems\LeetCode1422MaximumScoreAfterSplittingAString.cpp" />
     <ClCompile Include="Problems\LeetCode14ThreeSum.cpp" />
@@ -219,6 +220,7 @@
     <ClInclude Include="Problems\Leetcode12IntegerToRoman.h" />
     <ClInclude Include="Problems\LeetCode134GasStation.h" />
     <ClInclude Include="Problems\LeetCode135Candy.h" />
+    <ClInclude Include="Problems\LeetCode1400ConstructKPalindromeStrings.h" />
     <ClInclude Include="Problems\LeetCode1408StringMatchingInAnArray.h" />
     <ClInclude Include="Problems\LeetCode1422MaximumScoreAfterSplittingAString.h" />
     <ClInclude Include="Problems\LeetCode14ThreeSum.h" />
