@@ -16,8 +16,8 @@ bool LeetCode1400ConstructKPalindromeStrings::canConstruct(std::string s, int k)
         }
         map[c]++;
     }
-    int oddCount;
-    int evenCount;
+    int oddCount{0};
+    int evenCount{0};
     for (auto & pair: map)
     {
         if (pair.second % 2 == 0)

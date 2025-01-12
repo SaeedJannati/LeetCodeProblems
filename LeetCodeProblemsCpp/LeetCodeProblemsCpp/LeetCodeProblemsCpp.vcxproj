@@ -181,6 +181,7 @@
     <ClCompile Include="Problems\LeetCode198HouseRobber.cpp" />
     <ClCompile Include="Problems\LeetCode206ReverseLinkedList.cpp" />
     <ClCompile Include="Problems\LeetCode20ValidParentheses.cpp" />
+    <ClCompile Include="Problems\LeetCode2116CheckIfAParenthesesStringCanBeValid.cpp" />
     <ClCompile Include="Problems\LeetCode215FindKthElement.cpp" />
     <ClCompile Include="Problems\LeetCode226InvertBinaryTree.cpp" />
     <ClCompile Include="Problems\LeetCode2381ShiftingLettersII.cpp" />
@@ -229,6 +230,7 @@
     <ClInclude Include="Problems\LeetCode198HouseRobber.h" />
     <ClInclude Include="Problems\LeetCode206ReverseLinkedList.h" />
     <ClInclude Include="Problems\LeetCode20ValidParentheses.h" />
+    <ClInclude Include="Problems\LeetCode2116CheckIfAParenthesesStringCanBeValid.h" />
     <ClInclude Include="Problems\LeetCode215FindKthElement.h" />
     <ClInclude Include="Problems\LeetCode226InvertBinaryTree.h" />
     <ClInclude Include="Problems\LeetCode2381ShiftingLettersII.h" />
