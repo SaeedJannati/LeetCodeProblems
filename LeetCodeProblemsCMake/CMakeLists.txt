@@ -53,4 +53,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1404NumberOfStepsToReduceANumberInBinaryRepresentationToOne.h
         Problems/LeetCode107BinaryTreeLevelOrderTraversalII.cpp
         Problems/LeetCode107BinaryTreeLevelOrderTraversalII.h
+        Problems/LeetCode204CountPrimes.cpp
+        Problems/LeetCode204CountPrimes.h
 )
