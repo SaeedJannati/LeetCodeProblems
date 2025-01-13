@@ -14,7 +14,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1404. Number of Steps to Reduce a Number in Binary Representation to One";
+    const std::string scriptName = "107. Binary Tree Level Order Traversal II";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
