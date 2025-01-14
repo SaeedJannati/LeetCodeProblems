@@ -57,4 +57,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode204CountPrimes.h
         Problems/LeetCode2657FindThePrefixCommonArrayOfTwoArrays.cpp
         Problems/LeetCode2657FindThePrefixCommonArrayOfTwoArrays.h
+        Problems/LeetCode535EncodeAndDecodeTinyURL.cpp
+        Problems/LeetCode535EncodeAndDecodeTinyURL.h
 )

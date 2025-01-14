@@ -16,7 +16,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2657. Find the Prefix Common Array of Two Arrays";
+    const std::string scriptName = "535. Encode and Decode TinyURL";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
