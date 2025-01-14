@@ -61,4 +61,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode535EncodeAndDecodeTinyURL.h
         Problems/LeetCode109ConvertSortedListToBinarySearchTree.cpp
         Problems/LeetCode109ConvertSortedListToBinarySearchTree.h
+        Problems/LeetCode115DistinctSubsequences.cpp
+        Problems/LeetCode115DistinctSubsequences.h
 )
