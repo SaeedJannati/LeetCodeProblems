@@ -59,4 +59,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2657FindThePrefixCommonArrayOfTwoArrays.h
         Problems/LeetCode535EncodeAndDecodeTinyURL.cpp
         Problems/LeetCode535EncodeAndDecodeTinyURL.h
+        Problems/LeetCode109ConvertSortedListToBinarySearchTree.cpp
+        Problems/LeetCode109ConvertSortedListToBinarySearchTree.h
 )
