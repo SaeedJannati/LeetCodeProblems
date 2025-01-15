@@ -67,4 +67,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2429MinimizeXOR.h
         Problems/LeetCode140WordBreakII.cpp
         Problems/LeetCode140WordBreakII.h
+        Problems/LeetCode154FindMinimumInRotatedSortedArrayII.cpp
+        Problems/LeetCode154FindMinimumInRotatedSortedArrayII.h
 )
