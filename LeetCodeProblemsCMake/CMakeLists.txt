@@ -65,4 +65,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode115DistinctSubsequences.h
         Problems/LeetCode2429MinimizeXOR.cpp
         Problems/LeetCode2429MinimizeXOR.h
+        Problems/LeetCode140WordBreakII.cpp
+        Problems/LeetCode140WordBreakII.h
 )

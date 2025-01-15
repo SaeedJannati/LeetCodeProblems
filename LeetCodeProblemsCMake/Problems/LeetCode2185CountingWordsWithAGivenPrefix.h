@@ -29,8 +29,8 @@ public:
     PrefixTreeNode() {
     }
 
-    PrefixTreeNode(std::vector<std::string> words) {
-        for (auto word: words) {
+    PrefixTreeNode(std::vector<std::string>& words) {
+        for (auto& word: words) {
             auto node = this;
             for (auto c: word) {
                 if (!node->children.contains(c))
