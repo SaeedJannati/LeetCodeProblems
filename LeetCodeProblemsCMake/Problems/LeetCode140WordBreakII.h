@@ -22,21 +22,11 @@ class TrieNode {
 public:
     bool isWord {false};
 
-    TrieNode() = default;
+    TrieNode();
+~TrieNode();
+    explicit TrieNode(std::vector<std::string>& words);
 
-    explicit TrieNode(std::vector<std::string>& words) {
-        for (auto& word: words) {
-            auto node = this;
-            for (auto c: word) {
-                if (!node->children.contains(c))
-                    node->children[c] = std::make_unique<TrieNode>();
-                node = node->children[c].get();
-            }
-            node->isWord=true;
-        }
-    }
-
-    std::unordered_map<char, std::unique_ptr<TrieNode> > children;
+    std::unordered_map<char, TrieNode* > children;
 };
 
 

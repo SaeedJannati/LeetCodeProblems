@@ -9,7 +9,7 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode184Sum();
+    const auto problem = new LeetCode140WordBreakII();
     problem->Run();
     delete problem;
 
