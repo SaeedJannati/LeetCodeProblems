@@ -1,23 +1,18 @@
 #include <iostream>
 
 #include "Auxilary/ScriptNamePrinter.h"
-#include "Problems/LeetCode115DistinctSubsequences.h"
-#include "Problems/LeetCode1404NumberOfStepsToReduceANumberInBinaryRepresentationToOne.h"
-#include "Problems/LeetCode1443MinimumTimeToCollectAllApplesInATree.h"
-#include "Problems/LeetCode204CountPrimes.h"
-#include "Problems/LeetCode2657FindThePrefixCommonArrayOfTwoArrays.h"
-#include "Problems/LeetCode916WordSubsets.h"
+#include "Problems/LeetCode2429MinimizeXOR.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode115DistinctSubsequences();
+    const auto problem = new LeetCode2429MinimizeXOR();
     problem->Run();
     delete problem;
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "115. Distinct Subsequences";
+    const std::string scriptName = "2429. Minimize XOR";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
