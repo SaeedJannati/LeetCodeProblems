@@ -16,7 +16,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "154. Find Minimum in Rotated Sorted Array II";
+    const std::string scriptName = "2425. Bitwise XOR of All Pairings";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
