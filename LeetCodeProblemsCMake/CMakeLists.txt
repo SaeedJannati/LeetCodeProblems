@@ -73,4 +73,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2425BitwiseXOROfAllPairings.h
         Problems/LeetCode43MultiplyStrings.cpp
         Problems/LeetCode43MultiplyStrings.h
+        Problems/LeetCode113PathSumII.cpp
+        Problems/LeetCode113PathSumII.h
 )
