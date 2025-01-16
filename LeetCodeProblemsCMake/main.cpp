@@ -6,17 +6,18 @@
 #include "Problems/LeetCode184Sum.h"
 #include "Problems/LeetCode2185CountingWordsWithAGivenPrefix.h"
 #include "Problems/LeetCode2429MinimizeXOR.h"
+#include "Problems/LeetCode43MultiplyStrings.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode154FindMinimumInRotatedSortedArrayII();
+    const auto problem = new LeetCode43MultiplyStrings();
     problem->Run();
     delete problem;
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2425. Bitwise XOR of All Pairings";
+    const std::string scriptName = "43. Multiply Strings";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
