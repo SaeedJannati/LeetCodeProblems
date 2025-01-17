@@ -19,7 +19,6 @@ int LeetCode29DivideTwoIntegers::divide(int dividend, int divisor) {
     if (divisor == 0) {
         return isPositive ? maxInt : minInt;
     }
-    const int delta = isPositive ? 1 : -1;
     long longDividend = dividend;
     if (longDividend < 0)
         longDividend = -longDividend;
@@ -39,11 +38,22 @@ int LeetCode29DivideTwoIntegers::divide(int dividend, int divisor) {
         return result;
     }
 
-    while (longDividend >= 0) {
-        longDividend -= longDivisor;
-        counter += delta;
+    while (longDividend >= longDivisor) {
+        long expDivisor = longDivisor;
+        long steps=1;
+        while (longDividend >=expDivisor) {
+            longDividend -= expDivisor;
+            // expDivisor+=expDivisor;
+            //Or just move every body one bit to left: a= a<<1 -> a=<<1
+            expDivisor<<=1;
+            counter+=steps;
+            // steps+=steps;
+            steps<<=1;
+        }
     }
-    counter -= delta;
+
+    if (!isPositive)
+        counter = -counter;
     result= counter;
     if (result>maxInt)
         return maxInt;
@@ -53,7 +63,7 @@ int LeetCode29DivideTwoIntegers::divide(int dividend, int divisor) {
 }
 
 void LeetCode29DivideTwoIntegers::Run() {
-    int dividend = 2147483647;
-    int divisor = -1;
+    int dividend = 10;
+    int divisor = 3;
     std::cout << divide(dividend,divisor) << std::endl;
 }
