@@ -1,18 +1,19 @@
 #include <iostream>
 
 #include "Auxilary/ScriptNamePrinter.h"
+#include "Problems/LeetCode214ShortestPalindrome.h"
 #include "Problems/LeetCode29DivideTwoIntegers.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode29DivideTwoIntegers();
+    const auto problem = new LeetCode214ShortestPalindrome();
     problem->Run();
     delete problem;
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "29. Divide Two Integers";
+    const std::string scriptName = "214. Shortest Palindrome";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }

@@ -79,4 +79,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2683NeighboringBitwiseXOR.h
         Problems/LeetCode29DivideTwoIntegers.cpp
         Problems/LeetCode29DivideTwoIntegers.h
+        Problems/LeetCode214ShortestPalindrome.cpp
+        Problems/LeetCode214ShortestPalindrome.h
 )
