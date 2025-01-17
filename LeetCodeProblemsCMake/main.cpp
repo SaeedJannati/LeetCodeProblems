@@ -6,18 +6,19 @@
 #include "Problems/LeetCode184Sum.h"
 #include "Problems/LeetCode2185CountingWordsWithAGivenPrefix.h"
 #include "Problems/LeetCode2429MinimizeXOR.h"
+#include "Problems/LeetCode2683NeighboringBitwiseXOR.h"
 #include "Problems/LeetCode43MultiplyStrings.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode43MultiplyStrings();
+    const auto problem = new LeetCode2683NeighboringBitwiseXOR();
     problem->Run();
     delete problem;
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "113. Path Sum II";
+    const std::string scriptName = "2683. Neighboring Bitwise XOR";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
