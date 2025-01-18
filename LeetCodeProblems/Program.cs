@@ -3,7 +3,7 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode59SpiralMatrixII();
+var problem = new LeetCode1368MinimumCostToMakeAtLeastOneValidPathInAGrid();
 
 problem.Run();
 
