@@ -81,4 +81,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode29DivideTwoIntegers.h
         Problems/LeetCode214ShortestPalindrome.cpp
         Problems/LeetCode214ShortestPalindrome.h
+        Problems/LeetCode743NetworkDelayTime.cpp
+        Problems/LeetCode743NetworkDelayTime.h
 )
