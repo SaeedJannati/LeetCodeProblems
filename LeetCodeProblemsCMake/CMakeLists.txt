@@ -83,4 +83,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode214ShortestPalindrome.h
         Problems/LeetCode743NetworkDelayTime.cpp
         Problems/LeetCode743NetworkDelayTime.h
+        Problems/LeetCode980UniquePathsIII.cpp
+        Problems/LeetCode980UniquePathsIII.h
 )
