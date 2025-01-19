@@ -15,7 +15,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "980. Unique Paths III";
+    const std::string scriptName = "407. Trapping Rain Water II";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }

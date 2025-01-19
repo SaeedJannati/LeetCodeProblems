@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1368MinimumCostToMakeAtLeastOneValidPathInAGrid();
+var problem = new LeetCode407TrappingRainWaterII();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "2002. Maximum Product of the Length of Two Palindromic Subsequences";
+var scriptName = "407. Trapping Rain Water II";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
