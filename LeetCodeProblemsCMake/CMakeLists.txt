@@ -85,4 +85,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode743NetworkDelayTime.h
         Problems/LeetCode980UniquePathsIII.cpp
         Problems/LeetCode980UniquePathsIII.h
+        Problems/LeetCode2661FirstCompletelyPaintedRowOrColumn.cpp
+        Problems/LeetCode2661FirstCompletelyPaintedRowOrColumn.h
 )
