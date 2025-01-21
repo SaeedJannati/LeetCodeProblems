@@ -179,6 +179,7 @@
     <ClCompile Include="Problems\LeetCode150SameTree.cpp" />
     <ClCompile Include="Problems\LeetCode1769MinimumNumberOfOperationsToMoveAllBallsToEachBox.cpp" />
     <ClCompile Include="Problems\LeetCode198HouseRobber.cpp" />
+    <ClCompile Include="Problems\LeetCode2017GridGame.cpp" />
     <ClCompile Include="Problems\LeetCode206ReverseLinkedList.cpp" />
     <ClCompile Include="Problems\LeetCode20ValidParentheses.cpp" />
     <ClCompile Include="Problems\LeetCode2116CheckIfAParenthesesStringCanBeValid.cpp" />
@@ -230,6 +231,7 @@
     <ClInclude Include="Problems\LeetCode150SameTree.h" />
     <ClInclude Include="Problems\LeetCode1769MinimumNumberOfOperationsToMoveAllBallsToEachBox.h" />
     <ClInclude Include="Problems\LeetCode198HouseRobber.h" />
+    <ClInclude Include="Problems\LeetCode2017GridGame.h" />
     <ClInclude Include="Problems\LeetCode206ReverseLinkedList.h" />
     <ClInclude Include="Problems\LeetCode20ValidParentheses.h" />
     <ClInclude Include="Problems\LeetCode2116CheckIfAParenthesesStringCanBeValid.h" />
