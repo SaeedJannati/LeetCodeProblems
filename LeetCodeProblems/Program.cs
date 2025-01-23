@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "407. Trapping Rain Water II";
+var scriptName = "89. Gray Code";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
