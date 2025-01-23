@@ -15,7 +15,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2661. First Completely Painted Row or Column";
+    const std::string scriptName = "1267. Count Servers that Communicate";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
