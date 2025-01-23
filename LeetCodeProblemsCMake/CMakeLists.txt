@@ -91,4 +91,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1267CountServersThatCommunicate.h
         Problems/LeetCode174DungeonGame.cpp
         Problems/LeetCode174DungeonGame.h
+        Problems/LeetCode191NumberOf1Bits.cpp
+        Problems/LeetCode191NumberOf1Bits.h
 )
