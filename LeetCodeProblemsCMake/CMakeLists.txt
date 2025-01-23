@@ -89,4 +89,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2661FirstCompletelyPaintedRowOrColumn.h
         Problems/LeetCode1267CountServersThatCommunicate.cpp
         Problems/LeetCode1267CountServersThatCommunicate.h
+        Problems/LeetCode174DungeonGame.cpp
+        Problems/LeetCode174DungeonGame.h
 )
