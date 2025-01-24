@@ -95,4 +95,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode191NumberOf1Bits.h
         Problems/LeetCode89GrayCode.cpp
         Problems/LeetCode89GrayCode.h
+        Problems/LeetCode802FindEventualSafeStates.cpp
+        Problems/LeetCode802FindEventualSafeStates.h
 )
