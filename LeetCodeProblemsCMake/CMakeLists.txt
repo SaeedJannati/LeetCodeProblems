@@ -87,4 +87,14 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode980UniquePathsIII.h
         Problems/LeetCode2661FirstCompletelyPaintedRowOrColumn.cpp
         Problems/LeetCode2661FirstCompletelyPaintedRowOrColumn.h
+        Problems/LeetCode1267CountServersThatCommunicate.cpp
+        Problems/LeetCode1267CountServersThatCommunicate.h
+        Problems/LeetCode174DungeonGame.cpp
+        Problems/LeetCode174DungeonGame.h
+        Problems/LeetCode191NumberOf1Bits.cpp
+        Problems/LeetCode191NumberOf1Bits.h
+        Problems/LeetCode89GrayCode.cpp
+        Problems/LeetCode89GrayCode.h
+        Problems/LeetCode802FindEventualSafeStates.cpp
+        Problems/LeetCode802FindEventualSafeStates.h
 )
