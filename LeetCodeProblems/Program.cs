@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode2948MakeLexicographicallySmallestArrayBySwappingElements();
+var problem = new LeetCode2127MaximumEmployeesToBeInvitedToAMeeting();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "2948. Make Lexicographically Smallest Array by Swapping Elements";
+var scriptName = "2127. Maximum Employees to Be Invited to a Meeting";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 

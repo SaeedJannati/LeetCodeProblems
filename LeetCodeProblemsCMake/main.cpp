@@ -1,24 +1,19 @@
 #include <iostream>
 
 #include "Auxilary/ScriptNamePrinter.h"
-#include "Problems/LeetCode174DungeonGame.h"
-#include "Problems/LeetCode214ShortestPalindrome.h"
-#include "Problems/LeetCode29DivideTwoIntegers.h"
-#include "Problems/LeetCode743NetworkDelayTime.h"
-#include "Problems/LeetCode802FindEventualSafeStates.h"
+
 #include "Problems/LeetCode89GrayCode.h"
-#include "Problems/LeetCode980UniquePathsIII.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode802FindEventualSafeStates();
+    const auto problem = new LeetCode89GrayCode();
     problem->Run();
     delete problem;
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "802. Find Eventual Safe States";
+    const std::string scriptName = "684. Redundant Connection";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
