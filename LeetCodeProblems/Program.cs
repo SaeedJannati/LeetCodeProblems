@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode2127MaximumEmployeesToBeInvitedToAMeeting();
+var problem = new LeetCode1462CourseScheduleIV();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "2127. Maximum Employees to Be Invited to a Meeting";
+var scriptName = "1462. Course Schedule IV";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
