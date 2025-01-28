@@ -1,19 +1,20 @@
 #include <iostream>
 
 #include "Auxilary/ScriptNamePrinter.h"
+#include "Problems/LeetCode684RedundantConnection.h"
 
 #include "Problems/LeetCode89GrayCode.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode89GrayCode();
+    const auto problem = new LeetCode684RedundantConnection();
     problem->Run();
     delete problem;
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2658. Maximum Number of Fish in a Grid";
+    const std::string scriptName = "684. Redundant Connection";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }

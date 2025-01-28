@@ -13,7 +13,7 @@ class Auxilaries
 {
 public:
     template <typename T>
-    static  void PrintVector(std::vector<T>& vector) {
+    static  void PrintVector(const std::vector<T>& vector) {
         std::cout << '[';
         for (const auto i : vector)
             std::cout << i << ",";
