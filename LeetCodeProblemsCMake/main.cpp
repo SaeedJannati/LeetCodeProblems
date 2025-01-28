@@ -1,5 +1,6 @@
 #include <iostream>
 
+#include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/LeetCode684RedundantConnection.h"
 
@@ -12,10 +13,15 @@ int main() {
     problem->Run();
     delete problem;
 
+
 #pragma  region  print script name
     std::cout<<'\n';
     const std::string scriptName = "684. Redundant Connection";
     ScriptNamePrinter::PrintScriptName(scriptName);
+#pragma endregion
+#pragma region convert to vector
+    std::string input="[[4,5],[1,2],[2,4],[3,4],[2,3]]";
+    Auxilaries::ConvertToVector(input);
 #pragma endregion
 }
 

@@ -20,6 +20,7 @@ public:
         std::cout << ']';
         std::cout << '\n';
     }
+  static   void ConvertToVector(std::string& str);
 };
 
 
