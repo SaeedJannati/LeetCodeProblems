@@ -13,7 +13,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "684. Redundant Connection";
+    const std::string scriptName = "2658. Maximum Number of Fish in a Grid";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }

@@ -97,4 +97,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode89GrayCode.h
         Problems/LeetCode802FindEventualSafeStates.cpp
         Problems/LeetCode802FindEventualSafeStates.h
+        Problems/LeetCode2658MaximumNumberOfFishInAGrid.cpp
+        Problems/LeetCode2658MaximumNumberOfFishInAGrid.h
 )
