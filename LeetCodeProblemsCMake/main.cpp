@@ -2,6 +2,7 @@
 
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
+#include "Problems/GeeksForGeeksAlienDictionary.h"
 #include "Problems/LeetCode684RedundantConnection.h"
 
 #include "Problems/LeetCode89GrayCode.h"
@@ -9,7 +10,7 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode684RedundantConnection();
+    const auto problem = new GeeksForGeeksAlienDictionary();
     problem->Run();
     delete problem;
 
