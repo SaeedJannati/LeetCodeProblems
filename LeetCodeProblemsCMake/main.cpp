@@ -6,18 +6,19 @@
 #include "Problems/LeetCode684RedundantConnection.h"
 
 #include "Problems/LeetCode89GrayCode.h"
+#include "Problems/LeetCode96UniqueBinarySearchTrees.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new GeeksForGeeksAlienDictionary();
+    const auto problem = new LeetCode96UniqueBinarySearchTrees();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "684. Redundant Connection";
+    const std::string scriptName = "96. Unique Binary Search Trees";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

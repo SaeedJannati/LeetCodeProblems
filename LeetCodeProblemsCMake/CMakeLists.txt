@@ -103,4 +103,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode684RedundantConnection.h
         Problems/GeeksForGeeksAlienDictionary.cpp
         Problems/GeeksForGeeksAlienDictionary.h
+        Problems/LeetCode96UniqueBinarySearchTrees.cpp
+        Problems/LeetCode96UniqueBinarySearchTrees.h
 )
