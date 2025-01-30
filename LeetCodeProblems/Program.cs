@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode785IsGraphBipartite();
+var problem = new LeetCode2493DivideNodesIntoTheMaximumNumberOfGroups();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "785. Is Graph Bipartite";
+var scriptName = "2493. Divide Nodes Into the Maximum Number of Groups";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
