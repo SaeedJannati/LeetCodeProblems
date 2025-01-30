@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "1007. Minimum Domino Rotations For Equal Row";
+var scriptName = "973. K Closest Points to Origin";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
