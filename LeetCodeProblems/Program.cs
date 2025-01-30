@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1462CourseScheduleIV();
+var problem = new LeetCode785IsGraphBipartite();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "1462. Course Schedule IV";
+var scriptName = "785. Is Graph Bipartite";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
