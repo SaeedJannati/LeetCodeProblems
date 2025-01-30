@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode2493DivideNodesIntoTheMaximumNumberOfGroups();
+var problem = new LeetCode1007MinimumDominoRotationsForEqualRow();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "2493. Divide Nodes Into the Maximum Number of Groups";
+var scriptName = "1007. Minimum Domino Rotations For Equal Row";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
