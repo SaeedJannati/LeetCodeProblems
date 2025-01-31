@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1007MinimumDominoRotationsForEqualRow();
+var problem = new LeetCode827MakingALargeIsland();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "973. K Closest Points to Origin";
+var scriptName = "827. Making A Large Island";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
