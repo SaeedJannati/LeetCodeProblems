@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode827MakingALargeIsland();
+var problem = new LeetCode904FruitIntoBaskets();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "827. Making A Large Island";
+var scriptName = "904. Fruit Into Baskets";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
