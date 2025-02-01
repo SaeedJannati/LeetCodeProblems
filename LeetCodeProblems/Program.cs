@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode904FruitIntoBaskets();
+var problem = new LeetCode329LongestIncreasingPathInAMatrix();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "904. Fruit Into Baskets";
+var scriptName = "329. Longest Increasing Path in a Matrix";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
