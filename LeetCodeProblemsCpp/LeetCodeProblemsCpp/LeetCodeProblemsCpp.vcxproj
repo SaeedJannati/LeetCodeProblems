@@ -189,6 +189,7 @@
     <ClCompile Include="Problems\LeetCode226InvertBinaryTree.cpp" />
     <ClCompile Include="Problems\LeetCode2381ShiftingLettersII.cpp" />
     <ClCompile Include="Problems\LeetCode3042CountPrefixAndSuffixPairsI.cpp" />
+    <ClCompile Include="Problems\LeetCode3151SpecialArrayI.cpp" />
     <ClCompile Include="Problems\LeetCode3223MinimumLengthOfStringAfterOperations.cpp" />
     <ClCompile Include="Problems\LeetCode37SudokuSolver.cpp" />
     <ClCompile Include="Problems\LeetCode38CountandSay.cpp" />
@@ -243,6 +244,7 @@
     <ClInclude Include="Problems\LeetCode226InvertBinaryTree.h" />
     <ClInclude Include="Problems\LeetCode2381ShiftingLettersII.h" />
     <ClInclude Include="Problems\LeetCode3042CountPrefixAndSuffixPairsI.h" />
+    <ClInclude Include="Problems\LeetCode3151SpecialArrayI.h" />
     <ClInclude Include="Problems\LeetCode3223MinimumLengthOfStringAfterOperations.h" />
     <ClInclude Include="Problems\LeetCode37SudokuSolver.h" />
     <ClInclude Include="Problems\LeetCode38CountandSay.h" />
