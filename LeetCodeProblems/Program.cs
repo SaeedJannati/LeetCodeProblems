@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode329LongestIncreasingPathInAMatrix();
+var problem = new LeetCode1752CheckIfArrayIsSortedAndRotated();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "329. Longest Increasing Path in a Matrix";
+var scriptName = "1752. Check if Array Is Sorted and Rotated";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
