@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1752CheckIfArrayIsSortedAndRotated();
+var problem = new LeetCode312BurstBalloons();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "1752. Check if Array Is Sorted and Rotated";
+var scriptName = "312. Burst Balloons";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
