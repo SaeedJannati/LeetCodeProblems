@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode312BurstBalloons();
+var problem = new LeetCode3105LongestStrictlyIncreasingOrStrictlyDecreasingSubarray();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "312. Burst Balloons";
+var scriptName = "3105. Longest Strictly Increasing or Strictly Decreasing Subarray";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
