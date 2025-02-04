@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "3105. Longest Strictly Increasing or Strictly Decreasing Subarray";
+var scriptName = "1800. Maximum Ascending Subarray Sum";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
