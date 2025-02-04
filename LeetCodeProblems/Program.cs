@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "1800. Maximum Ascending Subarray Sum";
+var scriptName = "1514. Path with Maximum Probability";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
