@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode3105LongestStrictlyIncreasingOrStrictlyDecreasingSubarray();
+var problem = new LeetCode126WordLadderII();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "1514. Path with Maximum Probability";
+var scriptName = "126. Word Ladder II";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
