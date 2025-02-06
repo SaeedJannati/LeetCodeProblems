@@ -1,9 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using LeetCodeProblems.Auxilaries;
+using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode126WordLadderII();
+var problem = new SearchInNames();
 
 problem.Run();
 
