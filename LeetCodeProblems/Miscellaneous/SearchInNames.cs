@@ -2,6 +2,10 @@ namespace LeetCodeProblems.Miscellaneous;
 
 public class SearchInNames : BaseProblemClass
 {
+    
+
+    #region using quick sort
+
     private void RecurseQuickSort(List<string> names, int begin, int end)
     {
         if (begin >= end)
@@ -24,14 +28,23 @@ public class SearchInNames : BaseProblemClass
     {
         RecurseQuickSort(names, 0, names.Count - 1);
     }
-
     public string GetSecondNameFromEnd(string names)
     {
-        var namesPart = names.Split(' ').ToList();
+        var namesPart = names.Split(' ').Where(i=>i.Length>0).ToList();
         QuickSort(namesPart);
         return namesPart[^2];
     }
-
+    #endregion
+# region  using max heap
+    // public string GetSecondNameFromEnd(string names)
+    // {
+    //     var namesPart = names.Split(' ').Where(i=>i.Length>0).ToList();
+    //     var queue = new PriorityQueue<string, string>(Comparer<string>.Create((a,b)=>-string.Compare(a, b, StringComparison.Ordinal)));
+    //     namesPart.ForEach(i=>queue.Enqueue(i,i));
+    //     queue.Dequeue();
+    //     return queue.Dequeue();
+    // }
+#endregion
     bool IsLexicographicallyBefore(string first, string second)
     {
         int firstLength = first.Length;
