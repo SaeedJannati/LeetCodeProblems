@@ -105,4 +105,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/GeeksForGeeksAlienDictionary.h
         Problems/LeetCode96UniqueBinarySearchTrees.cpp
         Problems/LeetCode96UniqueBinarySearchTrees.h
+        Problems/LeetCode1726TupleWithSameProduct.cpp
+        Problems/LeetCode1726TupleWithSameProduct.h
 )

@@ -18,7 +18,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "96. Unique Binary Search Trees";
+    const std::string scriptName = "1726. Tuple with Same Product";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
