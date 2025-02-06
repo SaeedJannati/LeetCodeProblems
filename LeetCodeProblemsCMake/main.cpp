@@ -3,6 +3,7 @@
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/GeeksForGeeksAlienDictionary.h"
+#include "Problems/LeetCode264UglyNumberII.h"
 #include "Problems/LeetCode684RedundantConnection.h"
 
 #include "Problems/LeetCode89GrayCode.h"
@@ -11,19 +12,19 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode96UniqueBinarySearchTrees();
+    const auto problem = new LeetCode264UglyNumberII();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1726. Tuple with Same Product";
+    const std::string scriptName = "264. Ugly Number II";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
     std::string input="[[4,5],[1,2],[2,4],[3,4],[2,3]]";
-    Auxilaries::ConvertToVector(input);
+  //  Auxilaries::ConvertToVector(input);
 #pragma endregion
 }
 

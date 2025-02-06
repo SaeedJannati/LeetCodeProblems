@@ -107,4 +107,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode96UniqueBinarySearchTrees.h
         Problems/LeetCode1726TupleWithSameProduct.cpp
         Problems/LeetCode1726TupleWithSameProduct.h
+        Problems/LeetCode264UglyNumberII.cpp
+        Problems/LeetCode264UglyNumberII.h
 )
