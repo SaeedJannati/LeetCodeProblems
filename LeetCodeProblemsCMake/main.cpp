@@ -3,6 +3,7 @@
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/GeeksForGeeksAlienDictionary.h"
+#include "Problems/LeetCode241DifferentWaysToAddParentheses.h"
 #include "Problems/LeetCode264UglyNumberII.h"
 #include "Problems/LeetCode3160FindTheNumberOfDistinctColorsAmongTheBalls.h"
 #include "Problems/LeetCode684RedundantConnection.h"
@@ -13,19 +14,19 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3160FindTheNumberOfDistinctColorsAmongTheBalls();
+    const auto problem = new LeetCode241DifferentWaysToAddParentheses();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3160. Find the Number of Distinct Colors Among the Balls";
+    const std::string scriptName = "241. Different Ways to Add Parentheses";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
     std::string input="[[1,4],[2,5],[1,3],[3,4]]";
-  Auxilaries::ConvertToVector(input);
+  // Auxilaries::ConvertToVector(input);
 #pragma endregion
 }
 
