@@ -21,7 +21,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "241. Different Ways to Add Parentheses";
+    const std::string scriptName = "116. Populating Next Right Pointers in Each Node";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

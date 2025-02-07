@@ -113,4 +113,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3160FindTheNumberOfDistinctColorsAmongTheBalls.h
         Problems/LeetCode241DifferentWaysToAddParentheses.cpp
         Problems/LeetCode241DifferentWaysToAddParentheses.h
+        Problems/LeetCode116PopulatingNextRightPointersInEachNode.cpp
+        Problems/LeetCode116PopulatingNextRightPointersInEachNode.h
 )
