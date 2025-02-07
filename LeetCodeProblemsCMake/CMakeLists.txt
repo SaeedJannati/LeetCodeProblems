@@ -109,4 +109,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1726TupleWithSameProduct.h
         Problems/LeetCode264UglyNumberII.cpp
         Problems/LeetCode264UglyNumberII.h
+        Problems/LeetCode3160FindTheNumberOfDistinctColorsAmongTheBalls.cpp
+        Problems/LeetCode3160FindTheNumberOfDistinctColorsAmongTheBalls.h
 )
