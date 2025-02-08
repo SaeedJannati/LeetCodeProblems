@@ -13,7 +13,7 @@
 int Eliminate(int &head, int &step, bool &fromLeft, int &n) {
     if (n == 1)
         return head;
-    if (fromLeft || n % 2 == 1) {
+    if (fromLeft || (n & 1) == 1) {
         head += step;
     }
     step <<= 1;
