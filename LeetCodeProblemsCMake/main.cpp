@@ -6,6 +6,7 @@
 #include "Problems/LeetCode241DifferentWaysToAddParentheses.h"
 #include "Problems/LeetCode264UglyNumberII.h"
 #include "Problems/LeetCode3160FindTheNumberOfDistinctColorsAmongTheBalls.h"
+#include "Problems/LeetCode390EliminationGame.h"
 #include "Problems/LeetCode684RedundantConnection.h"
 
 #include "Problems/LeetCode89GrayCode.h"
@@ -14,14 +15,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode241DifferentWaysToAddParentheses();
+    const auto problem = new LeetCode390EliminationGame();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "116. Populating Next Right Pointers in Each Node";
+    const std::string scriptName = "390. Elimination Game";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

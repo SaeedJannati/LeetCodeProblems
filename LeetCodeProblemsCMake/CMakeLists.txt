@@ -115,4 +115,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode241DifferentWaysToAddParentheses.h
         Problems/LeetCode116PopulatingNextRightPointersInEachNode.cpp
         Problems/LeetCode116PopulatingNextRightPointersInEachNode.h
+        Problems/LeetCode390EliminationGame.cpp
+        Problems/LeetCode390EliminationGame.h
 )
