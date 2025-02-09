@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode2364CountNumberOfBadPairs();
+var problem = new LeetCode309BestTimeToBuyAndSellStockWithCooldown();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "2364. Count Number of Bad Pairs";
+var scriptName = "309. Best Time to Buy and Sell Stock with Cooldown";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
