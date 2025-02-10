@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode309BestTimeToBuyAndSellStockWithCooldown();
+var problem = new LeetCode313SuperUglyNumber();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "309. Best Time to Buy and Sell Stock with Cooldown";
+var scriptName = "313. Super Ugly Number";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
