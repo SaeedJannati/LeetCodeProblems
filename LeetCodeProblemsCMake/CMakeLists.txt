@@ -117,4 +117,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode116PopulatingNextRightPointersInEachNode.h
         Problems/LeetCode390EliminationGame.cpp
         Problems/LeetCode390EliminationGame.h
+        Problems/LeetCode3174ClearDigits.cpp
+        Problems/LeetCode3174ClearDigits.h
 )
