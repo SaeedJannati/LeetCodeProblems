@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode132PalindromePartitioningII();
+var problem = new LeetCode1910RemoveAllOccurrencesOfASubstring();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "132. Palindrome Partitioning II";
+var scriptName = "1910. Remove All Occurrences of a Substring";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
