@@ -11,7 +11,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "1910. Remove All Occurrences of a Substring";
+var scriptName = "2342. Max Sum of a Pair With Equal Sum of Digits";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
