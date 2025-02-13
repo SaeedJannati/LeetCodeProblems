@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode486PredictTheWinner();
+var problem = new LeetCode273IntegerToEnglishWords();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "486. Predict the Winner";
+var scriptName = "273. Integer to English Words";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
