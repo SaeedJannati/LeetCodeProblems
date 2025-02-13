@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1910RemoveAllOccurrencesOfASubstring();
+var problem = new LeetCode3066MinimumOperationsToExceedThresholdValueII();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "2342. Max Sum of a Pair With Equal Sum of Digits";
+var scriptName = "3066. Minimum Operations to Exceed Threshold Value II";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
