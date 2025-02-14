@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode273IntegerToEnglishWords();
+var problem = new LeetCode1352ProductOfTheLastKNumbers();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "273. Integer to English Words";
+var scriptName = "1352. Product of the Last K Numbers";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
