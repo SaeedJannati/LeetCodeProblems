@@ -9,6 +9,9 @@ public class LeetCode2698FindThePunishmentNumberOfAnInteger : BaseProblemClass
         int[] digits = Enumerable.Repeat(0, 7).ToArray();
         for (int i = 9; i <= n; i++)
         {
+            //why for the love of god?! neglect it and check for all i's and you should be ok just added it to get a better runtime
+            if (i % 9 != 1 && i % 9 != 0) 
+                continue;
             square = i * i;
             if (!ShouldBeIncluded(square, i, digits))
                 continue;
