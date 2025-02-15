@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1352ProductOfTheLastKNumbers();
+var problem = new LeetCode2698FindThePunishmentNumberOfAnInteger();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "1352. Product of the Last K Numbers";
+var scriptName = "2698. Find the Punishment Number of an Integer";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
