@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode2698FindThePunishmentNumberOfAnInteger();
+var problem = new LeetCode1718ConstructTheLexicographicallyLargestValidSequence();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "2698. Find the Punishment Number of an Integer";
+var scriptName = "1718. Construct the Lexicographically Largest Valid Sequence";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
