@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1718ConstructTheLexicographicallyLargestValidSequence();
+var problem = new LeetCode1079LetterTilePossibilities();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "1718. Construct the Lexicographically Largest Valid Sequence";
+var scriptName = "1079. Letter Tile Possibilities";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
