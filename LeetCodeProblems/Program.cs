@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1079LetterTilePossibilities();
+var problem = new LeetCode2375ConstructSmallestNumberFromDIString();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "1079. Letter Tile Possibilities";
+var scriptName = "2375. Construct Smallest Number From DI String";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
