@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode2375ConstructSmallestNumberFromDIString();
+var problem = new LeetCode1415TheKthLexicographicalStringOfAllHappyStringsOfLengthN();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "2375. Construct Smallest Number From DI String";
+var scriptName = "1415. The k-th Lexicographical String of All Happy Strings of Length n";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
