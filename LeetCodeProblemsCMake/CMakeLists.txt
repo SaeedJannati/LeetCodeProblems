@@ -119,4 +119,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode390EliminationGame.h
         Problems/LeetCode3174ClearDigits.cpp
         Problems/LeetCode3174ClearDigits.h
+        Problems/LeetCode1980FindUniqueBinaryString.cpp
+        Problems/LeetCode1980FindUniqueBinaryString.h
 )
