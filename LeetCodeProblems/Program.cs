@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1415TheKthLexicographicalStringOfAllHappyStringsOfLengthN();
+var problem = new LeetCode220ContainsDuplicateIII();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "1415. The k-th Lexicographical String of All Happy Strings of Length n";
+var scriptName = "220. Contains Duplicate III";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
