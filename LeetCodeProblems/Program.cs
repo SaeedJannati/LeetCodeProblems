@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode220ContainsDuplicateIII();
+var problem = new LeetCode315CountOfSmallerNumbersAfterSelf();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "220. Contains Duplicate III";
+var scriptName = "315. Count of Smaller Numbers After Self";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
