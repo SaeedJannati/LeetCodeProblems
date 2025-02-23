@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1028RecoverATreeFromPreorderTraversal();
+var problem = new LeetCode889ConstructBinaryTreeFromPreorderAndPostorderTraversal();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "1028. Recover a Tree From Preorder Traversal";
+var scriptName = "889. Construct Binary Tree from Preorder and Postorder Traversal";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
