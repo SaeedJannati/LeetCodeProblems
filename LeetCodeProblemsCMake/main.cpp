@@ -23,7 +23,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1261. Find Elements in a Contaminated Binary Tree";
+    const std::string scriptName = "1524. Number of Sub-arrays With Odd Sum";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

@@ -123,4 +123,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1980FindUniqueBinaryString.h
         Problems/LeetCode1261FindElementsInAContaminatedBinaryTree.cpp
         Problems/LeetCode1261FindElementsInAContaminatedBinaryTree.h
+        Problems/LeetCode1524NumberOfSubarraysWithOddSum.cpp
+        Problems/LeetCode1524NumberOfSubarraysWithOddSum.h
 )
