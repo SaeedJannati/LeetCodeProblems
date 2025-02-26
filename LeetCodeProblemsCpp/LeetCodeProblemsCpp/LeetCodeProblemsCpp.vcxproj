@@ -177,6 +177,7 @@
     <ClCompile Include="Problems\LeetCode1422MaximumScoreAfterSplittingAString.cpp" />
     <ClCompile Include="Problems\LeetCode14ThreeSum.cpp" />
     <ClCompile Include="Problems\LeetCode150SameTree.cpp" />
+    <ClCompile Include="Problems\LeetCode1749MaximumAbsoluteSumOfAnySubarray.cpp" />
     <ClCompile Include="Problems\LeetCode1765MapOfHighestPeak.cpp" />
     <ClCompile Include="Problems\LeetCode1769MinimumNumberOfOperationsToMoveAllBallsToEachBox.cpp" />
     <ClCompile Include="Problems\LeetCode1790CheckIfOneStringSwapCanMakeStringsEqual.cpp" />
@@ -233,6 +234,7 @@
     <ClInclude Include="Problems\LeetCode1422MaximumScoreAfterSplittingAString.h" />
     <ClInclude Include="Problems\LeetCode14ThreeSum.h" />
     <ClInclude Include="Problems\LeetCode150SameTree.h" />
+    <ClInclude Include="Problems\LeetCode1749MaximumAbsoluteSumOfAnySubarray.h" />
     <ClInclude Include="Problems\LeetCode1765MapOfHighestPeak.h" />
     <ClInclude Include="Problems\LeetCode1769MinimumNumberOfOperationsToMoveAllBallsToEachBox.h" />
     <ClInclude Include="Problems\LeetCode1790CheckIfOneStringSwapCanMakeStringsEqual.h" />
