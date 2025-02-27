@@ -125,4 +125,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1261FindElementsInAContaminatedBinaryTree.h
         Problems/LeetCode1524NumberOfSubarraysWithOddSum.cpp
         Problems/LeetCode1524NumberOfSubarraysWithOddSum.h
+        Problems/LeetCode873LengthOfLongestFibonacciSubsequence.cpp
+        Problems/LeetCode873LengthOfLongestFibonacciSubsequence.h
 )
