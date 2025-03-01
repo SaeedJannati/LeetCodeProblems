@@ -11,7 +11,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "2467. Most Profitable Path in a Tree";
+var scriptName = "873. Length of Longest Fibonacci Subsequence";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
