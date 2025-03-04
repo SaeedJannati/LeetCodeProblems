@@ -24,12 +24,12 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "873. Length of Longest Fibonacci Subsequence";
+    const std::string scriptName = "1780. Check if Number is a Sum of Powers of Three";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
     std::string input="[1,2,3,4,5,6,7,8]";
-  Auxilaries::ConvertToVector(input);
+  // Auxilaries::ConvertToVector(input);
 #pragma endregion
 }
 

@@ -1,0 +1,17 @@
+//
+// Created by saeed on 3/4/25.
+//
+
+#ifndef LEETCODE1780CHECKIFNUMBERISASUMOFPOWERSOFTHREE_H
+#define LEETCODE1780CHECKIFNUMBERISASUMOFPOWERSOFTHREE_H
+
+
+
+class LeetCode1780CheckIfNumberIsASumOfPowersOfThree {
+    private:
+    bool checkPowersOfThree(int n) ;
+};
+
+
+
+#endif //LEETCODE1780CHECKIFNUMBERISASUMOFPOWERSOFTHREE_H

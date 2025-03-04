@@ -127,4 +127,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1524NumberOfSubarraysWithOddSum.h
         Problems/LeetCode873LengthOfLongestFibonacciSubsequence.cpp
         Problems/LeetCode873LengthOfLongestFibonacciSubsequence.h
+        Problems/LeetCode1780CheckIfNumberIsASumOfPowersOfThree.cpp
+        Problems/LeetCode1780CheckIfNumberIsASumOfPowersOfThree.h
 )
