@@ -129,4 +129,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode873LengthOfLongestFibonacciSubsequence.h
         Problems/LeetCode1780CheckIfNumberIsASumOfPowersOfThree.cpp
         Problems/LeetCode1780CheckIfNumberIsASumOfPowersOfThree.h
+        Problems/LeetCode2965FindMissingAndRepeatedValues.cpp
+        Problems/LeetCode2965FindMissingAndRepeatedValues.h
 )

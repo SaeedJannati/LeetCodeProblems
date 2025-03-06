@@ -6,6 +6,7 @@
 #include "Problems/LeetCode1980FindUniqueBinaryString.h"
 #include "Problems/LeetCode241DifferentWaysToAddParentheses.h"
 #include "Problems/LeetCode264UglyNumberII.h"
+#include "Problems/LeetCode2965FindMissingAndRepeatedValues.h"
 #include "Problems/LeetCode3160FindTheNumberOfDistinctColorsAmongTheBalls.h"
 #include "Problems/LeetCode390EliminationGame.h"
 #include "Problems/LeetCode684RedundantConnection.h"
@@ -17,19 +18,19 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode873LengthOfLongestFibonacciSubsequence();
+    const auto problem = new LeetCode2965FindMissingAndRepeatedValues();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1780. Check if Number is a Sum of Powers of Three";
+    const std::string scriptName = "2965. Find Missing and Repeated Values";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
-    std::string input="[1,2,3,4,5,6,7,8]";
-  // Auxilaries::ConvertToVector(input);
+    std::string input="[[9,1,7],[8,9,2],[3,4,6]]";
+  Auxilaries::ConvertToVector(input);
 #pragma endregion
 }
 
