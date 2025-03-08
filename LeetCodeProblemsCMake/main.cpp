@@ -25,7 +25,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2965. Find Missing and Repeated Values";
+    const std::string scriptName = "2379. Minimum Recolors to Get K Consecutive Black Blocks";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
