@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode2467MostProfitablePathInATree();
+var problem = new LeetCode2523ClosestPrimeNumbersInRange();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "873. Length of Longest Fibonacci Subsequence";
+var scriptName = "2523. Closest Prime Numbers in Range";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
