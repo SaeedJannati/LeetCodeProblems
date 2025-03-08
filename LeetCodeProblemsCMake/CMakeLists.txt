@@ -131,4 +131,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1780CheckIfNumberIsASumOfPowersOfThree.h
         Problems/LeetCode2965FindMissingAndRepeatedValues.cpp
         Problems/LeetCode2965FindMissingAndRepeatedValues.h
+        Problems/LeetCode2379MinimumRecolorsToGetKConsecutiveBlackBlocks.cpp
+        Problems/LeetCode2379MinimumRecolorsToGetKConsecutiveBlackBlocks.h
 )
