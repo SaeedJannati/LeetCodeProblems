@@ -133,4 +133,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2965FindMissingAndRepeatedValues.h
         Problems/LeetCode2379MinimumRecolorsToGetKConsecutiveBlackBlocks.cpp
         Problems/LeetCode2379MinimumRecolorsToGetKConsecutiveBlackBlocks.h
+        Problems/LeetCode3208AlternatingGroupsII.cpp
+        Problems/LeetCode3208AlternatingGroupsII.h
 )

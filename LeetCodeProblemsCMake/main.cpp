@@ -8,6 +8,7 @@
 #include "Problems/LeetCode264UglyNumberII.h"
 #include "Problems/LeetCode2965FindMissingAndRepeatedValues.h"
 #include "Problems/LeetCode3160FindTheNumberOfDistinctColorsAmongTheBalls.h"
+#include "Problems/LeetCode3208AlternatingGroupsII.h"
 #include "Problems/LeetCode390EliminationGame.h"
 #include "Problems/LeetCode684RedundantConnection.h"
 #include "Problems/LeetCode873LengthOfLongestFibonacciSubsequence.h"
@@ -18,14 +19,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2965FindMissingAndRepeatedValues();
+    const auto problem = new LeetCode3208AlternatingGroupsII();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2379. Minimum Recolors to Get K Consecutive Black Blocks";
+    const std::string scriptName = "3208. Alternating Groups II";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
