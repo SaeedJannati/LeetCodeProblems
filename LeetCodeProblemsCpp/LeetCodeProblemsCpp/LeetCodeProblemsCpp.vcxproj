@@ -193,6 +193,7 @@
     <ClCompile Include="Problems\LeetCode226InvertBinaryTree.cpp" />
     <ClCompile Include="Problems\LeetCode2381ShiftingLettersII.cpp" />
     <ClCompile Include="Problems\LeetCode2460ApplyOperationsToAnArray.cpp" />
+    <ClCompile Include="Problems\LeetCode2529MaximumCountOfPositiveIntegerAndNegativeInteger.cpp" />
     <ClCompile Include="Problems\LeetCode2570MergeTwo2DArraysBySummingValues.cpp" />
     <ClCompile Include="Problems\LeetCode3042CountPrefixAndSuffixPairsI.cpp" />
     <ClCompile Include="Problems\LeetCode3151SpecialArrayI.cpp" />
@@ -254,6 +255,7 @@
     <ClInclude Include="Problems\LeetCode226InvertBinaryTree.h" />
     <ClInclude Include="Problems\LeetCode2381ShiftingLettersII.h" />
     <ClInclude Include="Problems\LeetCode2460ApplyOperationsToAnArray.h" />
+    <ClInclude Include="Problems\LeetCode2529MaximumCountOfPositiveIntegerAndNegativeInteger.h" />
     <ClInclude Include="Problems\LeetCode2570MergeTwo2DArraysBySummingValues.h" />
     <ClInclude Include="Problems\LeetCode3042CountPrefixAndSuffixPairsI.h" />
     <ClInclude Include="Problems\LeetCode3151SpecialArrayI.h" />
