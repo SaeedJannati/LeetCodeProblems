@@ -135,4 +135,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2379MinimumRecolorsToGetKConsecutiveBlackBlocks.h
         Problems/LeetCode3208AlternatingGroupsII.cpp
         Problems/LeetCode3208AlternatingGroupsII.h
+        Problems/LeetCode3356ZeroArrayTransformationII.cpp
+        Problems/LeetCode3356ZeroArrayTransformationII.h
 )

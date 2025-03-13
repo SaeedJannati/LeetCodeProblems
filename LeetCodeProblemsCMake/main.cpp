@@ -9,6 +9,7 @@
 #include "Problems/LeetCode2965FindMissingAndRepeatedValues.h"
 #include "Problems/LeetCode3160FindTheNumberOfDistinctColorsAmongTheBalls.h"
 #include "Problems/LeetCode3208AlternatingGroupsII.h"
+#include "Problems/LeetCode3356ZeroArrayTransformationII.h"
 #include "Problems/LeetCode390EliminationGame.h"
 #include "Problems/LeetCode684RedundantConnection.h"
 #include "Problems/LeetCode873LengthOfLongestFibonacciSubsequence.h"
@@ -19,18 +20,18 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3208AlternatingGroupsII();
+    const auto problem = new LeetCode3356ZeroArrayTransformationII();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3208. Alternating Groups II";
+    const std::string scriptName = "3356. Zero Array Transformation II";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
-    std::string input="[[9,1,7],[8,9,2],[3,4,6]]";
+    std::string input="[[0,0,3],[0,0,2],[0,0,2],[0,0,5],[0,0,3],[0,0,4],[0,0,4],[0,0,3],[0,0,5],[0,0,4],[0,0,5],[0,0,3],[0,0,4],[0,0,1],[0,0,1]]";
   Auxilaries::ConvertToVector(input);
 #pragma endregion
 }
