@@ -137,4 +137,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3208AlternatingGroupsII.h
         Problems/LeetCode3356ZeroArrayTransformationII.cpp
         Problems/LeetCode3356ZeroArrayTransformationII.h
+        Problems/LeetCode2226MaximumCandiesAllocatedToKChildren.cpp
+        Problems/LeetCode2226MaximumCandiesAllocatedToKChildren.h
 )

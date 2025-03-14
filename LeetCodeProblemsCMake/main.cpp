@@ -4,6 +4,7 @@
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/GeeksForGeeksAlienDictionary.h"
 #include "Problems/LeetCode1980FindUniqueBinaryString.h"
+#include "Problems/LeetCode2226MaximumCandiesAllocatedToKChildren.h"
 #include "Problems/LeetCode241DifferentWaysToAddParentheses.h"
 #include "Problems/LeetCode264UglyNumberII.h"
 #include "Problems/LeetCode2965FindMissingAndRepeatedValues.h"
@@ -20,14 +21,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3356ZeroArrayTransformationII();
+    const auto problem = new LeetCode2226MaximumCandiesAllocatedToKChildren();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3356. Zero Array Transformation II";
+    const std::string scriptName = "2226. Maximum Candies Allocated to K Children";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
