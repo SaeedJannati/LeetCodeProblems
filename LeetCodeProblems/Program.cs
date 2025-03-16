@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode2523ClosestPrimeNumbersInRange();
+var problem = new LeetCode90SubsetsII();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "2523. Closest Prime Numbers in Range";
+var scriptName = "90. Subsets II";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
