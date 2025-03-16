@@ -196,6 +196,7 @@
     <ClCompile Include="Problems\LeetCode2529MaximumCountOfPositiveIntegerAndNegativeInteger.cpp" />
     <ClCompile Include="Problems\LeetCode2560HouseRobberIV.cpp" />
     <ClCompile Include="Problems\LeetCode2570MergeTwo2DArraysBySummingValues.cpp" />
+    <ClCompile Include="Problems\LeetCode2594MinimumTimeToRepairCars.cpp" />
     <ClCompile Include="Problems\LeetCode3042CountPrefixAndSuffixPairsI.cpp" />
     <ClCompile Include="Problems\LeetCode3151SpecialArrayI.cpp" />
     <ClCompile Include="Problems\LeetCode3223MinimumLengthOfStringAfterOperations.cpp" />
@@ -218,6 +219,7 @@
     <ClCompile Include="Problems\LeetCode92ReverseLinkedListII.cpp" />
     <ClCompile Include="Problems\LeetCode983MinimumCostForTickets.cpp" />
     <ClCompile Include="Problems\LeetCode9PalindromeNumber.cpp" />
+    <ClCompile Include="Problems\ScriptNamePrinter.cpp" />
     <ClCompile Include="Problems\TreeNode.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -259,6 +261,7 @@
     <ClInclude Include="Problems\LeetCode2529MaximumCountOfPositiveIntegerAndNegativeInteger.h" />
     <ClInclude Include="Problems\LeetCode2560HouseRobberIV.h" />
     <ClInclude Include="Problems\LeetCode2570MergeTwo2DArraysBySummingValues.h" />
+    <ClInclude Include="Problems\LeetCode2594MinimumTimeToRepairCars.h" />
     <ClInclude Include="Problems\LeetCode3042CountPrefixAndSuffixPairsI.h" />
     <ClInclude Include="Problems\LeetCode3151SpecialArrayI.h" />
     <ClInclude Include="Problems\LeetCode3223MinimumLengthOfStringAfterOperations.h" />
@@ -281,6 +284,7 @@
     <ClInclude Include="Problems\LeetCode92ReverseLinkedListII.h" />
     <ClInclude Include="Problems\LeetCode983MinimumCostForTickets.h" />
     <ClInclude Include="Problems\LeetCode9PalindromeNumber.h" />
+    <ClInclude Include="Problems\ScriptNamePrinter.h" />
     <ClInclude Include="Problems\TreeNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
