@@ -143,4 +143,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2206DivideArrayIntoEqualPairs.h
         Problems/LeetCode235LowestCommonAncestorOfABinarySearchTree.cpp
         Problems/LeetCode235LowestCommonAncestorOfABinarySearchTree.h
+        Problems/LeetCode318MaximumProductOfWordLengths.cpp
+        Problems/LeetCode318MaximumProductOfWordLengths.h
 )

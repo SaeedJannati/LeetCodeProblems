@@ -9,6 +9,7 @@
 #include "Problems/LeetCode264UglyNumberII.h"
 #include "Problems/LeetCode2965FindMissingAndRepeatedValues.h"
 #include "Problems/LeetCode3160FindTheNumberOfDistinctColorsAmongTheBalls.h"
+#include "Problems/LeetCode318MaximumProductOfWordLengths.h"
 #include "Problems/LeetCode3208AlternatingGroupsII.h"
 #include "Problems/LeetCode3356ZeroArrayTransformationII.h"
 #include "Problems/LeetCode390EliminationGame.h"
@@ -21,14 +22,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2226MaximumCandiesAllocatedToKChildren();
+    const auto problem = new LeetCode318MaximumProductOfWordLengths();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "235. Lowest Common Ancestor of a Binary Search Tree";
+    const std::string scriptName = "318. Maximum Product of Word Lengths";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
