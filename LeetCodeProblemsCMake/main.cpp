@@ -28,7 +28,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2226. Maximum Candies Allocated to K Children";
+    const std::string scriptName = "2206. Divide Array Into Equal Pairs";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
