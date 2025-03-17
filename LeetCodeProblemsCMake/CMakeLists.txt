@@ -139,4 +139,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3356ZeroArrayTransformationII.h
         Problems/LeetCode2226MaximumCandiesAllocatedToKChildren.cpp
         Problems/LeetCode2226MaximumCandiesAllocatedToKChildren.h
+        Problems/LeetCode2206DivideArrayIntoEqualPairs.cpp
+        Problems/LeetCode2206DivideArrayIntoEqualPairs.h
 )
