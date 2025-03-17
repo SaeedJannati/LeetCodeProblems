@@ -141,4 +141,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2226MaximumCandiesAllocatedToKChildren.h
         Problems/LeetCode2206DivideArrayIntoEqualPairs.cpp
         Problems/LeetCode2206DivideArrayIntoEqualPairs.h
+        Problems/LeetCode235LowestCommonAncestorOfABinarySearchTree.cpp
+        Problems/LeetCode235LowestCommonAncestorOfABinarySearchTree.h
 )

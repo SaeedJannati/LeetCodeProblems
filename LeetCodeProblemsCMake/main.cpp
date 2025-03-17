@@ -28,7 +28,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2206. Divide Array Into Equal Pairs";
+    const std::string scriptName = "235. Lowest Common Ancestor of a Binary Search Tree";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
