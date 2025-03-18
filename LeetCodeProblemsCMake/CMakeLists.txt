@@ -147,4 +147,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode318MaximumProductOfWordLengths.h
         Problems/LeetCode99RecoverBinarySearchTree.cpp
         Problems/LeetCode99RecoverBinarySearchTree.h
+        Problems/LeetCode2401LongestNiceSubarray.cpp
+        Problems/LeetCode2401LongestNiceSubarray.h
 )

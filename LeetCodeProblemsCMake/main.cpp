@@ -5,6 +5,7 @@
 #include "Problems/GeeksForGeeksAlienDictionary.h"
 #include "Problems/LeetCode1980FindUniqueBinaryString.h"
 #include "Problems/LeetCode2226MaximumCandiesAllocatedToKChildren.h"
+#include "Problems/LeetCode2401LongestNiceSubarray.h"
 #include "Problems/LeetCode241DifferentWaysToAddParentheses.h"
 #include "Problems/LeetCode264UglyNumberII.h"
 #include "Problems/LeetCode2965FindMissingAndRepeatedValues.h"
@@ -22,14 +23,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode318MaximumProductOfWordLengths();
+    const auto problem = new LeetCode2401LongestNiceSubarray();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "99. Recover Binary Search Tree";
+    const std::string scriptName = "2401. Longest Nice Subarray";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
