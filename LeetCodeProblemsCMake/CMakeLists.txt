@@ -149,4 +149,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode99RecoverBinarySearchTree.h
         Problems/LeetCode2401LongestNiceSubarray.cpp
         Problems/LeetCode2401LongestNiceSubarray.h
+        Problems/LeetCode3191MinimumOperationsToMakeBinaryArrayElementsEqualToOneI.cpp
+        Problems/LeetCode3191MinimumOperationsToMakeBinaryArrayElementsEqualToOneI.h
 )

@@ -5,9 +5,7 @@
 #include "LeetCode2401LongestNiceSubarray.h"
 
 #include <iostream>
-#include <limits>
 #include <ostream>
-#include <bits/ranges_algo.h>
 using namespace std;
 #pragma region With bitwise Or
 int LeetCode2401LongestNiceSubarray::longestNiceSubarray(vector<int> &nums) {
@@ -28,7 +26,7 @@ int LeetCode2401LongestNiceSubarray::longestNiceSubarray(vector<int> &nums) {
             }
             break;
         }
-        maxLength = ranges::max(maxLength, secondPointer - i);
+        maxLength = max(maxLength, secondPointer - i);
     }
     return maxLength;
 }

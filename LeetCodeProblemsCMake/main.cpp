@@ -30,7 +30,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2401. Longest Nice Subarray";
+    const std::string scriptName = "3191. Minimum Operations to Make Binary Array Elements Equal to One I";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
