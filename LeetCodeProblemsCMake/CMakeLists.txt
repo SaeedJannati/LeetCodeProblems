@@ -153,4 +153,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3191MinimumOperationsToMakeBinaryArrayElementsEqualToOneI.h
         Problems/LeetCode93RestoreIPAddresses.cpp
         Problems/LeetCode93RestoreIPAddresses.h
+        Problems/LeetCode95UniqueBinarySearchTreesII.cpp
+        Problems/LeetCode95UniqueBinarySearchTreesII.h
 )
