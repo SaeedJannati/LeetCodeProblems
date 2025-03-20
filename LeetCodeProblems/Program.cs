@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode90SubsetsII();
+var problem = new LeetCode3108MinimumCostWalkInWeightedGraph();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "90. Subsets II";
+var scriptName = "3108. Minimum Cost Walk in Weighted Graph";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
