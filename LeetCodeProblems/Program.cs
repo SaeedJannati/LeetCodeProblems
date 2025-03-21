@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode3108MinimumCostWalkInWeightedGraph();
+var problem = new LeetCode2115FindAllPossibleRecipesFromGivenSupplies();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "3108. Minimum Cost Walk in Weighted Graph";
+var scriptName = "2115. Find All Possible Recipes from Given Supplies";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
