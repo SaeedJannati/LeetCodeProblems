@@ -37,7 +37,7 @@ int main() {
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
-    std::string input="[[0,1],[0,2],[1,2],[3,4]]";
+    std::string input="[[2,0],[3,1],[3,2]]";
   Auxilaries::ConvertToVector(input);
 #pragma endregion
 }
