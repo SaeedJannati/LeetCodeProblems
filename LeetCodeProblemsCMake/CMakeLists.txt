@@ -155,4 +155,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode93RestoreIPAddresses.h
         Problems/LeetCode95UniqueBinarySearchTreesII.cpp
         Problems/LeetCode95UniqueBinarySearchTreesII.h
+        Problems/LeetCode2685CountTheNumberOfCompleteComponents.cpp
+        Problems/LeetCode2685CountTheNumberOfCompleteComponents.h
 )

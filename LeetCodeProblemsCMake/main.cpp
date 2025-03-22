@@ -8,6 +8,7 @@
 #include "Problems/LeetCode2401LongestNiceSubarray.h"
 #include "Problems/LeetCode241DifferentWaysToAddParentheses.h"
 #include "Problems/LeetCode264UglyNumberII.h"
+#include "Problems/LeetCode2685CountTheNumberOfCompleteComponents.h"
 #include "Problems/LeetCode2965FindMissingAndRepeatedValues.h"
 #include "Problems/LeetCode3160FindTheNumberOfDistinctColorsAmongTheBalls.h"
 #include "Problems/LeetCode318MaximumProductOfWordLengths.h"
@@ -25,18 +26,18 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode95UniqueBinarySearchTreesII();
+    const auto problem = new LeetCode2685CountTheNumberOfCompleteComponents();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "95. Unique Binary Search Trees II";
+    const std::string scriptName = "2685. Count the Number of Complete Components";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
-    std::string input="[[0,0,3],[0,0,2],[0,0,2],[0,0,5],[0,0,3],[0,0,4],[0,0,4],[0,0,3],[0,0,5],[0,0,4],[0,0,5],[0,0,3],[0,0,4],[0,0,1],[0,0,1]]";
+    std::string input="[[0,1],[0,2],[1,2],[3,4]]";
   Auxilaries::ConvertToVector(input);
 #pragma endregion
 }
