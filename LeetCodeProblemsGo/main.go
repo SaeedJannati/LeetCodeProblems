@@ -10,6 +10,6 @@ func main() {
 		tree.PrintInOrderTraversal()
 	}
 	fmt.Println("")
-	rawScriptName := "2115. Find All Possible Recipes from Given Supplies"
+	rawScriptName := "2685. Count the Number of Complete Components"
 	printScriptName(rawScriptName)
 }
