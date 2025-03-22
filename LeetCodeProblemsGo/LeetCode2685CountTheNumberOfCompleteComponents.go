@@ -10,7 +10,7 @@ func countCompleteComponents(n int, edges [][]int) int {
 		Union(parents, ranks, edge[0], edge[1])
 	}
 	for i := 0; i < n; i++ {
-		Find(parents, i)
+		parents[i] = Find(parents, i)
 	}
 	result := 0
 	segments := make(map[int]map[int]bool)
