@@ -33,7 +33,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2685. Count the Number of Complete Components";
+    const std::string scriptName = "337. House Robber III";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

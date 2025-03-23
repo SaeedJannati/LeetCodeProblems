@@ -157,4 +157,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode95UniqueBinarySearchTreesII.h
         Problems/LeetCode2685CountTheNumberOfCompleteComponents.cpp
         Problems/LeetCode2685CountTheNumberOfCompleteComponents.h
+        Problems/LeetCode337HouseRobberIII.cpp
+        Problems/LeetCode337HouseRobberIII.h
 )
