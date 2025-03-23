@@ -3,13 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	n := 7
+	n := 1
 	trees := generateTrees(n)
 	for _, tree := range trees {
 		tree.PrintPreOrderTaraversal()
 		tree.PrintInOrderTraversal()
 	}
 	fmt.Println("")
-	rawScriptName := "1976. Number of Ways to Arrive at Destination"
+	rawScriptName := "337. House Robber III"
 	printScriptName(rawScriptName)
 }
