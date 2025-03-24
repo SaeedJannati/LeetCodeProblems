@@ -159,4 +159,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2685CountTheNumberOfCompleteComponents.h
         Problems/LeetCode337HouseRobberIII.cpp
         Problems/LeetCode337HouseRobberIII.h
+        Problems/LeetCode3169CountDaysWithoutMeetings.cpp
+        Problems/LeetCode3169CountDaysWithoutMeetings.h
 )

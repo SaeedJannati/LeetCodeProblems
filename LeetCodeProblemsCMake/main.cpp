@@ -11,6 +11,7 @@
 #include "Problems/LeetCode2685CountTheNumberOfCompleteComponents.h"
 #include "Problems/LeetCode2965FindMissingAndRepeatedValues.h"
 #include "Problems/LeetCode3160FindTheNumberOfDistinctColorsAmongTheBalls.h"
+#include "Problems/LeetCode3169CountDaysWithoutMeetings.h"
 #include "Problems/LeetCode318MaximumProductOfWordLengths.h"
 #include "Problems/LeetCode3208AlternatingGroupsII.h"
 #include "Problems/LeetCode3356ZeroArrayTransformationII.h"
@@ -26,18 +27,18 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2685CountTheNumberOfCompleteComponents();
+    const auto problem = new LeetCode3169CountDaysWithoutMeetings();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "337. House Robber III";
+    const std::string scriptName = "3169. Count Days Without Meetings";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
-    std::string input="[[2,0],[3,1],[3,2]]";
+    std::string input="[[2,4],[1,3]]";
   Auxilaries::ConvertToVector(input);
 #pragma endregion
 }
