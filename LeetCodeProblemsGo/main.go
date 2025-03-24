@@ -10,6 +10,6 @@ func main() {
 		tree.PrintInOrderTraversal()
 	}
 	fmt.Println("")
-	rawScriptName := "337. House Robber III"
+	rawScriptName := "3169. Count Days Without Meetings"
 	printScriptName(rawScriptName)
 }
