@@ -200,6 +200,7 @@
     <ClCompile Include="Problems\LeetCode3042CountPrefixAndSuffixPairsI.cpp" />
     <ClCompile Include="Problems\LeetCode3151SpecialArrayI.cpp" />
     <ClCompile Include="Problems\LeetCode3223MinimumLengthOfStringAfterOperations.cpp" />
+    <ClCompile Include="Problems\LeetCode3394CheckIfGridCanBeCutIntoSections.cpp" />
     <ClCompile Include="Problems\LeetCode37SudokuSolver.cpp" />
     <ClCompile Include="Problems\LeetCode38CountandSay.cpp" />
     <ClCompile Include="Problems\LeetCode45JumpGameII.cpp" />
@@ -266,6 +267,7 @@
     <ClInclude Include="Problems\LeetCode3042CountPrefixAndSuffixPairsI.h" />
     <ClInclude Include="Problems\LeetCode3151SpecialArrayI.h" />
     <ClInclude Include="Problems\LeetCode3223MinimumLengthOfStringAfterOperations.h" />
+    <ClInclude Include="Problems\LeetCode3394CheckIfGridCanBeCutIntoSections.h" />
     <ClInclude Include="Problems\LeetCode37SudokuSolver.h" />
     <ClInclude Include="Problems\LeetCode38CountandSay.h" />
     <ClInclude Include="Problems\LeetCode45JumpGameII.h" />
