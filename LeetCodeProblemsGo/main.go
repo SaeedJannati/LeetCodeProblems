@@ -10,6 +10,6 @@ func main() {
 		tree.PrintInOrderTraversal()
 	}
 	fmt.Println("")
-	rawScriptName := "3394. Check if Grid can be Cut into Sections"
+	rawScriptName := "299. Bulls and Cows"
 	printScriptName(rawScriptName)
 }
