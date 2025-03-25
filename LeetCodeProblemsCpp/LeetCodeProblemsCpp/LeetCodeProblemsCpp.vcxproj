@@ -197,6 +197,7 @@
     <ClCompile Include="Problems\LeetCode2560HouseRobberIV.cpp" />
     <ClCompile Include="Problems\LeetCode2570MergeTwo2DArraysBySummingValues.cpp" />
     <ClCompile Include="Problems\LeetCode2594MinimumTimeToRepairCars.cpp" />
+    <ClCompile Include="Problems\LeetCode299BullsAndCows.cpp" />
     <ClCompile Include="Problems\LeetCode3042CountPrefixAndSuffixPairsI.cpp" />
     <ClCompile Include="Problems\LeetCode3151SpecialArrayI.cpp" />
     <ClCompile Include="Problems\LeetCode3223MinimumLengthOfStringAfterOperations.cpp" />
@@ -264,6 +265,7 @@
     <ClInclude Include="Problems\LeetCode2560HouseRobberIV.h" />
     <ClInclude Include="Problems\LeetCode2570MergeTwo2DArraysBySummingValues.h" />
     <ClInclude Include="Problems\LeetCode2594MinimumTimeToRepairCars.h" />
+    <ClInclude Include="Problems\LeetCode299BullsAndCows.h" />
     <ClInclude Include="Problems\LeetCode3042CountPrefixAndSuffixPairsI.h" />
     <ClInclude Include="Problems\LeetCode3151SpecialArrayI.h" />
     <ClInclude Include="Problems\LeetCode3223MinimumLengthOfStringAfterOperations.h" />

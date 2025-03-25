@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3394. Check if Grid can be Cut into Sections";
+    const std::string scriptName = "299. Bulls and Cows";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
