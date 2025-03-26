@@ -10,6 +10,6 @@ func main() {
 		tree.PrintInOrderTraversal()
 	}
 	fmt.Println("")
-	rawScriptName := "299. Bulls and Cows"
+	rawScriptName := "2033. Minimum Operations to Make a Uni-Value Grid"
 	printScriptName(rawScriptName)
 }
