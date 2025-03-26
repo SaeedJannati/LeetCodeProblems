@@ -1,5 +1,6 @@
 #include <iostream>
 
+#include "Problems/LeetCode2033MinimumOperationsToMakeAUniValueGrid.h"
 #include "Problems/LeetCode2560HouseRobberIV.h"
 #include "Problems/LeetCode3394CheckIfGridCanBeCutIntoSections.h"
 #include "Problems/LeetCode90SubsetsII.h"
@@ -8,12 +9,12 @@
 
 int main(int argc, char* argv[])
 {
-    const auto problem = new LeetCode3394CheckIfGridCanBeCutIntoSections();
+    const auto problem = new LeetCode2033MinimumOperationsToMakeAUniValueGrid();
     problem->Run();
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "299. Bulls and Cows";
+    const std::string scriptName = "2033. Minimum Operations to Make a Uni-Value Grid";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
