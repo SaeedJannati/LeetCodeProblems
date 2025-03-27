@@ -21,15 +21,19 @@ int LeetCode2780MinimumIndexOfAValidSplit::minimumIndex(vector<int> &nums) {
         }
     }
     int dominantCount = static_cast<int>(occurrences[dominantElement].size());
+    int domCountBefore{};
+    int elementsBefore{};
+    int domCountAfter{};
+    int elementsAfter{};
 
     for (int i = 0; i < dominantCount; i++) {
-        int domCountBefore = i + 1;
-        int elementsBefore = occurrences[dominantElement][i] + 1;
-        int domCountAfter=dominantCount-domCountBefore;
-        int elementsAfter = length-elementsBefore;
-        if (domCountBefore<= elementsBefore/2)
+        domCountBefore = i + 1;
+        elementsBefore = occurrences[dominantElement][i] + 1;
+        domCountAfter = dominantCount - domCountBefore;
+        elementsAfter = length - elementsBefore;
+        if (domCountBefore <= elementsBefore / 2)
             continue;
-        if (domCountAfter <= elementsAfter/2)
+        if (domCountAfter <= elementsAfter / 2)
             continue;
         return occurrences[dominantElement][i];
     }

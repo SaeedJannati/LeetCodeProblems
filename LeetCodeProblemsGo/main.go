@@ -10,6 +10,6 @@ func main() {
 		tree.PrintInOrderTraversal()
 	}
 	fmt.Println("")
-	rawScriptName := "2033. Minimum Operations to Make a Uni-Value Grid"
+	rawScriptName := "2780. Minimum Index of a Valid Split"
 	printScriptName(rawScriptName)
 }
