@@ -34,7 +34,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3169. Count Days Without Meetings";
+    const std::string scriptName = "2780. Minimum Index of a Valid Split";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

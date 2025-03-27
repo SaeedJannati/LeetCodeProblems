@@ -161,4 +161,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode337HouseRobberIII.h
         Problems/LeetCode3169CountDaysWithoutMeetings.cpp
         Problems/LeetCode3169CountDaysWithoutMeetings.h
+        Problems/LeetCode2780MinimumIndexOfAValidSplit.cpp
+        Problems/LeetCode2780MinimumIndexOfAValidSplit.h
 )
