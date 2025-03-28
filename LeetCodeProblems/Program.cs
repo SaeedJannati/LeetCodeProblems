@@ -11,7 +11,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "1976. Number of Ways to Arrive at Destination";
+var scriptName = "2503. Maximum Number of Points From Grid Queries";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
