@@ -163,4 +163,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3169CountDaysWithoutMeetings.h
         Problems/LeetCode2780MinimumIndexOfAValidSplit.cpp
         Problems/LeetCode2780MinimumIndexOfAValidSplit.h
+        Problems/LeetCode2503MaximumNumberOfPointsFromGridQueries.cpp
+        Problems/LeetCode2503MaximumNumberOfPointsFromGridQueries.h
 )

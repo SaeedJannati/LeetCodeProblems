@@ -7,6 +7,7 @@
 #include "Problems/LeetCode2226MaximumCandiesAllocatedToKChildren.h"
 #include "Problems/LeetCode2401LongestNiceSubarray.h"
 #include "Problems/LeetCode241DifferentWaysToAddParentheses.h"
+#include "Problems/LeetCode2503MaximumNumberOfPointsFromGridQueries.h"
 #include "Problems/LeetCode264UglyNumberII.h"
 #include "Problems/LeetCode2685CountTheNumberOfCompleteComponents.h"
 #include "Problems/LeetCode2965FindMissingAndRepeatedValues.h"
@@ -27,18 +28,18 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3169CountDaysWithoutMeetings();
+    const auto problem = new LeetCode2503MaximumNumberOfPointsFromGridQueries();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2780. Minimum Index of a Valid Split";
+    const std::string scriptName = "2503. Maximum Number of Points From Grid Queries";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
-    std::string input="[[2,4],[1,3]]";
+    std::string input="[[1,2,3],[2,5,7],[3,5,1]]";
   Auxilaries::ConvertToVector(input);
 #pragma endregion
 }
