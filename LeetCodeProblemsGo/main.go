@@ -10,6 +10,6 @@ func main() {
 		tree.PrintInOrderTraversal()
 	}
 	fmt.Println("")
-	rawScriptName := "2780. Minimum Index of a Valid Split"
+	rawScriptName := "237. Delete Node in a Linked List"
 	printScriptName(rawScriptName)
 }
