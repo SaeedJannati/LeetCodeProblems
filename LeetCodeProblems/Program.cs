@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode2818ApplyOperationsToMaximizeScore();
+var problem = new LeetCode2551PutMarblesInBags();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "2818. Apply Operations to Maximize Score";
+var scriptName = "2551. Put Marbles in Bags";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
