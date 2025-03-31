@@ -10,6 +10,6 @@ func main() {
 		tree.PrintInOrderTraversal()
 	}
 	fmt.Println("")
-	rawScriptName := "237. Delete Node in a Linked List"
+	rawScriptName := "2551. Put Marbles in Bags"
 	printScriptName(rawScriptName)
 }
