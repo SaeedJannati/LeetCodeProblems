@@ -167,4 +167,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2503MaximumNumberOfPointsFromGridQueries.h
         Problems/LeetCode2140SolvingQuestionsWithBrainpower.cpp
         Problems/LeetCode2140SolvingQuestionsWithBrainpower.h
+        Problems/LeetCode147InsertionSortList.cpp
+        Problems/LeetCode147InsertionSortList.h
 )

@@ -3,6 +3,7 @@
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/GeeksForGeeksAlienDictionary.h"
+#include "Problems/LeetCode147InsertionSortList.h"
 #include "Problems/LeetCode1980FindUniqueBinaryString.h"
 #include "Problems/LeetCode2140SolvingQuestionsWithBrainpower.h"
 #include "Problems/LeetCode2226MaximumCandiesAllocatedToKChildren.h"
@@ -29,14 +30,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2140SolvingQuestionsWithBrainpower();
+    const auto problem = new LeetCode147InsertionSortList();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2140. Solving Questions With Brainpower";
+    const std::string scriptName = "147. Insertion Sort List";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
