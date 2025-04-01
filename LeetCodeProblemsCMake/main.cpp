@@ -4,6 +4,7 @@
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/GeeksForGeeksAlienDictionary.h"
 #include "Problems/LeetCode1980FindUniqueBinaryString.h"
+#include "Problems/LeetCode2140SolvingQuestionsWithBrainpower.h"
 #include "Problems/LeetCode2226MaximumCandiesAllocatedToKChildren.h"
 #include "Problems/LeetCode2401LongestNiceSubarray.h"
 #include "Problems/LeetCode241DifferentWaysToAddParentheses.h"
@@ -28,18 +29,18 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2503MaximumNumberOfPointsFromGridQueries();
+    const auto problem = new LeetCode2140SolvingQuestionsWithBrainpower();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2503. Maximum Number of Points From Grid Queries";
+    const std::string scriptName = "2140. Solving Questions With Brainpower";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
-    std::string input="[[1,2,3],[2,5,7],[3,5,1]]";
+    std::string input="[[3,2],[4,3],[4,4],[2,5]]";
   Auxilaries::ConvertToVector(input);
 #pragma endregion
 }
