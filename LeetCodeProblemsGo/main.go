@@ -1,15 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"LeetCodeProblemsGo/LeetCode2873MaximumValueOfAnOrderedTripletI"
+	"fmt"
+)
 
 func main() {
-	n := 1
-	trees := generateTrees(n)
-	for _, tree := range trees {
-		tree.PrintPreOrderTaraversal()
-		tree.PrintInOrderTraversal()
-	}
+	nums := []int{1000000, 1, 1000000}
+	fmt.Println(LeetCode2873MaximumValueOfAnOrderedTripletI.Calculate(nums))
 	fmt.Println("")
-	rawScriptName := "2140. Solving Questions With Brainpower"
+	rawScriptName := "2873. Maximum Value of an Ordered Triplet I"
 	printScriptName(rawScriptName)
 }
