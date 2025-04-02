@@ -37,7 +37,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "147. Insertion Sort List";
+    const std::string scriptName = "2873. Maximum Value of an Ordered Triplet I";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

@@ -169,4 +169,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2140SolvingQuestionsWithBrainpower.h
         Problems/LeetCode147InsertionSortList.cpp
         Problems/LeetCode147InsertionSortList.h
+        Problems/LeetCode2873MaximumValueOfAnOrderedTripletI.cpp
+        Problems/LeetCode2873MaximumValueOfAnOrderedTripletI.h
 )
