@@ -4,14 +4,14 @@ using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode2551PutMarblesInBags();
+var problem = new LeetCode81SearchInRotatedSortedArrayII();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "2551. Put Marbles in Bags";
+var scriptName = "81. Search in Rotated Sorted Array II";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
