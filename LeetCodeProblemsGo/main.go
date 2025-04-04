@@ -9,6 +9,6 @@ func main() {
 	nums := []int{1000000, 1, 1000000}
 	fmt.Println(LeetCode2873MaximumValueOfAnOrderedTripletI.Calculate(nums))
 	fmt.Println("")
-	rawScriptName := "81. Search in Rotated Sorted Array II"
+	rawScriptName := "1123. Lowest Common Ancestor of Deepest Leaves"
 	printScriptName(rawScriptName)
 }
