@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2033. Minimum Operations to Make a Uni-Value Grid";
+    const std::string scriptName = "1863. Sum of All Subset XOR Totals";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
