@@ -1,14 +1,14 @@
 package main
 
 import (
-	"LeetCodeProblemsGo/LeetCode2873MaximumValueOfAnOrderedTripletI"
+	"LeetCodeProblemsGo/LeetCode368LargestDivisibleSubset"
 	"fmt"
 )
 
 func main() {
-	nums := []int{1000000, 1, 1000000}
-	fmt.Println(LeetCode2873MaximumValueOfAnOrderedTripletI.Calculate(nums))
+	nums := []int{1, 2, 4, 8, 16}
+	LeetCode368LargestDivisibleSubset.Calculate(nums)
 	fmt.Println("")
-	rawScriptName := "1863. Sum of All Subset XOR Totals"
+	rawScriptName := "368. Largest Divisible Subset"
 	printScriptName(rawScriptName)
 }
