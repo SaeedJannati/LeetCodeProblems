@@ -1,17 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using LeetCodeProblems.Auxilaries;
-using LeetCodeProblems.Miscellaneous;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode1123LowestCommonAncestorOfDeepestLeaves();
+var problem = new LeetCode368LargestDivisibleSubset();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "1123. Lowest Common Ancestor of Deepest Leaves";
+var scriptName = "368. Largest Divisible Subset";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
