@@ -206,6 +206,7 @@
     <ClCompile Include="Problems\LeetCode3394CheckIfGridCanBeCutIntoSections.cpp" />
     <ClCompile Include="Problems\LeetCode37SudokuSolver.cpp" />
     <ClCompile Include="Problems\LeetCode38CountandSay.cpp" />
+    <ClCompile Include="Problems\LeetCode416PartitionEqualSubsetSum.cpp" />
     <ClCompile Include="Problems\LeetCode45JumpGameII.cpp" />
     <ClCompile Include="Problems\LeetCode48RotateImage.cpp" />
     <ClCompile Include="Problems\LeetCode494TargetSum.cpp" />
@@ -276,6 +277,7 @@
     <ClInclude Include="Problems\LeetCode3394CheckIfGridCanBeCutIntoSections.h" />
     <ClInclude Include="Problems\LeetCode37SudokuSolver.h" />
     <ClInclude Include="Problems\LeetCode38CountandSay.h" />
+    <ClInclude Include="Problems\LeetCode416PartitionEqualSubsetSum.h" />
     <ClInclude Include="Problems\LeetCode45JumpGameII.h" />
     <ClInclude Include="Problems\LeetCode48RotateImage.h" />
     <ClInclude Include="Problems\LeetCode494TargetSum.h" />
