@@ -1,14 +1,14 @@
 package main
 
 import (
-	"LeetCodeProblemsGo/LeetCode368LargestDivisibleSubset"
+	"LeetCodeProblemsGo/LeetCode416PartitionEqualSubsetSum"
 	"fmt"
 )
 
 func main() {
-	nums := []int{1, 2, 4, 8, 16}
-	LeetCode368LargestDivisibleSubset.Calculate(nums)
+	nums := []int{1, 5, 11, 3}
+	LeetCode416PartitionEqualSubsetSum.Calculate(nums)
 	fmt.Println("")
-	rawScriptName := "368. Largest Divisible Subset"
+	rawScriptName := "416. Partition Equal Subset Sum"
 	printScriptName(rawScriptName)
 }
