@@ -16,7 +16,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3396. Minimum Number of Operations to Make Elements in Array Distinct";
+    const std::string scriptName = "3375. Minimum Operations to Make Array Values Equal to K";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
