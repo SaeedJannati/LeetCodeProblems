@@ -37,7 +37,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2873. Maximum Value of an Ordered Triplet I";
+    const std::string scriptName = "2843. Count Symmetric Integers";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
