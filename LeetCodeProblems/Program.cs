@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode368LargestDivisibleSubset();
+var problem = new LeetCode3272FindTheCountOfGoodIntegers();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "368. Largest Divisible Subset";
+var scriptName = "3272. Find the Count of Good Integers";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
