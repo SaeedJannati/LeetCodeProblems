@@ -1,5 +1,6 @@
 #include <iostream>
 
+#include "Problems/LeetCode1922CountGoodNumbers.h"
 #include "Problems/LeetCode2033MinimumOperationsToMakeAUniValueGrid.h"
 #include "Problems/LeetCode2560HouseRobberIV.h"
 #include "Problems/LeetCode3394CheckIfGridCanBeCutIntoSections.h"
@@ -11,12 +12,12 @@
 
 int main(int argc, char* argv[])
 {
-    const auto problem = new LeetCode3396MinimumNumberOfOperationsToMakeElementsInArrayDistinct();
+    const auto problem = new LeetCode1922CountGoodNumbers();
     problem->Run();
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3375. Minimum Operations to Make Array Values Equal to K";
+    const std::string scriptName = "1922. Count Good Numbers";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
