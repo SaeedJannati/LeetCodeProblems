@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1922. Count Good Numbers";
+    const std::string scriptName = "1534. Count Good Triplets";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
