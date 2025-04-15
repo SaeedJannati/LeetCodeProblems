@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode3272FindTheCountOfGoodIntegers();
+var problem = new LeetCode2179CountGoodTripletsInAnArray();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "3272. Find the Count of Good Integers";
+var scriptName = "2179. Count Good Triplets in an Array";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
