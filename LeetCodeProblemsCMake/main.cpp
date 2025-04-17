@@ -38,7 +38,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2843. Count Symmetric Integers";
+    const std::string scriptName = "2176. Count Equal and Divisible Pairs in an Array";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
