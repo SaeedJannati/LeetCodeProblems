@@ -173,4 +173,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2873MaximumValueOfAnOrderedTripletI.h
         Problems/LeetCode2843CountSymmetricIntegers.cpp
         Problems/LeetCode2843CountSymmetricIntegers.h
+        Problems/LeetCode2537CountTheNumberOfGoodSubarrays.cpp
+        Problems/LeetCode2537CountTheNumberOfGoodSubarrays.h
 )
