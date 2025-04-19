@@ -177,4 +177,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2537CountTheNumberOfGoodSubarrays.h
         Problems/LeetCode2176CountEqualAndDivisiblePairsInAnArray.cpp
         Problems/LeetCode2176CountEqualAndDivisiblePairsInAnArray.h
+        Problems/LeetCode2563CountTheNumberOfFairPairs.cpp
+        Problems/LeetCode2563CountTheNumberOfFairPairs.h
 )
