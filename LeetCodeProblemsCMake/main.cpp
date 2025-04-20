@@ -10,6 +10,8 @@
 #include "Problems/LeetCode2401LongestNiceSubarray.h"
 #include "Problems/LeetCode241DifferentWaysToAddParentheses.h"
 #include "Problems/LeetCode2503MaximumNumberOfPointsFromGridQueries.h"
+#include "Problems/LeetCode2537CountTheNumberOfGoodSubarrays.h"
+#include "Problems/LeetCode2563CountTheNumberOfFairPairs.h"
 #include "Problems/LeetCode264UglyNumberII.h"
 #include "Problems/LeetCode2685CountTheNumberOfCompleteComponents.h"
 #include "Problems/LeetCode2965FindMissingAndRepeatedValues.h"
@@ -30,14 +32,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode147InsertionSortList();
+    const auto problem = new LeetCode2563CountTheNumberOfFairPairs();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2843. Count Symmetric Integers";
+    const std::string scriptName = "2563. Count the Number of Fair Pairs";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

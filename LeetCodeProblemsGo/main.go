@@ -9,6 +9,6 @@ func main() {
 	nums := []int{1, 5, 11, 3}
 	LeetCode416PartitionEqualSubsetSum.Calculate(nums)
 	fmt.Println("")
-	rawScriptName := "1922. Count Good Numbers"
+	rawScriptName := "2563. Count the Number of Fair Pairs"
 	printScriptName(rawScriptName)
 }
