@@ -221,6 +221,7 @@
     <ClCompile Include="Problems\LeetCode6ZigzagConversion.cpp" />
     <ClCompile Include="Problems\LeetCode70ClimbingStairs.cpp" />
     <ClCompile Include="Problems\LeetCode73SetMatrixZeroes.cpp" />
+    <ClCompile Include="Problems\LeetCode781RabbitsInForest.cpp" />
     <ClCompile Include="Problems\LeetCode7ReverseInteger.cpp" />
     <ClCompile Include="Problems\LeetCode87ScrambleString.cpp" />
     <ClCompile Include="Problems\LeetCode88MergeSortedArray.cpp" />
@@ -296,6 +297,7 @@
     <ClInclude Include="Problems\LeetCode6ZigzagConversion.h" />
     <ClInclude Include="Problems\LeetCode70ClimbingStairs.h" />
     <ClInclude Include="Problems\LeetCode73SetMatrixZeroes.h" />
+    <ClInclude Include="Problems\LeetCode781RabbitsInForest.h" />
     <ClInclude Include="Problems\LeetCode7ReverseInteger.h" />
     <ClInclude Include="Problems\LeetCode87ScrambleString.h" />
     <ClInclude Include="Problems\LeetCode88MergeSortedArray.h" />
