@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "2179. Count Good Triplets in an Array";
+var scriptName = "2145. Count the Hidden Sequences";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
