@@ -39,7 +39,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2563. Count the Number of Fair Pairs";
+    const std::string scriptName = "1399. Count Largest Group";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
