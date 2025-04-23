@@ -9,6 +9,6 @@ func main() {
 	nums := []int{1, 5, 11, 3}
 	LeetCode416PartitionEqualSubsetSum.Calculate(nums)
 	fmt.Println("")
-	rawScriptName := "2145. Count the Hidden Sequences"
+	rawScriptName := "1399. Count Largest Group"
 	printScriptName(rawScriptName)
 }
