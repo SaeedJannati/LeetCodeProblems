@@ -1,14 +1,14 @@
 package main
 
 import (
-	"LeetCodeProblemsGo/LeetCode416PartitionEqualSubsetSum"
+	"LeetCodeProblemsGo/LeetCode2799CountCompleteSubarraysInAnArray"
 	"fmt"
 )
 
 func main() {
-	nums := []int{1, 5, 11, 3}
-	LeetCode416PartitionEqualSubsetSum.Calculate(nums)
+
+	LeetCode2799CountCompleteSubarraysInAnArray.Calculate()
 	fmt.Println("")
-	rawScriptName := "1399. Count Largest Group"
+	rawScriptName := "2799. Count Complete Subarrays in an Array"
 	printScriptName(rawScriptName)
 }
