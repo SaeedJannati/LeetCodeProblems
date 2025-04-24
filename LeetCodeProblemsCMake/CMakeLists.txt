@@ -181,4 +181,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2563CountTheNumberOfFairPairs.h
         Problems/LeetCode1399CountLargestGroup.cpp
         Problems/LeetCode1399CountLargestGroup.h
+        Problems/LeetCode2799CountCompleteSubarraysInAnArray.cpp
+        Problems/LeetCode2799CountCompleteSubarraysInAnArray.h
 )
