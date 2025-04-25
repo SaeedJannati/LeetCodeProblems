@@ -12,11 +12,11 @@ func countInterestingSubarrays(nums []int, modulo int, k int) int64 {
 		if num%modulo == k {
 			prefixCount++
 		}
-		need = (prefixCount + modulo - k) % k
+		need = (prefixCount + modulo - k) % modulo
 		if count, exists := prefixModMap[need]; exists {
 			result += int64(count)
 		}
-		mod = prefixCount % k
+		mod = prefixCount % modulo
 		if _, exists := prefixModMap[mod]; !exists {
 			prefixModMap[mod] = 0
 		}
