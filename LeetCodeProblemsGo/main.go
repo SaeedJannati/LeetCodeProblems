@@ -9,6 +9,6 @@ func main() {
 
 	LeetCode2799CountCompleteSubarraysInAnArray.Calculate()
 	fmt.Println("")
-	rawScriptName := "2799. Count Complete Subarrays in an Array"
+	rawScriptName := "2845. Count of Interesting Subarrays"
 	printScriptName(rawScriptName)
 }
