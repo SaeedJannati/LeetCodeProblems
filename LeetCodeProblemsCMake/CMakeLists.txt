@@ -183,4 +183,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1399CountLargestGroup.h
         Problems/LeetCode2799CountCompleteSubarraysInAnArray.cpp
         Problems/LeetCode2799CountCompleteSubarraysInAnArray.h
+        Problems/LeetCode2845CountOfInterestingSubarrays.cpp
+        Problems/LeetCode2845CountOfInterestingSubarrays.h
 )
