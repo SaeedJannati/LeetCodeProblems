@@ -4,18 +4,19 @@
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/LeetCode2799CountCompleteSubarraysInAnArray.h"
 #include "Problems/LeetCode2845CountOfInterestingSubarrays.h"
+#include "Problems/LeetCode3392CountSubarraysOfLengthThreeWithACondition.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2845CountOfInterestingSubarrays();
+    const auto problem = new LeetCode3392CountSubarraysOfLengthThreeWithACondition();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2845. Count of Interesting Subarrays";
+    const std::string scriptName = "3392. Count Subarrays of Length Three With a Condition";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
