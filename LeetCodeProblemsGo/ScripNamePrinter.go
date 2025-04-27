@@ -7,7 +7,7 @@ import (
 
 func printScriptName(rawScriptName string) {
 	name := convertScriptName(rawScriptName)
-	commitName := "feat: add " + name
+	commitName := "feat: add " + name + " Go"
 	fmt.Println(name)
 	fmt.Println(commitName)
 }
