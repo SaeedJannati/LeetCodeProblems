@@ -187,4 +187,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2845CountOfInterestingSubarrays.h
         Problems/LeetCode3392CountSubarraysOfLengthThreeWithACondition.cpp
         Problems/LeetCode3392CountSubarraysOfLengthThreeWithACondition.h
+        Problems/LeetCode2444CountSubarraysWithFixedBounds.cpp
+        Problems/LeetCode2444CountSubarraysWithFixedBounds.h
 )
