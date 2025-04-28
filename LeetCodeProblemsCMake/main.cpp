@@ -2,6 +2,7 @@
 
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
+#include "Problems/LeetCode2302CountSubarraysWithScoreLessThanK.h"
 #include "Problems/LeetCode2444CountSubarraysWithFixedBounds.h"
 #include "Problems/LeetCode2799CountCompleteSubarraysInAnArray.h"
 #include "Problems/LeetCode2845CountOfInterestingSubarrays.h"
@@ -10,14 +11,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2444CountSubarraysWithFixedBounds();
+    const auto problem = new LeetCode2302CountSubarraysWithScoreLessThanK();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2444. Count Subarrays With Fixed Bounds";
+    const std::string scriptName = "2302. Count Subarrays With Score Less Than K";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
