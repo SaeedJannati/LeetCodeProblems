@@ -6,19 +6,20 @@
 #include "Problems/LeetCode2444CountSubarraysWithFixedBounds.h"
 #include "Problems/LeetCode2799CountCompleteSubarraysInAnArray.h"
 #include "Problems/LeetCode2845CountOfInterestingSubarrays.h"
+#include "Problems/LeetCode2962CountSubarraysWhereMaxElementAppearsAtLeastKTimes.h"
 #include "Problems/LeetCode3392CountSubarraysOfLengthThreeWithACondition.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2302CountSubarraysWithScoreLessThanK();
+    const auto problem = new LeetCode2962CountSubarraysWhereMaxElementAppearsAtLeastKTimes();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2302. Count Subarrays With Score Less Than K";
+    const std::string scriptName = "2962. Count Subarrays Where Max Element Appears at Least K Times";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

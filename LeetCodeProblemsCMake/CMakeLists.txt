@@ -191,4 +191,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2444CountSubarraysWithFixedBounds.h
         Problems/LeetCode2302CountSubarraysWithScoreLessThanK.cpp
         Problems/LeetCode2302CountSubarraysWithScoreLessThanK.h
+        Problems/LeetCode2962CountSubarraysWhereMaxElementAppearsAtLeastKTimes.cpp
+        Problems/LeetCode2962CountSubarraysWhereMaxElementAppearsAtLeastKTimes.h
 )
