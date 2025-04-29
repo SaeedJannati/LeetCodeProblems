@@ -9,6 +9,6 @@ func main() {
 
 	LeetCode2799CountCompleteSubarraysInAnArray.Calculate()
 	fmt.Println("")
-	rawScriptName := "2302. Count Subarrays With Score Less Than K"
+	rawScriptName := "2962. Count Subarrays Where Max Element Appears at Least K Times"
 	printScriptName(rawScriptName)
 }
