@@ -2,6 +2,7 @@
 
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
+#include "Problems/LeetCode1295FindNumbersWithEvenNumberOfDigits.h"
 #include "Problems/LeetCode2302CountSubarraysWithScoreLessThanK.h"
 #include "Problems/LeetCode2444CountSubarraysWithFixedBounds.h"
 #include "Problems/LeetCode2799CountCompleteSubarraysInAnArray.h"
@@ -12,14 +13,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2962CountSubarraysWhereMaxElementAppearsAtLeastKTimes();
+    const auto problem = new LeetCode1295FindNumbersWithEvenNumberOfDigits();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2962. Count Subarrays Where Max Element Appears at Least K Times";
+    const std::string scriptName = "1295. Find Numbers with Even Number of Digits";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
