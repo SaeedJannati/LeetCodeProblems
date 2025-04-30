@@ -9,6 +9,6 @@ func main() {
 
 	LeetCode2799CountCompleteSubarraysInAnArray.Calculate()
 	fmt.Println("")
-	rawScriptName := "2962. Count Subarrays Where Max Element Appears at Least K Times"
+	rawScriptName := "1295. Find Numbers with Even Number of Digits"
 	printScriptName(rawScriptName)
 }
