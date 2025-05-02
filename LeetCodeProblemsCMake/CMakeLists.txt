@@ -195,4 +195,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2962CountSubarraysWhereMaxElementAppearsAtLeastKTimes.h
         Problems/LeetCode1295FindNumbersWithEvenNumberOfDigits.cpp
         Problems/LeetCode1295FindNumbersWithEvenNumberOfDigits.h
+        Problems/LeetCode838PushDominoes.cpp
+        Problems/LeetCode838PushDominoes.h
 )

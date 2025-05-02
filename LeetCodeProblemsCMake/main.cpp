@@ -9,18 +9,19 @@
 #include "Problems/LeetCode2845CountOfInterestingSubarrays.h"
 #include "Problems/LeetCode2962CountSubarraysWhereMaxElementAppearsAtLeastKTimes.h"
 #include "Problems/LeetCode3392CountSubarraysOfLengthThreeWithACondition.h"
+#include "Problems/LeetCode838PushDominoes.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode1295FindNumbersWithEvenNumberOfDigits();
+    const auto problem = new LeetCode838PushDominoes();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1295. Find Numbers with Even Number of Digits";
+    const std::string scriptName = "838. Push Dominoes";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
