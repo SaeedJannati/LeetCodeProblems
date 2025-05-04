@@ -197,4 +197,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1295FindNumbersWithEvenNumberOfDigits.h
         Problems/LeetCode838PushDominoes.cpp
         Problems/LeetCode838PushDominoes.h
+        Problems/LeetCode1128NumberOfEquivalentDominoPairs.cpp
+        Problems/LeetCode1128NumberOfEquivalentDominoPairs.h
 )

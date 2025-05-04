@@ -2,6 +2,7 @@
 
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
+#include "Problems/LeetCode1128NumberOfEquivalentDominoPairs.h"
 #include "Problems/LeetCode1295FindNumbersWithEvenNumberOfDigits.h"
 #include "Problems/LeetCode2302CountSubarraysWithScoreLessThanK.h"
 #include "Problems/LeetCode2444CountSubarraysWithFixedBounds.h"
@@ -14,18 +15,18 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode838PushDominoes();
+    const auto problem = new LeetCode1128NumberOfEquivalentDominoPairs();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "838. Push Dominoes";
+    const std::string scriptName = "1128. Number of Equivalent Domino Pairs";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
-    std::string input="[[3,2],[4,3],[4,4],[2,5]]";
+    std::string input="[[1,1],[2,2],[1,1],[1,2],[1,2],[1,1]]";
   Auxilaries::ConvertToVector(input);
 #pragma endregion
 }
