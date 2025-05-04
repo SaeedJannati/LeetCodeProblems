@@ -9,6 +9,6 @@ func main() {
 
 	LeetCode2799CountCompleteSubarraysInAnArray.Calculate()
 	fmt.Println("")
-	rawScriptName := "1295. Find Numbers with Even Number of Digits"
+	rawScriptName := "1128. Number of Equivalent Domino Pairs"
 	printScriptName(rawScriptName)
 }
