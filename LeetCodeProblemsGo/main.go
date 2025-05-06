@@ -9,6 +9,6 @@ func main() {
 
 	LeetCode2799CountCompleteSubarraysInAnArray.Calculate()
 	fmt.Println("")
-	rawScriptName := "1128. Number of Equivalent Domino Pairs"
+	rawScriptName := "1920. Build Array from Permutation"
 	printScriptName(rawScriptName)
 }
