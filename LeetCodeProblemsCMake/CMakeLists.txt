@@ -199,4 +199,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode838PushDominoes.h
         Problems/LeetCode1128NumberOfEquivalentDominoPairs.cpp
         Problems/LeetCode1128NumberOfEquivalentDominoPairs.h
+        Problems/LeetCode1920BuildArrayFromPermutation.cpp
+        Problems/LeetCode1920BuildArrayFromPermutation.h
 )
