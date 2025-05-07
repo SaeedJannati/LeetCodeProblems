@@ -201,4 +201,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1128NumberOfEquivalentDominoPairs.h
         Problems/LeetCode1920BuildArrayFromPermutation.cpp
         Problems/LeetCode1920BuildArrayFromPermutation.h
+        Problems/LeetCode3341FindMinimumTimeToReachLastRoomI.cpp
+        Problems/LeetCode3341FindMinimumTimeToReachLastRoomI.h
 )
