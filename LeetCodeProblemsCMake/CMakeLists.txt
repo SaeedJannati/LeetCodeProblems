@@ -203,4 +203,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1920BuildArrayFromPermutation.h
         Problems/LeetCode3341FindMinimumTimeToReachLastRoomI.cpp
         Problems/LeetCode3341FindMinimumTimeToReachLastRoomI.h
+        Problems/LeetCode3342FindMinimumTimeToReachLastRoomII.cpp
+        Problems/LeetCode3342FindMinimumTimeToReachLastRoomII.h
 )
