@@ -9,6 +9,6 @@ func main() {
 
 	LeetCode2799CountCompleteSubarraysInAnArray.Calculate()
 	fmt.Println("")
-	rawScriptName := "1920. Build Array from Permutation"
+	rawScriptName := "2918. Minimum Equal Sum of Two Arrays After Replacing Zeros"
 	printScriptName(rawScriptName)
 }
