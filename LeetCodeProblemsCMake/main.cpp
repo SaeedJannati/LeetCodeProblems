@@ -23,7 +23,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3342. Find Minimum Time to Reach Last Room II";
+    const std::string scriptName = "2918. Minimum Equal Sum of Two Arrays After Replacing Zeros";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

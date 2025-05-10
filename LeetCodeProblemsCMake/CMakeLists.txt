@@ -205,4 +205,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3341FindMinimumTimeToReachLastRoomI.h
         Problems/LeetCode3342FindMinimumTimeToReachLastRoomII.cpp
         Problems/LeetCode3342FindMinimumTimeToReachLastRoomII.h
+        Problems/LeetCode2918MinimumEqualSumOfTwoArraysAfterReplacingZeros.cpp
+        Problems/LeetCode2918MinimumEqualSumOfTwoArraysAfterReplacingZeros.h
 )
