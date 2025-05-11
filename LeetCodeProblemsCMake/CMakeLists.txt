@@ -207,4 +207,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3342FindMinimumTimeToReachLastRoomII.h
         Problems/LeetCode2918MinimumEqualSumOfTwoArraysAfterReplacingZeros.cpp
         Problems/LeetCode2918MinimumEqualSumOfTwoArraysAfterReplacingZeros.h
+        Problems/LeetCode1550ThreeConsecutiveOdds.cpp
+        Problems/LeetCode1550ThreeConsecutiveOdds.h
 )

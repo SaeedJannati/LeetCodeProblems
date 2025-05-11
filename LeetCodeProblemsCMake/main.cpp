@@ -2,16 +2,7 @@
 
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
-#include "Problems/LeetCode1128NumberOfEquivalentDominoPairs.h"
-#include "Problems/LeetCode1295FindNumbersWithEvenNumberOfDigits.h"
-#include "Problems/LeetCode2302CountSubarraysWithScoreLessThanK.h"
-#include "Problems/LeetCode2444CountSubarraysWithFixedBounds.h"
-#include "Problems/LeetCode2799CountCompleteSubarraysInAnArray.h"
-#include "Problems/LeetCode2845CountOfInterestingSubarrays.h"
-#include "Problems/LeetCode2962CountSubarraysWhereMaxElementAppearsAtLeastKTimes.h"
 #include "Problems/LeetCode3341FindMinimumTimeToReachLastRoomI.h"
-#include "Problems/LeetCode3392CountSubarraysOfLengthThreeWithACondition.h"
-#include "Problems/LeetCode838PushDominoes.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -23,7 +14,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2918. Minimum Equal Sum of Two Arrays After Replacing Zeros";
+    const std::string scriptName = "1550. Three Consecutive Odds";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
