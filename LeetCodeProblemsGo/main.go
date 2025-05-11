@@ -9,6 +9,6 @@ func main() {
 
 	LeetCode2799CountCompleteSubarraysInAnArray.Calculate()
 	fmt.Println("")
-	rawScriptName := "2918. Minimum Equal Sum of Two Arrays After Replacing Zeros"
+	rawScriptName := "1550. Three Consecutive Odds"
 	printScriptName(rawScriptName)
 }
