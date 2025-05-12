@@ -209,4 +209,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2918MinimumEqualSumOfTwoArraysAfterReplacingZeros.h
         Problems/LeetCode1550ThreeConsecutiveOdds.cpp
         Problems/LeetCode1550ThreeConsecutiveOdds.h
+        Problems/LeetCode2094Finding3DigitEvenNumbers.cpp
+        Problems/LeetCode2094Finding3DigitEvenNumbers.h
 )
