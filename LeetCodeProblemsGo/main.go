@@ -9,6 +9,6 @@ func main() {
 
 	LeetCode2799CountCompleteSubarraysInAnArray.Calculate()
 	fmt.Println("")
-	rawScriptName := "2094. Finding 3-Digit Even Numbers"
+	rawScriptName := "3335. Total Characters in String After Transformations I"
 	printScriptName(rawScriptName)
 }
