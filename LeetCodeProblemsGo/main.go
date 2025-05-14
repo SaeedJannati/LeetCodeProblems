@@ -9,6 +9,6 @@ func main() {
 
 	LeetCode2799CountCompleteSubarraysInAnArray.Calculate()
 	fmt.Println("")
-	rawScriptName := "3335. Total Characters in String After Transformations I"
+	rawScriptName := "260. Single Number III"
 	printScriptName(rawScriptName)
 }
