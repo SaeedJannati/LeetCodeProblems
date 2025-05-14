@@ -3,19 +3,20 @@
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/LeetCode2094Finding3DigitEvenNumbers.h"
+#include "Problems/LeetCode260SingleNumberIII.h"
 #include "Problems/LeetCode3341FindMinimumTimeToReachLastRoomI.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2094Finding3DigitEvenNumbers();
+    const auto problem = new LeetCode260SingleNumberIII();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3335. Total Characters in String After Transformations I";
+    const std::string scriptName = "260. Single Number III";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

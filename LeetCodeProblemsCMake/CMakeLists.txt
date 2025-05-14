@@ -213,4 +213,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2094Finding3DigitEvenNumbers.h
         Problems/LeetCode3335TotalCharactersInStringAfterTransformationsI.cpp
         Problems/LeetCode3335TotalCharactersInStringAfterTransformationsI.h
+        Problems/LeetCode260SingleNumberIII.cpp
+        Problems/LeetCode260SingleNumberIII.h
 )
