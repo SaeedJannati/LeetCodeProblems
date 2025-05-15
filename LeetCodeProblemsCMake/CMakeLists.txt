@@ -215,4 +215,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3335TotalCharactersInStringAfterTransformationsI.h
         Problems/LeetCode260SingleNumberIII.cpp
         Problems/LeetCode260SingleNumberIII.h
+        Problems/LeetCode2900LongestUnequalAdjacentGroupsSubsequenceI.cpp
+        Problems/LeetCode2900LongestUnequalAdjacentGroupsSubsequenceI.h
 )

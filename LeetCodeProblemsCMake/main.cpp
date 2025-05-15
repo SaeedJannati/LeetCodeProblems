@@ -16,7 +16,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "260. Single Number III";
+    const std::string scriptName = "2900. Longest Unequal Adjacent Groups Subsequence I";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
