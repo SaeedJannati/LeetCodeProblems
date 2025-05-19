@@ -2,6 +2,7 @@
 
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
+#include "Problems/GeeksForGeeksTravellingSalesmanProblem.h"
 #include "Problems/LeetCode2094Finding3DigitEvenNumbers.h"
 #include "Problems/LeetCode260SingleNumberIII.h"
 #include "Problems/LeetCode3341FindMinimumTimeToReachLastRoomI.h"
@@ -9,7 +10,7 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode260SingleNumberIII();
+    const auto problem = new GeeksForGeeksTravellingSalesmanProblem();
     problem->Run();
     delete problem;
 
@@ -20,7 +21,7 @@ int main() {
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
-    std::string input="[[0,4],[4,4]]";
+    std::string input="[[0, 1000, 5000], [5000, 0, 1000], [1000, 5000, 0]]";
   Auxilaries::ConvertToVector(input);
 #pragma endregion
 }
