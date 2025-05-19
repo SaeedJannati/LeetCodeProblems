@@ -9,6 +9,6 @@ func main() {
 
 	LeetCode2799CountCompleteSubarraysInAnArray.Calculate()
 	fmt.Println("")
-	rawScriptName := "2900. Longest Unequal Adjacent Groups Subsequence I"
+	rawScriptName := "3024. Type of Triangle"
 	printScriptName(rawScriptName)
 }
