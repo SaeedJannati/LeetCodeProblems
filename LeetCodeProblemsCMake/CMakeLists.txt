@@ -217,4 +217,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode260SingleNumberIII.h
         Problems/LeetCode2900LongestUnequalAdjacentGroupsSubsequenceI.cpp
         Problems/LeetCode2900LongestUnequalAdjacentGroupsSubsequenceI.h
+        Problems/LeetCode3024TypeOfTriangle.cpp
+        Problems/LeetCode3024TypeOfTriangle.h
 )
