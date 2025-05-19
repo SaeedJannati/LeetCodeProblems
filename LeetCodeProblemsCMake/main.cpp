@@ -17,7 +17,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3024. Type of Triangle";
+    const std::string scriptName = "847. Shortest Path Visiting All Nodes";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

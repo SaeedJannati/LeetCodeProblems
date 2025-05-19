@@ -221,4 +221,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3024TypeOfTriangle.h
         Problems/GeeksForGeeksTravellingSalesmanProblem.cpp
         Problems/GeeksForGeeksTravellingSalesmanProblem.h
+        Problems/LeetCode847ShortestPathVisitingAllNodes.cpp
+        Problems/LeetCode847ShortestPathVisitingAllNodes.h
 )
