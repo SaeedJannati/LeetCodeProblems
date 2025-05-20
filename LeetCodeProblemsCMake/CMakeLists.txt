@@ -223,4 +223,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/GeeksForGeeksTravellingSalesmanProblem.h
         Problems/LeetCode847ShortestPathVisitingAllNodes.cpp
         Problems/LeetCode847ShortestPathVisitingAllNodes.h
+        Problems/LeetCode3355ZeroArrayTransformationI.cpp
+        Problems/LeetCode3355ZeroArrayTransformationI.h
 )
