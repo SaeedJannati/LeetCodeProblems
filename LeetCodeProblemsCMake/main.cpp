@@ -3,9 +3,6 @@
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/GeeksForGeeksTravellingSalesmanProblem.h"
-#include "Problems/LeetCode2094Finding3DigitEvenNumbers.h"
-#include "Problems/LeetCode260SingleNumberIII.h"
-#include "Problems/LeetCode3341FindMinimumTimeToReachLastRoomI.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
