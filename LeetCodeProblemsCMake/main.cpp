@@ -5,18 +5,19 @@
 #include "Problems/LeetCode2094Finding3DigitEvenNumbers.h"
 #include "Problems/LeetCode260SingleNumberIII.h"
 #include "Problems/LeetCode3341FindMinimumTimeToReachLastRoomI.h"
+#include "Problems/LeetCode3355ZeroArrayTransformationI.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode260SingleNumberIII();
+    const auto problem = new LeetCode3355ZeroArrayTransformationI();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3024. Type of Triangle";
+    const std::string scriptName = "3355. Zero Array Transformation I";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
