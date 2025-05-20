@@ -9,6 +9,6 @@ func main() {
 
 	LeetCode2799CountCompleteSubarraysInAnArray.Calculate()
 	fmt.Println("")
-	rawScriptName := "3024. Type of Triangle"
+	rawScriptName := "3355. Zero Array Transformation I"
 	printScriptName(rawScriptName)
 }
