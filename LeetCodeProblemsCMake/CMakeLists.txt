@@ -219,6 +219,10 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2900LongestUnequalAdjacentGroupsSubsequenceI.h
         Problems/LeetCode3024TypeOfTriangle.cpp
         Problems/LeetCode3024TypeOfTriangle.h
+        Problems/GeeksForGeeksTravellingSalesmanProblem.cpp
+        Problems/GeeksForGeeksTravellingSalesmanProblem.h
+        Problems/LeetCode847ShortestPathVisitingAllNodes.cpp
+        Problems/LeetCode847ShortestPathVisitingAllNodes.h
         Problems/LeetCode3355ZeroArrayTransformationI.cpp
         Problems/LeetCode3355ZeroArrayTransformationI.h
 )
