@@ -225,4 +225,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode847ShortestPathVisitingAllNodes.h
         Problems/LeetCode3355ZeroArrayTransformationI.cpp
         Problems/LeetCode3355ZeroArrayTransformationI.h
+        Problems/LeetCode2942FindWordsContainingCharacter.cpp
+        Problems/LeetCode2942FindWordsContainingCharacter.h
 )

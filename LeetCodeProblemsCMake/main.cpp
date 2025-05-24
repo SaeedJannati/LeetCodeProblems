@@ -14,7 +14,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "847. Shortest Path Visiting All Nodes";
+    const std::string scriptName = "2942. Find Words Containing Character";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
