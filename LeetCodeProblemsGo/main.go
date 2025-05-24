@@ -9,6 +9,6 @@ func main() {
 
 	LeetCode2799CountCompleteSubarraysInAnArray.Calculate()
 	fmt.Println("")
-	rawScriptName := "3355. Zero Array Transformation I"
+	rawScriptName := "2942. Find Words Containing Character"
 	printScriptName(rawScriptName)
 }
