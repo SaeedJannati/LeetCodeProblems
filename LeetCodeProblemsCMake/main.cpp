@@ -14,7 +14,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2942. Find Words Containing Character";
+    const std::string scriptName = "2894. Divisible and Non-divisible Sums Difference";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

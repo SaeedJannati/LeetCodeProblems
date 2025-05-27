@@ -1,0 +1,17 @@
+//
+// Created by saeed on 5/27/25.
+//
+
+#ifndef LEETCODE2894DIVISIBLEANDNONDIVISIBLESUMSDIFFERENCE_H
+#define LEETCODE2894DIVISIBLEANDNONDIVISIBLESUMSDIFFERENCE_H
+
+
+
+class LeetCode2894DivisibleAndNondivisibleSumsDifference {
+private:
+    int differenceOfSums(int n, int m);
+};
+
+
+
+#endif //LEETCODE2894DIVISIBLEANDNONDIVISIBLESUMSDIFFERENCE_H

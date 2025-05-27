@@ -227,4 +227,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3355ZeroArrayTransformationI.h
         Problems/LeetCode2942FindWordsContainingCharacter.cpp
         Problems/LeetCode2942FindWordsContainingCharacter.h
+        Problems/LeetCode2894DivisibleAndNondivisibleSumsDifference.cpp
+        Problems/LeetCode2894DivisibleAndNondivisibleSumsDifference.h
 )
