@@ -9,6 +9,6 @@ func main() {
 
 	LeetCode2799CountCompleteSubarraysInAnArray.Calculate()
 	fmt.Println("")
-	rawScriptName := "2942. Find Words Containing Character"
+	rawScriptName := "2894. Divisible and Non-divisible Sums Difference"
 	printScriptName(rawScriptName)
 }
