@@ -9,6 +9,6 @@ func main() {
 
 	LeetCode2799CountCompleteSubarraysInAnArray.Calculate()
 	fmt.Println("")
-	rawScriptName := "2894. Divisible and Non-divisible Sums Difference"
+	rawScriptName := "3372. Maximize the Number of Target Nodes After Connecting Trees I"
 	printScriptName(rawScriptName)
 }
