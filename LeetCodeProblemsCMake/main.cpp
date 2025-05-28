@@ -3,22 +3,23 @@
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/GeeksForGeeksTravellingSalesmanProblem.h"
+#include "Problems/LeetCode3372MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new GeeksForGeeksTravellingSalesmanProblem();
+    const auto problem = new LeetCode3372MaximizeTheNumberOfTargetNodesAfterConnectingTreesI();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2894. Divisible and Non-divisible Sums Difference";
+    const std::string scriptName = "3372. Maximize the Number of Target Nodes After Connecting Trees I";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
-    std::string input="[[0, 1000, 5000], [5000, 0, 1000], [1000, 5000, 0]]";
+    std::string input="[[0,1],[0,2],[0,3],[2,7],[1,4],[4,5],[4,6]]";
   Auxilaries::ConvertToVector(input);
 #pragma endregion
 }
