@@ -4,18 +4,19 @@
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/GeeksForGeeksTravellingSalesmanProblem.h"
 #include "Problems/LeetCode3372MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.h"
+#include "Problems/LeetCode3373MaximizeTheNumberOfTargetNodesAfterConnectingTreesII.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3372MaximizeTheNumberOfTargetNodesAfterConnectingTreesI();
+    const auto problem = new LeetCode3373MaximizeTheNumberOfTargetNodesAfterConnectingTreesII();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3372. Maximize the Number of Target Nodes After Connecting Trees I";
+    const std::string scriptName = "3373. Maximize the Number of Target Nodes After Connecting Trees II";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

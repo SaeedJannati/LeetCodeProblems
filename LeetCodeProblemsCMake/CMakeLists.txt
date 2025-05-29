@@ -231,4 +231,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2894DivisibleAndNondivisibleSumsDifference.h
         Problems/LeetCode3372MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.cpp
         Problems/LeetCode3372MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.h
+        Problems/LeetCode3373MaximizeTheNumberOfTargetNodesAfterConnectingTreesII.cpp
+        Problems/LeetCode3373MaximizeTheNumberOfTargetNodesAfterConnectingTreesII.h
 )
