@@ -233,4 +233,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3372MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.h
         Problems/LeetCode3373MaximizeTheNumberOfTargetNodesAfterConnectingTreesII.cpp
         Problems/LeetCode3373MaximizeTheNumberOfTargetNodesAfterConnectingTreesII.h
+        Problems/LeetCode2359FindClosestNodeToGivenTwoNodes.cpp
+        Problems/LeetCode2359FindClosestNodeToGivenTwoNodes.h
 )
