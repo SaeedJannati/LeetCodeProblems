@@ -235,4 +235,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3373MaximizeTheNumberOfTargetNodesAfterConnectingTreesII.h
         Problems/LeetCode2359FindClosestNodeToGivenTwoNodes.cpp
         Problems/LeetCode2359FindClosestNodeToGivenTwoNodes.h
+        Problems/LeetCode2131LongestPalindromeByConcatenatingTwoLetterWords.cpp
+        Problems/LeetCode2131LongestPalindromeByConcatenatingTwoLetterWords.h
 )
