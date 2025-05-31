@@ -9,6 +9,6 @@ func main() {
 
 	LeetCode2799CountCompleteSubarraysInAnArray.Calculate()
 	fmt.Println("")
-	rawScriptName := "3372. Maximize the Number of Target Nodes After Connecting Trees I"
+	rawScriptName := "2359. Find Closest Node to Given Two Nodes"
 	printScriptName(rawScriptName)
 }
