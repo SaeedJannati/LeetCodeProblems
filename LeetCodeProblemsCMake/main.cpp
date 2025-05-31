@@ -15,7 +15,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3372. Maximize the Number of Target Nodes After Connecting Trees I";
+    const std::string scriptName = "2131. Longest Palindrome by Concatenating Two Letter Words";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
