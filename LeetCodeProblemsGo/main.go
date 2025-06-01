@@ -11,6 +11,6 @@ func main() {
 	word := "ab"
 	fmt.Println(word[0])
 	fmt.Println("")
-	rawScriptName := "2131. Longest Palindrome by Concatenating Two Letter Words"
+	rawScriptName := "2929. Distribute Candies Among Children II"
 	printScriptName(rawScriptName)
 }
