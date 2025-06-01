@@ -237,4 +237,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2359FindClosestNodeToGivenTwoNodes.h
         Problems/LeetCode2131LongestPalindromeByConcatenatingTwoLetterWords.cpp
         Problems/LeetCode2131LongestPalindromeByConcatenatingTwoLetterWords.h
+        Problems/LeetCode2929DistributeCandiesAmongChildrenII.cpp
+        Problems/LeetCode2929DistributeCandiesAmongChildrenII.h
 )
