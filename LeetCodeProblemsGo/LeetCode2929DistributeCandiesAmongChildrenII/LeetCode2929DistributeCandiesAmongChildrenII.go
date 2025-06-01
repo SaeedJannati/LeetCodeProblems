@@ -7,7 +7,7 @@ func distributeCandies(n int, limit int) int64 {
 	}
 	var result int64 = 0
 	var stepSum int64 = 0
-	for i := 0; i < minLimit; i++ {
+	for i := 0; i <= minLimit; i++ {
 		stepSum = int64(max(min(n, i+minLimit)-max(i, n-minLimit)+1, 0))
 		result += stepSum
 	}
