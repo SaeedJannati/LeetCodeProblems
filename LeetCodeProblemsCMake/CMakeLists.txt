@@ -239,4 +239,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2131LongestPalindromeByConcatenatingTwoLetterWords.h
         Problems/LeetCode2929DistributeCandiesAmongChildrenII.cpp
         Problems/LeetCode2929DistributeCandiesAmongChildrenII.h
+        Problems/LeetCode187RepeatedDNASequences.cpp
+        Problems/LeetCode187RepeatedDNASequences.h
 )

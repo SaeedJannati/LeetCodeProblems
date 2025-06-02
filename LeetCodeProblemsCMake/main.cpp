@@ -2,6 +2,7 @@
 
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
+#include "Problems/LeetCode187RepeatedDNASequences.h"
 #include "Problems/LeetCode2359FindClosestNodeToGivenTwoNodes.h"
 #include "Problems/LeetCode2929DistributeCandiesAmongChildrenII.h"
 #include "Problems/LeetCode3373MaximizeTheNumberOfTargetNodesAfterConnectingTreesII.h"
@@ -9,14 +10,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2929DistributeCandiesAmongChildrenII();
+    const auto problem = new LeetCode187RepeatedDNASequences();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2929. Distribute Candies Among Children II";
+    const std::string scriptName = "187. Repeated DNA Sequences";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
