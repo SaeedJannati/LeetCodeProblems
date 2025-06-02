@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode2338CountTheNumberOfIdealArrays();
+var problem = new LeetCode165CompareVersionNumbers();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "2338. Count the Number of Ideal Arrays";
+var scriptName = "165. Compare Version Numbers";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
