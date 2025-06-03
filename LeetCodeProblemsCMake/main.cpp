@@ -17,7 +17,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "187. Repeated DNA Sequences";
+    const std::string scriptName = "1298. Maximum Candies You Can Get from Boxes";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

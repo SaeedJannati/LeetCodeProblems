@@ -241,4 +241,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2929DistributeCandiesAmongChildrenII.h
         Problems/LeetCode187RepeatedDNASequences.cpp
         Problems/LeetCode187RepeatedDNASequences.h
+        Problems/LeetCode1298MaximumCandiesYouCanGetFromBoxes.cpp
+        Problems/LeetCode1298MaximumCandiesYouCanGetFromBoxes.h
 )
