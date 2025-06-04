@@ -6,18 +6,19 @@
 #include "Problems/LeetCode2359FindClosestNodeToGivenTwoNodes.h"
 #include "Problems/LeetCode2929DistributeCandiesAmongChildrenII.h"
 #include "Problems/LeetCode3373MaximizeTheNumberOfTargetNodesAfterConnectingTreesII.h"
+#include "Problems/LeetCode3403FindTheLexicographicallyLargestStringFromTheBoxI.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode187RepeatedDNASequences();
+    const auto problem = new LeetCode3403FindTheLexicographicallyLargestStringFromTheBoxI();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1298. Maximum Candies You Can Get from Boxes";
+    const std::string scriptName = "3403. Find the Lexicographically Largest String From the Box I";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

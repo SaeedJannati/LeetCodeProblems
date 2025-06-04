@@ -243,4 +243,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode187RepeatedDNASequences.h
         Problems/LeetCode1298MaximumCandiesYouCanGetFromBoxes.cpp
         Problems/LeetCode1298MaximumCandiesYouCanGetFromBoxes.h
+        Problems/LeetCode3403FindTheLexicographicallyLargestStringFromTheBoxI.cpp
+        Problems/LeetCode3403FindTheLexicographicallyLargestStringFromTheBoxI.h
 )
