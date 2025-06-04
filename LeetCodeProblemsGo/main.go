@@ -11,6 +11,6 @@ func main() {
 	word := "ab"
 	fmt.Println(word[0])
 	fmt.Println("")
-	rawScriptName := "187. Repeated DNA Sequences"
+	rawScriptName := "3403. Find the Lexicographically Largest String From the Box I"
 	printScriptName(rawScriptName)
 }
