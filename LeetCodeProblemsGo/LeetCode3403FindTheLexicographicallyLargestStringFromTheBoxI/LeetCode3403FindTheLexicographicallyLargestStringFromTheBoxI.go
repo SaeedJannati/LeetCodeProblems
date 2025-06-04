@@ -12,7 +12,7 @@ func answerString(word string, numFriends int) string {
 	for i := 1; i < length; i++ {
 		possibleLength = maxLength
 		if i+maxLength >= length {
-			possibleLength = length - maxLength
+			possibleLength = length - i
 		}
 		candidate = word[i : i+possibleLength]
 		if !isLexicographicallyLarger(answer, candidate) {
