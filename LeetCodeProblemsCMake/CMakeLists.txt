@@ -245,4 +245,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1298MaximumCandiesYouCanGetFromBoxes.h
         Problems/LeetCode3403FindTheLexicographicallyLargestStringFromTheBoxI.cpp
         Problems/LeetCode3403FindTheLexicographicallyLargestStringFromTheBoxI.h
+        Problems/LeetCode1061LexicographicallySmallestEquivalentString.cpp
+        Problems/LeetCode1061LexicographicallySmallestEquivalentString.h
 )

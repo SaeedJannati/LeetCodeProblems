@@ -18,7 +18,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3403. Find the Lexicographically Largest String From the Box I";
+    const std::string scriptName = "1061. Lexicographically Smallest Equivalent String";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
