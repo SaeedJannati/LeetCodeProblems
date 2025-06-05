@@ -11,6 +11,6 @@ func main() {
 	word := "ab"
 	fmt.Println(word[0])
 	fmt.Println("")
-	rawScriptName := "3403. Find the Lexicographically Largest String From the Box I"
+	rawScriptName := "1061. Lexicographically Smallest Equivalent String"
 	printScriptName(rawScriptName)
 }
