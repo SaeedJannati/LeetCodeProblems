@@ -11,6 +11,6 @@ func main() {
 	word := "ab"
 	fmt.Println(word[0])
 	fmt.Println("")
-	rawScriptName := "1061. Lexicographically Smallest Equivalent String"
+	rawScriptName := "2434. Using a Robot to Print the Lexicographically Smallest String"
 	printScriptName(rawScriptName)
 }
