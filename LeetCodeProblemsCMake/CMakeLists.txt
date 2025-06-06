@@ -247,4 +247,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3403FindTheLexicographicallyLargestStringFromTheBoxI.h
         Problems/LeetCode1061LexicographicallySmallestEquivalentString.cpp
         Problems/LeetCode1061LexicographicallySmallestEquivalentString.h
+        Problems/LeetCode2434UsingARobotToPrintTheLexicographicallySmallestString.cpp
+        Problems/LeetCode2434UsingARobotToPrintTheLexicographicallySmallestString.h
 )

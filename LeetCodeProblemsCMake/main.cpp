@@ -18,7 +18,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1061. Lexicographically Smallest Equivalent String";
+    const std::string scriptName = "2434. Using a Robot to Print the Lexicographically Smallest String";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
