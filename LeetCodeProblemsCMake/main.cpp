@@ -5,20 +5,21 @@
 #include "Problems/LeetCode187RepeatedDNASequences.h"
 #include "Problems/LeetCode2359FindClosestNodeToGivenTwoNodes.h"
 #include "Problems/LeetCode2929DistributeCandiesAmongChildrenII.h"
+#include "Problems/LeetCode3170LexicographicallyMinimumStringAfterRemovingStars.h"
 #include "Problems/LeetCode3373MaximizeTheNumberOfTargetNodesAfterConnectingTreesII.h"
 #include "Problems/LeetCode3403FindTheLexicographicallyLargestStringFromTheBoxI.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3403FindTheLexicographicallyLargestStringFromTheBoxI();
+    const auto problem = new LeetCode3170LexicographicallyMinimumStringAfterRemovingStars();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2434. Using a Robot to Print the Lexicographically Smallest String";
+    const std::string scriptName = "3170. Lexicographically Minimum String After Removing Stars";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
