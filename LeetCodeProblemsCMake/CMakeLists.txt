@@ -251,4 +251,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2434UsingARobotToPrintTheLexicographicallySmallestString.h
         Problems/LeetCode3170LexicographicallyMinimumStringAfterRemovingStars.cpp
         Problems/LeetCode3170LexicographicallyMinimumStringAfterRemovingStars.h
+        Problems/LeetCode386LexicographicalNumbers.cpp
+        Problems/LeetCode386LexicographicalNumbers.h
 )
