@@ -253,4 +253,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3170LexicographicallyMinimumStringAfterRemovingStars.h
         Problems/LeetCode386LexicographicalNumbers.cpp
         Problems/LeetCode386LexicographicalNumbers.h
+        Problems/LeetCode3442MaximumDifferenceBetweenEvenAndOddFrequencyI.cpp
+        Problems/LeetCode3442MaximumDifferenceBetweenEvenAndOddFrequencyI.h
 )

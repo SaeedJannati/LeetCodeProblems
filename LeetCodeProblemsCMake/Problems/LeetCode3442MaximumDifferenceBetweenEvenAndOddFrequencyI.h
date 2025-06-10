@@ -1,0 +1,16 @@
+//
+// Created by saeed on 6/10/25.
+//
+
+#ifndef LEETCODE3442MAXIMUMDIFFERENCEBETWEENEVENANDODDFREQUENCYI_H
+#define LEETCODE3442MAXIMUMDIFFERENCEBETWEENEVENANDODDFREQUENCYI_H
+#include <string>
+
+
+class LeetCode3442MaximumDifferenceBetweenEvenAndOddFrequencyI {
+    int maxDifference(std::string s);
+};
+
+
+
+#endif //LEETCODE3442MAXIMUMDIFFERENCEBETWEENEVENANDODDFREQUENCYI_H
