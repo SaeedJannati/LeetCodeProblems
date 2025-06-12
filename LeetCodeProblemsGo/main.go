@@ -1,16 +1,12 @@
 package main
 
 import (
-	"LeetCodeProblemsGo/LeetCode187RepeatedDNASequences"
-	"fmt"
+	"LeetCodeProblemsGo/LeetCode440KthSmallestInLexicographicalOrder"
 )
 
 func main() {
 
-	LeetCode187RepeatedDNASequences.Calculate()
-	word := "ab"
-	fmt.Println(word[0])
-	fmt.Println("")
-	rawScriptName := "3423. Maximum Difference Between Adjacent Elements in a Circular Array"
+	LeetCode440KthSmallestInLexicographicalOrder.Calculate()
+	rawScriptName := "440. K-th Smallest in Lexicographical Order"
 	printScriptName(rawScriptName)
 }
