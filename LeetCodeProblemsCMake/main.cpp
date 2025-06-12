@@ -19,7 +19,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3442. Maximum Difference Between Even and Odd Frequency I";
+    const std::string scriptName = "3423. Maximum Difference Between Adjacent Elements in a Circular Array";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

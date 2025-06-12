@@ -255,4 +255,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode386LexicographicalNumbers.h
         Problems/LeetCode3442MaximumDifferenceBetweenEvenAndOddFrequencyI.cpp
         Problems/LeetCode3442MaximumDifferenceBetweenEvenAndOddFrequencyI.h
+        Problems/LeetCode3423MaximumDifferenceBetweenAdjacentElementsInACircularArray.cpp
+        Problems/LeetCode3423MaximumDifferenceBetweenAdjacentElementsInACircularArray.h
 )
