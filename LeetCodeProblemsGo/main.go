@@ -7,6 +7,6 @@ import (
 func main() {
 
 	LeetCode440KthSmallestInLexicographicalOrder.Calculate()
-	rawScriptName := "440. K-th Smallest in Lexicographical Order"
+	rawScriptName := "223. Rectangle Area"
 	printScriptName(rawScriptName)
 }
