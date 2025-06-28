@@ -7,6 +7,6 @@ import (
 func main() {
 
 	LeetCode440KthSmallestInLexicographicalOrder.Calculate()
-	rawScriptName := "223. Rectangle Area"
+	rawScriptName := "2099. Find Subsequence of Length K With the Largest Sum"
 	printScriptName(rawScriptName)
 }
