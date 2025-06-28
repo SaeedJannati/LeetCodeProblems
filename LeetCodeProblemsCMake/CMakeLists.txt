@@ -259,4 +259,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3423MaximumDifferenceBetweenAdjacentElementsInACircularArray.h
         Problems/LeetCode440KthSmallestInLexicographicalOrder.cpp
         Problems/LeetCode440KthSmallestInLexicographicalOrder.h
+        Problems/LeetCode223RectangleArea.cpp
+        Problems/LeetCode223RectangleArea.h
 )

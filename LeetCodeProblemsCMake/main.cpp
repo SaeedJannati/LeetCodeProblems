@@ -19,7 +19,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "440. K-th Smallest in Lexicographical Order";
+    const std::string scriptName = "223. Rectangle Area";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
