@@ -261,4 +261,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode440KthSmallestInLexicographicalOrder.h
         Problems/LeetCode223RectangleArea.cpp
         Problems/LeetCode223RectangleArea.h
+        Problems/LeetCode513FindBottomLeftTreeValue.cpp
+        Problems/LeetCode513FindBottomLeftTreeValue.h
 )
