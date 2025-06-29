@@ -2,6 +2,7 @@
 
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
+#include "Problems/LeetCode1498NumberOfSubsequencesThatSatisfyTheGivenSumCondition.h"
 #include "Problems/LeetCode187RepeatedDNASequences.h"
 #include "Problems/LeetCode2359FindClosestNodeToGivenTwoNodes.h"
 #include "Problems/LeetCode2929DistributeCandiesAmongChildrenII.h"
@@ -12,14 +13,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3170LexicographicallyMinimumStringAfterRemovingStars();
+    const auto problem = new LeetCode1498NumberOfSubsequencesThatSatisfyTheGivenSumCondition();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "419. Battleships in a Board";
+    const std::string scriptName = "1498. Number of Subsequences That Satisfy the Given Sum Condition";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

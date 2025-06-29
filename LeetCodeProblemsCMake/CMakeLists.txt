@@ -265,4 +265,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode513FindBottomLeftTreeValue.h
         Problems/LeetCode419BattleshipsInABoard.cpp
         Problems/LeetCode419BattleshipsInABoard.h
+        Problems/LeetCode1498NumberOfSubsequencesThatSatisfyTheGivenSumCondition.cpp
+        Problems/LeetCode1498NumberOfSubsequencesThatSatisfyTheGivenSumCondition.h
 )
