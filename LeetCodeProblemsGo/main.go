@@ -7,6 +7,6 @@ import (
 func main() {
 
 	LeetCode440KthSmallestInLexicographicalOrder.Calculate()
-	rawScriptName := "419. Battleships in a Board"
+	rawScriptName := "1498. Number of Subsequences That Satisfy the Given Sum Condition"
 	printScriptName(rawScriptName)
 }
