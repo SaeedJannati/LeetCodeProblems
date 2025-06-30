@@ -7,6 +7,6 @@ import (
 func main() {
 
 	LeetCode440KthSmallestInLexicographicalOrder.Calculate()
-	rawScriptName := "594. Longest Harmonious Subsequence"
+	rawScriptName := "229. Majority Element II"
 	printScriptName(rawScriptName)
 }
