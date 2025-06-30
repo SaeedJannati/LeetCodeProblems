@@ -20,7 +20,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "594. Longest Harmonious Subsequence";
+    const std::string scriptName = "229. Majority Element II";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
