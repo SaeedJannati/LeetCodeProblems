@@ -267,4 +267,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode419BattleshipsInABoard.h
         Problems/LeetCode1498NumberOfSubsequencesThatSatisfyTheGivenSumCondition.cpp
         Problems/LeetCode1498NumberOfSubsequencesThatSatisfyTheGivenSumCondition.h
+        Problems/LeetCode594LongestHarmoniousSubsequence.cpp
+        Problems/LeetCode594LongestHarmoniousSubsequence.h
 )

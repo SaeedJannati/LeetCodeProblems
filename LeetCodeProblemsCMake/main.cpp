@@ -20,7 +20,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1498. Number of Subsequences That Satisfy the Given Sum Condition";
+    const std::string scriptName = "594. Longest Harmonious Subsequence";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
