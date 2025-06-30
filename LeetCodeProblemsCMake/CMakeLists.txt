@@ -271,4 +271,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode594LongestHarmoniousSubsequence.h
         Problems/LeetCode229MajorityElementII.cpp
         Problems/LeetCode229MajorityElementII.h
+        Problems/LeetCode429NaryTreeLevelOrderTraversal.cpp
+        Problems/LeetCode429NaryTreeLevelOrderTraversal.h
 )
