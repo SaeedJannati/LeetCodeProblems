@@ -4,7 +4,6 @@
 
 #include "LeetCode3330FindTheOriginalTypedStringI.h"
 
-#include <cmath>
 using namespace std;
 
 int LeetCode3330FindTheOriginalTypedStringI::possibleStringCount(string word) {
