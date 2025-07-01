@@ -273,4 +273,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode229MajorityElementII.h
         Problems/LeetCode429NaryTreeLevelOrderTraversal.cpp
         Problems/LeetCode429NaryTreeLevelOrderTraversal.h
+        Problems/LeetCode3330FindTheOriginalTypedStringI.cpp
+        Problems/LeetCode3330FindTheOriginalTypedStringI.h
 )

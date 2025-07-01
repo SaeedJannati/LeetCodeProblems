@@ -20,7 +20,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "429. N-ary Tree Level Order Traversal";
+    const std::string scriptName = "3330. Find the Original Typed String I";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
