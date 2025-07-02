@@ -8,20 +8,45 @@
 
 #include "../Auxilary/Auxilaries.h"
 using namespace std;
-//count[i,j]=  sigma(l=>(1,f(i)),count[i-1,j-l]*l)
-int GetCount(vector<int> &frequencyVector,int k, int modulo, int freqIndex, int wordLength) {
+
+int GetCount(vector<int> &frequencyVector, vector<vector<int> > &memo, vector<vector<int> > &prefixMemo, int k,
+             int modulo, int freqIndex, int wordLength) {
     long result{};
     long delta{};
-    if (freqIndex == -1 && wordLength == 0) {
-        return 1;
+    if (freqIndex == -1) {
+        if (wordLength == 0)
+            return 1;
+        return 0;
     }
+    if (wordLength < 0)
+        return 0;
+    if (memo[freqIndex][wordLength] != -1) {
+        return memo[freqIndex][wordLength];
+    }
+    if (freqIndex > 0 && wordLength > 0)
+        if (prefixMemo[freqIndex - 1][wordLength - 1] != 0) {
+            result= prefixMemo[freqIndex - 1][wordLength - 1];
+            if (wordLength > frequencyVector[freqIndex] + 1){
+                       result-= prefixMemo[freqIndex - 1][
+                           wordLength - frequencyVector[freqIndex] - 1];
+            }
+            return result;
+        }
     for (int i = 1; i <= frequencyVector[freqIndex]; i++) {
-        delta = i * GetCount(frequencyVector, modulo,k, freqIndex - 1, wordLength - i);
+        delta = GetCount(frequencyVector, memo, prefixMemo, k, modulo, freqIndex - 1, wordLength - i);
         delta %= modulo;
         result += delta;
         result %= modulo;
     }
-    return result;
+    memo[freqIndex][wordLength] = result;
+    if (freqIndex > 0 && wordLength > 0) {
+        prefixMemo[freqIndex - 1][wordLength - 1] = result;
+        if (wordLength > frequencyVector[freqIndex] + 1)
+            prefixMemo[freqIndex - 1][wordLength - 1] += prefixMemo[freqIndex - 1][
+                wordLength - frequencyVector[freqIndex] - 1];
+        prefixMemo[freqIndex - 1][wordLength - 1] %= modulo;
+    }
+    return memo[freqIndex][wordLength];
 }
 
 int LeetCode3333FindTheOriginalTypedStringII::possibleStringCount(string word, int k) {
@@ -58,22 +83,24 @@ int LeetCode3333FindTheOriginalTypedStringII::possibleStringCount(string word, i
     }
     if (length > k)
         return totalCount;
+    vector<vector<int> > memo(length, vector<int>(k, -1));
+    vector<vector<int> > prefixMemos(length, vector<int>(k, 0));
     long upTokLettersCount{};
     long delta{};
-    for (int i = length; i <= k; i++) {
-        delta = GetCount(frequencyVector,k, modulo, length-1, i);
+    for (int i = length; i < k; i++) {
+        delta = GetCount(frequencyVector, memo, prefixMemos, k, modulo, length - 1, i);
         delta %= modulo;
         upTokLettersCount += delta;
         upTokLettersCount %= modulo;
     }
-    result= totalCount-upTokLettersCount;
+    result = totalCount - upTokLettersCount;
     if (result < 0)
-        result+= modulo;
-    return  result;
+        result += modulo;
+    return result;
 }
 
 void LeetCode3333FindTheOriginalTypedStringII::Run() {
     string word = "aabbccdd";
     int k = 7;
-   cout<< possibleStringCount(word, k)<<'\n';
+    cout << possibleStringCount(word, k) << '\n';
 }
