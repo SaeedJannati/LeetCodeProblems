@@ -7,6 +7,7 @@
 #include "Problems/LeetCode2359FindClosestNodeToGivenTwoNodes.h"
 #include "Problems/LeetCode2929DistributeCandiesAmongChildrenII.h"
 #include "Problems/LeetCode3170LexicographicallyMinimumStringAfterRemovingStars.h"
+#include "Problems/LeetCode3304FindTheKthCharacterInStringGameI.h"
 #include "Problems/LeetCode3333FindTheOriginalTypedStringII.h"
 #include "Problems/LeetCode3373MaximizeTheNumberOfTargetNodesAfterConnectingTreesII.h"
 #include "Problems/LeetCode3403FindTheLexicographicallyLargestStringFromTheBoxI.h"
@@ -14,14 +15,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3333FindTheOriginalTypedStringII();
+    const auto problem = new LeetCode3304FindTheKthCharacterInStringGameI();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3333. Find the Original Typed String II";
+    const std::string scriptName = "3304. Find the K-th Character in String Game I";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
