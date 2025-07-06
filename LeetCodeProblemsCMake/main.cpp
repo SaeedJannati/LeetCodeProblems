@@ -22,7 +22,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1394. Find Lucky Integer in an Array";
+    const std::string scriptName = "1865. Finding Pairs With a Certain Sum";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
