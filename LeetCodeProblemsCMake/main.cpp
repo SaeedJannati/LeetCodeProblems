@@ -2,6 +2,7 @@
 
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
+#include "Problems/LeetCode1353MaximumNumberOfEventsThatCanBeAttended.h"
 #include "Problems/LeetCode1498NumberOfSubsequencesThatSatisfyTheGivenSumCondition.h"
 #include "Problems/LeetCode187RepeatedDNASequences.h"
 #include "Problems/LeetCode2359FindClosestNodeToGivenTwoNodes.h"
@@ -15,18 +16,18 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3304FindTheKthCharacterInStringGameI();
+    const auto problem = new LeetCode1353MaximumNumberOfEventsThatCanBeAttended();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1865. Finding Pairs With a Certain Sum";
+    const std::string scriptName = "1353. Maximum Number of Events That Can Be Attended";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
-    std::string input="[[0,1],[0,2],[0,3],[2,7],[1,4],[4,5],[4,6]]";
+    std::string input="[[1,2],[1,2],[1,6],[1,2],[1,2]]";
   Auxilaries::ConvertToVector(input);
 #pragma endregion
 }
