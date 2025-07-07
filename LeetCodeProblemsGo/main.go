@@ -7,6 +7,6 @@ import (
 func main() {
 
 	LeetCode440KthSmallestInLexicographicalOrder.Calculate()
-	rawScriptName := "1865. Finding Pairs With a Certain Sum"
+	rawScriptName := "1353. Maximum Number of Events That Can Be Attended"
 	printScriptName(rawScriptName)
 }
