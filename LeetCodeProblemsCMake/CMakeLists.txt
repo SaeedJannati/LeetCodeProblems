@@ -287,4 +287,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1865FindingPairsWithACertainSum.h
         Problems/LeetCode1353MaximumNumberOfEventsThatCanBeAttended.cpp
         Problems/LeetCode1353MaximumNumberOfEventsThatCanBeAttended.h
+        Problems/LeetCode1751MaximumNumberOfEventsThatCanBeAttendedII.cpp
+        Problems/LeetCode1751MaximumNumberOfEventsThatCanBeAttendedII.h
 )

@@ -23,7 +23,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1353. Maximum Number of Events That Can Be Attended";
+    const std::string scriptName = "1751. Maximum Number of Events That Can Be Attended II";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
