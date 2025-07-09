@@ -7,6 +7,6 @@ import (
 func main() {
 
 	LeetCode440KthSmallestInLexicographicalOrder.Calculate()
-	rawScriptName := "1751. Maximum Number of Events That Can Be Attended II"
+	rawScriptName := "3439. Reschedule Meetings for Maximum Free Time I"
 	printScriptName(rawScriptName)
 }
