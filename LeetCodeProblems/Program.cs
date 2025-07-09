@@ -3,14 +3,14 @@
 using LeetCodeProblems.Auxilaries;
 using LeetCodeProblems.Problems;
 
-var problem = new LeetCode2179CountGoodTripletsInAnArray();
+var problem = new LeetCode165CompareVersionNumbers();
 
 problem.Run();
 
 
 #region ScriptNameConvertor
 
-var scriptName = "2179. Count Good Triplets in an Array";
+var scriptName = "165. Compare Version Numbers";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 

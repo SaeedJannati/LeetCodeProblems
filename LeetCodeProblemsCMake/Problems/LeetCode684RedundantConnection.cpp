@@ -8,16 +8,16 @@
 
 #include "../Auxilary/Auxilaries.h"
 #pragma region  Union find
-int Find(std::vector<int> &parents, int vert) {
+int mFind(std::vector<int> &parents, int vert) {
     if (parents[vert] != vert) {
-        parents[vert] = Find(parents, parents[vert]);
+        parents[vert] = mFind(parents, parents[vert]);
     }
     return parents[vert];
 }
 
 bool Union(std::vector<int> &parents, std::vector<int> &ranks, int vert1, int vert2) {
-    int root1 = Find(parents, vert1);
-    int root2 = Find(parents, vert2);
+    int root1 = mFind(parents, vert1);
+    int root2 = mFind(parents, vert2);
     if (root1 == root2)
         return false;
     if (ranks[root1] < ranks[root2]) {

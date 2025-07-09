@@ -1,14 +1,12 @@
 package main
 
 import (
-	"LeetCodeProblemsGo/LeetCode416PartitionEqualSubsetSum"
-	"fmt"
+	"LeetCodeProblemsGo/LeetCode440KthSmallestInLexicographicalOrder"
 )
 
 func main() {
-	nums := []int{1, 5, 11, 3}
-	LeetCode416PartitionEqualSubsetSum.Calculate(nums)
-	fmt.Println("")
-	rawScriptName := "781. Rabbits in Forest"
+
+	LeetCode440KthSmallestInLexicographicalOrder.Calculate()
+	rawScriptName := "1751. Maximum Number of Events That Can Be Attended II"
 	printScriptName(rawScriptName)
 }

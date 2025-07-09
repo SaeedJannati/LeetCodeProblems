@@ -1,0 +1,16 @@
+//
+// Created by saeed on 6/6/25.
+//
+
+#ifndef LEETCODE2434USINGAROBOTTOPRINTTHELEXICOGRAPHICALLYSMALLESTSTRING_H
+#define LEETCODE2434USINGAROBOTTOPRINTTHELEXICOGRAPHICALLYSMALLESTSTRING_H
+#include <string>
+
+
+class LeetCode2434UsingARobotToPrintTheLexicographicallySmallestString {
+    std::string robotWithString(std::string s);
+};
+
+
+
+#endif //LEETCODE2434USINGAROBOTTOPRINTTHELEXICOGRAPHICALLYSMALLESTSTRING_H

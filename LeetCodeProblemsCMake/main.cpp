@@ -2,48 +2,32 @@
 
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
-#include "Problems/GeeksForGeeksAlienDictionary.h"
-#include "Problems/LeetCode147InsertionSortList.h"
-#include "Problems/LeetCode1980FindUniqueBinaryString.h"
-#include "Problems/LeetCode2140SolvingQuestionsWithBrainpower.h"
-#include "Problems/LeetCode2226MaximumCandiesAllocatedToKChildren.h"
-#include "Problems/LeetCode2401LongestNiceSubarray.h"
-#include "Problems/LeetCode241DifferentWaysToAddParentheses.h"
-#include "Problems/LeetCode2503MaximumNumberOfPointsFromGridQueries.h"
-#include "Problems/LeetCode2537CountTheNumberOfGoodSubarrays.h"
-#include "Problems/LeetCode2563CountTheNumberOfFairPairs.h"
-#include "Problems/LeetCode264UglyNumberII.h"
-#include "Problems/LeetCode2685CountTheNumberOfCompleteComponents.h"
-#include "Problems/LeetCode2965FindMissingAndRepeatedValues.h"
-#include "Problems/LeetCode3160FindTheNumberOfDistinctColorsAmongTheBalls.h"
-#include "Problems/LeetCode3169CountDaysWithoutMeetings.h"
-#include "Problems/LeetCode318MaximumProductOfWordLengths.h"
-#include "Problems/LeetCode3208AlternatingGroupsII.h"
-#include "Problems/LeetCode3356ZeroArrayTransformationII.h"
-#include "Problems/LeetCode390EliminationGame.h"
-#include "Problems/LeetCode684RedundantConnection.h"
-#include "Problems/LeetCode873LengthOfLongestFibonacciSubsequence.h"
-
-#include "Problems/LeetCode89GrayCode.h"
-#include "Problems/LeetCode93RestoreIPAddresses.h"
-#include "Problems/LeetCode95UniqueBinarySearchTreesII.h"
-#include "Problems/LeetCode96UniqueBinarySearchTrees.h"
+#include "Problems/LeetCode1353MaximumNumberOfEventsThatCanBeAttended.h"
+#include "Problems/LeetCode1498NumberOfSubsequencesThatSatisfyTheGivenSumCondition.h"
+#include "Problems/LeetCode187RepeatedDNASequences.h"
+#include "Problems/LeetCode2359FindClosestNodeToGivenTwoNodes.h"
+#include "Problems/LeetCode2929DistributeCandiesAmongChildrenII.h"
+#include "Problems/LeetCode3170LexicographicallyMinimumStringAfterRemovingStars.h"
+#include "Problems/LeetCode3304FindTheKthCharacterInStringGameI.h"
+#include "Problems/LeetCode3333FindTheOriginalTypedStringII.h"
+#include "Problems/LeetCode3373MaximizeTheNumberOfTargetNodesAfterConnectingTreesII.h"
+#include "Problems/LeetCode3403FindTheLexicographicallyLargestStringFromTheBoxI.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2563CountTheNumberOfFairPairs();
+    const auto problem = new LeetCode1353MaximumNumberOfEventsThatCanBeAttended();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2563. Count the Number of Fair Pairs";
+    const std::string scriptName = "1751. Maximum Number of Events That Can Be Attended II";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
-    std::string input="[[3,2],[4,3],[4,4],[2,5]]";
+    std::string input="[[1,2],[1,2],[1,6],[1,2],[1,2]]";
   Auxilaries::ConvertToVector(input);
 #pragma endregion
 }

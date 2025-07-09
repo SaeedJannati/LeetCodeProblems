@@ -1,0 +1,16 @@
+//
+// Created by saeed on 6/12/25.
+//
+
+#ifndef LEETCODE440KTHSMALLESTINLEXICOGRAPHICALORDER_H
+#define LEETCODE440KTHSMALLESTINLEXICOGRAPHICALORDER_H
+
+
+
+class LeetCode440KthSmallestInLexicographicalOrder {
+    int findKthNumber(int n, int k);
+};
+
+
+
+#endif //LEETCODE440KTHSMALLESTINLEXICOGRAPHICALORDER_H

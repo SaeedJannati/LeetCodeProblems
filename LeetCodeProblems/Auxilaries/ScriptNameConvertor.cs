@@ -5,7 +5,7 @@ public class ScriptNameConvertor
     public static void PrintScriptName(string scriptName)
     {
         var name = ConvertScriptName(scriptName);
-        var commitName = $"feat: add {name}";
+        var commitName = $"feat: add {name} CSharp";
         Console.WriteLine(name);
         Console.WriteLine(commitName);
     }
