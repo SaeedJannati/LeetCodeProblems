@@ -8,7 +8,7 @@
 
 void ScriptNamePrinter::PrintScriptName(const std::string &scriptName) {
     std::string name = ConvertScriptName(scriptName);
-    std::string commitName = "feat: add " + name;
+    std::string commitName = "feat: add " + name+" cpp";
 
     std::cout << name << std::endl;
     std::cout << commitName << std::endl;
