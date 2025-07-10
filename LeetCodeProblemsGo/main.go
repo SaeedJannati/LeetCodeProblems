@@ -1,12 +1,10 @@
 package main
 
-import (
-	"LeetCodeProblemsGo/LeetCode440KthSmallestInLexicographicalOrder"
-)
+import "LeetCodeProblemsGo/LeetCode3440RescheduleMeetingsForMaximumFreeTimeII"
 
 func main() {
 
-	LeetCode440KthSmallestInLexicographicalOrder.Calculate()
-	rawScriptName := "3439. Reschedule Meetings for Maximum Free Time I"
+	LeetCode3440RescheduleMeetingsForMaximumFreeTimeII.Calculate()
+	rawScriptName := "3440. Reschedule Meetings for Maximum Free Time II"
 	printScriptName(rawScriptName)
 }
