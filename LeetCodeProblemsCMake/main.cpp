@@ -12,18 +12,19 @@
 #include "Problems/LeetCode3333FindTheOriginalTypedStringII.h"
 #include "Problems/LeetCode3373MaximizeTheNumberOfTargetNodesAfterConnectingTreesII.h"
 #include "Problems/LeetCode3403FindTheLexicographicallyLargestStringFromTheBoxI.h"
+#include "Problems/LeetCode3440RescheduleMeetingsForMaximumFreeTimeII.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode1353MaximumNumberOfEventsThatCanBeAttended();
+    const auto problem = new LeetCode3440RescheduleMeetingsForMaximumFreeTimeII();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1751. Maximum Number of Events That Can Be Attended II";
+    const std::string scriptName = "3440. Reschedule Meetings for Maximum Free Time II";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
