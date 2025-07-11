@@ -291,4 +291,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1751MaximumNumberOfEventsThatCanBeAttendedII.h
         Problems/LeetCode3440RescheduleMeetingsForMaximumFreeTimeII.cpp
         Problems/LeetCode3440RescheduleMeetingsForMaximumFreeTimeII.h
+        Problems/LeetCode2402MeetingRoomsIII.cpp
+        Problems/LeetCode2402MeetingRoomsIII.h
 )
