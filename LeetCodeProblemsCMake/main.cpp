@@ -2,18 +2,7 @@
 
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
-#include "Problems/LeetCode1353MaximumNumberOfEventsThatCanBeAttended.h"
-#include "Problems/LeetCode1498NumberOfSubsequencesThatSatisfyTheGivenSumCondition.h"
-#include "Problems/LeetCode187RepeatedDNASequences.h"
-#include "Problems/LeetCode2359FindClosestNodeToGivenTwoNodes.h"
 #include "Problems/LeetCode2402MeetingRoomsIII.h"
-#include "Problems/LeetCode2929DistributeCandiesAmongChildrenII.h"
-#include "Problems/LeetCode3170LexicographicallyMinimumStringAfterRemovingStars.h"
-#include "Problems/LeetCode3304FindTheKthCharacterInStringGameI.h"
-#include "Problems/LeetCode3333FindTheOriginalTypedStringII.h"
-#include "Problems/LeetCode3373MaximizeTheNumberOfTargetNodesAfterConnectingTreesII.h"
-#include "Problems/LeetCode3403FindTheLexicographicallyLargestStringFromTheBoxI.h"
-#include "Problems/LeetCode3440RescheduleMeetingsForMaximumFreeTimeII.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -25,7 +14,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2402. Meeting Rooms III";
+    const std::string scriptName = "2410. Maximum Matching of Players With Trainers";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
