@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode3440RescheduleMeetingsForMaximumFreeTimeII"
 func main() {
 
 	LeetCode3440RescheduleMeetingsForMaximumFreeTimeII.Calculate()
-	rawScriptName := "2410. Maximum Matching of Players With Trainers"
+	rawScriptName := "1290. Convert Binary Number in a Linked List to Integer"
 	printScriptName(rawScriptName)
 }
