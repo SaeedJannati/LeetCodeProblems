@@ -169,6 +169,7 @@
     <ClCompile Include="Problems\LeetCode10RegularExpressionMatching.cpp" />
     <ClCompile Include="Problems\LeetCode117PopulatingNextRightPointersInEachNodeII.cpp" />
     <ClCompile Include="Problems\LeetCode11ContainerWithMostWater.cpp" />
+    <ClCompile Include="Problems\LeetCode1290ConvertBinaryNumberInALinkedListToInteger.cpp" />
     <ClCompile Include="Problems\Leetcode12IntegerToRoman.cpp" />
     <ClCompile Include="Problems\LeetCode134GasStation.cpp" />
     <ClCompile Include="Problems\LeetCode1358NumberOfSubstringsContainingAllThreeCharacters.cpp" />
@@ -246,6 +247,7 @@
     <ClInclude Include="Problems\LeetCode10RegularExpressionMatching.h" />
     <ClInclude Include="Problems\LeetCode117PopulatingNextRightPointersInEachNodeII.h" />
     <ClInclude Include="Problems\LeetCode11ContainerWithMostWater.h" />
+    <ClInclude Include="Problems\LeetCode1290ConvertBinaryNumberInALinkedListToInteger.h" />
     <ClInclude Include="Problems\Leetcode12IntegerToRoman.h" />
     <ClInclude Include="Problems\LeetCode134GasStation.h" />
     <ClInclude Include="Problems\LeetCode1358NumberOfSubstringsContainingAllThreeCharacters.h" />

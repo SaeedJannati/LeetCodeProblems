@@ -18,7 +18,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3439. Reschedule Meetings for Maximum Free Time I";
+    const std::string scriptName = "1290. Convert Binary Number in a Linked List to Integer";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
