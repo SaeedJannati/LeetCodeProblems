@@ -18,7 +18,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1290. Convert Binary Number in a Linked List to Integer";
+    const std::string scriptName = "3136. Valid Word";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
