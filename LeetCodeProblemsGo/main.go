@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode3440RescheduleMeetingsForMaximumFreeTimeII"
 func main() {
 
 	LeetCode3440RescheduleMeetingsForMaximumFreeTimeII.Calculate()
-	rawScriptName := "1290. Convert Binary Number in a Linked List to Integer"
+	rawScriptName := "3136. Valid Word"
 	printScriptName(rawScriptName)
 }
