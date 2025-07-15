@@ -18,7 +18,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3136. Valid Word";
+    const std::string scriptName = "430. Flatten a Multilevel Doubly Linked List";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
