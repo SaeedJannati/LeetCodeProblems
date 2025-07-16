@@ -206,6 +206,7 @@
     <ClCompile Include="Problems\LeetCode3042CountPrefixAndSuffixPairsI.cpp" />
     <ClCompile Include="Problems\LeetCode3136ValidWord.cpp" />
     <ClCompile Include="Problems\LeetCode3151SpecialArrayI.cpp" />
+    <ClCompile Include="Problems\LeetCode3201FindTheMaximumLengthOfValidSubsequenceI.cpp" />
     <ClCompile Include="Problems\LeetCode3223MinimumLengthOfStringAfterOperations.cpp" />
     <ClCompile Include="Problems\LeetCode3375MinimumOperationsToMakeArrayValuesEqualToK.cpp" />
     <ClCompile Include="Problems\LeetCode3394CheckIfGridCanBeCutIntoSections.cpp" />
@@ -286,6 +287,7 @@
     <ClInclude Include="Problems\LeetCode3042CountPrefixAndSuffixPairsI.h" />
     <ClInclude Include="Problems\LeetCode3136ValidWord.h" />
     <ClInclude Include="Problems\LeetCode3151SpecialArrayI.h" />
+    <ClInclude Include="Problems\LeetCode3201FindTheMaximumLengthOfValidSubsequenceI.h" />
     <ClInclude Include="Problems\LeetCode3223MinimumLengthOfStringAfterOperations.h" />
     <ClInclude Include="Problems\LeetCode3375MinimumOperationsToMakeArrayValuesEqualToK.h" />
     <ClInclude Include="Problems\LeetCode3394CheckIfGridCanBeCutIntoSections.h" />
