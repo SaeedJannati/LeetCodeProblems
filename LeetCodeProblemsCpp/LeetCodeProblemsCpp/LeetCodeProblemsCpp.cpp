@@ -19,7 +19,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3201. Find the Maximum Length of Valid Subsequence I";
+    const std::string scriptName = "1233. Remove Sub-Folders from the Filesystem";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
