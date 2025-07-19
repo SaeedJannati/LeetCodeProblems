@@ -1,5 +1,6 @@
 #include <iostream>
 
+#include "Problems/LeetCode1233RemoveSubFoldersFromTheFilesystem.h"
 #include "Problems/LeetCode1922CountGoodNumbers.h"
 #include "Problems/LeetCode2033MinimumOperationsToMakeAUniValueGrid.h"
 #include "Problems/LeetCode2560HouseRobberIV.h"
@@ -14,7 +15,7 @@
 
 int main(int argc, char* argv[])
 {
-    const auto problem = new LeetCode3201FindTheMaximumLengthOfValidSubsequenceI();
+    const auto problem = new LeetCode1233RemoveSubFoldersFromTheFilesystem();
     problem->Run();
     delete problem;
 #pragma  region  print script name
