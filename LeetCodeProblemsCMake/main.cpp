@@ -2,19 +2,20 @@
 
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
+#include "Problems/LeetCode1948DeleteDuplicateFoldersInSystem.h"
 #include "Problems/LeetCode2402MeetingRoomsIII.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2402MeetingRoomsIII();
+    const auto problem = new LeetCode1948DeleteDuplicateFoldersInSystem();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2410. Maximum Matching of Players With Trainers";
+    const std::string scriptName = "1948. Delete Duplicate Folders in System";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

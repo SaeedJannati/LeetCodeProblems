@@ -295,4 +295,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2402MeetingRoomsIII.h
         Problems/LeetCode2410MaximumMatchingOfPlayersWithTrainers.cpp
         Problems/LeetCode2410MaximumMatchingOfPlayersWithTrainers.h
+        Problems/LeetCode1948DeleteDuplicateFoldersInSystem.cpp
+        Problems/LeetCode1948DeleteDuplicateFoldersInSystem.h
 )
