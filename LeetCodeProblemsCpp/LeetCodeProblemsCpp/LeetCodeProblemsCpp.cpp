@@ -20,7 +20,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1233. Remove Sub-Folders from the Filesystem";
+    const std::string scriptName = "1957. Delete Characters to Make Fancy String";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }

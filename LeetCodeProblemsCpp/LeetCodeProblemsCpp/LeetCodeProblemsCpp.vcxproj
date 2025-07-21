@@ -187,6 +187,7 @@
     <ClCompile Include="Problems\LeetCode1790CheckIfOneStringSwapCanMakeStringsEqual.cpp" />
     <ClCompile Include="Problems\LeetCode1863SumOfAllSubsetXORTotals.cpp" />
     <ClCompile Include="Problems\LeetCode1922CountGoodNumbers.cpp" />
+    <ClCompile Include="Problems\LeetCode1957DeleteCharactersToMakeFancyString.cpp" />
     <ClCompile Include="Problems\LeetCode198HouseRobber.cpp" />
     <ClCompile Include="Problems\LeetCode2017GridGame.cpp" />
     <ClCompile Include="Problems\LeetCode2033MinimumOperationsToMakeAUniValueGrid.cpp" />
@@ -269,6 +270,7 @@
     <ClInclude Include="Problems\LeetCode1790CheckIfOneStringSwapCanMakeStringsEqual.h" />
     <ClInclude Include="Problems\LeetCode1863SumOfAllSubsetXORTotals.h" />
     <ClInclude Include="Problems\LeetCode1922CountGoodNumbers.h" />
+    <ClInclude Include="Problems\LeetCode1957DeleteCharactersToMakeFancyString.h" />
     <ClInclude Include="Problems\LeetCode198HouseRobber.h" />
     <ClInclude Include="Problems\LeetCode2017GridGame.h" />
     <ClInclude Include="Problems\LeetCode2033MinimumOperationsToMakeAUniValueGrid.h" />
