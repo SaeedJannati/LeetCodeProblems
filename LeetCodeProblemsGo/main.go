@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode3440RescheduleMeetingsForMaximumFreeTimeII"
 func main() {
 
 	LeetCode3440RescheduleMeetingsForMaximumFreeTimeII.Calculate()
-	rawScriptName := "1695. Maximum Erasure Value"
+	rawScriptName := "1717. Maximum Score From Removing Substrings"
 	printScriptName(rawScriptName)
 }
