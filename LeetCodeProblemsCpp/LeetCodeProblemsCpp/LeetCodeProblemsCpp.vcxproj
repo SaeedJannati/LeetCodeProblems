@@ -182,6 +182,7 @@
     <ClCompile Include="Problems\LeetCode150SameTree.cpp" />
     <ClCompile Include="Problems\LeetCode1534CountGoodTriplets.cpp" />
     <ClCompile Include="Problems\LeetCode1695MaximumErasureValue.cpp" />
+    <ClCompile Include="Problems\LeetCode1717MaximumScoreFromRemovingSubstrings.cpp" />
     <ClCompile Include="Problems\LeetCode1749MaximumAbsoluteSumOfAnySubarray.cpp" />
     <ClCompile Include="Problems\LeetCode1765MapOfHighestPeak.cpp" />
     <ClCompile Include="Problems\LeetCode1769MinimumNumberOfOperationsToMoveAllBallsToEachBox.cpp" />
@@ -266,6 +267,7 @@
     <ClInclude Include="Problems\LeetCode150SameTree.h" />
     <ClInclude Include="Problems\LeetCode1534CountGoodTriplets.h" />
     <ClInclude Include="Problems\LeetCode1695MaximumErasureValue.h" />
+    <ClInclude Include="Problems\LeetCode1717MaximumScoreFromRemovingSubstrings.h" />
     <ClInclude Include="Problems\LeetCode1749MaximumAbsoluteSumOfAnySubarray.h" />
     <ClInclude Include="Problems\LeetCode1765MapOfHighestPeak.h" />
     <ClInclude Include="Problems\LeetCode1769MinimumNumberOfOperationsToMoveAllBallsToEachBox.h" />
