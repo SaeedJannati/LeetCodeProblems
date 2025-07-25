@@ -235,6 +235,7 @@
     <ClCompile Include="Problems\LeetCode87ScrambleString.cpp" />
     <ClCompile Include="Problems\LeetCode88MergeSortedArray.cpp" />
     <ClCompile Include="Problems\LeetCode8StringToInteger.cpp" />
+    <ClCompile Include="Problems\LeetCode907SumOfSubarrayMinimums.cpp" />
     <ClCompile Include="Problems\LeetCode90SubsetsII.cpp" />
     <ClCompile Include="Problems\LeetCode92ReverseLinkedListII.cpp" />
     <ClCompile Include="Problems\LeetCode983MinimumCostForTickets.cpp" />
@@ -320,6 +321,7 @@
     <ClInclude Include="Problems\LeetCode87ScrambleString.h" />
     <ClInclude Include="Problems\LeetCode88MergeSortedArray.h" />
     <ClInclude Include="Problems\LeetCode8StringToInteger.h" />
+    <ClInclude Include="Problems\LeetCode907SumOfSubarrayMinimums.h" />
     <ClInclude Include="Problems\LeetCode90SubsetsII.h" />
     <ClInclude Include="Problems\LeetCode92ReverseLinkedListII.h" />
     <ClInclude Include="Problems\LeetCode983MinimumCostForTickets.h" />
