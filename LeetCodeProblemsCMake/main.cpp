@@ -15,7 +15,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1948. Delete Duplicate Folders in System";
+    const std::string scriptName = "3487. Maximum Unique Subarray Sum After Deletion";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

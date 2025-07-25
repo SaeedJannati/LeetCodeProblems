@@ -297,4 +297,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2410MaximumMatchingOfPlayersWithTrainers.h
         Problems/LeetCode1948DeleteDuplicateFoldersInSystem.cpp
         Problems/LeetCode1948DeleteDuplicateFoldersInSystem.h
+        Problems/LeetCode3487MaximumUniqueSubarraySumAfterDeletion.cpp
+        Problems/LeetCode3487MaximumUniqueSubarraySumAfterDeletion.h
 )
