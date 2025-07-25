@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode3440RescheduleMeetingsForMaximumFreeTimeII"
 func main() {
 
 	LeetCode3440RescheduleMeetingsForMaximumFreeTimeII.Calculate()
-	rawScriptName := "1717. Maximum Score From Removing Substrings"
+	rawScriptName := "3487. Maximum Unique Subarray Sum After Deletion"
 	printScriptName(rawScriptName)
 }
