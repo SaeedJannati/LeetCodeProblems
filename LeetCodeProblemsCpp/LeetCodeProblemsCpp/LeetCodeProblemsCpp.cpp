@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2210. Count Hills and Valleys in an Array";
+    const std::string scriptName = "2044. Count Number of Maximum Bitwise-OR Subsets";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
