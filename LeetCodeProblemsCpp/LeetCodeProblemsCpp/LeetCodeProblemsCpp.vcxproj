@@ -204,6 +204,7 @@
     <ClCompile Include="Problems\LeetCode226InvertBinaryTree.cpp" />
     <ClCompile Include="Problems\LeetCode2381ShiftingLettersII.cpp" />
     <ClCompile Include="Problems\LeetCode2411SmallestSubarraysWithMaximumBitwiseOR.cpp" />
+    <ClCompile Include="Problems\LeetCode2419LongestSubarrayWithMaximumBitwiseAND.cpp" />
     <ClCompile Include="Problems\LeetCode2460ApplyOperationsToAnArray.cpp" />
     <ClCompile Include="Problems\LeetCode2529MaximumCountOfPositiveIntegerAndNegativeInteger.cpp" />
     <ClCompile Include="Problems\LeetCode2560HouseRobberIV.cpp" />
@@ -293,6 +294,7 @@
     <ClInclude Include="Problems\LeetCode226InvertBinaryTree.h" />
     <ClInclude Include="Problems\LeetCode2381ShiftingLettersII.h" />
     <ClInclude Include="Problems\LeetCode2411SmallestSubarraysWithMaximumBitwiseOR.h" />
+    <ClInclude Include="Problems\LeetCode2419LongestSubarrayWithMaximumBitwiseAND.h" />
     <ClInclude Include="Problems\LeetCode2460ApplyOperationsToAnArray.h" />
     <ClInclude Include="Problems\LeetCode2529MaximumCountOfPositiveIntegerAndNegativeInteger.h" />
     <ClInclude Include="Problems\LeetCode2560HouseRobberIV.h" />

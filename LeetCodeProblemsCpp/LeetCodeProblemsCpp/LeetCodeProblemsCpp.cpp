@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2411. Smallest Subarrays With Maximum Bitwise OR";
+    const std::string scriptName = "2419. Longest Subarray With Maximum Bitwise AND";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 }
