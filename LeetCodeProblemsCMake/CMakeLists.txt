@@ -299,4 +299,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1948DeleteDuplicateFoldersInSystem.h
         Problems/LeetCode3487MaximumUniqueSubarraySumAfterDeletion.cpp
         Problems/LeetCode3487MaximumUniqueSubarraySumAfterDeletion.h
+        Problems/LeetCode898BitwiseORsOfSubarrays.cpp
+        Problems/LeetCode898BitwiseORsOfSubarrays.h
 )

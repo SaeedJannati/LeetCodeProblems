@@ -15,7 +15,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3487. Maximum Unique Subarray Sum After Deletion";
+    const std::string scriptName = "898. Bitwise ORs of Subarrays";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
