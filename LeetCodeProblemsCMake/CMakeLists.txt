@@ -301,4 +301,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3487MaximumUniqueSubarraySumAfterDeletion.h
         Problems/LeetCode898BitwiseORsOfSubarrays.cpp
         Problems/LeetCode898BitwiseORsOfSubarrays.h
+        Problems/LeetCode2561RearrangingFruits.cpp
+        Problems/LeetCode2561RearrangingFruits.h
 )

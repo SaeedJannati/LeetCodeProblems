@@ -4,18 +4,19 @@
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/LeetCode1948DeleteDuplicateFoldersInSystem.h"
 #include "Problems/LeetCode2402MeetingRoomsIII.h"
+#include "Problems/LeetCode2561RearrangingFruits.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode1948DeleteDuplicateFoldersInSystem();
+    const auto problem = new LeetCode2561RearrangingFruits();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "898. Bitwise ORs of Subarrays";
+    const std::string scriptName = "2561. Rearranging Fruits";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
