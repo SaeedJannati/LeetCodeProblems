@@ -20,3 +20,13 @@ void Auxilaries::PrintVector(std::vector<std::vector<int>>& vector)
     }
     std::cout << '\n';
 }
+
+void Auxilaries::ConvertToVector(std::string &str) {
+    for (auto & c: str) {
+        if (c == '[')
+            c = '{';
+        if (c == ']')
+            c = '}';
+    }
+    std::cout << str << std::endl;
+}
