@@ -16,7 +16,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2106. Maximum Fruits Harvested After at Most K Steps";
+    const std::string scriptName = "3477. Fruits Into Baskets II";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
