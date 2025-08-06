@@ -2,6 +2,7 @@ package LeetCode3567MinimumAbsoluteDifferenceInSlidingSubmatrix
 
 import (
 	"math"
+	"sort"
 )
 
 func abs(x int) int {
@@ -16,24 +17,22 @@ func minAbsDiff(grid [][]int, k int) [][]int {
 	for i := 0; i < height-k+1; i++ {
 		output[i] = make([]int, width-k+1)
 	}
+	submatrix := make([]int, k*k)
+
 	for i := 0; i < height-k+1; i++ {
 		for j := 0; j < width-k+1; j++ {
 			minValue := math.MaxInt32
 			for l := 0; l < k; l++ {
 				for m := 0; m < k; m++ {
-					for o := 0; o < k; o++ {
-						for p := 0; p < k; p++ {
-							if l == o && m == p {
-								continue
-							}
-							if grid[i+l][j+m] == grid[i+o][j+p] {
-								continue
-							}
-
-							minValue = min(minValue, abs(grid[i+l][j+m]-grid[i+o][j+p]))
-						}
-					}
+					submatrix[l*k+m] = grid[i+l][j+m]
 				}
+			}
+			sort.Ints(submatrix)
+			for l, e := 1, k*k; l < e; l++ {
+				if submatrix[l] == submatrix[l-1] {
+					continue
+				}
+				minValue = min(minValue, abs(submatrix[l]-submatrix[l-1]))
 			}
 			if minValue == math.MaxInt32 {
 				minValue = 0
@@ -43,3 +42,38 @@ func minAbsDiff(grid [][]int, k int) [][]int {
 	}
 	return output
 }
+
+// brute force
+// func minAbsDiff(grid [][]int, k int) [][]int {
+// 	height, width := len(grid), len(grid[0])
+// 	output := make([][]int, height-k+1)
+// 	for i := 0; i < height-k+1; i++ {
+// 		output[i] = make([]int, width-k+1)
+// 	}
+// 	for i := 0; i < height-k+1; i++ {
+// 		for j := 0; j < width-k+1; j++ {
+// 			minValue := math.MaxInt32
+// 			for l := 0; l < k; l++ {
+// 				for m := 0; m < k; m++ {
+// 					for o := 0; o < k; o++ {
+// 						for p := 0; p < k; p++ {
+// 							if l == o && m == p {
+// 								continue
+// 							}
+// 							if grid[i+l][j+m] == grid[i+o][j+p] {
+// 								continue
+// 							}
+
+// 							minValue = min(minValue, abs(grid[i+l][j+m]-grid[i+o][j+p]))
+// 						}
+// 					}
+// 				}
+// 			}
+// 			if minValue == math.MaxInt32 {
+// 				minValue = 0
+// 			}
+// 			output[i][j] = minValue
+// 		}
+// 	}
+// 	return output
+// }
