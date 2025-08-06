@@ -5,18 +5,19 @@
 #include "Problems/LeetCode2106MaximumFruitsHarvestedAfterAtMostKSteps.h"
 #include "Problems/LeetCode2210CountHillsAndValleysInAnArray.h"
 #include "Problems/LeetCode2411SmallestSubarraysWithMaximumBitwiseOR.h"
+#include "Problems/LeetCode3479FruitsIntoBasketsIII.h"
 #include "Problems/LeetCode907SumOfSubarrayMinimums.h"
 #include "Problems/ScriptNamePrinter.h"
 
 
 int main(int argc, char* argv[])
 {
-    const auto problem = new LeetCode2106MaximumFruitsHarvestedAfterAtMostKSteps();
+    const auto problem = new LeetCode3479FruitsIntoBasketsIII();
     problem->Run();
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3477. Fruits Into Baskets II";
+    const std::string scriptName = "3479. Fruits Into Baskets III";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
