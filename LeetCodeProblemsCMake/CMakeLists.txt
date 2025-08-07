@@ -303,4 +303,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode898BitwiseORsOfSubarrays.h
         Problems/LeetCode2561RearrangingFruits.cpp
         Problems/LeetCode2561RearrangingFruits.h
+        Problems/LeetCode3363FindTheMaximumNumberOfFruitsCollected.cpp
+        Problems/LeetCode3363FindTheMaximumNumberOfFruitsCollected.h
 )
