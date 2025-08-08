@@ -305,4 +305,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2561RearrangingFruits.h
         Problems/LeetCode3363FindTheMaximumNumberOfFruitsCollected.cpp
         Problems/LeetCode3363FindTheMaximumNumberOfFruitsCollected.h
+        Problems/LeetCode808SoupServings.cpp
+        Problems/LeetCode808SoupServings.h
 )
