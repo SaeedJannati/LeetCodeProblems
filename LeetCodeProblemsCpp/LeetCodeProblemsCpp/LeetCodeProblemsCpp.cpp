@@ -4,6 +4,7 @@
 #include "Problems/LeetCode1233RemoveSubFoldersFromTheFilesystem.h"
 #include "Problems/LeetCode2106MaximumFruitsHarvestedAfterAtMostKSteps.h"
 #include "Problems/LeetCode2210CountHillsAndValleysInAnArray.h"
+#include "Problems/LeetCode231PowerOfTwo.h"
 #include "Problems/LeetCode2411SmallestSubarraysWithMaximumBitwiseOR.h"
 #include "Problems/LeetCode3479FruitsIntoBasketsIII.h"
 #include "Problems/LeetCode907SumOfSubarrayMinimums.h"
@@ -12,12 +13,12 @@
 
 int main(int argc, char* argv[])
 {
-    const auto problem = new LeetCode3479FruitsIntoBasketsIII();
+    const auto problem = new LeetCode231PowerOfTwo();
     problem->Run();
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3479. Fruits Into Baskets III";
+    const std::string scriptName = "231. Power of Two";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
