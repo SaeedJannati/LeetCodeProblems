@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode3440RescheduleMeetingsForMaximumFreeTimeII"
 func main() {
 
 	LeetCode3440RescheduleMeetingsForMaximumFreeTimeII.Calculate()
-	rawScriptName := "808. Soup Servings"
+	rawScriptName := "231. Power of Two"
 	printScriptName(rawScriptName)
 }
