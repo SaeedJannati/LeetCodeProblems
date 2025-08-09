@@ -170,6 +170,7 @@
     <ClCompile Include="Problems\LeetCode117PopulatingNextRightPointersInEachNodeII.cpp" />
     <ClCompile Include="Problems\LeetCode11ContainerWithMostWater.cpp" />
     <ClCompile Include="Problems\LeetCode1233RemoveSubFoldersFromTheFilesystem.cpp" />
+    <ClCompile Include="Problems\LeetCode1235MaximumProfitInJobScheduling.cpp" />
     <ClCompile Include="Problems\LeetCode1290ConvertBinaryNumberInALinkedListToInteger.cpp" />
     <ClCompile Include="Problems\Leetcode12IntegerToRoman.cpp" />
     <ClCompile Include="Problems\LeetCode134GasStation.cpp" />
@@ -264,6 +265,7 @@
     <ClInclude Include="Problems\LeetCode117PopulatingNextRightPointersInEachNodeII.h" />
     <ClInclude Include="Problems\LeetCode11ContainerWithMostWater.h" />
     <ClInclude Include="Problems\LeetCode1233RemoveSubFoldersFromTheFilesystem.h" />
+    <ClInclude Include="Problems\LeetCode1235MaximumProfitInJobScheduling.h" />
     <ClInclude Include="Problems\LeetCode1290ConvertBinaryNumberInALinkedListToInteger.h" />
     <ClInclude Include="Problems\Leetcode12IntegerToRoman.h" />
     <ClInclude Include="Problems\LeetCode134GasStation.h" />
