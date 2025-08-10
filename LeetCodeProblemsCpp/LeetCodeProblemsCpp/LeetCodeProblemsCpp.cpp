@@ -7,18 +7,19 @@
 #include "Problems/LeetCode231PowerOfTwo.h"
 #include "Problems/LeetCode2411SmallestSubarraysWithMaximumBitwiseOR.h"
 #include "Problems/LeetCode3479FruitsIntoBasketsIII.h"
+#include "Problems/LeetCode869ReorderedPowerOf2.h"
 #include "Problems/LeetCode907SumOfSubarrayMinimums.h"
 #include "Problems/ScriptNamePrinter.h"
 
 
 int main(int argc, char* argv[])
 {
-    const auto problem = new LeetCode231PowerOfTwo();
+    const auto problem = new LeetCode869ReorderedPowerOf2();
     problem->Run();
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1235. Maximum Profit in Job Scheduling";
+    const std::string scriptName = "869. Reordered Power of 2";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

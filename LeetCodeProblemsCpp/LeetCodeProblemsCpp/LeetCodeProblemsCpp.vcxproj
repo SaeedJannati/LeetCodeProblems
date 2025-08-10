@@ -241,6 +241,7 @@
     <ClCompile Include="Problems\LeetCode73SetMatrixZeroes.cpp" />
     <ClCompile Include="Problems\LeetCode781RabbitsInForest.cpp" />
     <ClCompile Include="Problems\LeetCode7ReverseInteger.cpp" />
+    <ClCompile Include="Problems\LeetCode869ReorderedPowerOf2.cpp" />
     <ClCompile Include="Problems\LeetCode87ScrambleString.cpp" />
     <ClCompile Include="Problems\LeetCode88MergeSortedArray.cpp" />
     <ClCompile Include="Problems\LeetCode8StringToInteger.cpp" />
@@ -336,6 +337,7 @@
     <ClInclude Include="Problems\LeetCode73SetMatrixZeroes.h" />
     <ClInclude Include="Problems\LeetCode781RabbitsInForest.h" />
     <ClInclude Include="Problems\LeetCode7ReverseInteger.h" />
+    <ClInclude Include="Problems\LeetCode869ReorderedPowerOf2.h" />
     <ClInclude Include="Problems\LeetCode87ScrambleString.h" />
     <ClInclude Include="Problems\LeetCode88MergeSortedArray.h" />
     <ClInclude Include="Problems\LeetCode8StringToInteger.h" />
