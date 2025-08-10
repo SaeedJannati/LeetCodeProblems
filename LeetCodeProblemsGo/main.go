@@ -1,10 +1,10 @@
 package main
 
-import "LeetCodeProblemsGo/LeetCode3440RescheduleMeetingsForMaximumFreeTimeII"
+import "LeetCodeProblemsGo/LeetCode869ReorderedPowerOf2"
 
 func main() {
 
-	LeetCode3440RescheduleMeetingsForMaximumFreeTimeII.Calculate()
-	rawScriptName := "1235. Maximum Profit in Job Scheduling"
+	LeetCode869ReorderedPowerOf2.Calculate()
+	rawScriptName := "869. Reordered Power of 2"
 	printScriptName(rawScriptName)
 }
