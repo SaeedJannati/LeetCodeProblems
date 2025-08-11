@@ -2,14 +2,14 @@
 
 #include <iostream>
 
-void Auxilaries::PrintVector(std::vector<int>& vector)
+void Auxilaries::PrintVector(const std::vector<int>& vector)
 {
     for (const auto i : vector)
         std::cout << i << " ";
     std::cout << '\n';
 }
 
-void Auxilaries::PrintVector(std::vector<std::vector<int>>& vector)
+void Auxilaries::PrintVector( const std::vector<std::vector<int>>& vector)
 {
     for (const auto& i : vector)
     {
