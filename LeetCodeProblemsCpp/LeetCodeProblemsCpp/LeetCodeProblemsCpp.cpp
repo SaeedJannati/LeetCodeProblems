@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2787. Ways to Express an Integer as Sum of Powers";
+    const std::string scriptName = "326. Power of Three";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
