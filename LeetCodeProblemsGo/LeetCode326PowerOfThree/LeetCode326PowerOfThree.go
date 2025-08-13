@@ -10,6 +10,9 @@ func isDvisiable(n, pow int) bool {
 	if n == 1 {
 		return true
 	}
+	if n == 2 {
+		return false
+	}
 	if pow > n {
 		pow = 3
 		if isDvisiable(n, 3) {
