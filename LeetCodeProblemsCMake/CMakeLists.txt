@@ -307,4 +307,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3363FindTheMaximumNumberOfFruitsCollected.h
         Problems/LeetCode808SoupServings.cpp
         Problems/LeetCode808SoupServings.h
+        Problems/LeetCode2264Largest3SameDigitNumberInString.cpp
+        Problems/LeetCode2264Largest3SameDigitNumberInString.h
 )
