@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode869ReorderedPowerOf2"
 func main() {
 
 	LeetCode869ReorderedPowerOf2.Calculate()
-	rawScriptName := "2264. Largest 3-Same-Digit Number in String"
+	rawScriptName := "342. Power of Four"
 	printScriptName(rawScriptName)
 }
