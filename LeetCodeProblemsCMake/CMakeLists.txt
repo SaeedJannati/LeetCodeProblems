@@ -309,4 +309,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode808SoupServings.h
         Problems/LeetCode2264Largest3SameDigitNumberInString.cpp
         Problems/LeetCode2264Largest3SameDigitNumberInString.h
+        Problems/LeetCode342PowerOfFour.cpp
+        Problems/LeetCode342PowerOfFour.h
 )
