@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode869ReorderedPowerOf2"
 func main() {
 
 	LeetCode869ReorderedPowerOf2.Calculate()
-	rawScriptName := "342. Power of Four"
+	rawScriptName := "1323. Maximum 69 Number"
 	printScriptName(rawScriptName)
 }
