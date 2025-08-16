@@ -2,7 +2,6 @@
 
 #include "Problems/Auxilaries.h"
 #include "Problems/LeetCode1233RemoveSubFoldersFromTheFilesystem.h"
-#include "Problems/LeetCode2438RangeProductQueriesOfPowers.h"
 #include "Problems/LeetCode2787WaysToExpressAnIntegerAsSumOfPowers.h"
 #include "Problems/ScriptNamePrinter.h"
 
@@ -14,7 +13,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "326. Power of Three";
+    const std::string scriptName = "1323. Maximum 69 Number";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
