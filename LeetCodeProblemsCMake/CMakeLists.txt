@@ -311,4 +311,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2264Largest3SameDigitNumberInString.h
         Problems/LeetCode342PowerOfFour.cpp
         Problems/LeetCode342PowerOfFour.h
+        Problems/LeetCode837New21Game.cpp
+        Problems/LeetCode837New21Game.h
 )
