@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode869ReorderedPowerOf2"
 func main() {
 
 	LeetCode869ReorderedPowerOf2.Calculate()
-	rawScriptName := "837. New 21 Game"
+	rawScriptName := "679. 24 Game"
 	printScriptName(rawScriptName)
 }
