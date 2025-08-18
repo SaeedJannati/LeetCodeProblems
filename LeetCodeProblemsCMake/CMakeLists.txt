@@ -313,4 +313,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode342PowerOfFour.h
         Problems/LeetCode837New21Game.cpp
         Problems/LeetCode837New21Game.h
+        Problems/LeetCode67924Game.cpp
+        Problems/LeetCode67924Game.h
 )

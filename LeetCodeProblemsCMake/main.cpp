@@ -6,19 +6,20 @@
 #include "Problems/LeetCode2402MeetingRoomsIII.h"
 #include "Problems/LeetCode2561RearrangingFruits.h"
 #include "Problems/LeetCode3363FindTheMaximumNumberOfFruitsCollected.h"
+#include "Problems/LeetCode67924Game.h"
 #include "Problems/LeetCode837New21Game.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode837New21Game();
+    const auto problem = new LeetCode67924Game();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "837. New 21 Game";
+    const std::string scriptName = "679. 24 Game";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
