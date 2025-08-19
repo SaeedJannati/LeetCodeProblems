@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1323. Maximum 69 Number";
+    const std::string scriptName = "2348. Number of Zero-Filled Subarrays";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
