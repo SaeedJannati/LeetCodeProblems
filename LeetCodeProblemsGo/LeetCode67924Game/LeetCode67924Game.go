@@ -3,14 +3,10 @@ package LeetCode67924Game
 import "math"
 
 func judgePoint24(cards []int) bool {
-	signs := make([]byte, 64)
-	for i := 0; i < 64; i++ {
-		signs[i] = byte(i)
-	}
 	nums := make([]float64, 4)
 	result := false
 	visited := make([]bool, 4)
-	checkNum(cards, visited, signs, nums, 0, &result)
+	checkNum(cards, visited, nums, 0, &result)
 	return result
 }
 
@@ -28,13 +24,13 @@ func applySign(a, b float64, sign byte) float64 {
 	return 0
 }
 
-func checkNum(cards []int, visited []bool, signs []byte, nums []float64, index int, result *bool) bool {
+func checkNum(cards []int, visited []bool, nums []float64, index int, result *bool) bool {
 	if *result {
 		return true
 	}
 	var res float64 = 0
 	if index == 4 {
-		for _, sign := range signs {
+		for sign := byte(0); sign < 64; sign++ {
 			res = applySign(applySign(nums[0], applySign(nums[1], nums[2], (sign>>2)&3), sign&3), nums[3],
 				(sign>>4)&3)
 
@@ -69,7 +65,7 @@ func checkNum(cards []int, visited []bool, signs []byte, nums []float64, index i
 		}
 		visited[i] = true
 		nums[index] = float64(cards[i])
-		if checkNum(cards, visited, signs, nums, index+1, result) {
+		if checkNum(cards, visited, nums, index+1, result) {
 			*result = true
 			return true
 		}
