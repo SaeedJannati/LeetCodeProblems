@@ -30,7 +30,7 @@ int GetMaxXor(TrieNode *node, int value) {
     int opposite = bit ^ 1;
 
     if (node->children[opposite]) {
-        return (1 << node->powOfTwo) + GetMaxXor(node->children[opposite], value);
+        return (1 << node->powOfTwo) | GetMaxXor(node->children[opposite], value);
     }
     return GetMaxXor(node->children[bit], value);
 }
