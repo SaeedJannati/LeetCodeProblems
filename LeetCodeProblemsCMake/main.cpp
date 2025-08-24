@@ -6,6 +6,7 @@
 #include "Problems/LeetCode2402MeetingRoomsIII.h"
 #include "Problems/LeetCode2561RearrangingFruits.h"
 #include "Problems/LeetCode3363FindTheMaximumNumberOfFruitsCollected.h"
+#include "Problems/LeetCode3392CountSubarraysOfLengthThreeWithACondition.h"
 #include "Problems/LeetCode421MaximumXOROfTwoNumbersInAnArray.h"
 #include "Problems/LeetCode67924Game.h"
 #include "Problems/LeetCode837New21Game.h"
@@ -13,7 +14,7 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode421MaximumXOROfTwoNumbersInAnArray();
+    const auto problem = new LeetCode3392CountSubarraysOfLengthThreeWithACondition();
     problem->Run();
     delete problem;
 
