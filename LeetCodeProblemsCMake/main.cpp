@@ -6,20 +6,21 @@
 #include "Problems/LeetCode2402MeetingRoomsIII.h"
 #include "Problems/LeetCode2561RearrangingFruits.h"
 #include "Problems/LeetCode3363FindTheMaximumNumberOfFruitsCollected.h"
+#include "Problems/LeetCode421MaximumXOROfTwoNumbersInAnArray.h"
 #include "Problems/LeetCode67924Game.h"
 #include "Problems/LeetCode837New21Game.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode67924Game();
+    const auto problem = new LeetCode421MaximumXOROfTwoNumbersInAnArray();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3195. Find the Minimum Area to Cover All Ones I";
+    const std::string scriptName = "421. Maximum XOR of Two Numbers in an Array";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

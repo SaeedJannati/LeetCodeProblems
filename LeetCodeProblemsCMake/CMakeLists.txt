@@ -319,4 +319,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1493LongestSubarrayOf1sAfterDeletingOneElement.h
         Problems/LeetCode3195FindTheMinimumAreaToCoverAllOnesI.cpp
         Problems/LeetCode3195FindTheMinimumAreaToCoverAllOnesI.h
+        Problems/LeetCode421MaximumXOROfTwoNumbersInAnArray.cpp
+        Problems/LeetCode421MaximumXOROfTwoNumbersInAnArray.h
 )
