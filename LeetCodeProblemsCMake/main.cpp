@@ -19,7 +19,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1493. Longest Subarray of 1's After Deleting One Element";
+    const std::string scriptName = "3195. Find the Minimum Area to Cover All Ones I";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
