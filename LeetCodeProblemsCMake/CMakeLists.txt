@@ -315,4 +315,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode837New21Game.h
         Problems/LeetCode67924Game.cpp
         Problems/LeetCode67924Game.h
+        Problems/LeetCode1493LongestSubarrayOf1sAfterDeletingOneElement.cpp
+        Problems/LeetCode1493LongestSubarrayOf1sAfterDeletingOneElement.h
 )
