@@ -4,21 +4,22 @@
 #include "Problems/LeetCode1233RemoveSubFoldersFromTheFilesystem.h"
 #include "Problems/LeetCode1277CountSquareSubmatricesWithAllOnes.h"
 #include "Problems/LeetCode2787WaysToExpressAnIntegerAsSumOfPowers.h"
+#include "Problems/LeetCode498DiagonalTraverse.h"
 #include "Problems/ScriptNamePrinter.h"
 
 
 int main(int argc, char* argv[])
 {
-    const auto problem = new LeetCode1277CountSquareSubmatricesWithAllOnes();
+    const auto problem = new LeetCode498DiagonalTraverse();
     problem->Run();
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1277. Count Square Submatrices with All Ones";
+    const std::string scriptName = "498. Diagonal Traverse";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
-    std::string input="[[0,1],[2,2],[0,3]]";
+    std::string input="[[1,2,3],[4,5,6],[7,8,9]]";
     Auxilaries::ConvertToVector(input);
 #pragma endregion
 }

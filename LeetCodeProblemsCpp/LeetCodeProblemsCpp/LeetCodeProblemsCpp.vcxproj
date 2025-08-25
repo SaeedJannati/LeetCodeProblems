@@ -238,6 +238,7 @@
     <ClCompile Include="Problems\LeetCode45JumpGameII.cpp" />
     <ClCompile Include="Problems\LeetCode48RotateImage.cpp" />
     <ClCompile Include="Problems\LeetCode494TargetSum.cpp" />
+    <ClCompile Include="Problems\LeetCode498DiagonalTraverse.cpp" />
     <ClCompile Include="Problems\Leetcode50PowXN.cpp" />
     <ClCompile Include="Problems\LeetCode54SpiralMatrix.cpp" />
     <ClCompile Include="Problems\LeetCode55JumpGame.cpp" />
@@ -340,6 +341,7 @@
     <ClInclude Include="Problems\LeetCode45JumpGameII.h" />
     <ClInclude Include="Problems\LeetCode48RotateImage.h" />
     <ClInclude Include="Problems\LeetCode494TargetSum.h" />
+    <ClInclude Include="Problems\LeetCode498DiagonalTraverse.h" />
     <ClInclude Include="Problems\Leetcode50PowXN.h" />
     <ClInclude Include="Problems\LeetCode54SpiralMatrix.h" />
     <ClInclude Include="Problems\LeetCode55JumpGame.h" />
