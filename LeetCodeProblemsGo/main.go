@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode869ReorderedPowerOf2"
 func main() {
 
 	LeetCode869ReorderedPowerOf2.Calculate()
-	rawScriptName := "498. Diagonal Traverse"
+	rawScriptName := "3000. Maximum Area of Longest Diagonal Rectangle"
 	printScriptName(rawScriptName)
 }
