@@ -230,6 +230,7 @@
     <ClCompile Include="Problems\LeetCode3394CheckIfGridCanBeCutIntoSections.cpp" />
     <ClCompile Include="Problems\LeetCode3396MinimumNumberOfOperationsToMakeElementsInArrayDistinct.cpp" />
     <ClCompile Include="Problems\LeetCode3439RescheduleMeetingsForMaximumFreeTimeICpp.cpp" />
+    <ClCompile Include="Problems\LeetCode3459LengthOfLongestVShapedDiagonalSegment.cpp" />
     <ClCompile Include="Problems\LeetCode3477FruitsIntoBasketsII.cpp" />
     <ClCompile Include="Problems\LeetCode3479FruitsIntoBasketsIII.cpp" />
     <ClCompile Include="Problems\LeetCode37SudokuSolver.cpp" />
@@ -334,6 +335,7 @@
     <ClInclude Include="Problems\LeetCode3394CheckIfGridCanBeCutIntoSections.h" />
     <ClInclude Include="Problems\LeetCode3396MinimumNumberOfOperationsToMakeElementsInArrayDistinct.h" />
     <ClInclude Include="Problems\LeetCode3439RescheduleMeetingsForMaximumFreeTimeICpp.h" />
+    <ClInclude Include="Problems\LeetCode3459LengthOfLongestVShapedDiagonalSegment.h" />
     <ClInclude Include="Problems\LeetCode3477FruitsIntoBasketsII.h" />
     <ClInclude Include="Problems\LeetCode3479FruitsIntoBasketsIII.h" />
     <ClInclude Include="Problems\LeetCode37SudokuSolver.h" />
