@@ -321,4 +321,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3195FindTheMinimumAreaToCoverAllOnesI.h
         Problems/LeetCode421MaximumXOROfTwoNumbersInAnArray.cpp
         Problems/LeetCode421MaximumXOROfTwoNumbersInAnArray.h
+        Problems/LeetCode3446SortMatrixByDiagonals.cpp
+        Problems/LeetCode3446SortMatrixByDiagonals.h
 )
