@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3459. Length of Longest V-Shaped Diagonal Segment";
+    const std::string scriptName = "2171. Removing Minimum Number of Magic Beans";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
