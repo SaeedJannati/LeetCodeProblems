@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3000. Maximum Area of Longest Diagonal Rectangle";
+    const std::string scriptName = "3459. Length of Longest V-Shaped Diagonal Segment";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
