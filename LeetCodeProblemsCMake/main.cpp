@@ -7,6 +7,7 @@
 #include "Problems/LeetCode2561RearrangingFruits.h"
 #include "Problems/LeetCode3363FindTheMaximumNumberOfFruitsCollected.h"
 #include "Problems/LeetCode3392CountSubarraysOfLengthThreeWithACondition.h"
+#include "Problems/LeetCode3446SortMatrixByDiagonals.h"
 #include "Problems/LeetCode421MaximumXOROfTwoNumbersInAnArray.h"
 #include "Problems/LeetCode67924Game.h"
 #include "Problems/LeetCode837New21Game.h"
@@ -14,18 +15,18 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3392CountSubarraysOfLengthThreeWithACondition();
+    const auto problem = new LeetCode3446SortMatrixByDiagonals();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "421. Maximum XOR of Two Numbers in an Array";
+    const std::string scriptName = "3021. Alice and Bob Playing Flower Game";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
-    std::string input="[[1,2,3,4],[5,6,8,7],[9,10,11,12],[13,14,15,16]]";
+    std::string input="[[8,2,3],[9,1,7],[4,5,6]]";
   Auxilaries::ConvertToVector(input);
 #pragma endregion
 }
