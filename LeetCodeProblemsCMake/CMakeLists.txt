@@ -325,4 +325,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3446SortMatrixByDiagonals.h
         Problems/LeetCode3021AliceAndBobPlayingFlowerGame.cpp
         Problems/LeetCode3021AliceAndBobPlayingFlowerGame.h
+        Problems/LeetCode1792MaximumAveragePassRatio.cpp
+        Problems/LeetCode1792MaximumAveragePassRatio.h
 )
