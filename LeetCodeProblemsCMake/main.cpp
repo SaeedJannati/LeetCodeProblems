@@ -22,7 +22,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1792. Maximum Average Pass Ratio";
+    const std::string scriptName = "3516. Find Closest Person";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

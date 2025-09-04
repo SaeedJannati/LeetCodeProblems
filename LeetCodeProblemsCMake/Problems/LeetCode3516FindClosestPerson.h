@@ -1,0 +1,15 @@
+//
+// Created by saeed on 9/4/25.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE3516FINDCLOSESTPERSON_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE3516FINDCLOSESTPERSON_H
+
+
+class LeetCode3516FindClosestPerson {
+private:
+    int findClosest(int x, int y, int z);
+};
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE3516FINDCLOSESTPERSON_H

@@ -327,4 +327,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3021AliceAndBobPlayingFlowerGame.h
         Problems/LeetCode1792MaximumAveragePassRatio.cpp
         Problems/LeetCode1792MaximumAveragePassRatio.h
+        Problems/LeetCode3516FindClosestPerson.cpp
+        Problems/LeetCode3516FindClosestPerson.h
 )
