@@ -9,20 +9,21 @@
 #include "Problems/LeetCode3392CountSubarraysOfLengthThreeWithACondition.h"
 #include "Problems/LeetCode3446SortMatrixByDiagonals.h"
 #include "Problems/LeetCode421MaximumXOROfTwoNumbersInAnArray.h"
+#include "Problems/LeetCode475Heaters.h"
 #include "Problems/LeetCode67924Game.h"
 #include "Problems/LeetCode837New21Game.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3446SortMatrixByDiagonals();
+    const auto problem = new LeetCode475Heaters();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3516. Find Closest Person";
+    const std::string scriptName = "475. Heaters";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
