@@ -1,0 +1,18 @@
+//
+// Created by saeed on 9/5/25.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE2749MINIMUMOPERATIONSTOMAKETHEINTEGERZERO_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE2749MINIMUMOPERATIONSTOMAKETHEINTEGERZERO_H
+#include "BaseProblem.h"
+
+
+class LeetCode2749MinimumOperationsToMakeTheIntegerZero: BaseProblem {
+private:
+    int makeTheIntegerZero(int num1, int num2);
+    public:
+    void Run() override;
+};
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE2749MINIMUMOPERATIONSTOMAKETHEINTEGERZERO_H

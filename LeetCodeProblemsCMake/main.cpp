@@ -5,6 +5,7 @@
 #include "Problems/LeetCode1948DeleteDuplicateFoldersInSystem.h"
 #include "Problems/LeetCode2402MeetingRoomsIII.h"
 #include "Problems/LeetCode2561RearrangingFruits.h"
+#include "Problems/LeetCode2749MinimumOperationsToMakeTheIntegerZero.h"
 #include "Problems/LeetCode3363FindTheMaximumNumberOfFruitsCollected.h"
 #include "Problems/LeetCode3392CountSubarraysOfLengthThreeWithACondition.h"
 #include "Problems/LeetCode3446SortMatrixByDiagonals.h"
@@ -16,14 +17,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode475Heaters();
+    const auto problem = new LeetCode2749MinimumOperationsToMakeTheIntegerZero();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "475. Heaters";
+    const std::string scriptName = "2749. Minimum Operations to Make the Integer Zero";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
