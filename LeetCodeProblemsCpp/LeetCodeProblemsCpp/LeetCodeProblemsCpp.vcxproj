@@ -237,6 +237,7 @@
     <ClCompile Include="Problems\LeetCode3459LengthOfLongestVShapedDiagonalSegment.cpp" />
     <ClCompile Include="Problems\LeetCode3477FruitsIntoBasketsII.cpp" />
     <ClCompile Include="Problems\LeetCode3479FruitsIntoBasketsIII.cpp" />
+    <ClCompile Include="Problems\LeetCode3495MinimumOperationsToMakeArrayElementsZero.cpp" />
     <ClCompile Include="Problems\LeetCode37SudokuSolver.cpp" />
     <ClCompile Include="Problems\LeetCode38CountandSay.cpp" />
     <ClCompile Include="Problems\LeetCode416PartitionEqualSubsetSum.cpp" />
@@ -346,6 +347,7 @@
     <ClInclude Include="Problems\LeetCode3459LengthOfLongestVShapedDiagonalSegment.h" />
     <ClInclude Include="Problems\LeetCode3477FruitsIntoBasketsII.h" />
     <ClInclude Include="Problems\LeetCode3479FruitsIntoBasketsIII.h" />
+    <ClInclude Include="Problems\LeetCode3495MinimumOperationsToMakeArrayElementsZero.h" />
     <ClInclude Include="Problems\LeetCode37SudokuSolver.h" />
     <ClInclude Include="Problems\LeetCode38CountandSay.h" />
     <ClInclude Include="Problems\LeetCode416PartitionEqualSubsetSum.h" />
