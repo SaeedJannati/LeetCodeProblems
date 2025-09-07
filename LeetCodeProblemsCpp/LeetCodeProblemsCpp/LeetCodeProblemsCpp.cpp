@@ -15,7 +15,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3495. Minimum Operations to Make Array Elements Zero";
+    const std::string scriptName = "1304. Find N Unique Integers Sum up to Zero";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

@@ -174,6 +174,7 @@
     <ClCompile Include="Problems\LeetCode1277CountSquareSubmatricesWithAllOnes.cpp" />
     <ClCompile Include="Problems\LeetCode1290ConvertBinaryNumberInALinkedListToInteger.cpp" />
     <ClCompile Include="Problems\Leetcode12IntegerToRoman.cpp" />
+    <ClCompile Include="Problems\LeetCode1304FindNUniqueIntegersSumUpToZero.cpp" />
     <ClCompile Include="Problems\LeetCode1323Maximum69Number.cpp" />
     <ClCompile Include="Problems\LeetCode134GasStation.cpp" />
     <ClCompile Include="Problems\LeetCode1358NumberOfSubstringsContainingAllThreeCharacters.cpp" />
@@ -284,6 +285,7 @@
     <ClInclude Include="Problems\LeetCode1277CountSquareSubmatricesWithAllOnes.h" />
     <ClInclude Include="Problems\LeetCode1290ConvertBinaryNumberInALinkedListToInteger.h" />
     <ClInclude Include="Problems\Leetcode12IntegerToRoman.h" />
+    <ClInclude Include="Problems\LeetCode1304FindNUniqueIntegersSumUpToZero.h" />
     <ClInclude Include="Problems\LeetCode1323Maximum69Number.h" />
     <ClInclude Include="Problems\LeetCode134GasStation.h" />
     <ClInclude Include="Problems\LeetCode1358NumberOfSubstringsContainingAllThreeCharacters.h" />
