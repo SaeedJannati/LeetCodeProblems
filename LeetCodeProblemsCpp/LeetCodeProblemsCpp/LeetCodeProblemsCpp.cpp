@@ -15,7 +15,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1304. Find N Unique Integers Sum up to Zero";
+    const std::string scriptName = "1317. Convert Integer to the Sum of Two No-Zero Integers";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
