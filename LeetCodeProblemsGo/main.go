@@ -1,10 +1,10 @@
 package main
 
-import "LeetCodeProblemsGo/LeetCode869ReorderedPowerOf2"
+import "LeetCodeProblemsGo/LeetCode966VowelSpellchecker"
 
 func main() {
 
-	LeetCode869ReorderedPowerOf2.Calculate()
-	rawScriptName := "1317. Convert Integer to the Sum of Two No-Zero Integers"
+	LeetCode966VowelSpellchecker.Calculate()
+	rawScriptName := "966. Vowel Spellchecker"
 	printScriptName(rawScriptName)
 }
