@@ -264,6 +264,7 @@
     <ClCompile Include="Problems\LeetCode907SumOfSubarrayMinimums.cpp" />
     <ClCompile Include="Problems\LeetCode90SubsetsII.cpp" />
     <ClCompile Include="Problems\LeetCode92ReverseLinkedListII.cpp" />
+    <ClCompile Include="Problems\LeetCode966VowelSpellchecker.cpp" />
     <ClCompile Include="Problems\LeetCode983MinimumCostForTickets.cpp" />
     <ClCompile Include="Problems\LeetCode9PalindromeNumber.cpp" />
     <ClCompile Include="Problems\ScriptNamePrinter.cpp" />
@@ -376,6 +377,7 @@
     <ClInclude Include="Problems\LeetCode907SumOfSubarrayMinimums.h" />
     <ClInclude Include="Problems\LeetCode90SubsetsII.h" />
     <ClInclude Include="Problems\LeetCode92ReverseLinkedListII.h" />
+    <ClInclude Include="Problems\LeetCode966VowelSpellchecker.h" />
     <ClInclude Include="Problems\LeetCode983MinimumCostForTickets.h" />
     <ClInclude Include="Problems\LeetCode9PalindromeNumber.h" />
     <ClInclude Include="Problems\ScriptNamePrinter.h" />

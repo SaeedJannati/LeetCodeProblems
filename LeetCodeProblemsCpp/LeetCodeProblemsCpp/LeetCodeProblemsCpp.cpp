@@ -5,17 +5,18 @@
 #include "Problems/LeetCode1942TheNumberOfTheSmallestUnoccupiedChair.h"
 #include "Problems/LeetCode3025FindTheNumberOfWaysToPlacePeopleI.h"
 #include "Problems/LeetCode3495MinimumOperationsToMakeArrayElementsZero.h"
+#include "Problems/LeetCode966VowelSpellchecker.h"
 #include "Problems/ScriptNamePrinter.h"
 
 
 int main(int argc, char* argv[])
 {
-    const auto problem = new LeetCode3495MinimumOperationsToMakeArrayElementsZero();
+    const auto problem = new LeetCode966VowelSpellchecker();
     problem->Run();
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1317. Convert Integer to the Sum of Two No-Zero Integers";
+    const std::string scriptName = "966. Vowel Spellchecker";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
