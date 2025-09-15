@@ -16,7 +16,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3541. Find Most Frequent Vowel and Consonant";
+    const std::string scriptName = "1935. Maximum Number of Words You Can Type";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

@@ -194,6 +194,7 @@
     <ClCompile Include="Problems\LeetCode1790CheckIfOneStringSwapCanMakeStringsEqual.cpp" />
     <ClCompile Include="Problems\LeetCode1863SumOfAllSubsetXORTotals.cpp" />
     <ClCompile Include="Problems\LeetCode1922CountGoodNumbers.cpp" />
+    <ClCompile Include="Problems\LeetCode1935MaximumNumberOfWordsYouCanType.cpp" />
     <ClCompile Include="Problems\LeetCode1942TheNumberOfTheSmallestUnoccupiedChair.cpp" />
     <ClCompile Include="Problems\LeetCode1957DeleteCharactersToMakeFancyString.cpp" />
     <ClCompile Include="Problems\LeetCode198HouseRobber.cpp" />
@@ -308,6 +309,7 @@
     <ClInclude Include="Problems\LeetCode1790CheckIfOneStringSwapCanMakeStringsEqual.h" />
     <ClInclude Include="Problems\LeetCode1863SumOfAllSubsetXORTotals.h" />
     <ClInclude Include="Problems\LeetCode1922CountGoodNumbers.h" />
+    <ClInclude Include="Problems\LeetCode1935MaximumNumberOfWordsYouCanType.h" />
     <ClInclude Include="Problems\LeetCode1942TheNumberOfTheSmallestUnoccupiedChair.h" />
     <ClInclude Include="Problems\LeetCode1957DeleteCharactersToMakeFancyString.h" />
     <ClInclude Include="Problems\LeetCode198HouseRobber.h" />
