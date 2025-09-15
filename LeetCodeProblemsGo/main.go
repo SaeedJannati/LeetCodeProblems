@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode966VowelSpellchecker"
 func main() {
 
 	LeetCode966VowelSpellchecker.Calculate()
-	rawScriptName := "3541. Find Most Frequent Vowel and Consonant"
+	rawScriptName := "1935. Maximum Number of Words You Can Type"
 	printScriptName(rawScriptName)
 }
