@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode966VowelSpellchecker"
 func main() {
 
 	LeetCode966VowelSpellchecker.Calculate()
-	rawScriptName := "3227. Vowels Game in a String"
+	rawScriptName := "2197. Replace Non-Coprime Numbers in Array"
 	printScriptName(rawScriptName)
 }
