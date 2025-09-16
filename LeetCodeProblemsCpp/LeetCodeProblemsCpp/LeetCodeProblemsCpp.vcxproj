@@ -209,6 +209,7 @@
     <ClCompile Include="Problems\LeetCode215FindKthElement.cpp" />
     <ClCompile Include="Problems\LeetCode2161PartitionArrayAccordingToGivenPivot.cpp" />
     <ClCompile Include="Problems\LeetCode2171RemovingMinimumNumberOfMagicBeans.cpp" />
+    <ClCompile Include="Problems\LeetCode2197ReplaceNonCoprimeNumbersInArray.cpp" />
     <ClCompile Include="Problems\LeetCode2210CountHillsAndValleysInAnArray.cpp" />
     <ClCompile Include="Problems\LeetCode226InvertBinaryTree.cpp" />
     <ClCompile Include="Problems\LeetCode231PowerOfTwo.cpp" />
@@ -325,6 +326,7 @@
     <ClInclude Include="Problems\LeetCode215FindKthElement.h" />
     <ClInclude Include="Problems\LeetCode2161PartitionArrayAccordingToGivenPivot.h" />
     <ClInclude Include="Problems\LeetCode2171RemovingMinimumNumberOfMagicBeans.h" />
+    <ClInclude Include="Problems\LeetCode2197ReplaceNonCoprimeNumbersInArray.h" />
     <ClInclude Include="Problems\LeetCode2210CountHillsAndValleysInAnArray.h" />
     <ClInclude Include="Problems\LeetCode226InvertBinaryTree.h" />
     <ClInclude Include="Problems\LeetCode231PowerOfTwo.h" />
