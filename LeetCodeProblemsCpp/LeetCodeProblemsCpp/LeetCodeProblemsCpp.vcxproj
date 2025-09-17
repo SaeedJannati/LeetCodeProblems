@@ -214,6 +214,7 @@
     <ClCompile Include="Problems\LeetCode226InvertBinaryTree.cpp" />
     <ClCompile Include="Problems\LeetCode231PowerOfTwo.cpp" />
     <ClCompile Include="Problems\LeetCode2348NumberOfZeroFilledSubarrays.cpp" />
+    <ClCompile Include="Problems\LeetCode2353DesignAFoodRatingSystem.cpp" />
     <ClCompile Include="Problems\LeetCode2381ShiftingLettersII.cpp" />
     <ClCompile Include="Problems\LeetCode2411SmallestSubarraysWithMaximumBitwiseOR.cpp" />
     <ClCompile Include="Problems\LeetCode2419LongestSubarrayWithMaximumBitwiseAND.cpp" />
@@ -331,6 +332,7 @@
     <ClInclude Include="Problems\LeetCode226InvertBinaryTree.h" />
     <ClInclude Include="Problems\LeetCode231PowerOfTwo.h" />
     <ClInclude Include="Problems\LeetCode2348NumberOfZeroFilledSubarrays.h" />
+    <ClInclude Include="Problems\LeetCode2353DesignAFoodRatingSystem.h" />
     <ClInclude Include="Problems\LeetCode2381ShiftingLettersII.h" />
     <ClInclude Include="Problems\LeetCode2411SmallestSubarraysWithMaximumBitwiseOR.h" />
     <ClInclude Include="Problems\LeetCode2419LongestSubarrayWithMaximumBitwiseAND.h" />
