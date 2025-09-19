@@ -24,7 +24,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3408. Design Task Manager";
+    const std::string scriptName = "3484. Design Spreadsheet";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

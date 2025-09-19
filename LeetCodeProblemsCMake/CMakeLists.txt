@@ -335,4 +335,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2749MinimumOperationsToMakeTheIntegerZero.h
         Problems/LeetCode3408DesignTaskManager.cpp
         Problems/LeetCode3408DesignTaskManager.h
+        Problems/LeetCode3484DesignSpreadsheet.cpp
+        Problems/LeetCode3484DesignSpreadsheet.h
 )
