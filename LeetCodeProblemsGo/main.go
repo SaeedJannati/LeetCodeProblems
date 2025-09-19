@@ -1,10 +1,10 @@
 package main
 
-import "LeetCodeProblemsGo/LeetCode966VowelSpellchecker"
+import "LeetCodeProblemsGo/LeetCode187RepeatedDNASequences"
 
 func main() {
 
-	LeetCode966VowelSpellchecker.Calculate()
-	rawScriptName := "2197. Replace Non-Coprime Numbers in Array"
+	LeetCode187RepeatedDNASequences.Calculate()
+	rawScriptName := "3484. Design Spreadsheet"
 	printScriptName(rawScriptName)
 }
