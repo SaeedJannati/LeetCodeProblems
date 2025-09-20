@@ -12,7 +12,7 @@ class LeetCode3508ImplementRouter
     {
         queue<vector<int>> packets{};
         int memoryLimit;
-        unordered_map<int, unordered_map<int, set<int>>> map{};
+        unordered_map<int, unordered_map<int, unordered_set<int>>> map{};
         unordered_map<int,vector<int>> destMap{};
     public:
         Router(int memoryLimit)
