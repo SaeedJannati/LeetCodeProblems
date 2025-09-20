@@ -244,6 +244,7 @@
     <ClCompile Include="Problems\LeetCode3477FruitsIntoBasketsII.cpp" />
     <ClCompile Include="Problems\LeetCode3479FruitsIntoBasketsIII.cpp" />
     <ClCompile Include="Problems\LeetCode3495MinimumOperationsToMakeArrayElementsZero.cpp" />
+    <ClCompile Include="Problems\LeetCode3508ImplementRouter.cpp" />
     <ClCompile Include="Problems\LeetCode3541FindMostFrequentVowelAndConsonant.cpp" />
     <ClCompile Include="Problems\LeetCode37SudokuSolver.cpp" />
     <ClCompile Include="Problems\LeetCode38CountandSay.cpp" />
@@ -362,6 +363,7 @@
     <ClInclude Include="Problems\LeetCode3477FruitsIntoBasketsII.h" />
     <ClInclude Include="Problems\LeetCode3479FruitsIntoBasketsIII.h" />
     <ClInclude Include="Problems\LeetCode3495MinimumOperationsToMakeArrayElementsZero.h" />
+    <ClInclude Include="Problems\LeetCode3508ImplementRouter.h" />
     <ClInclude Include="Problems\LeetCode3541FindMostFrequentVowelAndConsonant.h" />
     <ClInclude Include="Problems\LeetCode37SudokuSolver.h" />
     <ClInclude Include="Problems\LeetCode38CountandSay.h" />
