@@ -227,6 +227,7 @@
     <ClCompile Include="Problems\LeetCode2787WaysToExpressAnIntegerAsSumOfPowers.cpp" />
     <ClCompile Include="Problems\LeetCode299BullsAndCows.cpp" />
     <ClCompile Include="Problems\LeetCode3000MaximumAreaOfLongestDiagonalRectangle.cpp" />
+    <ClCompile Include="Problems\LeetCode3005CountElementsWithMaximumFrequency.cpp" />
     <ClCompile Include="Problems\LeetCode3025FindTheNumberOfWaysToPlacePeopleI.cpp" />
     <ClCompile Include="Problems\LeetCode3027FindTheNumberOfWaysToPlacePeopleII.cpp" />
     <ClCompile Include="Problems\LeetCode3042CountPrefixAndSuffixPairsI.cpp" />
@@ -346,6 +347,7 @@
     <ClInclude Include="Problems\LeetCode2787WaysToExpressAnIntegerAsSumOfPowers.h" />
     <ClInclude Include="Problems\LeetCode299BullsAndCows.h" />
     <ClInclude Include="Problems\LeetCode3000MaximumAreaOfLongestDiagonalRectangle.h" />
+    <ClInclude Include="Problems\LeetCode3005CountElementsWithMaximumFrequency.h" />
     <ClInclude Include="Problems\LeetCode3025FindTheNumberOfWaysToPlacePeopleI.h" />
     <ClInclude Include="Problems\LeetCode3027FindTheNumberOfWaysToPlacePeopleII.h" />
     <ClInclude Include="Problems\LeetCode3042CountPrefixAndSuffixPairsI.h" />
