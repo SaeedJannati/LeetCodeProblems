@@ -2,6 +2,7 @@
 
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
+#include "Problems/LeetCode1774ClosestDessertCost.h"
 #include "Problems/LeetCode1948DeleteDuplicateFoldersInSystem.h"
 #include "Problems/LeetCode2402MeetingRoomsIII.h"
 #include "Problems/LeetCode2561RearrangingFruits.h"
@@ -17,14 +18,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2749MinimumOperationsToMakeTheIntegerZero();
+    const auto problem = new LeetCode1774ClosestDessertCost();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1912. Design Movie Rental System";
+    const std::string scriptName = "1774. Closest Dessert Cost";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

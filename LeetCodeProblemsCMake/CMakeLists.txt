@@ -339,4 +339,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3484DesignSpreadsheet.h
         Problems/LeetCode1912DesignMovieRentalSystem.cpp
         Problems/LeetCode1912DesignMovieRentalSystem.h
+        Problems/LeetCode1774ClosestDessertCost.cpp
+        Problems/LeetCode1774ClosestDessertCost.h
 )
