@@ -6,7 +6,7 @@
 
 #include <iostream>
 #include <numeric>
-#include <bits/ranges_algo.h>
+#include <algorithm>
 
 
 using namespace std;

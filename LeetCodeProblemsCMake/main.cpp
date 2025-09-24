@@ -2,6 +2,7 @@
 
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
+#include "Problems/LeetCode166FractionToRecurringDecimal.h"
 #include "Problems/LeetCode1774ClosestDessertCost.h"
 #include "Problems/LeetCode1948DeleteDuplicateFoldersInSystem.h"
 #include "Problems/LeetCode2402MeetingRoomsIII.h"
@@ -18,7 +19,7 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode1774ClosestDessertCost();
+    const auto problem = new LeetCode166FractionToRecurringDecimal();
     problem->Run();
     delete problem;
 

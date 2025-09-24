@@ -341,4 +341,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1912DesignMovieRentalSystem.h
         Problems/LeetCode1774ClosestDessertCost.cpp
         Problems/LeetCode1774ClosestDessertCost.h
+        Problems/LeetCode166FractionToRecurringDecimal.cpp
+        Problems/LeetCode166FractionToRecurringDecimal.h
 )
