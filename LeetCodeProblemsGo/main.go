@@ -1,10 +1,10 @@
 package main
 
-import "LeetCodeProblemsGo/LeetCode187RepeatedDNASequences"
+import "LeetCodeProblemsGo/LeetCode166FractionToRecurringDecimal"
 
 func main() {
 
-	LeetCode187RepeatedDNASequences.Calculate()
-	rawScriptName := "3005. Count Elements With Maximum Frequency"
+	LeetCode166FractionToRecurringDecimal.Calculate()
+	rawScriptName := "166. Fraction to Recurring Decimal"
 	printScriptName(rawScriptName)
 }
