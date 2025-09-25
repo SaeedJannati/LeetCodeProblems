@@ -7,6 +7,7 @@
 #include <iostream>
 #include <numeric>
 #include <algorithm>
+#include <limits.h>
 
 
 using namespace std;
@@ -21,12 +22,36 @@ int LeetCode1774ClosestDessertCost::closestCost(vector<int> &baseCosts, vector<i
     for (auto  const base: baseCosts) {
         canMake[base] = true;
     }
-
+    for (auto const topping: toppingCosts) {
+        for (int i=0;i<2;i++) {
+            for (int j=maxPrice;j>topping;--j) {
+                if (canMake[j-topping]) {
+                    canMake[j]=true;
+                }
+            }
+        }
+    }
+    int closestDelta{INT_MAX};
+    int closest{};
+    int delta{};
+    for (int i=0;i<=maxPrice;i++) {
+        if (!canMake[i])
+            continue;
+        delta=abs(i-target);
+        if (closestDelta>delta) {
+            closestDelta=delta;
+            closest=i;
+        }
+    }
+    return closest;
 }
 
 void LeetCode1774ClosestDessertCost::Run() {
-    vector<int> baseCosts{3,10};
-    vector<int> toppings{2,5};
+    vector<int> baseCosts{3};
+    // {3,10};
+    vector<int> toppings{3};
+    // {2,5};
     int target{9};
+    // {9};
     cout<<closestCost(baseCosts,toppings,target)<<endl;
 }

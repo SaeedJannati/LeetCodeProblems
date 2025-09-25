@@ -19,7 +19,7 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode166FractionToRecurringDecimal();
+    const auto problem = new LeetCode1774ClosestDessertCost();
     problem->Run();
     delete problem;
 
