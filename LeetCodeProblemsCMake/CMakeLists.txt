@@ -345,4 +345,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode166FractionToRecurringDecimal.h
         Problems/LeetCode1834SingleThreadedCPU.cpp
         Problems/LeetCode1834SingleThreadedCPU.h
+        Problems/LeetCode611ValidTriangleNumber.cpp
+        Problems/LeetCode611ValidTriangleNumber.h
 )

@@ -15,7 +15,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1834. Single-Threaded CPU";
+    const std::string scriptName = "611. Valid Triangle Number";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
