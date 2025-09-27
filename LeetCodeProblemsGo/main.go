@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode166FractionToRecurringDecimal"
 func main() {
 
 	LeetCode166FractionToRecurringDecimal.Calculate()
-	rawScriptName := "611. Valid Triangle Number"
+	rawScriptName := "812. Largest Triangle Area"
 	printScriptName(rawScriptName)
 }
