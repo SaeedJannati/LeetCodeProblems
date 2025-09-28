@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode166FractionToRecurringDecimal"
 func main() {
 
 	LeetCode166FractionToRecurringDecimal.Calculate()
-	rawScriptName := "812. Largest Triangle Area"
+	rawScriptName := "976. Largest Perimeter Triangle"
 	printScriptName(rawScriptName)
 }
