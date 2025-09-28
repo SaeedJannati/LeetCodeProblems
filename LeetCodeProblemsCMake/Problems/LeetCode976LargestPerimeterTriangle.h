@@ -1,0 +1,16 @@
+//
+// Created by saeed on 9/28/25.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE976LARGESTPERIMETERTRIANGLE_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE976LARGESTPERIMETERTRIANGLE_H
+#include <vector>
+
+
+class LeetCode976LargestPerimeterTriangle {
+private:
+    int largestPerimeter(std::vector<int>& nums);
+};
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE976LARGESTPERIMETERTRIANGLE_H

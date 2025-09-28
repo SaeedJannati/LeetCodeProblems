@@ -349,4 +349,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode611ValidTriangleNumber.h
         Problems/LeetCode812LargestTriangleArea.cpp
         Problems/LeetCode812LargestTriangleArea.h
+        Problems/LeetCode976LargestPerimeterTriangle.cpp
+        Problems/LeetCode976LargestPerimeterTriangle.h
 )
