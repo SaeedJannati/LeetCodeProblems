@@ -15,8 +15,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "976. Largest Perimeter Triangle"
-                                   "";
+    const std::string scriptName = "1039. Minimum Score Triangulation of Polygon";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
