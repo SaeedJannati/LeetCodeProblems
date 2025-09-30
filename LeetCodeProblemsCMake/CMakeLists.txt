@@ -353,4 +353,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode976LargestPerimeterTriangle.h
         Problems/LeetCode1039MinimumScoreTriangulationOfPolygon.cpp
         Problems/LeetCode1039MinimumScoreTriangulationOfPolygon.h
+        Problems/LeetCode2221FindTriangularSumOfAnArray.cpp
+        Problems/LeetCode2221FindTriangularSumOfAnArray.h
 )
