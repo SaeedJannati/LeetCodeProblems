@@ -355,4 +355,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1039MinimumScoreTriangulationOfPolygon.h
         Problems/LeetCode2221FindTriangularSumOfAnArray.cpp
         Problems/LeetCode2221FindTriangularSumOfAnArray.h
+        Problems/LeetCode1518WaterBottles.cpp
+        Problems/LeetCode1518WaterBottles.h
 )

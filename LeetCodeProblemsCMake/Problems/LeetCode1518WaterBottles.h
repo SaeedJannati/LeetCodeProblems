@@ -1,0 +1,14 @@
+//
+// Created by saeed on 10/1/25.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE1518WATERBOTTLES_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE1518WATERBOTTLES_H
+
+
+class LeetCode1518WaterBottles {
+    int numWaterBottles(int numBottles, int numExchange);
+};
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE1518WATERBOTTLES_H

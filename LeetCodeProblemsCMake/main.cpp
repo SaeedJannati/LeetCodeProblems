@@ -16,7 +16,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2221. Find Triangular Sum of an Array";
+    const std::string scriptName = "1518. Water Bottles";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
