@@ -357,4 +357,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2221FindTriangularSumOfAnArray.h
         Problems/LeetCode1518WaterBottles.cpp
         Problems/LeetCode1518WaterBottles.h
+        Problems/LeetCode3100WaterBottlesII.cpp
+        Problems/LeetCode3100WaterBottlesII.h
 )

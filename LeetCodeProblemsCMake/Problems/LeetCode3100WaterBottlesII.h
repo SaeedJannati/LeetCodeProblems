@@ -1,0 +1,15 @@
+//
+// Created by saeed on 10/2/25.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE3100WATERBOTTLESII_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE3100WATERBOTTLESII_H
+
+
+class LeetCode3100WaterBottlesII {
+private:
+    int maxBottlesDrunk(int numBottles, int numExchange);
+};
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE3100WATERBOTTLESII_H
