@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode166FractionToRecurringDecimal"
 func main() {
 
 	LeetCode166FractionToRecurringDecimal.Calculate()
-	rawScriptName := "1518. Water Bottles"
+	rawScriptName := "3100. Water Bottles II"
 	printScriptName(rawScriptName)
 }
