@@ -10,7 +10,7 @@ problem.Run();
 
 #region ScriptNameConvertor
 
-var scriptName = "165. Compare Version Numbers";
+var scriptName = "1115. Print FooBar Alternately";
 ScriptNameConvertor.PrintScriptName(scriptName);
 
 
