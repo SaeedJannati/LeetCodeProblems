@@ -361,4 +361,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3100WaterBottlesII.h
         Problems/LeetCode1115PrintFooBarAlternately.cpp
         Problems/LeetCode1115PrintFooBarAlternately.h
+        Problems/LeetCode3603MinimumCostPathWithAlternatingDirectionsII.cpp
+        Problems/LeetCode3603MinimumCostPathWithAlternatingDirectionsII.h
 )

@@ -5,18 +5,19 @@
 #include "Problems/LeetCode1834SingleThreadedCPU.h"
 #include "Problems/LeetCode1948DeleteDuplicateFoldersInSystem.h"
 #include "Problems/LeetCode2221FindTriangularSumOfAnArray.h"
+#include "Problems/LeetCode3603MinimumCostPathWithAlternatingDirectionsII.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2221FindTriangularSumOfAnArray();
+    const auto problem = new LeetCode3603MinimumCostPathWithAlternatingDirectionsII();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1115. Print FooBar Alternately";
+    const std::string scriptName = "3603. Minimum Cost Path with Alternating Directions II";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
