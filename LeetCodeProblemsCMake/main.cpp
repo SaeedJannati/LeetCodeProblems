@@ -2,6 +2,7 @@
 
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
+#include "Problems/LeetCode1432MaxDifferenceYouCanGetFromChangingAnInteger.h"
 #include "Problems/LeetCode1834SingleThreadedCPU.h"
 #include "Problems/LeetCode1948DeleteDuplicateFoldersInSystem.h"
 #include "Problems/LeetCode2221FindTriangularSumOfAnArray.h"
@@ -10,14 +11,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3603MinimumCostPathWithAlternatingDirectionsII();
+    const auto problem = new LeetCode1432MaxDifferenceYouCanGetFromChangingAnInteger();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "778. Swim in Rising Water";
+    const std::string scriptName = "1432. Max Difference You Can Get From Changing an Integer";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
