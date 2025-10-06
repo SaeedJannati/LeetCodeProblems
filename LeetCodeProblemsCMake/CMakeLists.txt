@@ -363,4 +363,7 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1115PrintFooBarAlternately.h
         Problems/LeetCode3603MinimumCostPathWithAlternatingDirectionsII.cpp
         Problems/LeetCode3603MinimumCostPathWithAlternatingDirectionsII.h
+        Problems/LeetCode778SwimInRisingWater.cpp
+        Problems/LeetCode778SwimInRisingWater.h
+        Problems/LeetCode778SwimInRisingWater.cpp
 )
