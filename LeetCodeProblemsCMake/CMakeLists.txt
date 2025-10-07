@@ -368,4 +368,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode778SwimInRisingWater.cpp
         Problems/LeetCode1432MaxDifferenceYouCanGetFromChangingAnInteger.cpp
         Problems/LeetCode1432MaxDifferenceYouCanGetFromChangingAnInteger.h
+        Problems/LeetCode1488AvoidFloodInTheCity.cpp
+        Problems/LeetCode1488AvoidFloodInTheCity.h
 )
