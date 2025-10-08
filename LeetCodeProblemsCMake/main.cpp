@@ -8,18 +8,19 @@
 #include "Problems/LeetCode1948DeleteDuplicateFoldersInSystem.h"
 #include "Problems/LeetCode2221FindTriangularSumOfAnArray.h"
 #include "Problems/LeetCode3603MinimumCostPathWithAlternatingDirectionsII.h"
+#include "Problems/LeetCode621TaskScheduler.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode1488AvoidFloodInTheCity();
+    const auto problem = new LeetCode621TaskScheduler();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1488. Avoid Flood in The City";
+    const std::string scriptName = "621. Task Scheduler";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
