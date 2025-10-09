@@ -372,4 +372,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1488AvoidFloodInTheCity.h
         Problems/LeetCode621TaskScheduler.cpp
         Problems/LeetCode621TaskScheduler.h
+        Problems/LeetCode3494FindTheMinimumAmountOfTimeToBrewPotions.cpp
+        Problems/LeetCode3494FindTheMinimumAmountOfTimeToBrewPotions.h
 )
