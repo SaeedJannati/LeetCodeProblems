@@ -8,7 +8,6 @@ using namespace std;
 long long LeetCode3494FindTheMinimumAmountOfTimeToBrewPotions::
 minTime(vector<int> &skills, vector<int> &manas) {
     int skillSize = static_cast<int>(skills.size());
-    int manaSize = static_cast<int>(manas.size());
     vector<long long> endTimes(skillSize , 0);
     vector<long long> roundPrefixSum(skillSize , 0);
     long long roundStartTime{};

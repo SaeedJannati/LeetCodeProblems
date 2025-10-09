@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1488AvoidFloodInTheCity"
 func main() {
 
 	LeetCode1488AvoidFloodInTheCity.Calculate()
-	rawScriptName := "1488. Avoid Flood in The City"
+	rawScriptName := "3494. Find the Minimum Amount of Time to Brew Potions"
 	printScriptName(rawScriptName)
 }
