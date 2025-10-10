@@ -374,4 +374,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode621TaskScheduler.h
         Problems/LeetCode3494FindTheMinimumAmountOfTimeToBrewPotions.cpp
         Problems/LeetCode3494FindTheMinimumAmountOfTimeToBrewPotions.h
+        Problems/LeetCode3147TakingMaximumEnergyFromTheMysticDungeon.cpp
+        Problems/LeetCode3147TakingMaximumEnergyFromTheMysticDungeon.h
 )

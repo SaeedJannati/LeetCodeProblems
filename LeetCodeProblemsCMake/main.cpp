@@ -20,7 +20,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3494. Find the Minimum Amount of Time to Brew Potions";
+    const std::string scriptName = "3147. Taking Maximum Energy From the Mystic Dungeon";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
