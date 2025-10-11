@@ -376,4 +376,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3494FindTheMinimumAmountOfTimeToBrewPotions.h
         Problems/LeetCode3147TakingMaximumEnergyFromTheMysticDungeon.cpp
         Problems/LeetCode3147TakingMaximumEnergyFromTheMysticDungeon.h
+        Problems/LeetCode3186MaximumTotalDamageWithSpellCasting.cpp
+        Problems/LeetCode3186MaximumTotalDamageWithSpellCasting.h
 )

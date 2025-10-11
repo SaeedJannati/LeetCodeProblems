@@ -7,20 +7,21 @@
 #include "Problems/LeetCode1834SingleThreadedCPU.h"
 #include "Problems/LeetCode1948DeleteDuplicateFoldersInSystem.h"
 #include "Problems/LeetCode2221FindTriangularSumOfAnArray.h"
+#include "Problems/LeetCode3186MaximumTotalDamageWithSpellCasting.h"
 #include "Problems/LeetCode3603MinimumCostPathWithAlternatingDirectionsII.h"
 #include "Problems/LeetCode621TaskScheduler.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode621TaskScheduler();
+    const auto problem = new LeetCode3186MaximumTotalDamageWithSpellCasting();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3147. Taking Maximum Energy From the Mystic Dungeon";
+    const std::string scriptName = "3186. Maximum Total Damage With Spell Casting";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
