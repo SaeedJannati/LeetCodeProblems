@@ -378,4 +378,7 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3147TakingMaximumEnergyFromTheMysticDungeon.h
         Problems/LeetCode3186MaximumTotalDamageWithSpellCasting.cpp
         Problems/LeetCode3186MaximumTotalDamageWithSpellCasting.h
+        Problems/LeetCode2273FindResultantArrayAfterRemovingAnagrams.cpp
+        Problems/LeetCode2273FindResultantArrayAfterRemovingAnagrams.h
+        Problems/LeetCode2273FindResultantArrayAfterRemovingAnagrams.cpp
 )

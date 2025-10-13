@@ -21,7 +21,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3186. Maximum Total Damage With Spell Casting";
+    const std::string scriptName = "2273. Find Resultant Array After Removing Anagrams";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
