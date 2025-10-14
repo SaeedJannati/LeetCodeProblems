@@ -381,4 +381,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2273FindResultantArrayAfterRemovingAnagrams.cpp
         Problems/LeetCode2273FindResultantArrayAfterRemovingAnagrams.h
         Problems/LeetCode2273FindResultantArrayAfterRemovingAnagrams.cpp
+        Problems/LeetCode3349AdjacentIncreasingSubarraysDetectionI.cpp
+        Problems/LeetCode3349AdjacentIncreasingSubarraysDetectionI.h
 )

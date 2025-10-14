@@ -8,20 +8,21 @@
 #include "Problems/LeetCode1948DeleteDuplicateFoldersInSystem.h"
 #include "Problems/LeetCode2221FindTriangularSumOfAnArray.h"
 #include "Problems/LeetCode3186MaximumTotalDamageWithSpellCasting.h"
+#include "Problems/LeetCode3349AdjacentIncreasingSubarraysDetectionI.h"
 #include "Problems/LeetCode3603MinimumCostPathWithAlternatingDirectionsII.h"
 #include "Problems/LeetCode621TaskScheduler.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3186MaximumTotalDamageWithSpellCasting();
+    const auto problem = new LeetCode3349AdjacentIncreasingSubarraysDetectionI();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2273. Find Resultant Array After Removing Anagrams";
+    const std::string scriptName = "3349. Adjacent Increasing Subarrays Detection I";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
