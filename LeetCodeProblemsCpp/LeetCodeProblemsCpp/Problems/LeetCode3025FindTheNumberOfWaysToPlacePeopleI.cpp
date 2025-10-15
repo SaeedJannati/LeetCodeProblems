@@ -2,7 +2,6 @@
 
 #include <algorithm>
 #include <iostream>
-#include <__msvc_ostream.hpp>
 using namespace std;
 
 int LeetCode3025FindTheNumberOfWaysToPlacePeopleI::numberOfPairs(vector<vector<int>>& points)

@@ -4,7 +4,6 @@
 #include <iostream>
 #include <valarray>
 #include <vector>
-#include <__msvc_ostream.hpp>
 using namespace std;
 #pragma  region 1D dp
 int LeetCode2787WaysToExpressAnIntegerAsSumOfPowers::numberOfWays(int n, int x)
