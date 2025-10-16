@@ -7,6 +7,7 @@
 #include "Problems/LeetCode1834SingleThreadedCPU.h"
 #include "Problems/LeetCode1948DeleteDuplicateFoldersInSystem.h"
 #include "Problems/LeetCode2221FindTriangularSumOfAnArray.h"
+#include "Problems/LeetCode2598SmallestMissingNonnegativeIntegerAfterOperations.h"
 #include "Problems/LeetCode3186MaximumTotalDamageWithSpellCasting.h"
 #include "Problems/LeetCode3349AdjacentIncreasingSubarraysDetectionI.h"
 #include "Problems/LeetCode3603MinimumCostPathWithAlternatingDirectionsII.h"
@@ -15,14 +16,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3349AdjacentIncreasingSubarraysDetectionI();
+    const auto problem = new LeetCode2598SmallestMissingNonnegativeIntegerAfterOperations();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3349. Adjacent Increasing Subarrays Detection I";
+    const std::string scriptName = "2598. Smallest Missing Non-negative Integer After Operations";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

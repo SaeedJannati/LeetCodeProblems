@@ -383,4 +383,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2273FindResultantArrayAfterRemovingAnagrams.cpp
         Problems/LeetCode3349AdjacentIncreasingSubarraysDetectionI.cpp
         Problems/LeetCode3349AdjacentIncreasingSubarraysDetectionI.h
+        Problems/LeetCode2598SmallestMissingNonnegativeIntegerAfterOperations.cpp
+        Problems/LeetCode2598SmallestMissingNonnegativeIntegerAfterOperations.h
 )
