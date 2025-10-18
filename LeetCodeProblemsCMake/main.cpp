@@ -23,7 +23,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2598. Smallest Missing Non-negative Integer After Operations";
+    const std::string scriptName = "3397. Maximum Number of Distinct Elements After Operations";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

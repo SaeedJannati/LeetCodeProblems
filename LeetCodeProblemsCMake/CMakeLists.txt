@@ -385,4 +385,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3349AdjacentIncreasingSubarraysDetectionI.h
         Problems/LeetCode2598SmallestMissingNonnegativeIntegerAfterOperations.cpp
         Problems/LeetCode2598SmallestMissingNonnegativeIntegerAfterOperations.h
+        Problems/LeetCode3397MaximumNumberOfDistinctElementsAfterOperations.cpp
+        Problems/LeetCode3397MaximumNumberOfDistinctElementsAfterOperations.h
 )
