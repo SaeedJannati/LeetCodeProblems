@@ -387,4 +387,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2598SmallestMissingNonnegativeIntegerAfterOperations.h
         Problems/LeetCode3397MaximumNumberOfDistinctElementsAfterOperations.cpp
         Problems/LeetCode3397MaximumNumberOfDistinctElementsAfterOperations.h
+        Problems/LeetCode1625LexicographicallySmallestStringAfterApplyingOperations.cpp
+        Problems/LeetCode1625LexicographicallySmallestStringAfterApplyingOperations.h
 )
