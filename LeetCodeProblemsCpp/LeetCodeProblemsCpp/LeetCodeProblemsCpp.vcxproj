@@ -198,6 +198,7 @@
     <ClCompile Include="Problems\LeetCode1942TheNumberOfTheSmallestUnoccupiedChair.cpp" />
     <ClCompile Include="Problems\LeetCode1957DeleteCharactersToMakeFancyString.cpp" />
     <ClCompile Include="Problems\LeetCode198HouseRobber.cpp" />
+    <ClCompile Include="Problems\LeetCode2011FinalValueOfVariableAfterPerformingOperations.cpp" />
     <ClCompile Include="Problems\LeetCode2017GridGame.cpp" />
     <ClCompile Include="Problems\LeetCode2033MinimumOperationsToMakeAUniValueGrid.cpp" />
     <ClCompile Include="Problems\LeetCode2044CountNumberOfMaximumBitwiseORSubsets.cpp" />
@@ -319,6 +320,7 @@
     <ClInclude Include="Problems\LeetCode1942TheNumberOfTheSmallestUnoccupiedChair.h" />
     <ClInclude Include="Problems\LeetCode1957DeleteCharactersToMakeFancyString.h" />
     <ClInclude Include="Problems\LeetCode198HouseRobber.h" />
+    <ClInclude Include="Problems\LeetCode2011FinalValueOfVariableAfterPerformingOperations.h" />
     <ClInclude Include="Problems\LeetCode2017GridGame.h" />
     <ClInclude Include="Problems\LeetCode2033MinimumOperationsToMakeAUniValueGrid.h" />
     <ClInclude Include="Problems\LeetCode2044CountNumberOfMaximumBitwiseORSubsets.h" />

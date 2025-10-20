@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3350. Adjacent Increasing Subarrays Detection II";
+    const std::string scriptName = "2011. Final Value of Variable After Performing Operations";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
