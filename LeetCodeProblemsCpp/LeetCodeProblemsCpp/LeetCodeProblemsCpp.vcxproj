@@ -238,6 +238,7 @@
     <ClCompile Include="Problems\LeetCode3223MinimumLengthOfStringAfterOperations.cpp" />
     <ClCompile Include="Problems\LeetCode3227VowelsGameInAString.cpp" />
     <ClCompile Include="Problems\LeetCode326PowerOfThree.cpp" />
+    <ClCompile Include="Problems\LeetCode3346MaximumFrequencyOfAnElementAfterPerformingOperationsI.cpp" />
     <ClCompile Include="Problems\LeetCode3350AdjacentIncreasingSubarraysDetectionII.cpp" />
     <ClCompile Include="Problems\LeetCode3375MinimumOperationsToMakeArrayValuesEqualToK.cpp" />
     <ClCompile Include="Problems\LeetCode3394CheckIfGridCanBeCutIntoSections.cpp" />
@@ -360,6 +361,7 @@
     <ClInclude Include="Problems\LeetCode3223MinimumLengthOfStringAfterOperations.h" />
     <ClInclude Include="Problems\LeetCode3227VowelsGameInAString.h" />
     <ClInclude Include="Problems\LeetCode326PowerOfThree.h" />
+    <ClInclude Include="Problems\LeetCode3346MaximumFrequencyOfAnElementAfterPerformingOperationsI.h" />
     <ClInclude Include="Problems\LeetCode3350AdjacentIncreasingSubarraysDetectionII.h" />
     <ClInclude Include="Problems\LeetCode3375MinimumOperationsToMakeArrayValuesEqualToK.h" />
     <ClInclude Include="Problems\LeetCode3394CheckIfGridCanBeCutIntoSections.h" />
