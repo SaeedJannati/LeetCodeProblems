@@ -36,35 +36,50 @@ int LeetCode3346MaximumFrequencyOfAnElementAfterPerformingOperationsI::maxFreque
         int end{uniqueIndex-1};
         int start{0};
         int mid{};
-        while (start <= end)
+        if (i-k<=nums[0])
         {
-            mid = (start + end) >> 1;
-            if (nums[mid] >= i - k)
-            {
-                startTarget = mid;
-                end = mid - 1;
-            }
-            else
-                start = mid + 1;
-        }
-        if (startTarget==uniqueIndex)
             startTarget=0;
+        }
+        else
+        {
+            while (start <= end)
+            {
+                mid = (start + end) >> 1;
+                if (nums[mid] >= i - k)
+                {
+                    startTarget = mid;
+                    end = mid - 1;
+                }
+                else
+                    start = mid + 1;
+            }
+            if (startTarget==uniqueIndex)
+                startTarget=0;
+        }
         int endTarget{-1};
         end = uniqueIndex - 1;
-        start = i;
-        while (start <= end)
+        start = 0;
+        if (i+k>=nums[uniqueIndex-1])
         {
-            mid = (start + end) >> 1;
-            if (nums[mid] <= i + k)
-            {
-                endTarget = mid;
-                start = mid + 1;
-            }
-            else
-                end = mid - 1;
-        }
-        if (endTarget==-1)
             endTarget=uniqueIndex-1;
+        }
+        else
+        {
+            while (start <= end)
+            {
+                mid = (start + end) >> 1;
+                if (nums[mid] <= i + k)
+                {
+                    endTarget = mid;
+                    start = mid + 1;
+                }
+                else
+                    end = mid - 1;
+            }
+            if (endTarget==-1)
+                endTarget=0;
+        }
+      
         if (frequencies.contains(i))
         {
             currentFrequency = frequencies[i] + min(prefixSums[endTarget] - prefixSums[startTarget] + frequencies[nums[endTarget]] - frequencies[i], static_cast<long>(numOperations));    
@@ -81,8 +96,8 @@ int LeetCode3346MaximumFrequencyOfAnElementAfterPerformingOperationsI::maxFreque
 
 void LeetCode3346MaximumFrequencyOfAnElementAfterPerformingOperationsI::Run()
 {
-    vector<int> nums{1,4,5};
-    int k{1};
-    int numOperations{2};
+    vector<int> nums{31,71,14};
+    int k{28};
+    int numOperations{1};
     cout << maxFrequency(nums, k, numOperations) << '\n';
 }
