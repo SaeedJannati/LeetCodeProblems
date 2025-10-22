@@ -29,8 +29,8 @@ int LeetCode3346MaximumFrequencyOfAnElementAfterPerformingOperationsI::maxFreque
     }
     int maxFrequency{};
     int currentFrequency{};
-    int maxValue = nums[uniqueIndex - 1] + k;
-    for (int i = nums[0]; i <= maxValue; ++i)
+    int maxValue = nums[uniqueIndex - 1];
+    for (long i = nums[0]; i <= maxValue; ++i)
     {
         int startTarget{uniqueIndex};
         int end{uniqueIndex-1};
@@ -59,7 +59,7 @@ int LeetCode3346MaximumFrequencyOfAnElementAfterPerformingOperationsI::maxFreque
         int endTarget{-1};
         end = uniqueIndex - 1;
         start = 0;
-        if (i+k>=nums[uniqueIndex-1])
+        if (i+static_cast<long>(k)>=nums[uniqueIndex-1])
         {
             endTarget=uniqueIndex-1;
         }
