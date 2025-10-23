@@ -1,0 +1,20 @@
+//
+// Created by saeed on 10/23/25.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE3461CHECKIFDIGITSAREEQUALINSTRINGAFTEROPERATIONSI_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE3461CHECKIFDIGITSAREEQUALINSTRINGAFTEROPERATIONSI_H
+#include <string>
+
+#include "BaseProblem.h"
+
+
+class LeetCode3461CheckIfDigitsAreEqualInStringAfterOperationsI: BaseProblem {
+private:
+    bool hasSameDigits(std::string s) ;
+public:
+    void Run() override;
+};
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE3461CHECKIFDIGITSAREEQUALINSTRINGAFTEROPERATIONSI_H
