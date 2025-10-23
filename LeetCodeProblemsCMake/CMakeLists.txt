@@ -391,4 +391,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1625LexicographicallySmallestStringAfterApplyingOperations.h
         Problems/LeetCode3461CheckIfDigitsAreEqualInStringAfterOperationsI.cpp
         Problems/LeetCode3461CheckIfDigitsAreEqualInStringAfterOperationsI.h
+        Problems/LeetCode3347MaximumFrequencyOfAnElementAfterPerformingOperationsII.cpp
+        Problems/LeetCode3347MaximumFrequencyOfAnElementAfterPerformingOperationsII.h
 )

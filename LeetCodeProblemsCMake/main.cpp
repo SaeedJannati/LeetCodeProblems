@@ -9,6 +9,7 @@
 #include "Problems/LeetCode2221FindTriangularSumOfAnArray.h"
 #include "Problems/LeetCode2598SmallestMissingNonnegativeIntegerAfterOperations.h"
 #include "Problems/LeetCode3186MaximumTotalDamageWithSpellCasting.h"
+#include "Problems/LeetCode3347MaximumFrequencyOfAnElementAfterPerformingOperationsII.h"
 #include "Problems/LeetCode3349AdjacentIncreasingSubarraysDetectionI.h"
 #include "Problems/LeetCode3461CheckIfDigitsAreEqualInStringAfterOperationsI.h"
 #include "Problems/LeetCode3603MinimumCostPathWithAlternatingDirectionsII.h"
@@ -17,14 +18,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3461CheckIfDigitsAreEqualInStringAfterOperationsI();
+    const auto problem = new LeetCode3347MaximumFrequencyOfAnElementAfterPerformingOperationsII();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3461. Check If Digits Are Equal in String After Operations I";
+    const std::string scriptName = "3347. Maximum Frequency of an Element After Performing Operations II";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
