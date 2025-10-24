@@ -1,0 +1,18 @@
+//
+// Created by saeed on 10/24/25.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE2048NEXTGREATERNUMERICALLYBALANCEDNUMBER_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE2048NEXTGREATERNUMERICALLYBALANCEDNUMBER_H
+#include "BaseProblem.h"
+
+
+class LeetCode2048NextGreaterNumericallyBalancedNumber: BaseProblem {
+    int nextBeautifulNumber(int n);
+    public:
+    void Run() override;
+
+};
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE2048NEXTGREATERNUMERICALLYBALANCEDNUMBER_H

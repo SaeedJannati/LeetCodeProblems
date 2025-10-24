@@ -6,6 +6,7 @@
 #include "Problems/LeetCode1488AvoidFloodInTheCity.h"
 #include "Problems/LeetCode1834SingleThreadedCPU.h"
 #include "Problems/LeetCode1948DeleteDuplicateFoldersInSystem.h"
+#include "Problems/LeetCode2048NextGreaterNumericallyBalancedNumber.h"
 #include "Problems/LeetCode2221FindTriangularSumOfAnArray.h"
 #include "Problems/LeetCode2598SmallestMissingNonnegativeIntegerAfterOperations.h"
 #include "Problems/LeetCode3186MaximumTotalDamageWithSpellCasting.h"
@@ -18,14 +19,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3347MaximumFrequencyOfAnElementAfterPerformingOperationsII();
+    const auto problem = new LeetCode2048NextGreaterNumericallyBalancedNumber();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3347. Maximum Frequency of an Element After Performing Operations II";
+    const std::string scriptName = "2048. Next Greater Numerically Balanced Number";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

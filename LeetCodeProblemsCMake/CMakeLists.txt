@@ -393,4 +393,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3461CheckIfDigitsAreEqualInStringAfterOperationsI.h
         Problems/LeetCode3347MaximumFrequencyOfAnElementAfterPerformingOperationsII.cpp
         Problems/LeetCode3347MaximumFrequencyOfAnElementAfterPerformingOperationsII.h
+        Problems/LeetCode2048NextGreaterNumericallyBalancedNumber.cpp
+        Problems/LeetCode2048NextGreaterNumericallyBalancedNumber.h
 )
