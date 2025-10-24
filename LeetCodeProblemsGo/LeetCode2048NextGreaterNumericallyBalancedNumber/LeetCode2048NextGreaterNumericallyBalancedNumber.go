@@ -13,7 +13,7 @@ func nextBeautifulNumber(n int) int {
 		return 1_224_444
 	}
 	digits := []int{}
-	frequencies := make([]int, 0, 10)
+	frequencies := make([]int, 10)
 	num := n
 	for num > 0 {
 		digits = append(digits, num%10)
