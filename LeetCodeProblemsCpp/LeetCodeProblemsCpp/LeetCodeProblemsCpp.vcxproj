@@ -208,6 +208,7 @@
     <ClCompile Include="Problems\LeetCode20ValidParentheses.cpp" />
     <ClCompile Include="Problems\LeetCode2106MaximumFruitsHarvestedAfterAtMostKSteps.cpp" />
     <ClCompile Include="Problems\LeetCode2116CheckIfAParenthesesStringCanBeValid.cpp" />
+    <ClCompile Include="Problems\LeetCode2125NumberOfLaserBeamsInABank.cpp" />
     <ClCompile Include="Problems\LeetCode214ShortestPalindrome.cpp" />
     <ClCompile Include="Problems\LeetCode215FindKthElement.cpp" />
     <ClCompile Include="Problems\LeetCode2161PartitionArrayAccordingToGivenPivot.cpp" />
@@ -333,6 +334,7 @@
     <ClInclude Include="Problems\LeetCode20ValidParentheses.h" />
     <ClInclude Include="Problems\LeetCode2106MaximumFruitsHarvestedAfterAtMostKSteps.h" />
     <ClInclude Include="Problems\LeetCode2116CheckIfAParenthesesStringCanBeValid.h" />
+    <ClInclude Include="Problems\LeetCode2125NumberOfLaserBeamsInABank.h" />
     <ClInclude Include="Problems\LeetCode214ShortestPalindrome.h" />
     <ClInclude Include="Problems\LeetCode215FindKthElement.h" />
     <ClInclude Include="Problems\LeetCode2161PartitionArrayAccordingToGivenPivot.h" />
