@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1488AvoidFloodInTheCity"
 func main() {
 
 	LeetCode1488AvoidFloodInTheCity.Calculate()
-	rawScriptName := "2125. Number of Laser Beams in a Bank"
+	rawScriptName := "3354. Make Array Elements Equal to Zero"
 	printScriptName(rawScriptName)
 }
