@@ -243,6 +243,7 @@
     <ClCompile Include="Problems\LeetCode326PowerOfThree.cpp" />
     <ClCompile Include="Problems\LeetCode3346MaximumFrequencyOfAnElementAfterPerformingOperationsI.cpp" />
     <ClCompile Include="Problems\LeetCode3350AdjacentIncreasingSubarraysDetectionII.cpp" />
+    <ClCompile Include="Problems\LeetCode3354MakeArrayElementsEqualToZero.cpp" />
     <ClCompile Include="Problems\LeetCode3375MinimumOperationsToMakeArrayValuesEqualToK.cpp" />
     <ClCompile Include="Problems\LeetCode3394CheckIfGridCanBeCutIntoSections.cpp" />
     <ClCompile Include="Problems\LeetCode3396MinimumNumberOfOperationsToMakeElementsInArrayDistinct.cpp" />
@@ -369,6 +370,7 @@
     <ClInclude Include="Problems\LeetCode326PowerOfThree.h" />
     <ClInclude Include="Problems\LeetCode3346MaximumFrequencyOfAnElementAfterPerformingOperationsI.h" />
     <ClInclude Include="Problems\LeetCode3350AdjacentIncreasingSubarraysDetectionII.h" />
+    <ClInclude Include="Problems\LeetCode3354MakeArrayElementsEqualToZero.h" />
     <ClInclude Include="Problems\LeetCode3375MinimumOperationsToMakeArrayValuesEqualToK.h" />
     <ClInclude Include="Problems\LeetCode3394CheckIfGridCanBeCutIntoSections.h" />
     <ClInclude Include="Problems\LeetCode3396MinimumNumberOfOperationsToMakeElementsInArrayDistinct.h" />
