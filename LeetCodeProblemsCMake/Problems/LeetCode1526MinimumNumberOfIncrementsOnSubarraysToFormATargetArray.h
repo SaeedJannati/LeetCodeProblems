@@ -1,0 +1,20 @@
+//
+// Created by saeed on 10/30/25.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE1526MINIMUMNUMBEROFINCREMENTSONSUBARRAYSTOFORMATARGETARRAY_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE1526MINIMUMNUMBEROFINCREMENTSONSUBARRAYSTOFORMATARGETARRAY_H
+#include <vector>
+
+#include "BaseProblem.h"
+
+
+class LeetCode1526MinimumNumberOfIncrementsOnSubarraysToFormATargetArray: BaseProblem {
+private:
+    int minNumberOperations(std::vector<int>& target);
+    public:
+    void Run() override;
+};
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE1526MINIMUMNUMBEROFINCREMENTSONSUBARRAYSTOFORMATARGETARRAY_H

@@ -4,6 +4,7 @@
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/LeetCode1432MaxDifferenceYouCanGetFromChangingAnInteger.h"
 #include "Problems/LeetCode1488AvoidFloodInTheCity.h"
+#include "Problems/LeetCode1526MinimumNumberOfIncrementsOnSubarraysToFormATargetArray.h"
 #include "Problems/LeetCode1834SingleThreadedCPU.h"
 #include "Problems/LeetCode1948DeleteDuplicateFoldersInSystem.h"
 #include "Problems/LeetCode2048NextGreaterNumericallyBalancedNumber.h"
@@ -20,14 +21,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3370SmallestNumberWithAllSetBits();
+    const auto problem = new LeetCode1526MinimumNumberOfIncrementsOnSubarraysToFormATargetArray();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3370. Smallest Number With All Set Bits";
+    const std::string scriptName = "1526. Minimum Number of Increments on Subarrays to Form a Target Array";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

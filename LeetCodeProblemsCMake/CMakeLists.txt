@@ -397,4 +397,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2048NextGreaterNumericallyBalancedNumber.h
         Problems/LeetCode3370SmallestNumberWithAllSetBits.cpp
         Problems/LeetCode3370SmallestNumberWithAllSetBits.h
+        Problems/LeetCode1526MinimumNumberOfIncrementsOnSubarraysToFormATargetArray.cpp
+        Problems/LeetCode1526MinimumNumberOfIncrementsOnSubarraysToFormATargetArray.h
 )
