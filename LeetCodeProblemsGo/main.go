@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1488AvoidFloodInTheCity"
 func main() {
 
 	LeetCode1488AvoidFloodInTheCity.Calculate()
-	rawScriptName := "3370. Smallest Number With All Set Bits"
+	rawScriptName := "1526. Minimum Number of Increments on Subarrays to Form a Target Array"
 	printScriptName(rawScriptName)
 }
