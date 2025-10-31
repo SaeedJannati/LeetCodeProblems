@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1488AvoidFloodInTheCity"
 func main() {
 
 	LeetCode1488AvoidFloodInTheCity.Calculate()
-	rawScriptName := "1526. Minimum Number of Increments on Subarrays to Form a Target Array"
+	rawScriptName := "3289. The Two Sneaky Numbers of Digitville"
 	printScriptName(rawScriptName)
 }
