@@ -28,7 +28,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1526. Minimum Number of Increments on Subarrays to Form a Target Array";
+    const std::string scriptName = "3289. The Two Sneaky Numbers of Digitville";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

@@ -399,4 +399,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3370SmallestNumberWithAllSetBits.h
         Problems/LeetCode1526MinimumNumberOfIncrementsOnSubarraysToFormATargetArray.cpp
         Problems/LeetCode1526MinimumNumberOfIncrementsOnSubarraysToFormATargetArray.h
+        Problems/LeetCode3289TheTwoSneakyNumbersOfDigitville.cpp
+        Problems/LeetCode3289TheTwoSneakyNumbersOfDigitville.h
 )
