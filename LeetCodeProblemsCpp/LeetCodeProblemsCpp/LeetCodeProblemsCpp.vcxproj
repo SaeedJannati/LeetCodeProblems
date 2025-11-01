@@ -238,6 +238,7 @@
     <ClCompile Include="Problems\LeetCode3136ValidWord.cpp" />
     <ClCompile Include="Problems\LeetCode3151SpecialArrayI.cpp" />
     <ClCompile Include="Problems\LeetCode3201FindTheMaximumLengthOfValidSubsequenceI.cpp" />
+    <ClCompile Include="Problems\LeetCode3217DeleteNodesFromLinkedListPresentInArray.cpp" />
     <ClCompile Include="Problems\LeetCode3223MinimumLengthOfStringAfterOperations.cpp" />
     <ClCompile Include="Problems\LeetCode3227VowelsGameInAString.cpp" />
     <ClCompile Include="Problems\LeetCode326PowerOfThree.cpp" />
@@ -365,6 +366,7 @@
     <ClInclude Include="Problems\LeetCode3136ValidWord.h" />
     <ClInclude Include="Problems\LeetCode3151SpecialArrayI.h" />
     <ClInclude Include="Problems\LeetCode3201FindTheMaximumLengthOfValidSubsequenceI.h" />
+    <ClInclude Include="Problems\LeetCode3217DeleteNodesFromLinkedListPresentInArray.h" />
     <ClInclude Include="Problems\LeetCode3223MinimumLengthOfStringAfterOperations.h" />
     <ClInclude Include="Problems\LeetCode3227VowelsGameInAString.h" />
     <ClInclude Include="Problems\LeetCode326PowerOfThree.h" />

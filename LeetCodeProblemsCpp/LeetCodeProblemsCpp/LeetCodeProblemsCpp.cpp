@@ -16,7 +16,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3354. Make Array Elements Equal to Zero";
+    const std::string scriptName = "3217. Delete Nodes From Linked List Present in Array";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
