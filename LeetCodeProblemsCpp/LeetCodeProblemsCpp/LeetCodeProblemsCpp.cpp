@@ -4,6 +4,7 @@
 #include "Problems/LeetCode1233RemoveSubFoldersFromTheFilesystem.h"
 #include "Problems/LeetCode1716CalculateMoneyInLeetcodeBank.h"
 #include "Problems/LeetCode2197ReplaceNonCoprimeNumbersInArray.h"
+#include "Problems/LeetCode2257CountUnguardedCellsInTheGrid.h"
 #include "Problems/LeetCode3346MaximumFrequencyOfAnElementAfterPerformingOperationsI.h"
 #include "Problems/LeetCode966VowelSpellchecker.h"
 #include "Problems/ScriptNamePrinter.h"
@@ -11,16 +12,16 @@
 
 int main(int argc, char* argv[])
 {
-    const auto problem = new LeetCode1716CalculateMoneyInLeetcodeBank();
+    const auto problem = new LeetCode2257CountUnguardedCellsInTheGrid();
     problem->Run();
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3217. Delete Nodes From Linked List Present in Array";
+    const std::string scriptName = "2257. Count Unguarded Cells in the Grid";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
-    std::string input="[[5,9]]";
+    std::string input="[[0,0],[1,1],[2,3]]";
     Auxilaries::ConvertToVector(input);
 #pragma endregion
 }
