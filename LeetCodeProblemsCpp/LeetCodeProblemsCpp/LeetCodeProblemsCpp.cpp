@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2257. Count Unguarded Cells in the Grid";
+    const std::string scriptName = "1578. Minimum Time to Make Rope Colorful";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
