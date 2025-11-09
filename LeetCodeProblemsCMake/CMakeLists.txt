@@ -401,4 +401,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1526MinimumNumberOfIncrementsOnSubarraysToFormATargetArray.h
         Problems/LeetCode3289TheTwoSneakyNumbersOfDigitville.cpp
         Problems/LeetCode3289TheTwoSneakyNumbersOfDigitville.h
+        Problems/LeetCode2169CountOperationsToObtainZero.cpp
+        Problems/LeetCode2169CountOperationsToObtainZero.h
 )

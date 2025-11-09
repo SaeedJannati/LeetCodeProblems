@@ -28,7 +28,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3289. The Two Sneaky Numbers of Digitville";
+    const std::string scriptName = "2169. Count Operations to Obtain Zero";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
