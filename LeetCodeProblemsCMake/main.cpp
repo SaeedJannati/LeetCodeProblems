@@ -15,20 +15,21 @@
 #include "Problems/LeetCode3349AdjacentIncreasingSubarraysDetectionI.h"
 #include "Problems/LeetCode3370SmallestNumberWithAllSetBits.h"
 #include "Problems/LeetCode3461CheckIfDigitsAreEqualInStringAfterOperationsI.h"
+#include "Problems/LeetCode3542MinimumOperationsToConvertAllElementsToZero.h"
 #include "Problems/LeetCode3603MinimumCostPathWithAlternatingDirectionsII.h"
 #include "Problems/LeetCode621TaskScheduler.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode1526MinimumNumberOfIncrementsOnSubarraysToFormATargetArray();
+    const auto problem = new LeetCode3542MinimumOperationsToConvertAllElementsToZero();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2169. Count Operations to Obtain Zero";
+    const std::string scriptName = "3542. Minimum Operations to Convert All Elements to Zero";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

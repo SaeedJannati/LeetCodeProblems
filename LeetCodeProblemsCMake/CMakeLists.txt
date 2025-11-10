@@ -403,4 +403,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3289TheTwoSneakyNumbersOfDigitville.h
         Problems/LeetCode2169CountOperationsToObtainZero.cpp
         Problems/LeetCode2169CountOperationsToObtainZero.h
+        Problems/LeetCode3542MinimumOperationsToConvertAllElementsToZero.cpp
+        Problems/LeetCode3542MinimumOperationsToConvertAllElementsToZero.h
 )
