@@ -1,0 +1,20 @@
+//
+// Created by saeed on 11/12/25.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE2654MINIMUMNUMBEROFOPERATIONSTOMAKEALLARRAYELEMENTSEQUALTO1_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE2654MINIMUMNUMBEROFOPERATIONSTOMAKEALLARRAYELEMENTSEQUALTO1_H
+#include <vector>
+
+#include "BaseProblem.h"
+
+
+class LeetCode2654MinimumNumberOfOperationsToMakeAllArrayElementsEqualTo1: BaseProblem {
+private:
+    int minOperations(std::vector<int>& nums) ;
+public:
+    void Run() override;
+};
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE2654MINIMUMNUMBEROFOPERATIONSTOMAKEALLARRAYELEMENTSEQUALTO1_H

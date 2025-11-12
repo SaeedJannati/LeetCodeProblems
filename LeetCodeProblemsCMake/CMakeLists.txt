@@ -407,4 +407,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3542MinimumOperationsToConvertAllElementsToZero.h
         Problems/LeetCode474OnesAndZeroes.cpp
         Problems/LeetCode474OnesAndZeroes.h
+        Problems/LeetCode2654MinimumNumberOfOperationsToMakeAllArrayElementsEqualTo1.cpp
+        Problems/LeetCode2654MinimumNumberOfOperationsToMakeAllArrayElementsEqualTo1.h
 )

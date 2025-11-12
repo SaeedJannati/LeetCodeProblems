@@ -10,6 +10,7 @@
 #include "Problems/LeetCode2048NextGreaterNumericallyBalancedNumber.h"
 #include "Problems/LeetCode2221FindTriangularSumOfAnArray.h"
 #include "Problems/LeetCode2598SmallestMissingNonnegativeIntegerAfterOperations.h"
+#include "Problems/LeetCode2654MinimumNumberOfOperationsToMakeAllArrayElementsEqualTo1.h"
 #include "Problems/LeetCode3186MaximumTotalDamageWithSpellCasting.h"
 #include "Problems/LeetCode3347MaximumFrequencyOfAnElementAfterPerformingOperationsII.h"
 #include "Problems/LeetCode3349AdjacentIncreasingSubarraysDetectionI.h"
@@ -23,14 +24,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode474OnesAndZeroes();
+    const auto problem = new LeetCode2654MinimumNumberOfOperationsToMakeAllArrayElementsEqualTo1();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "474. Ones and Zeroes";
+    const std::string scriptName = "2654. Minimum Number of Operations to Make All Array Elements Equal to 1";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
