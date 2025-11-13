@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1488AvoidFloodInTheCity"
 func main() {
 
 	LeetCode1488AvoidFloodInTheCity.Calculate()
-	rawScriptName := "2654. Minimum Number of Operations to Make All Array Elements Equal to 1"
+	rawScriptName := "3228. Maximum Number of Operations to Move Ones to the End"
 	printScriptName(rawScriptName)
 }
