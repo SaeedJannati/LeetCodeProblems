@@ -31,7 +31,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3228. Maximum Number of Operations to Move Ones to the End";
+    const std::string scriptName = "Concatenation of Array";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
