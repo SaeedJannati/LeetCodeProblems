@@ -20,18 +20,19 @@
 #include "Problems/LeetCode3603MinimumCostPathWithAlternatingDirectionsII.h"
 #include "Problems/LeetCode474OnesAndZeroes.h"
 #include "Problems/LeetCode621TaskScheduler.h"
+#include "Problems/LeetCodeShuffleTheArray.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2654MinimumNumberOfOperationsToMakeAllArrayElementsEqualTo1();
+    const auto problem = new LeetCodeShuffleTheArray();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "Concatenation of Array";
+    const std::string scriptName = "Shuffle the Array";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

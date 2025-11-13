@@ -413,4 +413,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3228MaximumNumberOfOperationsToMoveOnesToTheEnd.h
         Problems/LeetCodeConcatenationOfArray.cpp
         Problems/LeetCodeConcatenationOfArray.h
+        Problems/LeetCodeShuffleTheArray.cpp
+        Problems/LeetCodeShuffleTheArray.h
 )
