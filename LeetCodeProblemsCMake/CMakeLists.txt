@@ -415,4 +415,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCodeConcatenationOfArray.h
         Problems/LeetCodeShuffleTheArray.cpp
         Problems/LeetCodeShuffleTheArray.h
+        Problems/LeetCodeMaxConsecutiveOnes.cpp
+        Problems/LeetCodeMaxConsecutiveOnes.h
 )

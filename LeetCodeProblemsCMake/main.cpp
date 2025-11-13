@@ -32,7 +32,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "Shuffle the Array";
+    const std::string scriptName = "Max Consecutive Ones";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
