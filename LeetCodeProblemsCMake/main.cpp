@@ -31,7 +31,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2654. Minimum Number of Operations to Make All Array Elements Equal to 1";
+    const std::string scriptName = "3228. Maximum Number of Operations to Move Ones to the End";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
