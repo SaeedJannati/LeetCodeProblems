@@ -32,7 +32,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "Max Consecutive Ones";
+    const std::string scriptName = "2536. Increment Submatrices by One";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

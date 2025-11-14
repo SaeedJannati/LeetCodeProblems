@@ -417,4 +417,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCodeShuffleTheArray.h
         Problems/LeetCodeMaxConsecutiveOnes.cpp
         Problems/LeetCodeMaxConsecutiveOnes.h
+        Problems/LeetCode2536IncrementSubmatricesByOne.cpp
+        Problems/LeetCode2536IncrementSubmatricesByOne.h
 )
