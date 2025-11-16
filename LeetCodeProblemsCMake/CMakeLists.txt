@@ -419,4 +419,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCodeMaxConsecutiveOnes.h
         Problems/LeetCode2536IncrementSubmatricesByOne.cpp
         Problems/LeetCode2536IncrementSubmatricesByOne.h
+        Problems/LeetCode1513NumberOfSubstringsWithOnly1s.cpp
+        Problems/LeetCode1513NumberOfSubstringsWithOnly1s.h
 )

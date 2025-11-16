@@ -32,7 +32,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2536. Increment Submatrices by One";
+    const std::string scriptName = "1513. Number of Substrings With Only 1s";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
