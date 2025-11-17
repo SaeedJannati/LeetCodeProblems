@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1488AvoidFloodInTheCity"
 func main() {
 
 	LeetCode1488AvoidFloodInTheCity.Calculate()
-	rawScriptName := "1513. Number of Substrings With Only 1s"
+	rawScriptName := "1437. Check If All 1's Are at Least Length K Places Away"
 	printScriptName(rawScriptName)
 }
