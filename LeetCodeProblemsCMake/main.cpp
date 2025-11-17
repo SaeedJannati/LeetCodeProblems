@@ -32,7 +32,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1513. Number of Substrings With Only 1s";
+    const std::string scriptName = "1437. Check If All 1's Are at Least Length K Places Away";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

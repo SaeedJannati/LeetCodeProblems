@@ -421,4 +421,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2536IncrementSubmatricesByOne.h
         Problems/LeetCode1513NumberOfSubstringsWithOnly1s.cpp
         Problems/LeetCode1513NumberOfSubstringsWithOnly1s.h
+        Problems/LeetCode1437CheckIfAll1sAreAtLeastLengthKPlacesAway.cpp
+        Problems/LeetCode1437CheckIfAll1sAreAtLeastLengthKPlacesAway.h
 )
