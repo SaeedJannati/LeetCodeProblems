@@ -20,19 +20,20 @@
 #include "Problems/LeetCode3603MinimumCostPathWithAlternatingDirectionsII.h"
 #include "Problems/LeetCode474OnesAndZeroes.h"
 #include "Problems/LeetCode621TaskScheduler.h"
+#include "Problems/LeetCode7171bitAnd2bitCharacters.h"
 #include "Problems/LeetCodeShuffleTheArray.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCodeShuffleTheArray();
+    const auto problem = new LeetCode7171bitAnd2bitCharacters();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1437. Check If All 1's Are at Least Length K Places Away";
+    const std::string scriptName = "717. 1-bit and 2-bit Characters";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

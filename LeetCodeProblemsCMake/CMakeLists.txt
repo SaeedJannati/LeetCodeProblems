@@ -423,4 +423,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1513NumberOfSubstringsWithOnly1s.h
         Problems/LeetCode1437CheckIfAll1sAreAtLeastLengthKPlacesAway.cpp
         Problems/LeetCode1437CheckIfAll1sAreAtLeastLengthKPlacesAway.h
+        Problems/LeetCode7171bitAnd2bitCharacters.cpp
+        Problems/LeetCode7171bitAnd2bitCharacters.h
 )
