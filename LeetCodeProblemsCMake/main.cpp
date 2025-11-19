@@ -33,7 +33,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2154. Keep Multiplying Found Values by Two";
+    const std::string scriptName = "Can Make Arithmetic Progression From Sequence";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

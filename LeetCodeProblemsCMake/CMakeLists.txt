@@ -427,4 +427,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode7171bitAnd2bitCharacters.h
         Problems/LeetCode2154KeepMultiplyingFoundValuesByTwo.cpp
         Problems/LeetCode2154KeepMultiplyingFoundValuesByTwo.h
+        Problems/LeetCodeCanMakeArithmeticProgressionFromSequence.cpp
+        Problems/LeetCodeCanMakeArithmeticProgressionFromSequence.h
 )
