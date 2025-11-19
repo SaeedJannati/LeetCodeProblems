@@ -33,7 +33,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "717. 1-bit and 2-bit Characters";
+    const std::string scriptName = "2154. Keep Multiplying Found Values by Two";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

@@ -1,0 +1,16 @@
+//
+// Created by saeed on 11/19/25.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE2154KEEPMULTIPLYINGFOUNDVALUESBYTWO_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE2154KEEPMULTIPLYINGFOUNDVALUESBYTWO_H
+#include <vector>
+
+
+class LeetCode2154KeepMultiplyingFoundValuesByTwo {
+private:
+    int findFinalValue(std::vector<int>& nums, int original);
+};
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE2154KEEPMULTIPLYINGFOUNDVALUESBYTWO_H
