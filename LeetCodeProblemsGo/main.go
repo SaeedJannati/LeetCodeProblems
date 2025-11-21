@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1488AvoidFloodInTheCity"
 func main() {
 
 	LeetCode1488AvoidFloodInTheCity.Calculate()
-	rawScriptName := "Find the Pivot Integer"
+	rawScriptName := "Palindrome Number"
 	printScriptName(rawScriptName)
 }
