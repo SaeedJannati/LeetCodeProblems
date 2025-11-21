@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1488AvoidFloodInTheCity"
 func main() {
 
 	LeetCode1488AvoidFloodInTheCity.Calculate()
-	rawScriptName := "Palindrome Number"
+	rawScriptName := "Reverse Integer"
 	printScriptName(rawScriptName)
 }
