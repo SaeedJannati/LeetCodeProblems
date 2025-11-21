@@ -429,4 +429,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2154KeepMultiplyingFoundValuesByTwo.h
         Problems/LeetCodeCanMakeArithmeticProgressionFromSequence.cpp
         Problems/LeetCodeCanMakeArithmeticProgressionFromSequence.h
+        Problems/LeetCodeReverseInteger.cpp
+        Problems/LeetCodeReverseInteger.h
 )
