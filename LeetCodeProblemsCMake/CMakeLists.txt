@@ -431,4 +431,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCodeCanMakeArithmeticProgressionFromSequence.h
         Problems/LeetCodeReverseInteger.cpp
         Problems/LeetCodeReverseInteger.h
+        Problems/LeetCode3190FindMinimumOperationsToMakeAllElementsDivisibleByThree.cpp
+        Problems/LeetCode3190FindMinimumOperationsToMakeAllElementsDivisibleByThree.h
 )

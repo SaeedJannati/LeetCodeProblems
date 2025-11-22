@@ -33,7 +33,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "Can Make Arithmetic Progression From Sequence";
+    const std::string scriptName = "3190. Find Minimum Operations to Make All Elements Divisible by Three";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
