@@ -22,18 +22,19 @@
 #include "Problems/LeetCode621TaskScheduler.h"
 #include "Problems/LeetCode7171bitAnd2bitCharacters.h"
 #include "Problems/LeetCodeShuffleTheArray.h"
+#include "Problems/LeetCodeUglyNumber.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode7171bitAnd2bitCharacters();
+    const auto problem = new LeetCodeUglyNumber();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3190. Find Minimum Operations to Make All Elements Divisible by Three";
+    const std::string scriptName = "Ugly Number";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

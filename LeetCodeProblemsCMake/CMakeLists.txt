@@ -433,4 +433,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCodeReverseInteger.h
         Problems/LeetCode3190FindMinimumOperationsToMakeAllElementsDivisibleByThree.cpp
         Problems/LeetCode3190FindMinimumOperationsToMakeAllElementsDivisibleByThree.h
+        Problems/LeetCodeUglyNumber.cpp
+        Problems/LeetCodeUglyNumber.h
 )
