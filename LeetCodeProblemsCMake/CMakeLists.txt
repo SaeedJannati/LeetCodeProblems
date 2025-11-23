@@ -435,4 +435,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3190FindMinimumOperationsToMakeAllElementsDivisibleByThree.h
         Problems/LeetCodeUglyNumber.cpp
         Problems/LeetCodeUglyNumber.h
+        Problems/LeetCode1262GreatestSumDivisibleByThree.cpp
+        Problems/LeetCode1262GreatestSumDivisibleByThree.h
 )
