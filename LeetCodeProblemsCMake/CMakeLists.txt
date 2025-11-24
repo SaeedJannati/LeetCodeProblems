@@ -437,4 +437,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCodeUglyNumber.h
         Problems/LeetCode1262GreatestSumDivisibleByThree.cpp
         Problems/LeetCode1262GreatestSumDivisibleByThree.h
+        Problems/LeetCode1018BinaryPrefixDivisibleBy5.cpp
+        Problems/LeetCode1018BinaryPrefixDivisibleBy5.h
 )

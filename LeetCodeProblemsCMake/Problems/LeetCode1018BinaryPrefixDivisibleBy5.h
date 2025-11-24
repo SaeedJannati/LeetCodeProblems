@@ -1,0 +1,15 @@
+//
+// Created by saeed on 11/24/25.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE1018BINARYPREFIXDIVISIBLEBY5_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE1018BINARYPREFIXDIVISIBLEBY5_H
+#include <vector>
+
+
+class LeetCode1018BinaryPrefixDivisibleBy5 {
+    std::vector<bool> prefixesDivBy5(std::vector<int>& nums);
+};
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE1018BINARYPREFIXDIVISIBLEBY5_H
