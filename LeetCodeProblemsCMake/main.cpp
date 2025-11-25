@@ -35,7 +35,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1018. Binary Prefix Divisible By 5";
+    const std::string scriptName = "1262. Greatest Sum Divisible by Three";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
