@@ -2,7 +2,6 @@
 
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
-#include "Problems/LeetCode1015SmallestIntegerDivisibleByK.h"
 #include "Problems/LeetCode1262GreatestSumDivisibleByThree.h"
 #include "Problems/LeetCode1432MaxDifferenceYouCanGetFromChangingAnInteger.h"
 #include "Problems/LeetCode1488AvoidFloodInTheCity.h"
@@ -29,14 +28,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode1015SmallestIntegerDivisibleByK();
+    const auto problem = new LeetCode1262GreatestSumDivisibleByThree();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1015. Smallest Integer Divisible by K";
+    const std::string scriptName = "1262. Greatest Sum Divisible by Three";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
