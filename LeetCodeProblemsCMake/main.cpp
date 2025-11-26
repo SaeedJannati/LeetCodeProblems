@@ -35,11 +35,11 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1262. Greatest Sum Divisible by Three";
+    const std::string scriptName = "2435. Paths in Matrix Whose Sum Is Divisible by K";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
-    std::string input="[[1,2],[2,4],[3,2],[4,1]]";
+    std::string input="[[5,2,4],[3,0,5],[0,7,2]]";
   Auxilaries::ConvertToVector(input);
 #pragma endregion
 }
