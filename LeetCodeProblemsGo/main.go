@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1488AvoidFloodInTheCity"
 func main() {
 
 	LeetCode1488AvoidFloodInTheCity.Calculate()
-	rawScriptName := "2435. Paths in Matrix Whose Sum Is Divisible by K"
+	rawScriptName := "3381. Maximum Subarray Sum With Length Divisible by K"
 	printScriptName(rawScriptName)
 }
