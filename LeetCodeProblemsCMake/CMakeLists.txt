@@ -443,4 +443,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1018BinaryPrefixDivisibleBy5.h
         Problems/LeetCode2435PathsInMatrixWhoseSumIsDivisibleByK.cpp
         Problems/LeetCode2435PathsInMatrixWhoseSumIsDivisibleByK.h
+        Problems/LeetCode2872MaximumNumberOfKDivisibleComponents.cpp
+        Problems/LeetCode2872MaximumNumberOfKDivisibleComponents.h
 )

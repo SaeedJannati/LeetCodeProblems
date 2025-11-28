@@ -35,7 +35,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2435. Paths in Matrix Whose Sum Is Divisible by K";
+    const std::string scriptName = "2872. Maximum Number of K-Divisible Components";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
