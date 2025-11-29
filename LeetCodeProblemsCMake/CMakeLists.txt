@@ -445,4 +445,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2435PathsInMatrixWhoseSumIsDivisibleByK.h
         Problems/LeetCode2872MaximumNumberOfKDivisibleComponents.cpp
         Problems/LeetCode2872MaximumNumberOfKDivisibleComponents.h
+        Problems/LeetCode3512MinimumOperationsToMakeArraySumDivisibleByK.cpp
+        Problems/LeetCode3512MinimumOperationsToMakeArraySumDivisibleByK.h
 )

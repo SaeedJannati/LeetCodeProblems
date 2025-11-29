@@ -35,7 +35,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2872. Maximum Number of K-Divisible Components";
+    const std::string scriptName = "3512. Minimum Operations to Make Array Sum Divisible by K";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
