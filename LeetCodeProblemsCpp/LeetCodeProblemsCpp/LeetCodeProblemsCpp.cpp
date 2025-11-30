@@ -19,7 +19,7 @@ int main(int argc, char* argv[])
     delete problem;
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3381. Maximum Subarray Sum With Length Divisible by K";
+    const std::string scriptName = "1590. Make Sum Divisible by P";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

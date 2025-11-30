@@ -187,6 +187,7 @@
     <ClCompile Include="Problems\LeetCode150SameTree.cpp" />
     <ClCompile Include="Problems\LeetCode1534CountGoodTriplets.cpp" />
     <ClCompile Include="Problems\LeetCode1578MinimumTimeToMakeRopeColorful.cpp" />
+    <ClCompile Include="Problems\LeetCode1590MakeSumDivisibleByP.cpp" />
     <ClCompile Include="Problems\LeetCode1695MaximumErasureValue.cpp" />
     <ClCompile Include="Problems\LeetCode1716CalculateMoneyInLeetcodeBank.cpp" />
     <ClCompile Include="Problems\LeetCode1717MaximumScoreFromRemovingSubstrings.cpp" />
@@ -319,6 +320,7 @@
     <ClInclude Include="Problems\LeetCode150SameTree.h" />
     <ClInclude Include="Problems\LeetCode1534CountGoodTriplets.h" />
     <ClInclude Include="Problems\LeetCode1578MinimumTimeToMakeRopeColorful.h" />
+    <ClInclude Include="Problems\LeetCode1590MakeSumDivisibleByP.h" />
     <ClInclude Include="Problems\LeetCode1695MaximumErasureValue.h" />
     <ClInclude Include="Problems\LeetCode1716CalculateMoneyInLeetcodeBank.h" />
     <ClInclude Include="Problems\LeetCode1717MaximumScoreFromRemovingSubstrings.h" />
