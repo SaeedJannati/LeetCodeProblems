@@ -21,11 +21,12 @@ int LeetCode1590MakeSumDivisibleByP::minSubarray(vector<int>& nums, int p)
 
     int minLengthToRemove = length;
     long long modToFind;
+    long long currentMod{};
     for (int i = 1; i <= length; i++)
     {
-        long long curMod = prefixSums[i] % p;
+        currentMod = prefixSums[i] % p;
 
-        modToFind = (curMod - totalMod) % p;
+        modToFind = (currentMod - totalMod) % p;
         modToFind = (modToFind + p) % p;
 
         if (lastModIndex.contains(modToFind))
@@ -34,7 +35,7 @@ int LeetCode1590MakeSumDivisibleByP::minSubarray(vector<int>& nums, int p)
             minLengthToRemove = min(minLengthToRemove, currentLengthToRemove);
         }
 
-        lastModIndex[curMod] = i;
+        lastModIndex[currentMod] = i;
     }
 
     return (minLengthToRemove < length ? minLengthToRemove : -1);
