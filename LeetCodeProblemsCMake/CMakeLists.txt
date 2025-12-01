@@ -447,4 +447,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2872MaximumNumberOfKDivisibleComponents.h
         Problems/LeetCode3512MinimumOperationsToMakeArraySumDivisibleByK.cpp
         Problems/LeetCode3512MinimumOperationsToMakeArraySumDivisibleByK.h
+        Problems/LeetCode2141MaximumRunningTimeOfNComputers.cpp
+        Problems/LeetCode2141MaximumRunningTimeOfNComputers.h
 )

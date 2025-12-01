@@ -9,6 +9,7 @@
 #include "Problems/LeetCode1834SingleThreadedCPU.h"
 #include "Problems/LeetCode1948DeleteDuplicateFoldersInSystem.h"
 #include "Problems/LeetCode2048NextGreaterNumericallyBalancedNumber.h"
+#include "Problems/LeetCode2141MaximumRunningTimeOfNComputers.h"
 #include "Problems/LeetCode2221FindTriangularSumOfAnArray.h"
 #include "Problems/LeetCode2598SmallestMissingNonnegativeIntegerAfterOperations.h"
 #include "Problems/LeetCode2654MinimumNumberOfOperationsToMakeAllArrayElementsEqualTo1.h"
@@ -28,14 +29,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode1262GreatestSumDivisibleByThree();
+    const auto problem = new LeetCode2141MaximumRunningTimeOfNComputers();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3512. Minimum Operations to Make Array Sum Divisible by K";
+    const std::string scriptName = "2141. Maximum Running Time of N Computers";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
