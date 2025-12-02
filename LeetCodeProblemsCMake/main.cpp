@@ -20,6 +20,7 @@
 #include "Problems/LeetCode3461CheckIfDigitsAreEqualInStringAfterOperationsI.h"
 #include "Problems/LeetCode3542MinimumOperationsToConvertAllElementsToZero.h"
 #include "Problems/LeetCode3603MinimumCostPathWithAlternatingDirectionsII.h"
+#include "Problems/LeetCode3623CountNumberOfTrapezoidsI.h"
 #include "Problems/LeetCode474OnesAndZeroes.h"
 #include "Problems/LeetCode621TaskScheduler.h"
 #include "Problems/LeetCode7171bitAnd2bitCharacters.h"
@@ -29,18 +30,18 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2141MaximumRunningTimeOfNComputers();
+    const auto problem = new LeetCode3623CountNumberOfTrapezoidsI();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2141. Maximum Running Time of N Computers";
+    const std::string scriptName = "3623. Count Number of Trapezoids I";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
-    std::string input="[[5,2,4],[3,0,5],[0,7,2]]";
+    std::string input="[[1,0],[2,0],[3,0],[2,2],[3,2]]";
   Auxilaries::ConvertToVector(input);
 #pragma endregion
 }

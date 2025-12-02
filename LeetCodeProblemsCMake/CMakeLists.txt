@@ -449,4 +449,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3512MinimumOperationsToMakeArraySumDivisibleByK.h
         Problems/LeetCode2141MaximumRunningTimeOfNComputers.cpp
         Problems/LeetCode2141MaximumRunningTimeOfNComputers.h
+        Problems/LeetCode3623CountNumberOfTrapezoidsI.cpp
+        Problems/LeetCode3623CountNumberOfTrapezoidsI.h
 )
