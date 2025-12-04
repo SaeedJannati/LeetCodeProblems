@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1488AvoidFloodInTheCity"
 func main() {
 
 	LeetCode1488AvoidFloodInTheCity.Calculate()
-	rawScriptName := "3623. Count Number of Trapezoids I"
+	rawScriptName := "2211. Count Collisions on a Road"
 	printScriptName(rawScriptName)
 }
