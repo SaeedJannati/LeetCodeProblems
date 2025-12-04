@@ -451,4 +451,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2141MaximumRunningTimeOfNComputers.h
         Problems/LeetCode3623CountNumberOfTrapezoidsI.cpp
         Problems/LeetCode3623CountNumberOfTrapezoidsI.h
+        Problems/LeetCode2211CountCollisionsOnARoad.cpp
+        Problems/LeetCode2211CountCollisionsOnARoad.h
 )

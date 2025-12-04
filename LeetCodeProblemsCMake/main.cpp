@@ -10,6 +10,7 @@
 #include "Problems/LeetCode1948DeleteDuplicateFoldersInSystem.h"
 #include "Problems/LeetCode2048NextGreaterNumericallyBalancedNumber.h"
 #include "Problems/LeetCode2141MaximumRunningTimeOfNComputers.h"
+#include "Problems/LeetCode2211CountCollisionsOnARoad.h"
 #include "Problems/LeetCode2221FindTriangularSumOfAnArray.h"
 #include "Problems/LeetCode2598SmallestMissingNonnegativeIntegerAfterOperations.h"
 #include "Problems/LeetCode2654MinimumNumberOfOperationsToMakeAllArrayElementsEqualTo1.h"
@@ -30,14 +31,14 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3623CountNumberOfTrapezoidsI();
+    const auto problem = new LeetCode2211CountCollisionsOnARoad();
     problem->Run();
     delete problem;
 
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3623. Count Number of Trapezoids I";
+    const std::string scriptName = "2211. Count Collisions on a Road";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
