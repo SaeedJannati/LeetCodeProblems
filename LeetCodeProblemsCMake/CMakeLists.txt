@@ -453,4 +453,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3623CountNumberOfTrapezoidsI.h
         Problems/LeetCode2211CountCollisionsOnARoad.cpp
         Problems/LeetCode2211CountCollisionsOnARoad.h
+        Problems/LeetCode3432CountPartitionsWithEvenSumDifference.cpp
+        Problems/LeetCode3432CountPartitionsWithEvenSumDifference.h
 )
