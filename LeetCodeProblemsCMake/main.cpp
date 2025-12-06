@@ -37,9 +37,10 @@ int main() {
     delete problem;
 
 
+
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3432. Count Partitions with Even Sum Difference";
+    const std::string scriptName = "239. Sliding Window Maximum";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

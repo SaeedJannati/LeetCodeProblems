@@ -455,4 +455,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2211CountCollisionsOnARoad.h
         Problems/LeetCode3432CountPartitionsWithEvenSumDifference.cpp
         Problems/LeetCode3432CountPartitionsWithEvenSumDifference.h
+        Problems/LeetCode239SlidingWindowMaximum.cpp
+        Problems/LeetCode239SlidingWindowMaximum.h
 )
