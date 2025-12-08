@@ -457,4 +457,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3432CountPartitionsWithEvenSumDifference.h
         Problems/LeetCode239SlidingWindowMaximum.cpp
         Problems/LeetCode239SlidingWindowMaximum.h
+        Problems/LeetCode1925CountSquareSumTriples.cpp
+        Problems/LeetCode1925CountSquareSumTriples.h
 )

@@ -40,7 +40,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "239. Sliding Window Maximum";
+    const std::string scriptName = "1925. Count Square Sum Triples";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
