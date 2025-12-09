@@ -21,6 +21,7 @@
 #include "Problems/LeetCode3432CountPartitionsWithEvenSumDifference.h"
 #include "Problems/LeetCode3461CheckIfDigitsAreEqualInStringAfterOperationsI.h"
 #include "Problems/LeetCode3542MinimumOperationsToConvertAllElementsToZero.h"
+#include "Problems/LeetCode3583CountSpecialTriplets.h"
 #include "Problems/LeetCode3603MinimumCostPathWithAlternatingDirectionsII.h"
 #include "Problems/LeetCode3623CountNumberOfTrapezoidsI.h"
 #include "Problems/LeetCode474OnesAndZeroes.h"
@@ -32,7 +33,7 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3432CountPartitionsWithEvenSumDifference();
+    const auto problem = new LeetCode3583CountSpecialTriplets();
     problem->Run();
     delete problem;
 
@@ -40,7 +41,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1925. Count Square Sum Triples";
+    const std::string scriptName = "3583. Count Special Triplets";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

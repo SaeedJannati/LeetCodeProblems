@@ -459,4 +459,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode239SlidingWindowMaximum.h
         Problems/LeetCode1925CountSquareSumTriples.cpp
         Problems/LeetCode1925CountSquareSumTriples.h
+        Problems/LeetCode3583CountSpecialTriplets.cpp
+        Problems/LeetCode3583CountSpecialTriplets.h
 )
