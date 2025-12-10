@@ -461,4 +461,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1925CountSquareSumTriples.h
         Problems/LeetCode3583CountSpecialTriplets.cpp
         Problems/LeetCode3583CountSpecialTriplets.h
+        Problems/LeetCode3577CountTheNumberOfComputerUnlockingPermutations.cpp
+        Problems/LeetCode3577CountTheNumberOfComputerUnlockingPermutations.h
 )

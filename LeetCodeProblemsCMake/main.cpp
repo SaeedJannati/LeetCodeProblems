@@ -41,7 +41,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3583. Count Special Triplets";
+    const std::string scriptName = "3577. Count the Number of Computer Unlocking Permutations";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
