@@ -465,4 +465,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3577CountTheNumberOfComputerUnlockingPermutations.h
         Problems/LeetCode3531CountCoveredBuildings.cpp
         Problems/LeetCode3531CountCoveredBuildings.h
+        Problems/LeetCode2147NumberOfWaysToDivideALongCorridor.cpp
+        Problems/LeetCode2147NumberOfWaysToDivideALongCorridor.h
 )

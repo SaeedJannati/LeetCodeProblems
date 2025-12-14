@@ -3,12 +3,13 @@
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/LeetCode1262GreatestSumDivisibleByThree.h"
+#include "Problems/LeetCode2147NumberOfWaysToDivideALongCorridor.h"
 #include "Problems/LeetCode3583CountSpecialTriplets.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3583CountSpecialTriplets();
+    const auto problem = new LeetCode2147NumberOfWaysToDivideALongCorridor();
     problem->Run();
     delete problem;
 
@@ -16,7 +17,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3531. Count Covered Buildings";
+    const std::string scriptName = "2147. Number of Ways to Divide a Long Corridor";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
