@@ -467,4 +467,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3531CountCoveredBuildings.h
         Problems/LeetCode2147NumberOfWaysToDivideALongCorridor.cpp
         Problems/LeetCode2147NumberOfWaysToDivideALongCorridor.h
+        Problems/LeetCode2110NumberOfSmoothDescentPeriodsOfAStock.cpp
+        Problems/LeetCode2110NumberOfSmoothDescentPeriodsOfAStock.h
 )
