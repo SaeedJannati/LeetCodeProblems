@@ -473,4 +473,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2092FindAllPeopleWithSecret.h
         Problems/LeetCode944DeleteColumnsToMakeSorted.cpp
         Problems/LeetCode944DeleteColumnsToMakeSorted.h
+        Problems/LeetCode955DeleteColumnsToMakeSortedII.cpp
+        Problems/LeetCode955DeleteColumnsToMakeSortedII.h
 )
