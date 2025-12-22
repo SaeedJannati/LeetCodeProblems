@@ -475,4 +475,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode944DeleteColumnsToMakeSorted.h
         Problems/LeetCode955DeleteColumnsToMakeSortedII.cpp
         Problems/LeetCode955DeleteColumnsToMakeSortedII.h
+        Problems/GeeksForGeeksLongestIncreasingSubsequence.cpp
+        Problems/GeeksForGeeksLongestIncreasingSubsequence.h
 )
