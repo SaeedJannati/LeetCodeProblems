@@ -1,0 +1,16 @@
+//
+// Created by saeed on 12/22/25.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE960DELETECOLUMNSTOMAKESORTEDIII_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE960DELETECOLUMNSTOMAKESORTEDIII_H
+#include <string>
+#include <vector>
+
+
+class LeetCode960DeleteColumnsToMakeSortedIII {
+    int minDeletionSize(std::vector<std::string>& strs);
+};
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE960DELETECOLUMNSTOMAKESORTEDIII_H
