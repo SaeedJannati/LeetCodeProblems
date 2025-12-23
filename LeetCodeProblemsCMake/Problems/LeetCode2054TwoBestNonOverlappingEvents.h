@@ -1,0 +1,16 @@
+//
+// Created by saeed on 12/23/25.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE2054TWOBESTNONOVERLAPPINGEVENTS_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE2054TWOBESTNONOVERLAPPINGEVENTS_H
+#include <vector>
+
+
+class LeetCode2054TwoBestNonOverlappingEvents {
+private:
+    int maxTwoEvents(std::vector<std::vector<int>>& events);
+};
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE2054TWOBESTNONOVERLAPPINGEVENTS_H

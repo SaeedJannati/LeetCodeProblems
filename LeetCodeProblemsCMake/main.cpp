@@ -19,7 +19,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "960. Delete Columns to Make Sorted III";
+    const std::string scriptName = "2054. Two Best Non-Overlapping Events";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

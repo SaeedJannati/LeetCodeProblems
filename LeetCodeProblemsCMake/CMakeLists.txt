@@ -479,4 +479,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/GeeksForGeeksLongestIncreasingSubsequence.h
         Problems/LeetCode960DeleteColumnsToMakeSortedIII.cpp
         Problems/LeetCode960DeleteColumnsToMakeSortedIII.h
+        Problems/LeetCode2054TwoBestNonOverlappingEvents.cpp
+        Problems/LeetCode2054TwoBestNonOverlappingEvents.h
 )
