@@ -481,4 +481,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode960DeleteColumnsToMakeSortedIII.h
         Problems/LeetCode2054TwoBestNonOverlappingEvents.cpp
         Problems/LeetCode2054TwoBestNonOverlappingEvents.h
+        Problems/LeetCode3074AppleRedistributionIntoBoxes.cpp
+        Problems/LeetCode3074AppleRedistributionIntoBoxes.h
 )
