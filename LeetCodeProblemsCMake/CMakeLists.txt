@@ -483,4 +483,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2054TwoBestNonOverlappingEvents.h
         Problems/LeetCode3074AppleRedistributionIntoBoxes.cpp
         Problems/LeetCode3074AppleRedistributionIntoBoxes.h
+        Problems/LeetCode2483MinimumPenaltyForAShop.cpp
+        Problems/LeetCode2483MinimumPenaltyForAShop.h
 )
