@@ -1,0 +1,15 @@
+//
+// Created by saeed on 12/26/25.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE2483MINIMUMPENALTYFORASHOP_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE2483MINIMUMPENALTYFORASHOP_H
+#include <string>
+
+
+class LeetCode2483MinimumPenaltyForAShop {
+    int bestClosingTime(std::string customers);
+};
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE2483MINIMUMPENALTYFORASHOP_H

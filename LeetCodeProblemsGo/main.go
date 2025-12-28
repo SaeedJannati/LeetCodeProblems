@@ -1,12 +1,10 @@
 package main
 
-import (
-	"LeetCodeProblemsGo/LeetCode1351CountNegativeNumbersInASortedMatrix"
-)
+import "LeetCodeProblemsGo/LeetCode960DeleteColumnsToMakeSortedIII"
 
 func main() {
 
-	LeetCode1351CountNegativeNumbersInASortedMatrix.Calculate()
-	rawScriptName := "1351. Count Negative Numbers in a Sorted Matrix"
+	LeetCode960DeleteColumnsToMakeSortedIII.Calculate()
+	rawScriptName := "3074. Apple Redistribution into Boxes"
 	printScriptName(rawScriptName)
 }
