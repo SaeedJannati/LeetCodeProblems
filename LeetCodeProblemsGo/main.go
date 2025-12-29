@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode960DeleteColumnsToMakeSortedIII"
 func main() {
 
 	LeetCode960DeleteColumnsToMakeSortedIII.Calculate()
-	rawScriptName := "3074. Apple Redistribution into Boxes"
+	rawScriptName := "756. Pyramid Transition Matrix"
 	printScriptName(rawScriptName)
 }
