@@ -487,4 +487,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2483MinimumPenaltyForAShop.h
         Problems/LeetCode1351CountNegativeNumbersInASortedMatrix.cpp
         Problems/LeetCode1351CountNegativeNumbersInASortedMatrix.h
+        Problems/LeetCode756PyramidTransitionMatrix.cpp
+        Problems/LeetCode756PyramidTransitionMatrix.h
 )
