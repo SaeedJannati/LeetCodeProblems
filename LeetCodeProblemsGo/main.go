@@ -1,10 +1,10 @@
 package main
 
-import "LeetCodeProblemsGo/LeetCode960DeleteColumnsToMakeSortedIII"
+import "LeetCodeProblemsGo/LeetCode1970LastDayWhereYouCanStillCross"
 
 func main() {
 
-	LeetCode960DeleteColumnsToMakeSortedIII.Calculate()
-	rawScriptName := "840. Magic Squares In Grid"
+	LeetCode1970LastDayWhereYouCanStillCross.Calculate()
+	rawScriptName := "1970. Last Day Where You Can Still Cross"
 	printScriptName(rawScriptName)
 }
