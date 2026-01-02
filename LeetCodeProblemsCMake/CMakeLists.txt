@@ -491,4 +491,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode756PyramidTransitionMatrix.h
         Problems/LeetCode840MagicSquaresInGrid.cpp
         Problems/LeetCode840MagicSquaresInGrid.h
+        Problems/LeetCode961NRepeatedElementInSize2NArray.cpp
+        Problems/LeetCode961NRepeatedElementInSize2NArray.h
 )
