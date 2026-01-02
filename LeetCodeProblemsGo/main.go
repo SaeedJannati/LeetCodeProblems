@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1970LastDayWhereYouCanStillCross"
 func main() {
 
 	LeetCode1970LastDayWhereYouCanStillCross.Calculate()
-	rawScriptName := "1970. Last Day Where You Can Still Cross"
+	rawScriptName := "961. N-Repeated Element in Size 2N Array"
 	printScriptName(rawScriptName)
 }
