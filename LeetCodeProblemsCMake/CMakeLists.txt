@@ -495,4 +495,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode961NRepeatedElementInSize2NArray.h
         Problems/LeetCode1390FourDivisors.cpp
         Problems/LeetCode1390FourDivisors.h
+        Problems/LeetCode1411NumberOfWaysToPaintNx3Grid.cpp
+        Problems/LeetCode1411NumberOfWaysToPaintNx3Grid.h
 )
