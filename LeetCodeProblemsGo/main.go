@@ -1,10 +1,10 @@
 package main
 
-import "LeetCodeProblemsGo/LeetCode1970LastDayWhereYouCanStillCross"
+import "LeetCodeProblemsGo/LeetCode1390FourDivisors"
 
 func main() {
 
-	LeetCode1970LastDayWhereYouCanStillCross.Calculate()
-	rawScriptName := "961. N-Repeated Element in Size 2N Array"
+	LeetCode1390FourDivisors.Calculate()
+	rawScriptName := "1390. Four Divisors"
 	printScriptName(rawScriptName)
 }
