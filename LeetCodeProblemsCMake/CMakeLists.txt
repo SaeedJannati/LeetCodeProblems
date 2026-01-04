@@ -493,4 +493,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode840MagicSquaresInGrid.h
         Problems/LeetCode961NRepeatedElementInSize2NArray.cpp
         Problems/LeetCode961NRepeatedElementInSize2NArray.h
+        Problems/LeetCode1390FourDivisors.cpp
+        Problems/LeetCode1390FourDivisors.h
 )
