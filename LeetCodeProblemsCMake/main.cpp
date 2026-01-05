@@ -19,7 +19,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1411. Number of Ways to Paint N × 3 Grid";
+    const std::string scriptName = "1975. Maximum Matrix Sum";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

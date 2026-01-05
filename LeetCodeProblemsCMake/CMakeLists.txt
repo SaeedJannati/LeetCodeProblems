@@ -497,4 +497,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1390FourDivisors.h
         Problems/LeetCode1411NumberOfWaysToPaintNx3Grid.cpp
         Problems/LeetCode1411NumberOfWaysToPaintNx3Grid.h
+        Problems/LeetCode1975MaximumMatrixSum.cpp
+        Problems/LeetCode1975MaximumMatrixSum.h
 )
