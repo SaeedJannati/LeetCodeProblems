@@ -1,10 +1,10 @@
 package main
 
-import "LeetCodeProblemsGo/LeetCode1411NumberOfWaysToPaintNx3Grid"
+import "LeetCodeProblemsGo/LeetCode1975MaximumMatrixSum"
 
 func main() {
 
-	LeetCode1411NumberOfWaysToPaintNx3Grid.Calculate()
-	rawScriptName := "1411. Number of Ways to Paint N × 3 Grid"
+	LeetCode1975MaximumMatrixSum.Calculate()
+	rawScriptName := "1975. Maximum Matrix Sum"
 	printScriptName(rawScriptName)
 }
