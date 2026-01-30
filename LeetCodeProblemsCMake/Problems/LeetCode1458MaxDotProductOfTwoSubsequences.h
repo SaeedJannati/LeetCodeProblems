@@ -1,0 +1,15 @@
+//
+// Created by saeed on 1/30/26.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE1458MAXDOTPRODUCTOFTWOSUBSEQUENCES_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE1458MAXDOTPRODUCTOFTWOSUBSEQUENCES_H
+#include <vector>
+
+
+class LeetCode1458MaxDotProductOfTwoSubsequences {
+    int maxDotProduct(std::vector<int>& nums1, std::vector<int>& nums2);
+};
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE1458MAXDOTPRODUCTOFTWOSUBSEQUENCES_H
