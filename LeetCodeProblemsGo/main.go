@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1975MaximumMatrixSum"
 func main() {
 
 	LeetCode1975MaximumMatrixSum.Calculate()
-	rawScriptName := "1161. Maximum Level Sum of a Binary Tree"
+	rawScriptName := "1458. Max Dot Product of Two Subsequences"
 	printScriptName(rawScriptName)
 }
