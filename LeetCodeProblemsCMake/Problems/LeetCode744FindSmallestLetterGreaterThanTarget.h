@@ -1,0 +1,15 @@
+//
+// Created by Saeed Jannati on 1/31/2026 A.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE744FINDSMALLESTLETTERGREATERTHANTARGET_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE744FINDSMALLESTLETTERGREATERTHANTARGET_H
+#include <vector>
+
+
+class LeetCode744FindSmallestLetterGreaterThanTarget {
+    char nextGreatestLetter(std::vector<char>& letters, char target);
+};
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE744FINDSMALLESTLETTERGREATERTHANTARGET_H

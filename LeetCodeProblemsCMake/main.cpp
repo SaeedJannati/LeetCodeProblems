@@ -19,7 +19,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1458. Max Dot Product of Two Subsequences";
+    const std::string scriptName = "744. Find Smallest Letter Greater Than Target";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

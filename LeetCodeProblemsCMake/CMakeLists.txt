@@ -501,4 +501,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1975MaximumMatrixSum.h
         Problems/LeetCode1458MaxDotProductOfTwoSubsequences.cpp
         Problems/LeetCode1458MaxDotProductOfTwoSubsequences.h
+        Problems/LeetCode744FindSmallestLetterGreaterThanTarget.cpp
+        Problems/LeetCode744FindSmallestLetterGreaterThanTarget.h
 )
