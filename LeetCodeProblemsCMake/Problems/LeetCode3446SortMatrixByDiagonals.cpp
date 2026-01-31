@@ -5,7 +5,6 @@
 #include "LeetCode3446SortMatrixByDiagonals.h"
 
 #include <algorithm>
-#include <bits/ranges_algo.h>
 
 #include "../Auxilary/Auxilaries.h"
 using namespace std;

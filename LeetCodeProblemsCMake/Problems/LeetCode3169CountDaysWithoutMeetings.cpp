@@ -7,7 +7,7 @@
 #include <algorithm>
 #include <iostream>
 #include <ostream>
-#include <bits/ranges_algo.h>
+
 using namespace std;
 
 int LeetCode3169CountDaysWithoutMeetings::countDays(int days, std::vector<std::vector<int> > &meetings) {

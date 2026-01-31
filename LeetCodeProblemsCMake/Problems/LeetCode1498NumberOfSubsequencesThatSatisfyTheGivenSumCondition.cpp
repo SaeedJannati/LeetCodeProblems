@@ -7,7 +7,6 @@
 #include <algorithm>
 #include <iostream>
 #include <ostream>
-#include <bits/ranges_algo.h>
 using namespace std;
 int PowModulo(int base,int power, int modulo) {
     if (power == 0)

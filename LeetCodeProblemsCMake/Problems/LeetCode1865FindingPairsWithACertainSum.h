@@ -7,7 +7,6 @@
 #include <algorithm>
 #include <unordered_map>
 #include <vector>
-#include <bits/ranges_algo.h>
 
 
 class LeetCode1865FindingPairsWithACertainSum {

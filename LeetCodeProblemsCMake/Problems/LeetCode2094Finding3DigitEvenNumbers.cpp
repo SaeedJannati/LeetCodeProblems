@@ -6,7 +6,6 @@
 
 #include <algorithm>
 #include <unordered_set>
-#include <bits/ranges_algo.h>
 
 #include "../Auxilary/Auxilaries.h"
 using namespace std;
