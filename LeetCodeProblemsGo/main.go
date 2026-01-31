@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1975MaximumMatrixSum"
 func main() {
 
 	LeetCode1975MaximumMatrixSum.Calculate()
-	rawScriptName := "1161. Maximum Level Sum of a Binary Tree"
+	rawScriptName := "744. Find Smallest Letter Greater Than Target"
 	printScriptName(rawScriptName)
 }

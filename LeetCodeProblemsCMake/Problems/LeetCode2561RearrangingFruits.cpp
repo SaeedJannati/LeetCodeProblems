@@ -9,7 +9,6 @@
 #include <iostream>
 #include <ostream>
 #include <unordered_map>
-#include <bits/ranges_algo.h>
 using namespace std;
 
 long long LeetCode2561RearrangingFruits::minCost(vector<int> &basket1, vector<int> &basket2) {

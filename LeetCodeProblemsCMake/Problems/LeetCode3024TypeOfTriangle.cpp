@@ -5,7 +5,6 @@
 #include "LeetCode3024TypeOfTriangle.h"
 
 #include <algorithm>
-#include <bits/ranges_algo.h>
 using namespace std;
 string LeetCode3024TypeOfTriangle::triangleType(vector<int> &nums) {
     ranges::sort(nums);

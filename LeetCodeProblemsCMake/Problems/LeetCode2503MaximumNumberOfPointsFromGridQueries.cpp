@@ -5,10 +5,8 @@
 #include "LeetCode2503MaximumNumberOfPointsFromGridQueries.h"
 
 #include <algorithm>
-#include <iostream>
 #include <ostream>
 #include <queue>
-#include <bits/ranges_algo.h>
 
 #include "../Auxilary/Auxilaries.h"
 using namespace std;

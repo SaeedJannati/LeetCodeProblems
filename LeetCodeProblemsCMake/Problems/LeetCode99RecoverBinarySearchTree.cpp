@@ -5,9 +5,7 @@
 #include "LeetCode99RecoverBinarySearchTree.h"
 
 #include <algorithm>
-#include <unordered_set>
 #include <vector>
-#include <bits/ranges_algo.h>
 
 #include "../Auxilary/TreeNode.h"
 using namespace std;

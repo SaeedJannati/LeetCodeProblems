@@ -11,7 +11,6 @@
 #include <string>
 #include <unordered_map>
 #include <vector>
-#include <bits/ranges_algo.h>
 
 #include "BaseProblem.h"
 

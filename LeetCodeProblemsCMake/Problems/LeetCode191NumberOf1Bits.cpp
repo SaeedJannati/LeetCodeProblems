@@ -4,7 +4,7 @@
 
 #include "LeetCode191NumberOf1Bits.h"
 
-#include <bits/ranges_base.h>
+
 
 int LeetCode191NumberOf1Bits::hammingWeight(int n) {
     int result = 0;
