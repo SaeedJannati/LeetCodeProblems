@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1975MaximumMatrixSum"
 func main() {
 
 	LeetCode1975MaximumMatrixSum.Calculate()
-	rawScriptName := "744. Find Smallest Letter Greater Than Target"
+	rawScriptName := "1458. Max Dot Product of Two Subsequences"
 	printScriptName(rawScriptName)
 }
