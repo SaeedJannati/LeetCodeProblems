@@ -19,7 +19,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "744. Find Smallest Letter Greater Than Target";
+    const std::string scriptName = "3010. Divide an Array Into Subarrays With Minimum Cost I";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

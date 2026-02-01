@@ -503,4 +503,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1458MaxDotProductOfTwoSubsequences.h
         Problems/LeetCode744FindSmallestLetterGreaterThanTarget.cpp
         Problems/LeetCode744FindSmallestLetterGreaterThanTarget.h
+        Problems/LeetCode3010DivideAnArrayIntoSubarraysWithMinimumCostI.cpp
+        Problems/LeetCode3010DivideAnArrayIntoSubarraysWithMinimumCostI.h
 )
