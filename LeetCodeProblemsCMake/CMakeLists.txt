@@ -505,4 +505,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode744FindSmallestLetterGreaterThanTarget.h
         Problems/LeetCode3010DivideAnArrayIntoSubarraysWithMinimumCostI.cpp
         Problems/LeetCode3010DivideAnArrayIntoSubarraysWithMinimumCostI.h
+        Problems/LeetCode3637TrionicArrayI.cpp
+        Problems/LeetCode3637TrionicArrayI.h
 )
