@@ -1,10 +1,12 @@
 package main
 
-import "LeetCodeProblemsGo/LeetCode1975MaximumMatrixSum"
+import (
+	"LeetCodeProblemsGo/LeetCode3640TrionicArrayII"
+)
 
 func main() {
 
-	LeetCode1975MaximumMatrixSum.Calculate()
-	rawScriptName := "3637. Trionic Array I"
+	LeetCode3640TrionicArrayII.Calculate()
+	rawScriptName := "3640. Trionic Array II"
 	printScriptName(rawScriptName)
 }
