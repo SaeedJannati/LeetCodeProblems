@@ -1,12 +1,10 @@
 package main
 
-import (
-	"LeetCodeProblemsGo/LeetCode3640TrionicArrayII"
-)
+import "LeetCodeProblemsGo/LeetCode3379TransformedArray"
 
 func main() {
 
-	LeetCode3640TrionicArrayII.Calculate()
-	rawScriptName := "3640. Trionic Array II"
+	LeetCode3379TransformedArray.Calculate()
+	rawScriptName := "3379. Transformed Array"
 	printScriptName(rawScriptName)
 }
