@@ -3,6 +3,8 @@
 //
 
 #include "LeetCode3010DivideAnArrayIntoSubarraysWithMinimumCostI.h"
+
+#include <algorithm>
 using namespace std;
 
 int LeetCode3010DivideAnArrayIntoSubarraysWithMinimumCostI::minimumCost(vector<int> &nums) {

@@ -507,4 +507,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3010DivideAnArrayIntoSubarraysWithMinimumCostI.h
         Problems/LeetCode3637TrionicArrayI.cpp
         Problems/LeetCode3637TrionicArrayI.h
+        Problems/LeetCode3379TransformedArray.cpp
+        Problems/LeetCode3379TransformedArray.h
 )
