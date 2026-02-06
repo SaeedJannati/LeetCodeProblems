@@ -509,4 +509,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3637TrionicArrayI.h
         Problems/LeetCode3379TransformedArray.cpp
         Problems/LeetCode3379TransformedArray.h
+        Problems/LeetCode3634MinimumRemovalsToBalanceArray.cpp
+        Problems/LeetCode3634MinimumRemovalsToBalanceArray.h
 )
