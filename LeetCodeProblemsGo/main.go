@@ -1,10 +1,10 @@
 package main
 
-import "LeetCodeProblemsGo/LeetCode3379TransformedArray"
+import "LeetCodeProblemsGo/LeetCode3634MinimumRemovalsToBalanceArray"
 
 func main() {
 
-	LeetCode3379TransformedArray.Calculate()
-	rawScriptName := "3379. Transformed Array"
+	LeetCode3634MinimumRemovalsToBalanceArray.Calculate()
+	rawScriptName := "3634. Minimum Removals to Balance Array"
 	printScriptName(rawScriptName)
 }
