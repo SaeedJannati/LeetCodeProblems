@@ -1,10 +1,10 @@
 package main
 
-import "LeetCodeProblemsGo/LeetCode3634MinimumRemovalsToBalanceArray"
+import "LeetCodeProblemsGo/LeetCode1653MinimumDeletionsToMakeStringBalanced"
 
 func main() {
 
-	LeetCode3634MinimumRemovalsToBalanceArray.Calculate()
-	rawScriptName := "3634. Minimum Removals to Balance Array"
+	LeetCode1653MinimumDeletionsToMakeStringBalanced.Calculate()
+	rawScriptName := "1653. Minimum Deletions to Make String Balanced"
 	printScriptName(rawScriptName)
 }
