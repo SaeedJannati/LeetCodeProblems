@@ -19,7 +19,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3634. Minimum Removals to Balance Array";
+    const std::string scriptName = "1653. Minimum Deletions to Make String Balanced";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

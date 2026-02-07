@@ -511,4 +511,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3379TransformedArray.h
         Problems/LeetCode3634MinimumRemovalsToBalanceArray.cpp
         Problems/LeetCode3634MinimumRemovalsToBalanceArray.h
+        Problems/LeetCode1653MinimumDeletionsToMakeStringBalanced.cpp
+        Problems/LeetCode1653MinimumDeletionsToMakeStringBalanced.h
 )
