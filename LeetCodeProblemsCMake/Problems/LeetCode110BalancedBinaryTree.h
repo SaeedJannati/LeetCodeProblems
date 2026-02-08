@@ -1,0 +1,16 @@
+//
+// Created by saeed on 2/8/26.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE110BALANCEDBINARYTREE_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE110BALANCEDBINARYTREE_H
+
+
+struct TreeNode;
+
+class LeetCode110BalancedBinaryTree {
+    bool isBalanced(TreeNode *root);
+};
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE110BALANCEDBINARYTREE_H
