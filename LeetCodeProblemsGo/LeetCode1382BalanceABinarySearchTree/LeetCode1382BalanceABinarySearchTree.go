@@ -31,5 +31,5 @@ func balanceBST(root *TreeNode) *TreeNode {
 		node.Left = nil
 		node.Right = nil
 	}
-	return createHightBalancedBst(inOrderTraversalItems, 0, len(inOrderTraversalItems))
+	return createHightBalancedBst(inOrderTraversalItems, 0, len(inOrderTraversalItems)-1)
 }
