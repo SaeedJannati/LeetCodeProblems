@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1653MinimumDeletionsToMakeStringBalanced"
 func main() {
 
 	LeetCode1653MinimumDeletionsToMakeStringBalanced.Calculate()
-	rawScriptName := "110. Balanced Binary Tree"
+	rawScriptName := "1382. Balance a Binary Search Tree"
 	printScriptName(rawScriptName)
 }
