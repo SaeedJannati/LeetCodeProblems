@@ -1,10 +1,10 @@
 package main
 
-import "LeetCodeProblemsGo/LeetCode1653MinimumDeletionsToMakeStringBalanced"
+import "LeetCodeProblemsGo/LeetCode3719LongestBalancedSubarrayI"
 
 func main() {
 
-	LeetCode1653MinimumDeletionsToMakeStringBalanced.Calculate()
-	rawScriptName := "1382. Balance a Binary Search Tree"
+	LeetCode3719LongestBalancedSubarrayI.Calculate()
+	rawScriptName := "3719. Longest Balanced Subarray I"
 	printScriptName(rawScriptName)
 }
