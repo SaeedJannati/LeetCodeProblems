@@ -1,10 +1,10 @@
 package main
 
-import "LeetCodeProblemsGo/LeetCode3719LongestBalancedSubarrayI"
+import "LeetCodeProblemsGo/LeetCode3713LongestBalancedSubstringI"
 
 func main() {
 
-	LeetCode3719LongestBalancedSubarrayI.Calculate()
-	rawScriptName := "3719. Longest Balanced Subarray I"
+	LeetCode3713LongestBalancedSubstringI.Calculate()
+	rawScriptName := "3713. Longest Balanced Substring I"
 	printScriptName(rawScriptName)
 }
