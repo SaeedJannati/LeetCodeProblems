@@ -515,4 +515,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1653MinimumDeletionsToMakeStringBalanced.h
         Problems/LeetCode110BalancedBinaryTree.cpp
         Problems/LeetCode110BalancedBinaryTree.h
+        Problems/LeetCode3713LongestBalancedSubstringI.cpp
+        Problems/LeetCode3713LongestBalancedSubstringI.h
 )
