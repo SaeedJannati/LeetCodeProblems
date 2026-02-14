@@ -1,10 +1,10 @@
 package main
 
-import "LeetCodeProblemsGo/LeetCode3713LongestBalancedSubstringI"
+import "LeetCodeProblemsGo/LeetCode799ChampagneTower"
 
 func main() {
 
-	LeetCode3713LongestBalancedSubstringI.Calculate()
-	rawScriptName := "3713. Longest Balanced Substring I"
+	LeetCode799ChampagneTower.Calculate()
+	rawScriptName := "799. Champagne Tower"
 	printScriptName(rawScriptName)
 }
