@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode799ChampagneTower"
 func main() {
 
 	LeetCode799ChampagneTower.Calculate()
-	rawScriptName := "799. Champagne Tower"
+	rawScriptName := "190. Reverse Bits"
 	printScriptName(rawScriptName)
 }
