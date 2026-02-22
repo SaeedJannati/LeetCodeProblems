@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode799ChampagneTower"
 func main() {
 
 	LeetCode799ChampagneTower.Calculate()
-	rawScriptName := "696. Count Binary Substrings"
+	rawScriptName := "868. Binary Gap"
 	printScriptName(rawScriptName)
 }
