@@ -519,4 +519,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3713LongestBalancedSubstringI.h
         Problems/LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSizeK.cpp
         Problems/LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSizeK.h
+        Problems/LeetCode1022SumOfRootToLeafBinaryNumbers.cpp
+        Problems/LeetCode1022SumOfRootToLeafBinaryNumbers.h
 )

@@ -19,7 +19,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1461. Check If a String Contains All Binary Codes of Size K";
+    const std::string scriptName = "1022. Sum of Root To Leaf Binary Numbers";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
