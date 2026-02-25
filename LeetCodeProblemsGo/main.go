@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSiz
 func main() {
 
 	LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSizeK.Calculate()
-	rawScriptName := "1022. Sum of Root To Leaf Binary Numbers"
+	rawScriptName := "1356. Sort Integers by The Number of 1 Bits"
 	printScriptName(rawScriptName)
 }
