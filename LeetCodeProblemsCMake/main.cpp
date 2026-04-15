@@ -6,12 +6,13 @@
 #include "Problems/LeetCode2092FindAllPeopleWithSecret.h"
 #include "Problems/LeetCode2110NumberOfSmoothDescentPeriodsOfAStock.h"
 #include "Problems/LeetCode2147NumberOfWaysToDivideALongCorridor.h"
+#include "Problems/LeetCode2515ShortestDistanceToTargetStringInACircularArray.h"
 #include "Problems/LeetCode3583CountSpecialTriplets.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2092FindAllPeopleWithSecret();
+    const auto problem = new LeetCode2515ShortestDistanceToTargetStringInACircularArray();
     problem->Run();
     delete problem;
 
@@ -19,7 +20,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1022. Sum of Root To Leaf Binary Numbers";
+    const std::string scriptName = "2515. Shortest Distance to Target String in a Circular Array";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
