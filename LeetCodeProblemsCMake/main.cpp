@@ -8,11 +8,12 @@
 #include "Problems/LeetCode2147NumberOfWaysToDivideALongCorridor.h"
 #include "Problems/LeetCode2515ShortestDistanceToTargetStringInACircularArray.h"
 #include "Problems/LeetCode3583CountSpecialTriplets.h"
+#include "Problems/LeetCode3783MirrorDistanceOfAnInteger.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode2515ShortestDistanceToTargetStringInACircularArray();
+    const auto problem = new LeetCode3783MirrorDistanceOfAnInteger();
     problem->Run();
     delete problem;
 
@@ -20,7 +21,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2515. Shortest Distance to Target String in a Circular Array";
+    const std::string scriptName = "3783. Mirror Distance of an Integer";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

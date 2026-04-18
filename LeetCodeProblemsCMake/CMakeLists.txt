@@ -523,4 +523,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1022SumOfRootToLeafBinaryNumbers.h
         Problems/LeetCode2515ShortestDistanceToTargetStringInACircularArray.cpp
         Problems/LeetCode2515ShortestDistanceToTargetStringInACircularArray.h
+        Problems/LeetCode3783MirrorDistanceOfAnInteger.cpp
+        Problems/LeetCode3783MirrorDistanceOfAnInteger.h
 )
