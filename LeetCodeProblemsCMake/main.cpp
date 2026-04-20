@@ -3,6 +3,7 @@
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
 #include "Problems/LeetCode1262GreatestSumDivisibleByThree.h"
+#include "Problems/LeetCode2078TwoFurthestHousesWithDifferentColors.h"
 #include "Problems/LeetCode2092FindAllPeopleWithSecret.h"
 #include "Problems/LeetCode2110NumberOfSmoothDescentPeriodsOfAStock.h"
 #include "Problems/LeetCode2147NumberOfWaysToDivideALongCorridor.h"
@@ -13,7 +14,7 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3783MirrorDistanceOfAnInteger();
+    const auto problem = new LeetCode2078TwoFurthestHousesWithDifferentColors();
     problem->Run();
     delete problem;
 
@@ -21,7 +22,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3783. Mirror Distance of an Integer";
+    const std::string scriptName = "2078. Two Furthest Houses With Different Colors";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

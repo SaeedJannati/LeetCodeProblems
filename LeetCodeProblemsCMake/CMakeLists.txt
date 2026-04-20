@@ -525,4 +525,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2515ShortestDistanceToTargetStringInACircularArray.h
         Problems/LeetCode3783MirrorDistanceOfAnInteger.cpp
         Problems/LeetCode3783MirrorDistanceOfAnInteger.h
+        Problems/LeetCode2078TwoFurthestHousesWithDifferentColors.cpp
+        Problems/LeetCode2078TwoFurthestHousesWithDifferentColors.h
 )
