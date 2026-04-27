@@ -527,4 +527,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3783MirrorDistanceOfAnInteger.h
         Problems/LeetCode2078TwoFurthestHousesWithDifferentColors.cpp
         Problems/LeetCode2078TwoFurthestHousesWithDifferentColors.h
+        Problems/LeetCode1391CheckIfThereIsAValidPathInAGrid.cpp
+        Problems/LeetCode1391CheckIfThereIsAValidPathInAGrid.h
 )
