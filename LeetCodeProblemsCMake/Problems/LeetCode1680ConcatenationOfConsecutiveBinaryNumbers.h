@@ -1,0 +1,21 @@
+//
+// Created by Saeed Jannati on 4/28/2026 A.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE1680CONCATENATIONOFCONSECUTIVEBINARYNUMBERS_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE1680CONCATENATIONOFCONSECUTIVEBINARYNUMBERS_H
+#include "BaseProblem.h"
+
+
+class LeetCode1680ConcatenationOfConsecutiveBinaryNumbers: BaseProblem {
+private:
+    int concatenatedBinary(int n);
+public:
+    void Run() override;
+
+};
+
+
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE1680CONCATENATIONOFCONSECUTIVEBINARYNUMBERS_H

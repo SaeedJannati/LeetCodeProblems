@@ -529,4 +529,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2078TwoFurthestHousesWithDifferentColors.h
         Problems/LeetCode1391CheckIfThereIsAValidPathInAGrid.cpp
         Problems/LeetCode1391CheckIfThereIsAValidPathInAGrid.h
+        Problems/LeetCode1680ConcatenationOfConsecutiveBinaryNumbers.cpp
+        Problems/LeetCode1680ConcatenationOfConsecutiveBinaryNumbers.h
 )
