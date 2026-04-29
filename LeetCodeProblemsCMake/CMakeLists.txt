@@ -531,4 +531,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1391CheckIfThereIsAValidPathInAGrid.h
         Problems/LeetCode1680ConcatenationOfConsecutiveBinaryNumbers.cpp
         Problems/LeetCode1680ConcatenationOfConsecutiveBinaryNumbers.h
+        Problems/LeetCode1559DetectCyclesIn2DGrid.cpp
+        Problems/LeetCode1559DetectCyclesIn2DGrid.h
 )

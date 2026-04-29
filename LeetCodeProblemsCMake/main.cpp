@@ -24,7 +24,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1680. Concatenation of Consecutive Binary Numbers";
+    const std::string scriptName = "1559. Detect Cycles in 2D Grid";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
