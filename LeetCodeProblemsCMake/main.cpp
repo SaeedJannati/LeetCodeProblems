@@ -11,12 +11,13 @@
 #include "Problems/LeetCode2147NumberOfWaysToDivideALongCorridor.h"
 #include "Problems/LeetCode2515ShortestDistanceToTargetStringInACircularArray.h"
 #include "Problems/LeetCode3583CountSpecialTriplets.h"
+#include "Problems/LeetCode3742MaximumPathScoreInAGrid.h"
 #include "Problems/LeetCode3783MirrorDistanceOfAnInteger.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode1680ConcatenationOfConsecutiveBinaryNumbers();
+    const auto problem = new LeetCode3742MaximumPathScoreInAGrid();
     problem->Run();
     delete problem;
 
@@ -24,11 +25,11 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1559. Detect Cycles in 2D Grid";
+    const std::string scriptName = "3742. Maximum Path Score in a Grid";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
-    std::string input="[[1,2,5],[2,3,8],[1,5,10]]";
+    std::string input="[0, 1],[2, 0]";
   Auxilaries::ConvertToVector(input);
 #pragma endregion
 }

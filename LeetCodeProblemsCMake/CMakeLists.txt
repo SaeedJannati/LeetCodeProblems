@@ -533,4 +533,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1680ConcatenationOfConsecutiveBinaryNumbers.h
         Problems/LeetCode1559DetectCyclesIn2DGrid.cpp
         Problems/LeetCode1559DetectCyclesIn2DGrid.h
+        Problems/LeetCode3742MaximumPathScoreInAGrid.cpp
+        Problems/LeetCode3742MaximumPathScoreInAGrid.h
 )
