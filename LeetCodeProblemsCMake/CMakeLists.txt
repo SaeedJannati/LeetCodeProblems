@@ -535,4 +535,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1559DetectCyclesIn2DGrid.h
         Problems/LeetCode3742MaximumPathScoreInAGrid.cpp
         Problems/LeetCode3742MaximumPathScoreInAGrid.h
+        Problems/LeetCode396RotateFunction.cpp
+        Problems/LeetCode396RotateFunction.h
 )

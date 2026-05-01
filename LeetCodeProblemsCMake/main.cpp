@@ -13,11 +13,12 @@
 #include "Problems/LeetCode3583CountSpecialTriplets.h"
 #include "Problems/LeetCode3742MaximumPathScoreInAGrid.h"
 #include "Problems/LeetCode3783MirrorDistanceOfAnInteger.h"
+#include "Problems/LeetCode396RotateFunction.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode3742MaximumPathScoreInAGrid();
+    const auto problem = new LeetCode396RotateFunction();
     problem->Run();
     delete problem;
 
@@ -25,7 +26,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3742. Maximum Path Score in a Grid";
+    const std::string scriptName = "396. Rotate Function";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
