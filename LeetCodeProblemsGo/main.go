@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSiz
 func main() {
 
 	LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSizeK.Calculate()
-	rawScriptName := "1680. Concatenation of Consecutive Binary Numbers"
+	rawScriptName := "396. Rotate Function"
 	printScriptName(rawScriptName)
 }
