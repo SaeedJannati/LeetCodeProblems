@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         BaseProblem problem = new LeetCode396RotateFunction();
         problem.Run();
-        printScriptName("396. Rotate Function");
+        printScriptName("788. Rotated Digits");
     }
     private static void printScriptName(String rawScriptName) {
          String name=convertScriptName(rawScriptName);
