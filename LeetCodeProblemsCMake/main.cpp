@@ -14,11 +14,12 @@
 #include "Problems/LeetCode3742MaximumPathScoreInAGrid.h"
 #include "Problems/LeetCode3783MirrorDistanceOfAnInteger.h"
 #include "Problems/LeetCode396RotateFunction.h"
+#include "Problems/LeetCode788RotatedDigits.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode396RotateFunction();
+    const auto problem = new LeetCode788RotatedDigits();
     problem->Run();
     delete problem;
 
@@ -26,7 +27,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "396. Rotate Function";
+    const std::string scriptName = "788. Rotated Digits";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

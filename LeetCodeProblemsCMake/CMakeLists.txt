@@ -537,4 +537,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3742MaximumPathScoreInAGrid.h
         Problems/LeetCode396RotateFunction.cpp
         Problems/LeetCode396RotateFunction.h
+        Problems/LeetCode788RotatedDigits.cpp
+        Problems/LeetCode788RotatedDigits.h
 )
