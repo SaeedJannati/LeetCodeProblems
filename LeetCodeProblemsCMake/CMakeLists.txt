@@ -539,4 +539,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode396RotateFunction.h
         Problems/LeetCode788RotatedDigits.cpp
         Problems/LeetCode788RotatedDigits.h
+        Problems/LeetCode233NumberOfDigitOne.cpp
+        Problems/LeetCode233NumberOfDigitOne.h
 )

@@ -2,24 +2,13 @@
 
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
-#include "Problems/LeetCode1262GreatestSumDivisibleByThree.h"
-#include "Problems/LeetCode1391CheckIfThereIsAValidPathInAGrid.h"
-#include "Problems/LeetCode1680ConcatenationOfConsecutiveBinaryNumbers.h"
-#include "Problems/LeetCode2078TwoFurthestHousesWithDifferentColors.h"
-#include "Problems/LeetCode2092FindAllPeopleWithSecret.h"
-#include "Problems/LeetCode2110NumberOfSmoothDescentPeriodsOfAStock.h"
-#include "Problems/LeetCode2147NumberOfWaysToDivideALongCorridor.h"
-#include "Problems/LeetCode2515ShortestDistanceToTargetStringInACircularArray.h"
-#include "Problems/LeetCode3583CountSpecialTriplets.h"
-#include "Problems/LeetCode3742MaximumPathScoreInAGrid.h"
-#include "Problems/LeetCode3783MirrorDistanceOfAnInteger.h"
-#include "Problems/LeetCode396RotateFunction.h"
+#include "Problems/LeetCode233NumberOfDigitOne.h"
 #include "Problems/LeetCode788RotatedDigits.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode788RotatedDigits();
+    const auto problem = new LeetCode233NumberOfDigitOne();
     problem->Run();
     delete problem;
 
@@ -27,7 +16,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "788. Rotated Digits";
+    const std::string scriptName = "233. Number of Digit One";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
