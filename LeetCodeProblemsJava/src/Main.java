@@ -1,11 +1,12 @@
 import Problems.BaseProblem;
 import Problems.LeetCode396RotateFunction;
+import Problems.LeetCode796RotateString;
 
 public class Main {
     public static void main(String[] args) {
-        BaseProblem problem = new LeetCode396RotateFunction();
+        BaseProblem problem = new LeetCode796RotateString();
         problem.Run();
-        printScriptName("788. Rotated Digits");
+        printScriptName("796. Rotate String");
     }
     private static void printScriptName(String rawScriptName) {
          String name=convertScriptName(rawScriptName);
