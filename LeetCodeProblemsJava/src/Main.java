@@ -1,12 +1,12 @@
 import Problems.BaseProblem;
-import Problems.LeetCode396RotateFunction;
-import Problems.LeetCode796RotateString;
+import Problems.LeetCode48RotateImage;
 
 public class Main {
     public static void main(String[] args) {
-        BaseProblem problem = new LeetCode796RotateString();
+        BaseProblem problem = new LeetCode48RotateImage();
         problem.Run();
-        printScriptName("796. Rotate String");
+        printScriptName("48. Rotate Image");
+        convertSquareToCurly("[[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15],[16,17,18,19,20],[21,22,23,24,25]]");
     }
     private static void printScriptName(String rawScriptName) {
          String name=convertScriptName(rawScriptName);
@@ -27,5 +27,17 @@ public class Main {
                }
            }
         return  "LeetCode"+result;
+    }
+    private static void convertSquareToCurly(String raw) {
+        char[] chars=raw.toCharArray();
+        for(int i=0;i<raw.length();i++){
+            if(chars[i]=='['){
+                chars[i]='{';
+            }
+            else if(chars[i]==']'){
+                chars[i]='}';
+            }
+        }
+        IO.println(new String(chars));
     }
 }
