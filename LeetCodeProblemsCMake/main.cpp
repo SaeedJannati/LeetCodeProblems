@@ -2,13 +2,14 @@
 
 #include "Auxilary/Auxilaries.h"
 #include "Auxilary/ScriptNamePrinter.h"
+#include "Problems/LeetCode1010PairsOfSongsWithTotalDurationsDivisibleBy60.h"
 #include "Problems/LeetCode233NumberOfDigitOne.h"
 #include "Problems/LeetCode788RotatedDigits.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    const auto problem = new LeetCode233NumberOfDigitOne();
+    const auto problem = new LeetCode1010PairsOfSongsWithTotalDurationsDivisibleBy60();
     problem->Run();
     delete problem;
 
@@ -16,7 +17,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "233. Number of Digit One";
+    const std::string scriptName = "1010. Pairs of Songs With Total Durations Divisible by 60";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

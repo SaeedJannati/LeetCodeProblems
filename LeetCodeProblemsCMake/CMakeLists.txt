@@ -541,4 +541,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode788RotatedDigits.h
         Problems/LeetCode233NumberOfDigitOne.cpp
         Problems/LeetCode233NumberOfDigitOne.h
+        Problems/LeetCode1010PairsOfSongsWithTotalDurationsDivisibleBy60.cpp
+        Problems/LeetCode1010PairsOfSongsWithTotalDurationsDivisibleBy60.h
 )
