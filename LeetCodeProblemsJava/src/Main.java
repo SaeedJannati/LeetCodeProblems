@@ -1,11 +1,12 @@
 import Problems.BaseProblem;
 import Problems.LeetCode48RotateImage;
+import Problems.LeetCode61RotateList;
 
 public class Main {
     public static void main(String[] args) {
-        BaseProblem problem = new LeetCode48RotateImage();
+        BaseProblem problem = new LeetCode61RotateList();
         problem.Run();
-        printScriptName("48. Rotate Image");
+        printScriptName("61. Rotate List");
         convertSquareToCurly("[[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15],[16,17,18,19,20],[21,22,23,24,25]]");
     }
     private static void printScriptName(String rawScriptName) {
