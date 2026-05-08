@@ -8,7 +8,13 @@ public class Auxileries {
         }
         System.out.println();
     }
-
+static void Print(int[] input){
+        IO.print("{");
+        for (var num:input){
+            IO.print(num+",");
+        }
+        IO.println("}");
+}
     static <T> void Print(T[][] array) {
         IO.println("[");
         for (int i = 0; i < array.length; i++) {

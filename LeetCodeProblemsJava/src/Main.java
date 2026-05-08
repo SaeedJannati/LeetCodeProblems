@@ -1,13 +1,10 @@
-import Problems.BaseProblem;
-import Problems.LeetCode1861RotatingtheBox;
-import Problems.LeetCode48RotateImage;
-import Problems.LeetCode61RotateList;
+import Problems.*;
 
 public class Main {
     public static void main(String[] args) {
-        BaseProblem problem = new LeetCode1861RotatingtheBox();
+        BaseProblem problem = new LeetCode3660JumpGameIX();
         problem.Run();
-        printScriptName("1861. Rotating the Box");
+        printScriptName("3660. Jump Game IX");
         convertSquareToCurly("[[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15],[16,17,18,19,20],[21,22,23,24,25]]");
     }
     private static void printScriptName(String rawScriptName) {
