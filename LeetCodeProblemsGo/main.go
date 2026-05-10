@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSiz
 func main() {
 
 	LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSizeK.Calculate()
-	rawScriptName := "797. All Paths From Source to Target"
+	rawScriptName := "2770. Maximum Number of Jumps to Reach the Last Index"
 	printScriptName(rawScriptName)
 }
