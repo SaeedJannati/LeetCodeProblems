@@ -17,7 +17,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1010. Pairs of Songs With Total Durations Divisible by 60";
+    const std::string scriptName = "2770. Maximum Number of Jumps to Reach the Last Index";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

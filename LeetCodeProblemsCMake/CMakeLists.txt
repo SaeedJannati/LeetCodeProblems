@@ -543,4 +543,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode233NumberOfDigitOne.h
         Problems/LeetCode1010PairsOfSongsWithTotalDurationsDivisibleBy60.cpp
         Problems/LeetCode1010PairsOfSongsWithTotalDurationsDivisibleBy60.h
+        Problems/LeetCode2770MaximumNumberOfJumpsToReachTheLastIndex.cpp
+        Problems/LeetCode2770MaximumNumberOfJumpsToReachTheLastIndex.h
 )
