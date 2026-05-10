@@ -12,7 +12,7 @@ func maximumJumps(nums []int, target int) int {
 			if dp[j] == -1 {
 				continue
 			}
-			if (nums[i]-nums[j]) < target || (nums[i]-nums[j]) > target {
+			if (nums[i]-nums[j]) < -target || (nums[i]-nums[j]) > target {
 				continue
 			}
 			dp[i] = max(dp[i], dp[j]+1)
