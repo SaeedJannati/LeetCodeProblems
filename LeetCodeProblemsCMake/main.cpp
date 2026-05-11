@@ -17,7 +17,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2770. Maximum Number of Jumps to Reach the Last Index";
+    const std::string scriptName = "3259. Maximum Energy Boost From Two Drinks";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

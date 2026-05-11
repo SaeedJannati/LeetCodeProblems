@@ -545,4 +545,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1010PairsOfSongsWithTotalDurationsDivisibleBy60.h
         Problems/LeetCode2770MaximumNumberOfJumpsToReachTheLastIndex.cpp
         Problems/LeetCode2770MaximumNumberOfJumpsToReachTheLastIndex.h
+        Problems/LeetCode3259MaximumEnergyBoostFromTwoDrinks.cpp
+        Problems/LeetCode3259MaximumEnergyBoostFromTwoDrinks.h
 )
