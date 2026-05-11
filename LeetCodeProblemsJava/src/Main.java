@@ -2,9 +2,9 @@ import Problems.*;
 
 public class Main {
     public static void main(String[] args) {
-        BaseProblem problem = new LeetCode2770MaximumNumberOfJumpsToReachTheLastIndex();
+        BaseProblem problem = new LeetCode2553SeparateTheDigitsInAnArray();
         problem.Run();
-        printScriptName("2770. Maximum Number of Jumps to Reach the Last Index");
+        printScriptName("2553. Separate the Digits in an Array");
         convertSquareToCurly("[[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15],[16,17,18,19,20],[21,22,23,24,25]]");
     }
 
