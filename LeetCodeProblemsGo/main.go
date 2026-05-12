@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSiz
 func main() {
 
 	LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSizeK.Calculate()
-	rawScriptName := "3259. Maximum Energy Boost From Two Drinks"
+	rawScriptName := "1665. Minimum Initial Energy to Finish Tasks"
 	printScriptName(rawScriptName)
 }
