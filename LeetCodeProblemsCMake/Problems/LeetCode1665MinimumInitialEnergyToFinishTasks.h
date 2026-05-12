@@ -1,0 +1,16 @@
+//
+// Created by Saeed Jannati on 5/12/2026 AD.
+//
+
+#ifndef LEETCODEPROBLEMSCMAKE_LEETCODE1665MINIMUMINITIALENERGYTOFINISHTASKS_H
+#define LEETCODEPROBLEMSCMAKE_LEETCODE1665MINIMUMINITIALENERGYTOFINISHTASKS_H
+#include <vector>
+
+
+class LeetCode1665MinimumInitialEnergyToFinishTasks {
+private:
+    int minimumEffort(std::vector<std::vector<int>>& tasks);
+};
+
+
+#endif //LEETCODEPROBLEMSCMAKE_LEETCODE1665MINIMUMINITIALENERGYTOFINISHTASKS_H

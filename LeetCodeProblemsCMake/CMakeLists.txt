@@ -547,4 +547,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2770MaximumNumberOfJumpsToReachTheLastIndex.h
         Problems/LeetCode3259MaximumEnergyBoostFromTwoDrinks.cpp
         Problems/LeetCode3259MaximumEnergyBoostFromTwoDrinks.h
+        Problems/LeetCode1665MinimumInitialEnergyToFinishTasks.cpp
+        Problems/LeetCode1665MinimumInitialEnergyToFinishTasks.h
 )

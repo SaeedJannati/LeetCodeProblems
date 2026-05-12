@@ -17,7 +17,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3259. Maximum Energy Boost From Two Drinks";
+    const std::string scriptName = "1665. Minimum Initial Energy to Finish Tasks";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
