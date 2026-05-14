@@ -2,9 +2,9 @@ import Problems.*;
 
 public class Main {
     public static void main(String[] args) {
-        BaseProblem problem = new LeetCode2553SeparateTheDigitsInAnArray();
+        BaseProblem problem = new LeetCode784CheckIfArrayIsGood();
         problem.Run();
-        printScriptName("1674. Minimum Moves to Make Array Complementary");
+        printScriptName("784. Check if Array is Good");
         convertSquareToCurly("[[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15],[16,17,18,19,20],[21,22,23,24,25]]");
     }
 
