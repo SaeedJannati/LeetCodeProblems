@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSiz
 func main() {
 
 	LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSizeK.Calculate()
-	rawScriptName := "1665. Minimum Initial Energy to Finish Tasks"
+	rawScriptName := "1306. Jump Game III"
 	printScriptName(rawScriptName)
 }
