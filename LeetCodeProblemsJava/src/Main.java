@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         BaseProblem problem = new LeetCode784CheckIfArrayIsGood();
         problem.Run();
-        printScriptName("153. Find Minimum in Rotated Sorted Array");
+        printScriptName("1306. Jump Game III");
         convertSquareToCurly("[[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15],[16,17,18,19,20],[21,22,23,24,25]]");
     }
 
