@@ -2,9 +2,9 @@ import Problems.*;
 
 public class Main {
     public static void main(String[] args) {
-        BaseProblem problem = new LeetCode784CheckIfArrayIsGood();
+        BaseProblem problem = new LeetCode1345JumpGameIV();
         problem.Run();
-        printScriptName("1306. Jump Game III");
+        printScriptName("1345. Jump Game IV");
         convertSquareToCurly("[[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15],[16,17,18,19,20],[21,22,23,24,25]]");
     }
 
