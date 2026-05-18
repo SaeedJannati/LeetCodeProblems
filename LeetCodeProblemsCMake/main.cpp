@@ -17,7 +17,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "1306. Jump Game III";
+    const std::string scriptName = "1345. Jump Game IV";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

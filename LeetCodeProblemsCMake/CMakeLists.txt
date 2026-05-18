@@ -551,4 +551,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1665MinimumInitialEnergyToFinishTasks.h
         Problems/LeetCode1306JumpGameIII.cpp
         Problems/LeetCode1306JumpGameIII.h
+        Problems/LeetCode1345JumpGameIV.cpp
+        Problems/LeetCode1345JumpGameIV.h
 )
