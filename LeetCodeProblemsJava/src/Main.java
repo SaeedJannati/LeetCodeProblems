@@ -2,9 +2,9 @@ import Problems.*;
 
 public class Main {
     public static void main(String[] args) {
-        BaseProblem problem = new LeetCode2657FindThePrefixCommonArrayOfTwoArrays();
+        BaseProblem problem = new LeetCode1871JumpGameVII();
         problem.Run();
-        printScriptName("3043. Find the Length of the Longest Common Prefix");
+        printScriptName("1871. Jump Game VII");
         convertSquareToCurly("[[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15],[16,17,18,19,20],[21,22,23,24,25]]");
     }
 
