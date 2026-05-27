@@ -26,6 +26,6 @@ public class LeetCode796RotateString extends BaseProblem {
     public void Run() {
       String s="gcmbf";
       String goal="fgcmb";
-      IO.println(rotateString(s,goal));
+        System.out.println(rotateString(s,goal));
     }
 }

@@ -42,6 +42,6 @@ public class LeetCode1871JumpGameVII extends BaseProblem {
         String s = "011010";
         int minJump = 2;
         int maxJump = 3;
-        IO.println(canReach(s, minJump, maxJump));
+        System.out.println(canReach(s, minJump, maxJump));
     }
 }

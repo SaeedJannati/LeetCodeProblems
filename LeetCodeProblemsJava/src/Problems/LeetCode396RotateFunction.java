@@ -21,6 +21,6 @@ public class LeetCode396RotateFunction extends BaseProblem {
     @Override
     public void Run() {
         int[] nums = new int[]{4, 3, 2, 6};
-        IO.println(maxRotateFunction(nums));
+        System.out.println(maxRotateFunction(nums));
     }
 }

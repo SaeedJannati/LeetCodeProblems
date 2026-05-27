@@ -11,8 +11,8 @@ public class Main {
     private static void printScriptName(String rawScriptName) {
         String name = convertScriptName(rawScriptName);
         String commitName = "feat: add " + name + " Java";
-        IO.println(name);
-        IO.println(commitName);
+        System.out.println(name);
+        System.out.println(commitName);
     }
 
     private static String convertScriptName(String rawScriptName) {
@@ -44,6 +44,6 @@ public class Main {
                 chars[i] = '}';
             }
         }
-        IO.println(new String(chars));
+        System.out.println(new String(chars));
     }
 }

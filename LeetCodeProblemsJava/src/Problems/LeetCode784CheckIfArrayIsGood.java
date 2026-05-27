@@ -28,6 +28,6 @@ public class LeetCode784CheckIfArrayIsGood extends  BaseProblem {
     @Override
     public void Run() {
         int[] nums = {1,3,3,2};
-        IO.println(isGood(nums));
+        System.out.println(isGood(nums));
      }
 }

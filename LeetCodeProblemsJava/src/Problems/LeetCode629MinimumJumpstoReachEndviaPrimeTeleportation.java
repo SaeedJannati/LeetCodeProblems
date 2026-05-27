@@ -116,7 +116,7 @@ public class LeetCode629MinimumJumpstoReachEndviaPrimeTeleportation extends Base
     @Override
     public void Run() {
         int[] nums = new int[]{1, 2, 4, 6};
-        IO.println(minJumps(nums));
+        System.out.println(minJumps(nums));
 
     }
 }

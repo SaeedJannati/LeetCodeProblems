@@ -26,6 +26,6 @@ public class LeetCode3120CountTheNumberOfSpecialCharactersI extends BaseProblem 
     @Override
     public void Run() {
         String s="zZ";
-        IO.println(numberOfSpecialChars(s));
+        System.out.println(numberOfSpecialChars(s));
     }
 }

@@ -70,6 +70,6 @@ public class LeetCode1345JumpGameIV extends BaseProblem {
     @Override
     public void Run() {
         int[] arr={7,6,9,6,9,6,9,7};
-        IO.println(minJumps(arr));
+        System.out.println(minJumps(arr));
     }
 }

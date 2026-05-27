@@ -26,6 +26,6 @@ public class LeetCode2770MaximumNumberOfJumpsToReachTheLastIndex extends BasePro
     public void Run() {
         int[] nums = new int[]{1, 3, 6, 4, 1, 2};
         int k = 0;
-        IO.println(maximumJumps(nums, k));
+        System.out.println(maximumJumps(nums, k));
     }
 }

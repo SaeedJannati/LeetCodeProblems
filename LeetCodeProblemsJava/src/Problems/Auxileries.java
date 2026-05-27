@@ -9,21 +9,21 @@ public class Auxileries {
         System.out.println();
     }
 static void Print(int[] input){
-        IO.print("{");
+        System.out.print("{");
         for (var num:input){
-            IO.print(num+",");
+            System.out.print(num+",");
         }
-        IO.println("}");
+        System.out.println("}");
 }
     static <T> void Print(T[][] array) {
-        IO.println("[");
+        System.out.println("[");
         for (int i = 0; i < array.length; i++) {
-            IO.print("[");
+            System.out.print("[");
             for (int j = 0; j < array[i].length; j++) {
-                IO.print(array[i][j] + ",");
+                System.out.print(array[i][j] + ",");
             }
-            IO.println("],");
+            System.out.println("],");
         }
-        IO.println("]");
+        System.out.println("]");
     }
 }
