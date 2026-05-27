@@ -3,6 +3,8 @@
 //
 
 #include "LeetCode2770MaximumNumberOfJumpsToReachTheLastIndex.h"
+
+#include <math.h>
 using namespace std;
 
 int LeetCode2770MaximumNumberOfJumpsToReachTheLastIndex::maximumJumps(vector<int> &nums, int target) {

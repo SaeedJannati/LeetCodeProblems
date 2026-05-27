@@ -3,6 +3,8 @@
 //
 
 #include "LeetCode1665MinimumInitialEnergyToFinishTasks.h"
+
+#include <algorithm>
 using namespace std;
 
 int LeetCode1665MinimumInitialEnergyToFinishTasks::minimumEffort(vector<vector<int> > &tasks) {
