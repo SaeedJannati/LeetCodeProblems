@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSiz
 func main() {
 
 	LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSizeK.Calculate()
-	rawScriptName := "1306. Jump Game III"
+	rawScriptName := "3121. Count the Number of Special Characters II"
 	printScriptName(rawScriptName)
 }
