@@ -2,9 +2,9 @@ import Problems.*;
 
 public class Main {
     public static void main(String[] args) {
-        BaseProblem problem = new LeetCode3120CountTheNumberOfSpecialCharactersI();
+        BaseProblem problem = new LeetCode3093LongestCommonSuffixQueries();
         problem.Run();
-        printScriptName("3120. Count the Number of Special Characters I");
+        printScriptName("3093. Longest Common Suffix Queries");
         convertSquareToCurly("[[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15],[16,17,18,19,20],[21,22,23,24,25]]");
     }
 
