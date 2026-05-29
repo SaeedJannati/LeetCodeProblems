@@ -17,7 +17,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3121. Count the Number of Special Characters II";
+    const std::string scriptName = "3300. Minimum Element After Replacement With Digit Sum";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

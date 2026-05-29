@@ -555,4 +555,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode1345JumpGameIV.h
         Problems/LeetCode3121CountTheNumberOfSpecialCharactersII.cpp
         Problems/LeetCode3121CountTheNumberOfSpecialCharactersII.h
+        Problems/LeetCode3300MinimumElementAfterReplacementWithDigitSum.cpp
+        Problems/LeetCode3300MinimumElementAfterReplacementWithDigitSum.h
 )
