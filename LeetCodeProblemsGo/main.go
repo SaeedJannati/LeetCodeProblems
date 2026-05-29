@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSiz
 func main() {
 
 	LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSizeK.Calculate()
-	rawScriptName := "3121. Count the Number of Special Characters II"
+	rawScriptName := "3300. Minimum Element After Replacement With Digit Sum"
 	printScriptName(rawScriptName)
 }
