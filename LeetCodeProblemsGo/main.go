@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSiz
 func main() {
 
 	LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSizeK.Calculate()
-	rawScriptName := "3300. Minimum Element After Replacement With Digit Sum"
+	rawScriptName := "2126. Destroying Asteroids"
 	printScriptName(rawScriptName)
 }
