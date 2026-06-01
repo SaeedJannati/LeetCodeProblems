@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSiz
 func main() {
 
 	LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSizeK.Calculate()
-	rawScriptName := "2126. Destroying Asteroids"
+	rawScriptName := "2144. Minimum Cost of Buying Candies With Discount"
 	printScriptName(rawScriptName)
 }
