@@ -559,4 +559,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3300MinimumElementAfterReplacementWithDigitSum.h
         Problems/LeetCode2126DestroyingAsteroids.cpp
         Problems/LeetCode2126DestroyingAsteroids.h
+        Problems/LeetCode2144MinimumCostOfBuyingCandiesWithDiscount.cpp
+        Problems/LeetCode2144MinimumCostOfBuyingCandiesWithDiscount.h
 )
