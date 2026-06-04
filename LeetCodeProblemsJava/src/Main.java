@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         BaseProblem problem = new LeetCode3093LongestCommonSuffixQueries();
         problem.Run();
-        printScriptName("3635. Earliest Finish Time for Land and Water Rides II");
+        printScriptName("3751. Total Waviness of Numbers in Range I");
         convertSquareToCurly("[[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15],[16,17,18,19,20],[21,22,23,24,25]]");
     }
 
