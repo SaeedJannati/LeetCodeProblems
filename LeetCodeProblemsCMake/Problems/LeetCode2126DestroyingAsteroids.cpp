@@ -3,6 +3,8 @@
 //
 
 #include "LeetCode2126DestroyingAsteroids.h"
+
+#include <algorithm>
 using namespace std;
 
 bool LeetCode2126DestroyingAsteroids::asteroidsDestroyed(int mass, vector<int> &asteroids) {
