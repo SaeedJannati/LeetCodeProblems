@@ -17,7 +17,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "3751. Total Waviness of Numbers in Range I";
+    const std::string scriptName = "2574. Left and Right Sum Differences";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector

@@ -563,4 +563,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode2144MinimumCostOfBuyingCandiesWithDiscount.h
         Problems/LeetCode3751TotalWavinessOfNumbersInRangeI.cpp
         Problems/LeetCode3751TotalWavinessOfNumbersInRangeI.h
+        Problems/LeetCode2574LeftAndRightSumDifferences.cpp
+        Problems/LeetCode2574LeftAndRightSumDifferences.h
 )
