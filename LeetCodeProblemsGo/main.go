@@ -5,6 +5,6 @@ import "LeetCodeProblemsGo/LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSiz
 func main() {
 
 	LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSizeK.Calculate()
-	rawScriptName := "3751. Total Waviness of Numbers in Range I"
+	rawScriptName := "LeetCode2574LeftAndRightSumDifferences"
 	printScriptName(rawScriptName)
 }
