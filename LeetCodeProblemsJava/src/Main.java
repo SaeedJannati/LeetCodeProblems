@@ -2,10 +2,10 @@ import Problems.*;
 
 public class Main {
     public static void main(String[] args) {
-        BaseProblem problem = new LeetCode3093LongestCommonSuffixQueries();
+        BaseProblem problem = new LeetCode3558NumberOfWaysToAssignEdgeWeightsI();
         problem.Run();
-        printScriptName("3689. Maximum Total Subarray Value I");
-        convertSquareToCurly("[[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15],[16,17,18,19,20],[21,22,23,24,25]]");
+        printScriptName("3558. Number of Ways to Assign Edge Weights I");
+        convertSquareToCurly("[[1,2],[1,3],[3,4],[3,5]]");
     }
 
     private static void printScriptName(String rawScriptName) {
