@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         BaseProblem problem = new LeetCode3558NumberOfWaysToAssignEdgeWeightsI();
         problem.Run();
-        printScriptName("3838. Weighted Word Mapping");
+        printScriptName("2095. Delete the Middle Node of a Linked List");
         convertSquareToCurly("[[1,2],[1,3],[3,4],[3,5]]");
     }
 
