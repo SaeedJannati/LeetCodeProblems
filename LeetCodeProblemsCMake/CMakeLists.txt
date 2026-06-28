@@ -565,4 +565,6 @@ add_executable(LeetCodeProblemsCMake main.cpp
         Problems/LeetCode3751TotalWavinessOfNumbersInRangeI.h
         Problems/LeetCode2574LeftAndRightSumDifferences.cpp
         Problems/LeetCode2574LeftAndRightSumDifferences.h
+        Problems/LeetCode1846MaximumElementAfterDecreasingAndRearranging.cpp
+        Problems/LeetCode1846MaximumElementAfterDecreasingAndRearranging.h
 )

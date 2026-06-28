@@ -17,7 +17,7 @@ int main() {
 
 #pragma  region  print script name
     std::cout<<'\n';
-    const std::string scriptName = "2574. Left and Right Sum Differences";
+    const std::string scriptName = "1846. Maximum Element After Decreasing and Rearranging";
     ScriptNamePrinter::PrintScriptName(scriptName);
 #pragma endregion
 #pragma region convert to vector
