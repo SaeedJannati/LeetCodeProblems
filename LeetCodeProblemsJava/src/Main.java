@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         BaseProblem problem = new LeetCode1846MaximumElementAfterDecreasingAndRearranging();
         problem.Run();
-        printScriptName("1846. Maximum Element After Decreasing and Rearranging");
+        printScriptName("1967. Number of Strings That Appear as Substrings in Word");
         convertSquareToCurly("[[1,2],[1,3],[3,4],[3,5]]");
     }
 
