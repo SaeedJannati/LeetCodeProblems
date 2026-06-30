@@ -2,9 +2,9 @@ import Problems.*;
 
 public class Main {
     public static void main(String[] args) {
-        BaseProblem problem = new LeetCode1846MaximumElementAfterDecreasingAndRearranging();
+        BaseProblem problem = new LeetCode1358NumberOfSubstringsContainingAllThreeCharacters();
         problem.Run();
-        printScriptName("1967. Number of Strings That Appear as Substrings in Word");
+        printScriptName("1358. Number of Substrings Containing All Three Characters");
         convertSquareToCurly("[[1,2],[1,3],[3,4],[3,5]]");
     }
 
