@@ -2,10 +2,10 @@ import Problems.*;
 
 public class Main {
     public static void main(String[] args) {
-        BaseProblem problem = new LeetCode1358NumberOfSubstringsContainingAllThreeCharacters();
+        BaseProblem problem = new LeetCode2812FindTheSafestPathInAGrid();
         problem.Run();
-        printScriptName("1358. Number of Substrings Containing All Three Characters");
-        convertSquareToCurly("[[1,2],[1,3],[3,4],[3,5]]");
+        printScriptName("2812. Find the Safest Path in a Grid");
+        convertSquareToCurly("[[0,0,0,1],[0,0,0,0],[0,0,0,0],[1,0,0,0]]");
     }
 
     private static void printScriptName(String rawScriptName) {
