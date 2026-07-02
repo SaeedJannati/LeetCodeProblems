@@ -2,9 +2,9 @@ import Problems.*;
 
 public class Main {
     public static void main(String[] args) {
-        BaseProblem problem = new LeetCode2812FindTheSafestPathInAGrid();
+        BaseProblem problem = new LeetCode3286FindASafeWalkThroughAGrid();
         problem.Run();
-        printScriptName("2812. Find the Safest Path in a Grid");
+        printScriptName("3286. Find a Safe Walk Through a Grid");
         convertSquareToCurly("[[0,0,0,1],[0,0,0,0],[0,0,0,0],[1,0,0,0]]");
     }
 
