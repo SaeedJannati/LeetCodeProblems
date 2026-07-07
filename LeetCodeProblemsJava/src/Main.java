@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         BaseProblem problem = new LeetCode3286FindASafeWalkThroughAGrid();
         problem.Run();
-        printScriptName("3620. Network Recovery Pathways");
+        printScriptName("3754. Concatenate Non-Zero Digits and Multiply by Sum I");
         convertSquareToCurly("[[0,0,0,1],[0,0,0,0],[0,0,0,0],[1,0,0,0]]");
     }
 
