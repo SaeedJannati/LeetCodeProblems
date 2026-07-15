@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         BaseProblem problem = new LeetCode3286FindASafeWalkThroughAGrid();
         problem.Run();
-        printScriptName("1291. Sequential Digits");
+        printScriptName("3658. GCD of Odd and Even Sums");
         convertSquareToCurly("[[0,0,0,1],[0,0,0,0],[0,0,0,0],[1,0,0,0]]");
     }
 
