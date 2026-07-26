@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         BaseProblem problem = new LeetCode3286FindASafeWalkThroughAGrid();
         problem.Run();
-        printScriptName("3536. Maximum Product of Two Digits");
+        printScriptName("628. Maximum Product of Three Numbers");
         convertSquareToCurly("[[0,0,0,1],[0,0,0,0],[0,0,0,0],[1,0,0,0]]");
     }
 
