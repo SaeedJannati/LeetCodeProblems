@@ -2,9 +2,9 @@ import Problems.*;
 
 public class Main {
     public static void main(String[] args) {
-        BaseProblem problem = new LeetCode3286FindASafeWalkThroughAGrid();
+        BaseProblem problem = new LeetCode1406StoneGameIII();
         problem.Run();
-        printScriptName("877. Stone Game");
+        printScriptName("1406. Stone Game III");
         convertSquareToCurly("[[0,0,0,1],[0,0,0,0],[0,0,0,0],[1,0,0,0]]");
     }
 
