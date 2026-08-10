@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         BaseProblem problem = new LeetCode1406StoneGameIII();
         problem.Run();
-        printScriptName("1406. Stone Game III");
+        printScriptName("1510. Stone Game IV");
         convertSquareToCurly("[[0,0,0,1],[0,0,0,0],[0,0,0,0],[1,0,0,0]]");
     }
 
