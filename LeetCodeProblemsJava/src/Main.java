@@ -2,9 +2,9 @@ import Problems.*;
 
 public class Main {
     public static void main(String[] args) {
-        BaseProblem problem = new LeetCode1406StoneGameIII();
+        BaseProblem problem = new LeetCode2996SmallestMissingIntegerGreaterThanSequentialPrefixSum();
         problem.Run();
-        printScriptName("1510. Stone Game IV");
+        printScriptName("2996. Smallest Missing Integer Greater Than Sequential Prefix Sum");
         convertSquareToCurly("[[0,0,0,1],[0,0,0,0],[0,0,0,0],[1,0,0,0]]");
     }
 
