@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         BaseProblem problem = new LeetCode2996SmallestMissingIntegerGreaterThanSequentialPrefixSum();
         problem.Run();
-        printScriptName("2996. Smallest Missing Integer Greater Than Sequential Prefix Sum");
+        printScriptName("3702. Longest Subsequence With Non-Zero Bitwise XOR");
         convertSquareToCurly("[[0,0,0,1],[0,0,0,0],[0,0,0,0],[1,0,0,0]]");
     }
 
