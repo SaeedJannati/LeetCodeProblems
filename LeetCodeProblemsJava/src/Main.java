@@ -2,10 +2,10 @@ import Problems.*;
 
 public class Main {
     public static void main(String[] args) {
-        BaseProblem problem = new LeetCode2996SmallestMissingIntegerGreaterThanSequentialPrefixSum();
+        BaseProblem problem = new LeetCode1386CinemaSeatAllocation();
         problem.Run();
-        printScriptName("3702. Longest Subsequence With Non-Zero Bitwise XOR");
-        convertSquareToCurly("[[0,0,0,1],[0,0,0,0],[0,0,0,0],[1,0,0,0]]");
+        printScriptName("1386. Cinema Seat Allocation");
+        convertSquareToCurly("[[1,2],[1,3],[1,8],[2,6],[3,1],[3,10]]");
     }
 
     private static void printScriptName(String rawScriptName) {
