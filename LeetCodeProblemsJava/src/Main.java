@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         BaseProblem problem = new LeetCode1386CinemaSeatAllocation();
         problem.Run();
-        printScriptName("1386. Cinema Seat Allocation");
+        printScriptName("3622. Check Divisibility by Digit Sum and Product");
         convertSquareToCurly("[[1,2],[1,3],[1,8],[2,6],[3,1],[3,10]]");
     }
 
