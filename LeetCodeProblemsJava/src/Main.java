@@ -2,9 +2,9 @@ import Problems.*;
 
 public class Main {
     public static void main(String[] args) {
-        BaseProblem problem = new LeetCode1386CinemaSeatAllocation();
+        BaseProblem problem = new LeetCode2472MaximumNumberOfNonoverlappingPalindromeSubstrings();
         problem.Run();
-        printScriptName("836. Rectangle Overlap");
+        printScriptName("2472. Maximum Number of Non-overlapping Palindrome Substrings");
         convertSquareToCurly("[[1,2],[1,3],[1,8],[2,6],[3,1],[3,10]]");
     }
 
