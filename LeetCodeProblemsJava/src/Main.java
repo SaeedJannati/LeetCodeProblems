@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         BaseProblem problem = new LeetCode2472MaximumNumberOfNonoverlappingPalindromeSubstrings();
         problem.Run();
-        printScriptName("1401. Circle and Rectangle Overlapping");
+        printScriptName("3498. Reverse Degree of a String");
         convertSquareToCurly("[[1,2],[1,3],[1,8],[2,6],[3,1],[3,10]]");
     }
 
