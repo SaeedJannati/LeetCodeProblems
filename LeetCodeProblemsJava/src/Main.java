@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         BaseProblem problem = new LeetCode3863MinimumOperationsToSortAString();
         problem.Run();
-        printScriptName("3863. Minimum Operations to Sort a String");
+        printScriptName("3619. Count Islands With Total Value Divisible by K");
         convertSquareToCurly("[[1,2],[1,3],[1,8],[2,6],[3,1],[3,10]]");
     }
 
