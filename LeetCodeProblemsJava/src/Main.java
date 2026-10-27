@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         BaseProblem problem = new LeetCode3863MinimumOperationsToSortAString();
         problem.Run();
-        printScriptName("3619. Count Islands With Total Value Divisible by K");
+        printScriptName("3963. Create Grid With Exactly One Path");
         convertSquareToCurly("[[1,2],[1,3],[1,8],[2,6],[3,1],[3,10]]");
     }
 
