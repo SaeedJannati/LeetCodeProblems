@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         BaseProblem problem = new LeetCode3863MinimumOperationsToSortAString();
         problem.Run();
-        printScriptName("3963. Create Grid With Exactly One Path");
+        printScriptName("3882. Minimum XOR Path in a Grid");
         convertSquareToCurly("[[1,2],[1,3],[1,8],[2,6],[3,1],[3,10]]");
     }
 
