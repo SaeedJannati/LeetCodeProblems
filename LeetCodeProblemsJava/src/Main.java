@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         BaseProblem problem = new LeetCode3863MinimumOperationsToSortAString();
         problem.Run();
-        printScriptName("3665. Twisted Mirror Path Count");
+        printScriptName("462. Minimum Moves to Equal Array Elements II");
         convertSquareToCurly("[[1,2],[1,3],[1,8],[2,6],[3,1],[3,10]]");
     }
 
