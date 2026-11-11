@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         BaseProblem problem = new LeetCode3863MinimumOperationsToSortAString();
         problem.Run();
-        printScriptName("3693. Climbing Stairs II");
+        printScriptName("3789. Minimum Cost to Acquire Required Items");
         convertSquareToCurly("[[1,2],[1,3],[1,8],[2,6],[3,1],[3,10]]");
     }
 
