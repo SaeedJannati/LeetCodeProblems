@@ -1,10 +1,12 @@
 package main
 
-import "LeetCodeProblemsGo/LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSizeK"
+import (
+	"LeetCodeProblemsGo/LeetCode3364MinimumPositiveSumSubarray"
+)
 
 func main() {
 
-	LeetCode1461CheckIfAStringContainsAllBinaryCodesOfSizeK.Calculate()
-	rawScriptName := "2492. Minimum Score of a Path Between Two Cities"
+	LeetCode3364MinimumPositiveSumSubarray.Calculate()
+	rawScriptName := "3364. Minimum Positive Sum Subarray "
 	printScriptName(rawScriptName)
 }
