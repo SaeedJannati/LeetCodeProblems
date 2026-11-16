@@ -7,6 +7,6 @@ import (
 func main() {
 
 	LeetCode3364MinimumPositiveSumSubarray.Calculate()
-	rawScriptName := "3364. Minimum Positive Sum Subarray "
+	rawScriptName := "2243. Calculate Digit Sum of a String"
 	printScriptName(rawScriptName)
 }
