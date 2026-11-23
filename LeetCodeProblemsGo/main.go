@@ -7,6 +7,6 @@ import (
 func main() {
 
 	LeetCode3364MinimumPositiveSumSubarray.Calculate()
-	rawScriptName := "2124. Check if All A's Appears Before All B's"
+	rawScriptName := "1352. Product of the Last K Numbers"
 	printScriptName(rawScriptName)
 }
